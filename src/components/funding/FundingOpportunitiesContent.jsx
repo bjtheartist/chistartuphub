@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { DollarSign, ExternalLink, Calendar, TrendingUp, Users, Building2, Rocket, Award, Search, Filter, X } from "lucide-react";
+import { DollarSign, ExternalLink, Calendar, TrendingUp, Users, Building2, Rocket, Award, Search, Filter, X, Globe, Clock, Flame } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
@@ -11,7 +11,9 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
   const [focusFilter, setFocusFilter] = useState("all");
   const [checkSizeFilter, setCheckSizeFilter] = useState("all");
   const [stageFilter, setStageFilter] = useState("all");
-  const [cityFilter, setCityFilter] = useState("all");
+  const [opportunityTypeFilter, setOpportunityTypeFilter] = useState("all");
+  const [regionFilter, setRegionFilter] = useState("all");
+  const [deadlineStatusFilter, setDeadlineStatusFilter] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [showFilters, setShowFilters] = useState(false);
 
@@ -35,8 +37,8 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
 
   const focusAreas = [
     "all", "AI", "AgTech", "B2B", "Blockchain", "CleanTech", "Commerce", "Consumer",
-    "Crypto", "DeepTech", "EdTech", "FinTech", "Food", "HealthTech", "InsurTech",
-    "PropTech", "SaaS", "Software", "Web3"
+    "Crypto", "DeepTech", "EdTech", "FinTech", "Food", "FoodTech", "Healthcare", "HealthTech",
+    "InsurTech", "IoT", "PropTech", "Research", "SaaS", "Social Impact", "Software", "Technology", "Web3"
   ];
 
   const checkSizeRanges = [
@@ -49,98 +51,218 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
 
   const stages = [
     { value: "all", label: "All Stages" },
-    { value: "preseed", label: "Pre-Seed" },
-    { value: "seed", label: "Seed" },
-    { value: "accelerator", label: "Accelerator" },
-    { value: "competition", label: "Competition" },
+    { value: "Pre-Seed", label: "Pre-Seed" },
+    { value: "Seed", label: "Seed" },
+    { value: "Early Stage", label: "Early Stage" },
+    { value: "Growth", label: "Growth" },
     { value: "Series A+", label: "Series A+" }
   ];
 
-  const cities = useMemo(() =>
-    ["all", ...new Set(opportunities.map((o) => o.location).filter(Boolean))].sort(),
-    [opportunities]
-  );
+  const opportunityTypes = [
+    { value: "all", label: "All Types" },
+    { value: "Grant", label: "Grants" },
+    { value: "Accelerator", label: "Accelerators" },
+    { value: "Competition", label: "Competitions" },
+    { value: "VC", label: "Venture Capital" }
+  ];
+
+  const regions = [
+    { value: "all", label: "All Regions" },
+    { value: "chicago", label: "Chicago/Illinois" },
+    { value: "us-national", label: "US National" },
+    { value: "europe", label: "Europe" },
+    { value: "asia", label: "Asia Pacific" },
+    { value: "africa", label: "Africa" },
+    { value: "latam", label: "Latin America" },
+    { value: "canada", label: "Canada" },
+    { value: "middle-east", label: "Middle East" }
+  ];
+
+  const deadlineStatuses = [
+    { value: "all", label: "All Deadlines" },
+    { value: "closing-soon", label: "Closing Soon (< 30 days)" },
+    { value: "open", label: "Open" },
+    { value: "rolling", label: "Rolling/No Deadline" }
+  ];
+
+  // Helper functions for field normalization
+  const getOpportunityUrl = (opp) => opp.website || opp.link;
+  const getOpportunityDescription = (opp) => opp.description || opp.note || opp.subtitle || '';
+  const getOpportunitySectors = (opp) => opp.sectors || opp.focus_areas || [];
+  const getOpportunityType = (opp) => {
+    if (opp.opportunity_type) return opp.opportunity_type;
+    const stageArr = Array.isArray(opp.stage) ? opp.stage : [opp.stage];
+    if (stageArr.some(s => s?.toLowerCase() === 'accelerator')) return 'Accelerator';
+    if (stageArr.some(s => s?.toLowerCase() === 'competition')) return 'Competition';
+    return 'VC';
+  };
+
+  // Region detection helper
+  const getRegion = (opp) => {
+    const name = (opp.name || '').toLowerCase();
+    const org = (opp.organization || '').toLowerCase();
+    const desc = getOpportunityDescription(opp).toLowerCase();
+    const location = (opp.location || '').toLowerCase();
+    const combined = `${name} ${org} ${desc} ${location}`;
+
+    if (combined.includes('chicago') || combined.includes('illinois') || combined.includes('midwest') || combined.includes('techrise') || combined.includes('workbox')) return 'chicago';
+    if (combined.includes('europe') || combined.includes('eic') || combined.includes(' eu ') || combined.includes(' uk ') || combined.includes('innovate uk') || combined.includes('european')) return 'europe';
+    if (combined.includes('africa') || combined.includes('nigeria') || combined.includes('kenya') || combined.includes('south africa') || combined.includes('mtn ')) return 'africa';
+    if (combined.includes('asia') || combined.includes('singapore') || combined.includes('korea') || combined.includes('japan') || combined.includes('sparklabs')) return 'asia';
+    if (combined.includes('latin') || combined.includes('brazil') || combined.includes('chile') || combined.includes('mexico') || combined.includes('latam') || combined.includes('wayra')) return 'latam';
+    if (combined.includes('canada') || combined.includes('irap') || combined.includes('mitacs') || combined.includes('sr&ed')) return 'canada';
+    if (combined.includes('uae') || combined.includes('saudi') || combined.includes('emirates') || combined.includes('middle east') || combined.includes('khalifa') || combined.includes('monsha')) return 'middle-east';
+    return 'us-national';
+  };
+
+  // Deadline helper
+  const getDaysUntilDeadline = (deadline) => {
+    if (!deadline) return null;
+    const now = new Date();
+    now.setHours(0, 0, 0, 0);
+    const deadlineDate = new Date(deadline);
+    deadlineDate.setHours(0, 0, 0, 0);
+    return Math.ceil((deadlineDate - now) / (1000 * 60 * 60 * 24));
+  };
+
+  const getDeadlineStatus = (opp) => {
+    const days = getDaysUntilDeadline(opp.deadline);
+    if (days === null) return 'rolling';
+    if (days < 0) return 'closed';
+    if (days <= 30) return 'closing-soon';
+    return 'open';
+  };
 
   const filteredOpportunities = useMemo(() => {
     return opportunities.filter((item) => {
+      // Focus area filter
       if (focusFilter !== "all") {
-        if (!item.focus_areas || !item.focus_areas.some((f) => f.toLowerCase() === focusFilter.toLowerCase() || f === "All sectors")) {
+        const sectors = getOpportunitySectors(item);
+        if (!sectors.some((f) => f.toLowerCase() === focusFilter.toLowerCase() || f === "All sectors" || f === "All")) {
           return false;
         }
       }
 
+      // Check size filter
       if (checkSizeFilter !== "all" && item.check_size_range !== checkSizeFilter) {
         return false;
       }
 
+      // Stage filter
       if (stageFilter !== "all") {
-        if (!item.stage || (Array.isArray(item.stage) ? !item.stage.includes(stageFilter) : item.stage !== stageFilter)) {
+        const stageArr = Array.isArray(item.stage) ? item.stage : [item.stage];
+        if (!stageArr.some(s => s?.toLowerCase().includes(stageFilter.toLowerCase()))) {
           return false;
         }
       }
 
-      if (cityFilter !== "all" && item.location !== cityFilter) {
-        return false;
+      // Opportunity type filter
+      if (opportunityTypeFilter !== "all") {
+        const type = getOpportunityType(item);
+        if (type !== opportunityTypeFilter) {
+          return false;
+        }
       }
 
+      // Region filter
+      if (regionFilter !== "all") {
+        const region = getRegion(item);
+        if (region !== regionFilter) {
+          return false;
+        }
+      }
+
+      // Deadline status filter
+      if (deadlineStatusFilter !== "all") {
+        const status = getDeadlineStatus(item);
+        if (status === 'closed') return false;
+        if (deadlineStatusFilter !== status) {
+          return false;
+        }
+      }
+
+      // Search query
       if (searchQuery) {
         const searchLower = searchQuery.toLowerCase();
         const nameMatch = item.name?.toLowerCase().includes(searchLower);
         const locationMatch = item.location?.toLowerCase().includes(searchLower);
-        const focusMatch = item.focus_areas?.some((f) => f.toLowerCase().includes(searchLower));
-        const noteMatch = item.note?.toLowerCase().includes(searchLower);
+        const focusMatch = getOpportunitySectors(item).some((f) => f.toLowerCase().includes(searchLower));
+        const descMatch = getOpportunityDescription(item).toLowerCase().includes(searchLower);
+        const orgMatch = item.organization?.toLowerCase().includes(searchLower);
 
-        if (!nameMatch && !locationMatch && !focusMatch && !noteMatch) {
+        if (!nameMatch && !locationMatch && !focusMatch && !descMatch && !orgMatch) {
           return false;
         }
       }
 
       return true;
     });
-  }, [opportunities, focusFilter, checkSizeFilter, stageFilter, cityFilter, searchQuery]);
+  }, [opportunities, focusFilter, checkSizeFilter, stageFilter, opportunityTypeFilter, regionFilter, deadlineStatusFilter, searchQuery]);
 
-  const angelGroups = useMemo(() =>
-    filteredOpportunities
-      .filter((item) => item.name.toLowerCase().includes('angel'))
-      .sort((a, b) => a.name.localeCompare(b.name)),
-    [filteredOpportunities]
-  );
-
-  const preseedInvestors = useMemo(() =>
-    filteredOpportunities
-      .filter((item) => Array.isArray(item.stage) ? item.stage.includes('preseed') : item.stage === 'preseed')
-      .sort((a, b) => a.name.localeCompare(b.name)),
-    [filteredOpportunities]
-  );
-
-  const seedInvestors = useMemo(() =>
+  // Section groupings
+  const hotDeadlines = useMemo(() =>
     filteredOpportunities
       .filter((item) => {
-        const hasSeeds = Array.isArray(item.stage) ? item.stage.includes('seed') : item.stage === 'seed';
-        return hasSeeds && !item.name.toLowerCase().includes('angel');
+        const days = getDaysUntilDeadline(item.deadline);
+        return days !== null && days >= 0 && days <= 30;
       })
-      .sort((a, b) => a.name.localeCompare(b.name)),
+      .sort((a, b) => getDaysUntilDeadline(a.deadline) - getDaysUntilDeadline(b.deadline)),
     [filteredOpportunities]
   );
 
-  const seriesAInvestors = useMemo(() =>
+  const grants = useMemo(() =>
     filteredOpportunities
-      .filter((item) => Array.isArray(item.stage) ? item.stage.includes('Series A+') : item.stage === 'Series A+')
-      .sort((a, b) => a.name.localeCompare(b.name)),
-    [filteredOpportunities]
-  );
-
-  const accelerators = useMemo(() =>
-    filteredOpportunities
-      .filter((item) => Array.isArray(item.stage) ? item.stage.includes('accelerator') : item.stage === 'accelerator')
-      .sort((a, b) => a.name.localeCompare(b.name)),
+      .filter((item) => {
+        const type = getOpportunityType(item);
+        return type === 'Grant';
+      })
+      .sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return a.name.localeCompare(b.name);
+      }),
     [filteredOpportunities]
   );
 
   const competitions = useMemo(() =>
     filteredOpportunities
-      .filter((item) => Array.isArray(item.stage) ? item.stage.includes('competition') : item.stage === 'competition')
-      .sort((a, b) => a.name.localeCompare(b.name)),
+      .filter((item) => {
+        const type = getOpportunityType(item);
+        return type === 'Competition';
+      })
+      .sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return a.name.localeCompare(b.name);
+      }),
+    [filteredOpportunities]
+  );
+
+  const accelerators = useMemo(() =>
+    filteredOpportunities
+      .filter((item) => {
+        const type = getOpportunityType(item);
+        return type === 'Accelerator';
+      })
+      .sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return a.name.localeCompare(b.name);
+      }),
+    [filteredOpportunities]
+  );
+
+  const vcInvestors = useMemo(() =>
+    filteredOpportunities
+      .filter((item) => {
+        const type = getOpportunityType(item);
+        return type === 'VC';
+      })
+      .sort((a, b) => {
+        if (a.featured && !b.featured) return -1;
+        if (!a.featured && b.featured) return 1;
+        return a.name.localeCompare(b.name);
+      }),
     [filteredOpportunities]
   );
 
@@ -148,7 +270,9 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
     setFocusFilter("all");
     setCheckSizeFilter("all");
     setStageFilter("all");
-    setCityFilter("all");
+    setOpportunityTypeFilter("all");
+    setRegionFilter("all");
+    setDeadlineStatusFilter("all");
     setSearchQuery("");
   };
 
@@ -156,41 +280,49 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
     focusFilter !== "all",
     checkSizeFilter !== "all",
     stageFilter !== "all",
-    cityFilter !== "all",
+    opportunityTypeFilter !== "all",
+    regionFilter !== "all",
+    deadlineStatusFilter !== "all",
     searchQuery !== ""
-  ].filter(Boolean).length, [focusFilter, checkSizeFilter, stageFilter, cityFilter, searchQuery]);
+  ].filter(Boolean).length, [focusFilter, checkSizeFilter, stageFilter, opportunityTypeFilter, regionFilter, deadlineStatusFilter, searchQuery]);
 
-  const convertToBentoItems = (fundingList) => {
+  const convertToBentoItems = (fundingList, showDeadline = false) => {
     return fundingList.map((fund) => {
-      const isMultiStage = Array.isArray(fund.stage) && fund.stage.length > 1;
-      const stageIcon = isMultiStage ? <Rocket className="w-4 h-4 text-purple-400" /> :
-        fund.stage?.[0] === 'preseed' || fund.stage === 'preseed' ? <Rocket className="w-4 h-4 text-blue-400" /> :
-        fund.stage?.[0] === 'seed' || fund.stage === 'seed' ? <Building2 className="w-4 h-4 text-green-400" /> :
-        fund.stage?.[0] === 'accelerator' || fund.stage === 'accelerator' ? <TrendingUp className="w-4 h-4 text-orange-400" /> :
-        fund.stage?.[0] === 'competition' || fund.stage === 'competition' ? <Award className="w-4 h-4 text-yellow-400" /> :
-        <DollarSign className="w-4 h-4 text-emerald-400" />;
+      const type = getOpportunityType(fund);
+      const typeIcon = type === 'Grant' ? <DollarSign className="w-4 h-4 text-green-400" /> :
+        type === 'Competition' ? <Award className="w-4 h-4 text-yellow-400" /> :
+        type === 'Accelerator' ? <Rocket className="w-4 h-4 text-orange-400" /> :
+        <TrendingUp className="w-4 h-4 text-blue-400" />;
 
-      let description = fund.note || fund.subtitle || `${fund.check_size || 'Investment opportunities'} • ${fund.location || 'Multiple locations'}`;
+      let description = getOpportunityDescription(fund);
       description = description.replace(/\b(Pre-Seed|Seed|Series [A-Z]\+?|Accelerator|Competition)\s*\(\d+\),?\s*/gi, '').trim();
       description = description.replace(/\|\s*Portfolio:\s*[\d.]+\s*companies/i, '').trim();
       description = description.replace(/Portfolio:\s*[\d.]+\s*companies/i, '').trim();
       description = description.replace(/^\|\s*/, '').replace(/\s*\|$/, '').trim();
 
       if (!description) {
-        description = `${fund.check_size || 'Investment opportunities'} • ${fund.location || 'Multiple locations'}`;
+        description = `${fund.check_size || fund.organization || 'Funding opportunity'} • ${fund.location || getRegion(fund)}`;
+      }
+
+      let status = type;
+      if (showDeadline && fund.deadline) {
+        const days = getDaysUntilDeadline(fund.deadline);
+        if (days !== null && days >= 0) {
+          status = days === 0 ? "Today!" : days === 1 ? "1 day left" : `${days} days left`;
+        }
       }
 
       return {
         title: fund.name,
         description: description,
-        icon: stageIcon,
-        status: isMultiStage ? "Multi-Stage" : (Array.isArray(fund.stage) ? fund.stage[0] : fund.stage) || "Active",
-        meta: fund.check_size || "",
-        tags: fund.focus_areas?.slice(0, 3) || [],
+        icon: typeIcon,
+        status: status,
+        meta: fund.check_size || fund.organization || "",
+        tags: getOpportunitySectors(fund).slice(0, 3),
         cta: "Learn More →",
         colSpan: fund.featured ? 2 : 1,
         hasPersistentHover: fund.featured,
-        link: fund.link
+        link: getOpportunityUrl(fund)
       };
     });
   };
@@ -253,7 +385,7 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
             <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-white/30 group-focus-within:text-white/70 transition-colors duration-300" />
             <Input
               type="text"
-              placeholder="Search funds or locations..."
+              placeholder="Search opportunities, organizations..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="pl-10 bg-white/[0.03] hover:bg-white/[0.06] focus:bg-white/[0.08] border-white/[0.06] focus:border-white/20 text-white placeholder:text-white/30 h-11 rounded-xl transition-all duration-300 text-sm"
@@ -281,7 +413,55 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
               transition={{ duration: 0.3 }}
               className="space-y-4 pt-4 mt-4 border-t border-white/[0.06] overflow-hidden"
             >
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-4">
+                <div>
+                  <label className="text-white/60 text-xs font-medium mb-2.5 block uppercase tracking-wider">Type</label>
+                  <Select value={opportunityTypeFilter} onValueChange={setOpportunityTypeFilter}>
+                    <SelectTrigger className="bg-white/[0.03] border-white/[0.06] text-white h-10 rounded-lg text-sm">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {opportunityTypes.map((type) => (
+                        <SelectItem key={type.value} value={type.value}>
+                          {type.label}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                <div>
+                  <label className="text-white/60 text-xs font-medium mb-2.5 block uppercase tracking-wider">Region</label>
+                  <Select value={regionFilter} onValueChange={setRegionFilter}>
+                    <SelectTrigger className="bg-white/[0.03] border-white/[0.06] text-white h-10 rounded-lg text-sm">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {regions.map((region) => (
+                        <SelectItem key={region.value} value={region.value}>
+                          {region.label}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                <div>
+                  <label className="text-white/60 text-xs font-medium mb-2.5 block uppercase tracking-wider">Deadline</label>
+                  <Select value={deadlineStatusFilter} onValueChange={setDeadlineStatusFilter}>
+                    <SelectTrigger className="bg-white/[0.03] border-white/[0.06] text-white h-10 rounded-lg text-sm">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {deadlineStatuses.map((status) => (
+                        <SelectItem key={status.value} value={status.value}>
+                          {status.label}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
                 <div>
                   <label className="text-white/60 text-xs font-medium mb-2.5 block uppercase tracking-wider">Stage</label>
                   <Select value={stageFilter} onValueChange={setStageFilter}>
@@ -299,7 +479,7 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
                 </div>
 
                 <div>
-                  <label className="text-white/60 text-xs font-medium mb-2.5 block uppercase tracking-wider">Focus Area</label>
+                  <label className="text-white/60 text-xs font-medium mb-2.5 block uppercase tracking-wider">Sector</label>
                   <Select value={focusFilter} onValueChange={setFocusFilter}>
                     <SelectTrigger className="bg-white/[0.03] border-white/[0.06] text-white h-10 rounded-lg text-sm">
                       <SelectValue />
@@ -307,7 +487,7 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
                     <SelectContent>
                       {focusAreas.map((area) => (
                         <SelectItem key={area} value={area}>
-                          {area === "all" ? "All Focus Areas" : area}
+                          {area === "all" ? "All Sectors" : area}
                         </SelectItem>
                       ))}
                     </SelectContent>
@@ -329,27 +509,26 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
                     </SelectContent>
                   </Select>
                 </div>
-
-                <div>
-                  <label className="text-white/60 text-xs font-medium mb-2.5 block uppercase tracking-wider">City</label>
-                  <Select value={cityFilter} onValueChange={setCityFilter}>
-                    <SelectTrigger className="bg-white/[0.03] border-white/[0.06] text-white h-10 rounded-lg text-sm">
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {cities.map((city) => (
-                        <SelectItem key={city} value={city}>
-                          {city === "all" ? "All Cities" : city}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
               </div>
 
               {activeOpportunityFilterCount > 0 && (
                 <div className="flex items-center gap-2 flex-wrap mt-4">
                   <span className="text-white/40 text-xs font-medium">Active:</span>
+                  {opportunityTypeFilter !== "all" && (
+                    <Badge className="bg-white/5 text-white/80 border-white/10 text-[10px] font-normal">
+                      {opportunityTypes.find((t) => t.value === opportunityTypeFilter)?.label}
+                    </Badge>
+                  )}
+                  {regionFilter !== "all" && (
+                    <Badge className="bg-white/5 text-white/80 border-white/10 text-[10px] font-normal">
+                      {regions.find((r) => r.value === regionFilter)?.label}
+                    </Badge>
+                  )}
+                  {deadlineStatusFilter !== "all" && (
+                    <Badge className="bg-white/5 text-white/80 border-white/10 text-[10px] font-normal">
+                      {deadlineStatuses.find((d) => d.value === deadlineStatusFilter)?.label}
+                    </Badge>
+                  )}
                   {stageFilter !== "all" && (
                     <Badge className="bg-white/5 text-white/80 border-white/10 text-[10px] font-normal">
                       {stages.find((s) => s.value === stageFilter)?.label}
@@ -363,11 +542,6 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
                   {checkSizeFilter !== "all" && (
                     <Badge className="bg-white/5 text-white/80 border-white/10 text-[10px] font-normal">
                       {checkSizeRanges.find((r) => r.value === checkSizeFilter)?.label}
-                    </Badge>
-                  )}
-                  {cityFilter !== "all" && (
-                    <Badge className="bg-white/5 text-white/80 border-white/10 text-[10px] font-normal">
-                      {cityFilter}
                     </Badge>
                   )}
                   {searchQuery && (
@@ -391,6 +565,43 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
         </AnimatePresence>
       </motion.div>
 
+      {/* Hot Deadlines Section */}
+      {hotDeadlines.length > 0 && (
+        <section className="mb-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mb-6"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-red-500/50 to-transparent" />
+              <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-red-400/70">Urgent</h2>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-red-500/20 text-red-400">{hotDeadlines.length}</span>
+            </div>
+            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight flex items-center gap-2">
+              <Flame className="w-6 h-6 text-orange-500" />
+              Hot Deadlines
+            </h2>
+            <p className="text-white/40 font-light text-sm">Opportunities closing within 30 days — act fast!</p>
+          </motion.div>
+
+          <div
+            className="cursor-pointer"
+            onClick={(e) => {
+              const link = e.target.closest('[data-link]')?.getAttribute('data-link');
+              if (link) window.open(link, '_blank');
+            }}
+          >
+            <BentoGrid items={convertToBentoItems(hotDeadlines, true).map((item, idx) => ({
+              ...item,
+              'data-link': getOpportunityUrl(hotDeadlines[idx])
+            }))} />
+          </div>
+        </section>
+      )}
+
+      {/* Upcoming Opportunities (from separate table) */}
       {upcomingOpportunities.length > 0 && (
         <section className="mb-16">
           <motion.div
@@ -423,6 +634,79 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
         </section>
       )}
 
+      {/* Grants Section */}
+      {grants.length > 0 && (
+        <section className="mb-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mb-6"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-green-500/50 to-transparent" />
+              <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Non-Dilutive</h2>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-white/50">{grants.length}</span>
+            </div>
+            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight flex items-center gap-2">
+              <DollarSign className="w-6 h-6 text-green-500" />
+              Grants
+            </h2>
+            <p className="text-white/40 font-light text-sm">Non-dilutive funding — keep your equity</p>
+          </motion.div>
+
+          <div
+            className="cursor-pointer"
+            onClick={(e) => {
+              const link = e.target.closest('[data-link]')?.getAttribute('data-link');
+              if (link) window.open(link, '_blank');
+            }}
+          >
+            <BentoGrid items={convertToBentoItems(grants).map((item, idx) => ({
+              ...item,
+              'data-link': getOpportunityUrl(grants[idx])
+            }))} />
+          </div>
+        </section>
+      )}
+
+      {/* Competitions Section */}
+      {competitions.length > 0 && (
+        <section className="mb-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mb-6"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-yellow-400/50 to-transparent" />
+              <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Pitch & Win</h2>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-white/50">{competitions.length}</span>
+            </div>
+            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight flex items-center gap-2">
+              <Award className="w-6 h-6 text-yellow-500" />
+              Pitch Competitions
+            </h2>
+            <p className="text-white/40 font-light text-sm">Compete for prizes and investment</p>
+          </motion.div>
+
+          <div
+            className="cursor-pointer"
+            onClick={(e) => {
+              const link = e.target.closest('[data-link]')?.getAttribute('data-link');
+              if (link) window.open(link, '_blank');
+            }}
+          >
+            <BentoGrid items={convertToBentoItems(competitions).map((item, idx) => ({
+              ...item,
+              'data-link': getOpportunityUrl(competitions[idx])
+            }))} />
+          </div>
+        </section>
+      )}
+
+      {/* Accelerators Section */}
       {accelerators.length > 0 && (
         <section className="mb-16">
           <motion.div
@@ -436,8 +720,11 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
               <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Programs</h2>
               <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-white/50">{accelerators.length}</span>
             </div>
-            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight">Accelerators & Incubators</h2>
-            <p className="text-white/40 font-light text-sm">Program-based funding with mentorship and resources</p>
+            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight flex items-center gap-2">
+              <Rocket className="w-6 h-6 text-orange-500" />
+              Accelerators & Programs
+            </h2>
+            <p className="text-white/40 font-light text-sm">Structured programs with mentorship and resources</p>
           </motion.div>
 
           <div
@@ -449,77 +736,14 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
           >
             <BentoGrid items={convertToBentoItems(accelerators).map((item, idx) => ({
               ...item,
-              'data-link': accelerators[idx].link
+              'data-link': getOpportunityUrl(accelerators[idx])
             }))} />
           </div>
         </section>
       )}
 
-      {competitions.length > 0 && (
-        <section className="mb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="mb-6"
-          >
-            <div className="flex items-center gap-3 mb-3">
-              <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-yellow-400/50 to-transparent" />
-              <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Competitions</h2>
-              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-white/50">{competitions.length}</span>
-            </div>
-            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight">Ongoing Pitch Competitions</h2>
-            <p className="text-white/40 font-light text-sm">Rolling competitions and ongoing opportunities</p>
-          </motion.div>
-
-          <div
-            className="cursor-pointer"
-            onClick={(e) => {
-              const link = e.target.closest('[data-link]')?.getAttribute('data-link');
-              if (link) window.open(link, '_blank');
-            }}
-          >
-            <BentoGrid items={convertToBentoItems(competitions).map((item, idx) => ({
-              ...item,
-              'data-link': competitions[idx].link
-            }))} />
-          </div>
-        </section>
-      )}
-
-      {angelGroups.length > 0 && (
-        <section className="mb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="mb-6"
-          >
-            <div className="flex items-center gap-3 mb-3">
-              <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-purple-500/50 to-transparent" />
-              <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Angels</h2>
-              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-white/50">{angelGroups.length}</span>
-            </div>
-            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight">Angel Groups</h2>
-            <p className="text-white/40 font-light text-sm">Early believers with flexible check sizes</p>
-          </motion.div>
-
-          <div
-            className="cursor-pointer"
-            onClick={(e) => {
-              const link = e.target.closest('[data-link]')?.getAttribute('data-link');
-              if (link) window.open(link, '_blank');
-            }}
-          >
-            <BentoGrid items={convertToBentoItems(angelGroups).map((item, idx) => ({
-              ...item,
-              'data-link': angelGroups[idx].link
-            }))} />
-          </div>
-        </section>
-      )}
-
-      {preseedInvestors.length > 0 && (
+      {/* Venture Capital Section */}
+      {vcInvestors.length > 0 && (
         <section className="mb-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -529,11 +753,14 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
           >
             <div className="flex items-center gap-3 mb-3">
               <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-blue-500/50 to-transparent" />
-              <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Pre-Seed</h2>
-              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-white/50">{preseedInvestors.length}</span>
+              <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Investment</h2>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-white/50">{vcInvestors.length}</span>
             </div>
-            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight">Pre-Seed Investors</h2>
-            <p className="text-white/40 font-light text-sm">For very early stage companies</p>
+            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight flex items-center gap-2">
+              <TrendingUp className="w-6 h-6 text-blue-500" />
+              Venture Capital & Investors
+            </h2>
+            <p className="text-white/40 font-light text-sm">Equity investment from VCs and angel groups</p>
           </motion.div>
 
           <div
@@ -543,73 +770,9 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
               if (link) window.open(link, '_blank');
             }}
           >
-            <BentoGrid items={convertToBentoItems(preseedInvestors).map((item, idx) => ({
+            <BentoGrid items={convertToBentoItems(vcInvestors).map((item, idx) => ({
               ...item,
-              'data-link': preseedInvestors[idx].link
-            }))} />
-          </div>
-        </section>
-      )}
-
-      {seedInvestors.length > 0 && (
-        <section className="mb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="mb-6"
-          >
-            <div className="flex items-center gap-3 mb-3">
-              <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-green-500/50 to-transparent" />
-              <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Seed</h2>
-              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-white/50">{seedInvestors.length}</span>
-            </div>
-            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight">Seed Investors</h2>
-            <p className="text-white/40 font-light text-sm">For companies with initial traction</p>
-          </motion.div>
-
-          <div
-            className="cursor-pointer"
-            onClick={(e) => {
-              const link = e.target.closest('[data-link]')?.getAttribute('data-link');
-              if (link) window.open(link, '_blank');
-            }}
-          >
-            <BentoGrid items={convertToBentoItems(seedInvestors).map((item, idx) => ({
-              ...item,
-              'data-link': seedInvestors[idx].link
-            }))} />
-          </div>
-        </section>
-      )}
-
-      {seriesAInvestors.length > 0 && (
-        <section className="mb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="mb-6"
-          >
-            <div className="flex items-center gap-3 mb-3">
-              <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-emerald-500/50 to-transparent" />
-              <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Series A+</h2>
-              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-white/50">{seriesAInvestors.length}</span>
-            </div>
-            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight">Series A & Growth Equity</h2>
-            <p className="text-white/40 font-light text-sm">For scaling companies</p>
-          </motion.div>
-
-          <div
-            className="cursor-pointer"
-            onClick={(e) => {
-              const link = e.target.closest('[data-link]')?.getAttribute('data-link');
-              if (link) window.open(link, '_blank');
-            }}
-          >
-            <BentoGrid items={convertToBentoItems(seriesAInvestors).map((item, idx) => ({
-              ...item,
-              'data-link': seriesAInvestors[idx].link
+              'data-link': getOpportunityUrl(vcInvestors[idx])
             }))} />
           </div>
         </section>
