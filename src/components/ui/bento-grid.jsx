@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import OptimizedImage from "@/components/OptimizedImage";
@@ -12,10 +12,12 @@ gsap.registerPlugin(ScrollTrigger);
 function BentoCard({ item, index }) {
   const cardRef = useRef(null);
   const imageRef = useRef(null);
-  
-  const Container = item.href ? 'a' : (item.to ? Link : 'div');
-  const props = item.href 
-    ? { href: item.href, target: "_blank", rel: "noopener noreferrer" } 
+
+  // Support href, link (external), or to (internal router)
+  const externalUrl = item.href || item.link;
+  const Container = externalUrl ? 'a' : (item.to ? Link : 'div');
+  const props = externalUrl
+    ? { href: externalUrl, target: "_blank", rel: "noopener noreferrer" }
     : (item.to ? { to: item.to } : {});
   
   // Vary speeds for depth effect
@@ -44,6 +46,8 @@ function BentoCard({ item, index }) {
     return () => ctx.revert();
   }, [speed]);
 
+  const isClickable = externalUrl || item.to;
+
   return (
     <Container
       ref={cardRef}
@@ -55,7 +59,8 @@ function BentoCard({ item, index }) {
         "hover:-translate-y-1 will-change-transform flex flex-col",
         item.colSpan === 2 ? "md:col-span-2" : "col-span-1",
         item.rowSpan === 2 ? "md:row-span-2" : "row-span-1",
-        "min-h-[240px]"
+        "min-h-[240px]",
+        isClickable && "cursor-pointer"
       )}
     >
       {/* Background Image if provided */}
@@ -108,14 +113,15 @@ function BentoCard({ item, index }) {
           </p>
         </div>
 
-        {(item.tags || item.cta) && (
+        {(item.tags || item.cta || item.meta || externalUrl) && (
           <div className="flex items-center justify-between mt-6 pt-4 border-t border-white/10">
             <div className="flex items-center gap-2">
                 {item.meta && <span className="text-xs text-white/60 font-medium">{item.meta}</span>}
             </div>
-            {item.cta && (
-              <span className="text-sm font-medium text-white flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-all translate-x-2 group-hover:translate-x-0">
-                {item.cta} <ArrowRight className="w-3 h-3" />
+            {(item.cta || externalUrl) && (
+              <span className="text-sm font-medium text-white flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition-all translate-x-2 group-hover:translate-x-0">
+                {item.cta || "View Details"}
+                {externalUrl ? <ExternalLink className="w-3 h-3" /> : <ArrowRight className="w-3 h-3" />}
               </span>
             )}
           </div>
