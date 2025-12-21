@@ -42,7 +42,7 @@ export default function HotOpportunities() {
   if (isLoading || stats.total === 0) return null;
 
   return (
-    <section className="py-6 px-4 md:px-6">
+    <section className="py-6 px-4 md:px-6 relative z-20">
       <div className="max-w-7xl mx-auto">
         <Link to={createPageUrl("Funding")}>
           <motion.div
