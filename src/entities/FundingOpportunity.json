@@ -1,0 +1,117 @@
+{
+  "name": "FundingOpportunity",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the fund or opportunity"
+    },
+    "stage": {
+      "type": "array",
+      "description": "Funding stages this investor covers",
+      "items": {
+        "type": "string",
+        "enum": [
+          "preseed",
+          "seed",
+          "accelerator",
+          "competition",
+          "Series A+"
+        ]
+      }
+    },
+    "location": {
+      "type": "string",
+      "description": "Location of the fund (e.g., 'Chicago', 'Midwest VC')"
+    },
+    "check_size": {
+      "type": "string",
+      "description": "Investment amount or check size"
+    },
+    "check_size_range": {
+      "type": "string",
+      "enum": [
+        "under250k",
+        "250k-1m",
+        "1m-5m",
+        "5m+"
+      ],
+      "description": "Check size range for filtering"
+    },
+    "focus_areas": {
+      "type": "array",
+      "description": "Focus areas or industries",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AI",
+          "AgTech",
+          "B2B",
+          "Blockchain",
+          "CleanTech",
+          "Commerce",
+          "Consumer",
+          "Crypto",
+          "DeepTech",
+          "EdTech",
+          "FinTech",
+          "Food",
+          "HealthTech",
+          "InsurTech",
+          "PropTech",
+          "SaaS",
+          "Software",
+          "Web3",
+          "All sectors"
+        ]
+      }
+    },
+    "deadline": {
+      "type": "string",
+      "description": "Application deadline (if applicable)"
+    },
+    "investment": {
+      "type": "string",
+      "description": "Investment details"
+    },
+    "prize": {
+      "type": "string",
+      "description": "Prize amount for competitions"
+    },
+    "note": {
+      "type": "string",
+      "description": "Additional notes or requirements"
+    },
+    "link": {
+      "type": "string",
+      "description": "Application or website link"
+    },
+    "fund_size": {
+      "type": "string",
+      "description": "Total fund size"
+    },
+    "subtitle": {
+      "type": "string",
+      "description": "Subtitle or tagline"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "standard",
+        "underrepresented"
+      ],
+      "default": "standard",
+      "description": "Special category designation"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this opportunity is featured"
+    }
+  },
+  "required": [
+    "name",
+    "stage",
+    "link"
+  ]
+}

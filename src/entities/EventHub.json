@@ -1,0 +1,28 @@
+{
+  "name": "EventHub",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the innovation hub or event space"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the hub and its offerings"
+    },
+    "link": {
+      "type": "string",
+      "description": "URL to the hub's event calendar or website"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this hub is featured"
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "link"
+  ]
+}

@@ -1,0 +1,22 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://chistartuphub.com/sitemap.xml
+
+# Crawl-delay for politeness (optional)
+Crawl-delay: 1
+
+# Disallow admin/private areas if any
+Disallow: /api/
+Disallow: /_/
+
+# Allow search engines to index all public content
+Allow: /funding
+Allow: /events
+Allow: /workspaces
+Allow: /community
+Allow: /resources
+Allow: /stories
+Allow: /about

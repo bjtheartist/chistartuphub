@@ -1,0 +1,50 @@
+{
+  "name": "Accelerator",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the accelerator or incubator"
+    },
+    "founded": {
+      "type": "string",
+      "description": "Year founded"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the program"
+    },
+    "category": {
+      "type": "array",
+      "description": "Program categories",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Tech",
+          "Healthcare",
+          "Food & Beverage",
+          "Manufacturing",
+          "Real Estate",
+          "Creative Industries",
+          "University-Based",
+          "Energy & CleanTech"
+        ]
+      }
+    },
+    "link": {
+      "type": "string",
+      "description": "Website or application URL"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this program is featured"
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "category",
+    "link"
+  ]
+}

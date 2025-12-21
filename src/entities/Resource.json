@@ -1,0 +1,69 @@
+{
+  "name": "Resource",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the resource"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of what the resource offers"
+    },
+    "tags": {
+      "type": "array",
+      "description": "Topic tags for filtering",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AI",
+          "Automation",
+          "Business Planning",
+          "Customer Development",
+          "Customer Discovery",
+          "Feedback",
+          "Finance",
+          "Fundraising",
+          "Growth",
+          "ML",
+          "Market Research",
+          "No-Code",
+          "Product Development",
+          "Scaling",
+          "Startup Basics",
+          "Tech Entrepreneurship",
+          "Tech Tools",
+          "Testing",
+          "Venture Capital",
+          "Chicago",
+          "Local Resources"
+        ]
+      }
+    },
+    "link": {
+      "type": "string",
+      "description": "Resource URL"
+    },
+    "resource_type": {
+      "type": "string",
+      "enum": [
+        "global",
+        "chicago"
+      ],
+      "default": "global",
+      "description": "Whether this is a global or Chicago-specific resource"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this resource is featured"
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "tags",
+    "link",
+    "resource_type"
+  ]
+}
