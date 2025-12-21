@@ -13,6 +13,7 @@ import { ExpandingCards } from "@/components/ui/expanding-cards";
 import { BentoGrid } from "@/components/ui/bento-grid";
 import SuccessStoriesSection from "@/components/home/SuccessStoriesSection";
 import ParallaxChicagoBackground from "@/components/home/ParallaxChicagoBackground";
+import HotOpportunities from "@/components/home/HotOpportunities";
 import { entities } from "@/api/supabaseClient";
 import { useMutation } from "@tanstack/react-query";
 import { toast } from "sonner";
@@ -291,6 +292,9 @@ export default function Home() {
       <div className="relative z-10 bg-black -mt-24">
         {/* Success Stories Marquee */}
         <SuccessStoriesSection />
+
+        {/* Hot Opportunities - Time-sensitive funding */}
+        <HotOpportunities />
 
         {/* Why Chicago Section - Expanding Cards */}
         <section className="py-16 md:py-32 px-4 md:px-6 bg-gradient-to-b from-black via-gray-900 to-black relative">
