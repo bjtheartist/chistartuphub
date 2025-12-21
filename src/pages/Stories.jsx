@@ -58,35 +58,68 @@ export default function Stories() {
     { id: "Process Power", label: "Process" }
   ], []);
 
+  // Helper to get founder name(s) from founders array or founder_name
+  const getFounderName = (story) => {
+    if (story.founder_name) return story.founder_name;
+    if (story.founders && Array.isArray(story.founders)) {
+      return story.founders.join(', ');
+    }
+    return 'Unknown Founder';
+  };
+
+  // Helper to get journey summary/description
+  const getJourneySummary = (story) => {
+    return story.journey_summary || story.description || story.tagline || '';
+  };
+
+  // Helper to get category/sector
+  const getCategory = (story) => {
+    return story.category || story.sector || 'Technology';
+  };
+
+  // Helper to get exit value/valuation
+  const getExitValue = (story) => {
+    return story.exit_value || story.valuation || story.funding_raised || '';
+  };
+
+  // Helper to get founded year
+  const getFounded = (story) => {
+    return story.founded || story.founded_year || '';
+  };
+
+  // Helper to get primary power/moat
+  const getPrimaryPower = (story) => {
+    return story.primary_power || story.competitive_moat || '';
+  };
+
   // Helper function to check if a company is a unicorn
   const isUnicorn = (story) => {
-    if (!story.exit_value && !story.exit_status) return false;
-    
-    const exitValue = story.exit_value?.toLowerCase() || "";
-    const exitStatus = story.exit_status?.toLowerCase() || "";
-    
-    return exitValue.includes("unicorn") || 
-           exitStatus.includes("unicorn") ||
-           exitValue.includes("$1b") ||
-           exitValue.includes("$2b") ||
-           exitValue.includes("$3b") ||
-           exitValue.includes("$4b") ||
-           exitValue.includes("$5b") ||
-           exitValue.includes("$6b") ||
-           exitValue.includes("billion");
+    if (story.is_unicorn) return true;
+
+    const valuation = (story.valuation || story.exit_value || '').toLowerCase();
+
+    return valuation.includes("unicorn") ||
+           valuation.includes("$1b") ||
+           valuation.includes("$2b") ||
+           valuation.includes("$3b") ||
+           valuation.includes("$4b") ||
+           valuation.includes("$5b") ||
+           valuation.includes("$6b") ||
+           valuation.includes("billion");
   };
 
   const filteredStories = useMemo(() => {
     return stories.filter(story => {
-      if (sectorFilter !== "all" && story.category !== sectorFilter) {
+      const category = getCategory(story);
+      if (sectorFilter !== "all" && category !== sectorFilter) {
         return false;
       }
 
       if (moatFilter !== "all") {
-        const primaryPower = story.primary_power?.toLowerCase() || "";
-        const secondaryPower = story.secondary_power?.toLowerCase() || "";
+        const primaryPower = getPrimaryPower(story).toLowerCase();
+        const secondaryPower = (story.secondary_power || story.moat_description || '').toLowerCase();
         const moatLower = moatFilter.toLowerCase();
-        
+
         if (!primaryPower.includes(moatLower) && !secondaryPower.includes(moatLower)) {
           return false;
         }
@@ -98,11 +131,11 @@ export default function Stories() {
 
       if (searchQuery) {
         const searchLower = searchQuery.toLowerCase();
-        const companyMatch = story.company_name.toLowerCase().includes(searchLower);
-        const founderMatch = story.founder_name.toLowerCase().includes(searchLower);
-        const categoryMatch = story.category.toLowerCase().includes(searchLower);
-        const summaryMatch = story.journey_summary?.toLowerCase().includes(searchLower);
-        
+        const companyMatch = (story.company_name || '').toLowerCase().includes(searchLower);
+        const founderMatch = getFounderName(story).toLowerCase().includes(searchLower);
+        const categoryMatch = category.toLowerCase().includes(searchLower);
+        const summaryMatch = getJourneySummary(story).toLowerCase().includes(searchLower);
+
         if (!companyMatch && !founderMatch && !categoryMatch && !summaryMatch) {
           return false;
         }
@@ -148,7 +181,8 @@ export default function Stories() {
     return featured.length > 0 ? featured[0] : null;
   }, [filteredStories]);
 
-  const getHeadlineSummary = (fullSummary) => {
+  const getHeadlineSummary = (story) => {
+    const fullSummary = getJourneySummary(story);
     if (!fullSummary) return "No summary available";
     const firstSentence = fullSummary.split('→')[0].trim();
     return firstSentence.length > 150 ? firstSentence.substring(0, 150) + '...' : firstSentence;
@@ -365,20 +399,20 @@ export default function Stories() {
                     )}
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">{featuredStory.company_name}</h2>
-                  <p className="text-lg md:text-xl text-white/80 mb-2">{featuredStory.founder_name}</p>
-                  
+                  <p className="text-lg md:text-xl text-white/80 mb-2">{getFounderName(featuredStory)}</p>
+
                   <div className="flex flex-wrap gap-1.5 mb-4">
-                    <Badge className="bg-white/10 text-white border-white/20 text-xs">{featuredStory.category}</Badge>
-                    {featuredStory.founded && <Badge className="bg-white/10 text-white border-white/20 text-xs">Founded {featuredStory.founded}</Badge>}
-                    {featuredStory.exit_value && <Badge className="bg-green-500/20 text-green-300 border-green-400/30 text-xs">{featuredStory.exit_value}</Badge>}
+                    <Badge className="bg-white/10 text-white border-white/20 text-xs">{getCategory(featuredStory)}</Badge>
+                    {getFounded(featuredStory) && <Badge className="bg-white/10 text-white border-white/20 text-xs">Founded {getFounded(featuredStory)}</Badge>}
+                    {getExitValue(featuredStory) && <Badge className="bg-green-500/20 text-green-300 border-green-400/30 text-xs">{getExitValue(featuredStory)}</Badge>}
                   </div>
 
-                  <p className="text-white/70 text-base md:text-lg leading-relaxed mb-4 md:mb-6">{getHeadlineSummary(featuredStory.journey_summary)}</p>
-                  
-                  {featuredStory.primary_power && (
+                  <p className="text-white/70 text-base md:text-lg leading-relaxed mb-4 md:mb-6">{getHeadlineSummary(featuredStory)}</p>
+
+                  {getPrimaryPower(featuredStory) && (
                     <div className="flex items-center gap-2 mb-4 md:mb-6">
                       <Award className="w-4 h-4 md:w-5 md:h-5 text-blue-400" />
-                      <span className="text-white/80 text-sm md:text-base">Primary Moat: <strong className="text-white">{featuredStory.primary_power}</strong></span>
+                      <span className="text-white/80 text-sm md:text-base">Primary Moat: <strong className="text-white">{getPrimaryPower(featuredStory)}</strong></span>
                     </div>
                   )}
                   
@@ -454,23 +488,23 @@ export default function Stories() {
                             </Badge>
                           )}
                         </div>
-                        <p className="text-white/40 text-xs font-medium mb-4 uppercase tracking-wider">{story.founder_name}</p>
+                        <p className="text-white/40 text-xs font-medium mb-4 uppercase tracking-wider">{getFounderName(story)}</p>
 
                         <div className="flex flex-wrap gap-1.5 mb-4">
-                          <Badge className="bg-white/[0.04] text-white/60 border-white/[0.06] text-[10px] font-medium px-2 py-0.5">{story.category}</Badge>
-                          {story.founded && <Badge className="bg-white/[0.04] text-white/60 border-white/[0.06] text-[10px] font-medium px-2 py-0.5">{story.founded}</Badge>}
-                          {story.exit_value && <Badge className="bg-emerald-900/20 text-emerald-400/80 border-emerald-500/20 text-[10px] font-medium px-2 py-0.5">{story.exit_value}</Badge>}
+                          <Badge className="bg-white/[0.04] text-white/60 border-white/[0.06] text-[10px] font-medium px-2 py-0.5">{getCategory(story)}</Badge>
+                          {getFounded(story) && <Badge className="bg-white/[0.04] text-white/60 border-white/[0.06] text-[10px] font-medium px-2 py-0.5">{getFounded(story)}</Badge>}
+                          {getExitValue(story) && <Badge className="bg-emerald-900/20 text-emerald-400/80 border-emerald-500/20 text-[10px] font-medium px-2 py-0.5">{getExitValue(story)}</Badge>}
                         </div>
 
                         <p className="text-white/50 leading-relaxed mb-5 flex-grow text-sm font-light line-clamp-3">
-                          {getHeadlineSummary(story.journey_summary)}
+                          {getHeadlineSummary(story)}
                         </p>
 
                         <div className="flex items-center justify-between mt-auto pt-4 border-t border-white/[0.04]">
-                          {story.primary_power && (
+                          {getPrimaryPower(story) && (
                             <div className="flex items-center gap-1.5">
                               <Shield className="w-3 h-3 text-blue-500/60" />
-                              <span className="text-white/40 text-xs font-medium">{story.primary_power}</span>
+                              <span className="text-white/40 text-xs font-medium">{getPrimaryPower(story)}</span>
                             </div>
                           )}
                           <Link to={createPageUrl("StoryDetail") + `?id=${story.id}`}>

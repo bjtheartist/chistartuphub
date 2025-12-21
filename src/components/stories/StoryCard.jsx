@@ -8,6 +8,18 @@ const StoryCard = memo(function StoryCard({ story, size = "default" }) {
     large: "h-96"
   };
 
+  // Helper to get category/sector
+  const getCategory = () => story.category || story.sector || 'Technology';
+
+  // Helper to get founder name(s)
+  const getFounderName = () => {
+    if (story.founder_name) return story.founder_name;
+    if (story.founders && Array.isArray(story.founders)) {
+      return story.founders.join(', ');
+    }
+    return 'Unknown Founder';
+  };
+
   const categoryColors = {
     "Consumer Tech": "from-violet-600 via-purple-500 to-fuchsia-500",
     "FoodTech": "from-orange-500 via-amber-500 to-yellow-400",
@@ -23,7 +35,8 @@ const StoryCard = memo(function StoryCard({ story, size = "default" }) {
     "Logistics": "from-sky-600 via-blue-600 to-indigo-500"
   };
 
-  const gradientClass = categoryColors[story.category] || "from-slate-800 via-zinc-800 to-neutral-800";
+  const category = getCategory();
+  const gradientClass = categoryColors[category] || "from-slate-800 via-zinc-800 to-neutral-800";
 
   return (
     <div className={`${sizeClasses[size]} relative overflow-hidden bg-gradient-to-br ${gradientClass} flex flex-col items-center justify-center p-8 text-center group`}>
@@ -48,11 +61,11 @@ const StoryCard = memo(function StoryCard({ story, size = "default" }) {
         </h3>
 
         <p className="text-lg md:text-xl text-white/90 mb-5 font-medium tracking-wide">
-          {story.founder_name}
+          {getFounderName()}
         </p>
 
         <Badge className="bg-white/20 backdrop-blur-md text-white border border-white/30 text-xs px-3 py-1 uppercase tracking-wider shadow-lg">
-          {story.category}
+          {category}
         </Badge>
       </div>
     </div>

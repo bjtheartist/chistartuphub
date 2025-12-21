@@ -43,18 +43,26 @@ export default function Workspaces() {
   ];
 
   const filteredWorkspaces = workspaces.filter(workspace => {
-    if (activeCategory !== "all" && !workspace.category.includes(activeCategory)) {
-      return false;
+    // Use workspace_type instead of category
+    if (activeCategory !== "all") {
+      const workspaceType = workspace.workspace_type || '';
+      const amenities = workspace.amenities || [];
+      const matchesCategory = workspaceType.toLowerCase().includes(activeCategory.toLowerCase()) ||
+        amenities.some(a => a?.toLowerCase().includes(activeCategory.toLowerCase()));
+      if (!matchesCategory) {
+        return false;
+      }
     }
 
     if (searchQuery) {
       const searchLower = searchQuery.toLowerCase();
-      const nameMatch = workspace.name.toLowerCase().includes(searchLower);
-      const addressMatch = workspace.address.toLowerCase().includes(searchLower);
-      const descriptionMatch = workspace.description.toLowerCase().includes(searchLower);
-      const idealForMatch = workspace.ideal_for.some(item => item.toLowerCase().includes(searchLower));
-      
-      if (!nameMatch && !addressMatch && !descriptionMatch && !idealForMatch) {
+      const nameMatch = (workspace.name || '').toLowerCase().includes(searchLower);
+      const addressMatch = (workspace.address || '').toLowerCase().includes(searchLower);
+      const descriptionMatch = (workspace.description || '').toLowerCase().includes(searchLower);
+      const neighborhoodMatch = (workspace.neighborhood || '').toLowerCase().includes(searchLower);
+      const amenitiesMatch = (workspace.amenities || []).some(item => item?.toLowerCase().includes(searchLower));
+
+      if (!nameMatch && !addressMatch && !descriptionMatch && !neighborhoodMatch && !amenitiesMatch) {
         return false;
       }
     }
@@ -234,20 +242,24 @@ export default function Workspaces() {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               />
-              {filteredWorkspaces.map((workspace, index) => (
+              {filteredWorkspaces
+                .filter(workspace => workspace.latitude && workspace.longitude)
+                .map((workspace, index) => (
                 <Marker key={index} position={[workspace.latitude, workspace.longitude]}>
                   <Popup>
                     <div className="p-2">
                       <h3 className="font-bold text-lg mb-2">{workspace.name}</h3>
                       <p className="text-sm text-gray-600 mb-2">{workspace.address}</p>
                       <p className="text-sm mb-2">{workspace.description}</p>
-                      <div className="flex flex-wrap gap-1 mt-2">
-                        {workspace.ideal_for.slice(0, 2).map((item, i) => (
-                          <span key={i} className="text-xs bg-gray-200 px-2 py-1 rounded">
-                            {item}
-                          </span>
-                        ))}
-                      </div>
+                      {workspace.amenities && workspace.amenities.length > 0 && (
+                        <div className="flex flex-wrap gap-1 mt-2">
+                          {workspace.amenities.slice(0, 2).map((item, i) => (
+                            <span key={i} className="text-xs bg-gray-200 px-2 py-1 rounded">
+                              {item}
+                            </span>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   </Popup>
                 </Marker>
@@ -299,14 +311,18 @@ export default function Workspaces() {
                       </p>
 
                       <div className="mt-auto border-t border-white/[0.06] pt-4">
-                        <p className="text-white/40 text-[10px] font-medium uppercase tracking-wider mb-2">Ideal For</p>
-                        <div className="flex flex-wrap gap-1.5 mb-4">
-                          {workspace.ideal_for.map((item, i) => (
-                            <Badge key={i} className="bg-white/[0.03] text-white/60 border-white/[0.06] text-[10px] font-normal px-1.5 py-0">
-                              {item}
-                            </Badge>
-                          ))}
-                        </div>
+                        {workspace.amenities && workspace.amenities.length > 0 && (
+                          <>
+                            <p className="text-white/40 text-[10px] font-medium uppercase tracking-wider mb-2">Amenities</p>
+                            <div className="flex flex-wrap gap-1.5 mb-4">
+                              {workspace.amenities.map((item, i) => (
+                                <Badge key={i} className="bg-white/[0.03] text-white/60 border-white/[0.06] text-[10px] font-normal px-1.5 py-0">
+                                  {item}
+                                </Badge>
+                              ))}
+                            </div>
+                          </>
+                        )}
 
                         {workspace.website && (
                           <a href={workspace.website} target="_blank" rel="noopener noreferrer" className="block">
