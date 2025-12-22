@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { createPortal } from "react-dom";
-import { Box, Megaphone, Settings, Brain, X } from "lucide-react";
+import { Box, Megaphone, Settings, Brain, X, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 const phases = [
@@ -177,62 +177,109 @@ function MatrixCellModal({ isOpen, onClose, dimension, phase, question, subtext,
 
   return createPortal(
     <div
-      className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
+      className="fixed inset-0 z-[9999] flex items-end md:items-center justify-center bg-black/80 backdrop-blur-sm"
       onClick={onClose}
       style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0 }}
     >
       <div
-        className="bg-[#0A0A0A] border border-white/[0.15] rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+        className="bg-[#0A0A0A] border border-white/[0.15] rounded-t-2xl md:rounded-xl w-full md:max-w-2xl max-h-[85vh] md:max-h-[90vh] overflow-hidden flex flex-col md:m-4"
         onClick={(e) => e.stopPropagation()}
       >
-            <div className="bg-white/[0.04] border-b border-white/[0.1] p-6 flex items-start justify-between sticky top-0 backdrop-blur-xl">
-              <div className="flex-1">
-                <div className="text-xs text-blue-400 mb-1 uppercase tracking-wider">
-                  {dimension} - Phase {phase}
-                </div>
-                <h2 className="text-2xl font-semibold text-white mb-2">{question}</h2>
-                <p className="text-sm text-white/60">{subtext}</p>
-              </div>
-              <button
-                onClick={onClose}
-                className="ml-4 p-2 hover:bg-white/[0.1] transition-colors rounded-lg border border-white/10"
+        {/* Header */}
+        <div className="bg-white/[0.04] border-b border-white/[0.1] p-4 md:p-6 flex items-start justify-between flex-shrink-0">
+          <div className="flex-1 pr-2">
+            <div className="text-[10px] md:text-xs text-blue-400 mb-1 uppercase tracking-wider">
+              {dimension} - Phase {phase}
+            </div>
+            <h2 className="text-lg md:text-2xl font-semibold text-white mb-1 md:mb-2">{question}</h2>
+            <p className="text-xs md:text-sm text-white/60">{subtext}</p>
+          </div>
+          <button
+            onClick={onClose}
+            className="p-2 hover:bg-white/[0.1] transition-colors rounded-lg border border-white/10 flex-shrink-0"
+          >
+            <X className="w-5 h-5 text-white/60" />
+          </button>
+        </div>
+
+        {/* Content - Scrollable */}
+        <div className="p-4 md:p-8 overflow-y-auto flex-1">
+          <h3 className="text-sm md:text-lg font-semibold text-white mb-4 md:mb-6 uppercase tracking-wider">
+            Troubleshooting Questions
+          </h3>
+
+          <div className="space-y-2 md:space-y-3">
+            {troubleshootingQuestions.map((q, index) => (
+              <div
+                key={index}
+                className="bg-white/[0.04] border border-white/[0.08] rounded-lg p-3 md:p-4"
               >
-                <X className="w-5 h-5 text-white/60" />
-              </button>
-            </div>
-
-            <div className="p-8">
-              <h3 className="text-lg font-semibold text-white mb-6 uppercase tracking-wider">
-                Troubleshooting Questions
-              </h3>
-
-              <div className="space-y-3">
-                {troubleshootingQuestions.map((q, index) => (
-                  <div
-                    key={index}
-                    className="bg-white/[0.04] border border-white/[0.08] rounded-lg p-4"
-                  >
-                    <div className="flex gap-4">
-                      <div className="flex-shrink-0 w-8 h-8 bg-blue-500/20 text-blue-400 border border-blue-500/30 rounded-lg flex items-center justify-center font-semibold text-sm">
-                        {index + 1}
-                      </div>
-                      <p className="text-sm text-white/70 leading-relaxed pt-1">{q}</p>
-                    </div>
+                <div className="flex gap-3 md:gap-4">
+                  <div className="flex-shrink-0 w-6 h-6 md:w-8 md:h-8 bg-blue-500/20 text-blue-400 border border-blue-500/30 rounded-lg flex items-center justify-center font-semibold text-xs md:text-sm">
+                    {index + 1}
                   </div>
-                ))}
+                  <p className="text-xs md:text-sm text-white/70 leading-relaxed">{q}</p>
+                </div>
               </div>
+            ))}
+          </div>
 
-              <div className="mt-8 pt-6 border-t border-white/[0.1]">
-                <p className="text-sm text-white/60 leading-relaxed">
-                  <strong className="text-white font-semibold">Pro tip:</strong> Use these questions to assess where you
-                  truly are in this phase. If you can't answer "yes" to most of them, you may need to focus more
-                  energy here before moving forward.
-                </p>
-              </div>
-            </div>
+          <div className="mt-6 md:mt-8 pt-4 md:pt-6 border-t border-white/[0.1]">
+            <p className="text-xs md:text-sm text-white/60 leading-relaxed">
+              <strong className="text-white font-semibold">Pro tip:</strong> Use these questions to assess where you
+              truly are in this phase. If you can't answer "yes" to most of them, you may need to focus more
+              energy here before moving forward.
+            </p>
+          </div>
+        </div>
       </div>
     </div>,
     document.body
+  );
+}
+
+// Mobile card view for a single dimension
+function MobileDimensionCard({ dimension, onCellClick }) {
+  const Icon = dimension.icon;
+
+  return (
+    <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl overflow-hidden">
+      {/* Dimension Header */}
+      <div className="flex items-center gap-3 p-4 border-b border-white/[0.06]">
+        <div className={`${dimension.color} p-2 border border-white/10 rounded-lg`}>
+          <Icon className="w-5 h-5 text-white" strokeWidth={2.5} />
+        </div>
+        <h4 className="text-base font-semibold text-white">{dimension.label}</h4>
+      </div>
+
+      {/* Cells */}
+      <div className="divide-y divide-white/[0.06]">
+        {dimension.cells.map((cell, index) => (
+          <button
+            key={index}
+            onClick={() => onCellClick({
+              dimension: dimension.label,
+              phase: index + 1,
+              question: cell.question,
+              subtext: cell.subtext,
+              troubleshootingQuestions: cell.troubleshootingQuestions,
+            })}
+            className="w-full p-4 text-left hover:bg-white/[0.04] transition-colors flex items-start gap-3 group"
+          >
+            <div className="flex-shrink-0 w-6 h-6 bg-blue-500/10 text-blue-400 border border-blue-500/20 rounded flex items-center justify-center text-xs font-semibold">
+              {index + 1}
+            </div>
+            <div className="flex-1 min-w-0">
+              <h5 className="text-sm font-medium text-white mb-1 group-hover:text-blue-300 transition-colors">
+                {cell.question}
+              </h5>
+              <p className="text-xs text-white/40 line-clamp-2">{cell.subtext}</p>
+            </div>
+            <ChevronRight className="w-4 h-4 text-white/30 group-hover:text-white/60 flex-shrink-0 mt-0.5" />
+          </button>
+        ))}
+      </div>
+    </div>
   );
 }
 
@@ -245,13 +292,13 @@ export default function MaturityMatrix() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="mb-12"
+        className="mb-8 md:mb-12"
       >
         <div className="flex items-center gap-3 mb-3">
           <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-white/50 to-transparent" />
-          <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">From The Startup Maturity Atlas</h2>
+          <h2 className="text-xs md:text-sm font-medium uppercase tracking-[0.15em] text-white/50">From The Startup Maturity Atlas</h2>
         </div>
-        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">
+        <h2 className="text-xl md:text-3xl font-semibold text-white mb-2 tracking-tight">
           Startup Maturity Matrix
         </h2>
         <p className="text-white/40 font-light text-sm md:text-base leading-relaxed max-w-3xl">
@@ -259,65 +306,92 @@ export default function MaturityMatrix() {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-[180px_1fr_1fr_1fr] md:grid-cols-[220px_1fr_1fr_1fr] gap-4 mb-8">
-        {/* Empty corner cell */}
-        <div className="bg-white/[0.02] border border-white/[0.08] rounded-lg" />
-
-        {/* Phase headers */}
-        {phases.map((phase) => (
-          <div
-            key={phase.number}
-            className="bg-white/[0.04] border border-white/[0.1] rounded-lg p-4 md:p-6 text-center"
-          >
-            <h3 className="text-lg md:text-xl font-semibold text-white mb-1">
-              Phase {phase.number}
-            </h3>
-            <h4 className="text-sm md:text-base font-semibold text-blue-400 mb-1">
-              {phase.title}
-            </h4>
-            <p className="text-xs text-white/50">{phase.subtitle}</p>
-          </div>
-        ))}
-
-        {/* Dimension rows */}
-        {dimensions.map((dimension) => (
-          <React.Fragment key={dimension.label}>
-            {/* Dimension label */}
-            <div className="bg-white/[0.04] border border-white/[0.1] rounded-lg p-4 md:p-6 flex flex-col items-center justify-center gap-3">
-              <div className={`${dimension.color} p-2 md:p-3 border border-white/10 rounded-lg`}>
-                <dimension.icon className="w-6 h-6 md:w-8 md:h-8 text-white" strokeWidth={2.5} />
-              </div>
-              <h4 className="text-sm md:text-base font-semibold text-white text-center">
-                {dimension.label}
-              </h4>
+      {/* Mobile View - Stacked Cards */}
+      <div className="md:hidden space-y-4 mb-8">
+        {/* Phase Legend */}
+        <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+          {phases.map((phase) => (
+            <div
+              key={phase.number}
+              className="flex-shrink-0 bg-white/[0.04] border border-white/[0.1] rounded-lg px-3 py-2 text-center min-w-[100px]"
+            >
+              <div className="text-xs font-semibold text-white">Phase {phase.number}</div>
+              <div className="text-[10px] font-medium text-blue-400">{phase.title}</div>
             </div>
+          ))}
+        </div>
 
-            {/* Cells for each phase */}
-            {dimension.cells.map((cell, index) => (
-              <motion.button
-                key={index}
-                onClick={() => {
-                  console.log("Cell clicked!", dimension.label, index + 1);
-                  setSelectedCell({
-                    dimension: dimension.label,
-                    phase: index + 1,
-                    question: cell.question,
-                    subtext: cell.subtext,
-                    troubleshootingQuestions: cell.troubleshootingQuestions,
-                  });
-                }}
-                whileHover={{ scale: 1.02, borderColor: "rgba(96, 165, 250, 0.3)" }}
-                whileTap={{ scale: 0.98 }}
-                className="bg-white/[0.06] border border-white/[0.08] hover:border-blue-500/30 rounded-lg p-4 md:p-6 transition-all text-left group"
-              >
-                <h5 className="text-xs md:text-sm font-semibold text-white mb-2 leading-snug group-hover:text-blue-300 transition-colors">
-                  {cell.question}
-                </h5>
-                <p className="text-xs text-white/50 leading-relaxed">{cell.subtext}</p>
-              </motion.button>
-            ))}
-          </React.Fragment>
+        {/* Dimension Cards */}
+        {dimensions.map((dimension) => (
+          <MobileDimensionCard
+            key={dimension.label}
+            dimension={dimension}
+            onCellClick={setSelectedCell}
+          />
         ))}
+      </div>
+
+      {/* Desktop View - Grid */}
+      <div className="hidden md:block overflow-x-auto">
+        <div className="grid grid-cols-[200px_1fr_1fr_1fr] gap-4 mb-8 min-w-[800px]">
+          {/* Empty corner cell */}
+          <div className="bg-white/[0.02] border border-white/[0.08] rounded-lg" />
+
+          {/* Phase headers */}
+          {phases.map((phase) => (
+            <div
+              key={phase.number}
+              className="bg-white/[0.04] border border-white/[0.1] rounded-lg p-6 text-center"
+            >
+              <h3 className="text-xl font-semibold text-white mb-1">
+                Phase {phase.number}
+              </h3>
+              <h4 className="text-base font-semibold text-blue-400 mb-1">
+                {phase.title}
+              </h4>
+              <p className="text-xs text-white/50">{phase.subtitle}</p>
+            </div>
+          ))}
+
+          {/* Dimension rows */}
+          {dimensions.map((dimension) => (
+            <React.Fragment key={dimension.label}>
+              {/* Dimension label */}
+              <div className="bg-white/[0.04] border border-white/[0.1] rounded-lg p-6 flex flex-col items-center justify-center gap-3">
+                <div className={`${dimension.color} p-3 border border-white/10 rounded-lg`}>
+                  <dimension.icon className="w-8 h-8 text-white" strokeWidth={2.5} />
+                </div>
+                <h4 className="text-base font-semibold text-white text-center">
+                  {dimension.label}
+                </h4>
+              </div>
+
+              {/* Cells for each phase */}
+              {dimension.cells.map((cell, index) => (
+                <motion.button
+                  key={index}
+                  onClick={() => {
+                    setSelectedCell({
+                      dimension: dimension.label,
+                      phase: index + 1,
+                      question: cell.question,
+                      subtext: cell.subtext,
+                      troubleshootingQuestions: cell.troubleshootingQuestions,
+                    });
+                  }}
+                  whileHover={{ scale: 1.02, borderColor: "rgba(96, 165, 250, 0.3)" }}
+                  whileTap={{ scale: 0.98 }}
+                  className="bg-white/[0.06] border border-white/[0.08] hover:border-blue-500/30 rounded-lg p-6 transition-all text-left group"
+                >
+                  <h5 className="text-sm font-semibold text-white mb-2 leading-snug group-hover:text-blue-300 transition-colors">
+                    {cell.question}
+                  </h5>
+                  <p className="text-xs text-white/50 leading-relaxed">{cell.subtext}</p>
+                </motion.button>
+              ))}
+            </React.Fragment>
+          ))}
+        </div>
       </div>
 
       <motion.div
@@ -325,9 +399,9 @@ export default function MaturityMatrix() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="bg-white/[0.04] border border-white/[0.1] rounded-xl p-6 md:p-8"
+        className="bg-white/[0.04] border border-white/[0.1] rounded-xl p-4 md:p-8"
       >
-        <p className="text-white/70 text-sm leading-relaxed">
+        <p className="text-white/70 text-xs md:text-sm leading-relaxed">
           <strong className="text-white">Note:</strong> The startup journey isn't linear—founders loop back
           between stages constantly. This matrix is meant to orient, not prescribe. Use it as a compass, not a
           schedule.
