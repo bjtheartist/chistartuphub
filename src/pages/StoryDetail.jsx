@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { entities } from "@/api/supabaseClient";
 import { useQuery } from "@tanstack/react-query";
@@ -8,8 +8,10 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import StoryCard from "../components/stories/StoryCard";
 import SEO from "@/components/SEO";
+import { generateSlug } from "@/lib/utils";
 
 export default function StoryDetail() {
+  const { slug } = useParams();
   const urlParams = new URLSearchParams(window.location.search);
   const storyId = urlParams.get('id');
 
@@ -19,7 +21,27 @@ export default function StoryDetail() {
     initialData: [],
   });
 
-  const story = stories.find(s => s.id === storyId);
+  // Find story by slug or fallback to ID
+  const story = React.useMemo(() => {
+    if (slug) {
+      // First try exact slug match
+      const slugMatch = stories.find(s => generateSlug(s.company_name) === slug);
+      if (slugMatch) return slugMatch;
+
+      // Fallback: try case-insensitive company name match
+      const nameMatch = stories.find(s =>
+        s.company_name?.toLowerCase().replace(/[^a-z0-9]+/g, '-') === slug.toLowerCase()
+      );
+      if (nameMatch) return nameMatch;
+    }
+
+    // Fallback to ID-based lookup for backwards compatibility
+    if (storyId) {
+      return stories.find(s => s.id === storyId);
+    }
+
+    return null;
+  }, [stories, slug, storyId]);
 
   const powerIcons = {
     "Scale Economies": Zap,

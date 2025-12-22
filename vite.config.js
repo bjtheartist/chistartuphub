@@ -52,6 +52,49 @@ export default defineConfig(({ mode }) => {
           '.js': 'jsx',
         },
       },
+    },
+    build: {
+      sourcemap: false, // Disable sourcemaps for production
+      minify: 'esbuild', // Use esbuild for faster builds
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            // Core React libraries
+            vendor: ['react', 'react-dom', 'react-router-dom'],
+            // Radix UI components
+            ui: [
+              '@radix-ui/react-dialog',
+              '@radix-ui/react-dropdown-menu',
+              '@radix-ui/react-tabs',
+              '@radix-ui/react-select',
+              '@radix-ui/react-tooltip',
+              '@radix-ui/react-popover',
+              '@radix-ui/react-checkbox',
+              '@radix-ui/react-radio-group',
+              '@radix-ui/react-switch',
+              '@radix-ui/react-slider',
+              '@radix-ui/react-label',
+              '@radix-ui/react-separator',
+              '@radix-ui/react-avatar',
+              '@radix-ui/react-scroll-area'
+            ].filter(pkg => {
+              // Only include packages that are actually installed
+              try {
+                require.resolve(pkg);
+                return true;
+              } catch {
+                return false;
+              }
+            }),
+            // Charts library
+            charts: ['recharts'],
+            // Maps library
+            maps: ['react-leaflet', 'leaflet'],
+            // Animation libraries
+            animation: ['framer-motion', 'gsap']
+          }
+        }
+      }
     }
   }
 });

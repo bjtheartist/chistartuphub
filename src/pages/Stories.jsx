@@ -11,6 +11,7 @@ import StoryCard from "../components/stories/StoryCard";
 import { motion, AnimatePresence } from "framer-motion";
 import SEO from "@/components/SEO";
 import PageHero from "@/components/ui/page-hero";
+import { generateSlug } from "@/lib/utils";
 
 export default function Stories() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -416,7 +417,7 @@ export default function Stories() {
                     </div>
                   )}
                   
-                  <Link to={createPageUrl("StoryDetail") + `?id=${featuredStory.id}`}>
+                  <Link to={`/stories/${generateSlug(featuredStory.company_name)}`}>
                     <Button className="accent-button text-base md:text-lg w-full md:w-auto">
                       Read Full Story
                       <BookOpen className="w-4 h-4 md:w-5 md:h-5 ml-2" />
@@ -507,7 +508,7 @@ export default function Stories() {
                               <span className="text-white/40 text-xs font-medium">{getPrimaryPower(story)}</span>
                             </div>
                           )}
-                          <Link to={createPageUrl("StoryDetail") + `?id=${story.id}`}>
+                          <Link to={`/stories/${generateSlug(story.company_name)}`}>
                             <div className="flex items-center gap-1 text-white/40 hover:text-white text-xs font-medium transition-colors group/link">
                               Read Story
                               <ChevronRight className="w-3 h-3 group-hover/link:translate-x-0.5 transition-transform" />

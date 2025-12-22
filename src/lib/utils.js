@@ -7,3 +7,12 @@ export function cn(...inputs) {
 
 
 export const isIframe = window.self !== window.top;
+
+export function generateSlug(name) {
+  if (!name) return '';
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
