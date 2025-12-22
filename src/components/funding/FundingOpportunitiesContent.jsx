@@ -217,10 +217,10 @@ export default function FundingOpportunitiesContent({ opportunities = [], upcomi
   };
 
   return (
-    <div>
+    <div className="overflow-visible">
       {/* Quick Filter Tabs */}
-      <div className="mb-6 -mx-4 px-4 md:mx-0 md:px-0 overflow-x-auto scrollbar-hide" style={{ WebkitOverflowScrolling: 'touch' }}>
-        <div className="flex gap-2 min-w-max pb-2">
+      <div className="mb-6 overflow-x-auto scrollbar-hide pb-1" style={{ WebkitOverflowScrolling: 'touch' }}>
+        <div className="flex gap-2 w-max">
           {quickTabs.map((tab) => {
             const Icon = tab.icon;
             const count = tabCounts[tab.id] || 0;
