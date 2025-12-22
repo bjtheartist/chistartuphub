@@ -3,8 +3,7 @@ import { createPortal } from "react-dom";
 import { X, Download, Mail, Loader2, CheckCircle, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { entities } from "@/api/supabaseClient";
-import { useMutation } from "@tanstack/react-query";
+import { supabase } from "@/api/supabaseClient";
 import { toast } from "sonner";
 
 const PDF_URL = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68fad57ce6a6914f0fbc124a/3ec6c8ceb_StartupMatrixToolkit.pdf";
@@ -12,32 +11,66 @@ const PDF_URL = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/publ
 export default function DownloadToolkitModal({ isOpen, onClose }) {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
 
-  const submitMutation = useMutation({
-    mutationFn: async (data) => {
-      await entities.EmailSignup.create(data);
-    },
-    onSuccess: () => {
-      // Show success screen
-      setShowSuccess(true);
+  const triggerDownload = () => {
+    console.log("Triggering download...");
 
-      // Trigger download - open in new tab for better mobile compatibility
-      window.open(PDF_URL, '_blank');
-    },
-    onError: (error) => {
-      toast.error("Failed to process request. Please try again.");
-      console.error(error);
+    // Method 1: Open in new tab (works best on mobile)
+    const newWindow = window.open(PDF_URL, '_blank');
+
+    // Method 2: If popup was blocked, try creating a link
+    if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
+      console.log("Popup blocked, trying link method...");
+      const link = document.createElement('a');
+      link.href = PDF_URL;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      document.body.appendChild(link);
+      link.click();
+      setTimeout(() => document.body.removeChild(link), 100);
     }
-  });
+  };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log("Form submitted");
+
     if (!email) {
       toast.error("Please enter your email");
       return;
     }
-    submitMutation.mutate({ email, name: name || undefined });
+
+    setIsSubmitting(true);
+
+    // Try to save email to database (don't block on failure)
+    try {
+      console.log("Attempting to save email...");
+      const { error } = await supabase
+        .from('email_signups')
+        .insert({
+          email: email.trim(),
+          name: name.trim() || null,
+          source: 'toolkit_download'
+        });
+
+      if (error) {
+        console.error('Email signup error (non-blocking):', error);
+        // Continue anyway - don't block the download
+      } else {
+        console.log("Email saved successfully");
+      }
+    } catch (err) {
+      console.error('Email signup exception (non-blocking):', err);
+      // Continue anyway - don't block the download
+    }
+
+    // ALWAYS trigger download and show success
+    console.log("Showing success and triggering download...");
+    triggerDownload();
+    setShowSuccess(true);
+    setIsSubmitting(false);
   };
 
   const handleClose = () => {
@@ -48,7 +81,7 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
   };
 
   const handleDownloadAgain = () => {
-    window.open(PDF_URL, '_blank');
+    triggerDownload();
   };
 
   if (!isOpen) return null;
@@ -73,7 +106,7 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
                   <h2 className="text-lg md:text-xl font-semibold text-white">Download Started!</h2>
                 </div>
                 <p className="text-xs md:text-sm text-white/60">
-                  Your toolkit should be downloading now
+                  Your toolkit should be opening now
                 </p>
               </div>
               <button
@@ -90,31 +123,30 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
                   <CheckCircle className="w-8 h-8 text-green-400" />
                 </div>
                 <h3 className="text-base md:text-lg font-semibold text-white mb-2">
-                  Thank you, {name || 'founder'}!
+                  Thank you{name ? `, ${name}` : ''}!
                 </h3>
                 <p className="text-xs md:text-sm text-white/60 mb-4">
-                  The Startup Maturity Atlas PDF should have opened in a new tab.
-                  If it didn't, click the button below.
+                  The PDF should have opened in a new tab. If it didn't open, tap the button below.
                 </p>
                 <Button
                   onClick={handleDownloadAgain}
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white border-none h-10 md:h-11 text-sm"
                 >
                   <ExternalLink className="w-4 h-4 mr-2" />
-                  Open PDF Again
+                  Open PDF
                 </Button>
               </div>
 
               <div className="text-center">
                 <p className="text-xs text-white/40 mb-3">
-                  We've added you to our founder newsletter. You'll receive occasional updates on resources, events, and opportunities.
+                  You'll receive occasional updates on resources, events, and opportunities.
                 </p>
                 <Button
                   onClick={handleClose}
                   variant="ghost"
                   className="text-white/60 hover:text-white text-sm"
                 >
-                  Close this window
+                  Close
                 </Button>
               </div>
             </div>
@@ -130,7 +162,7 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
                   <span className="bg-green-500/20 text-green-400 text-[10px] md:text-xs font-bold px-2 py-0.5 rounded-full border border-green-500/30">FREE</span>
                 </div>
                 <p className="text-xs md:text-sm text-white/60">
-                  Enter your email to receive the complete founder toolkit PDF
+                  Enter your email to get the complete founder toolkit PDF
                 </p>
               </div>
               <button
@@ -175,10 +207,10 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
               <div className="pt-2">
                 <Button
                   type="submit"
-                  disabled={submitMutation.isPending}
+                  disabled={isSubmitting}
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white border-none h-10 md:h-11 text-sm"
                 >
-                  {submitMutation.isPending ? (
+                  {isSubmitting ? (
                     <>
                       <Loader2 className="w-4 h-4 mr-2 animate-spin" />
                       Processing...
