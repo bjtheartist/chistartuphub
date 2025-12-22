@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import { DollarSign, TrendingUp, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -41,6 +41,31 @@ export default function Funding() {
     initialData: []
   });
 
+  // Filter out closed opportunities for accurate counts
+  const activeOpportunities = useMemo(() => {
+    const now = new Date();
+    now.setHours(0, 0, 0, 0);
+
+    return opportunities.filter(opp => {
+      if (!opp.deadline) return true; // No deadline = still active
+      const deadline = new Date(opp.deadline);
+      deadline.setHours(0, 0, 0, 0);
+      return deadline >= now; // Only include if deadline hasn't passed
+    });
+  }, [opportunities]);
+
+  const activeUpcoming = useMemo(() => {
+    const now = new Date();
+    now.setHours(0, 0, 0, 0);
+
+    return upcomingOpportunities.filter(opp => {
+      if (!opp.deadline) return true;
+      const deadline = new Date(opp.deadline);
+      deadline.setHours(0, 0, 0, 0);
+      return deadline >= now;
+    });
+  }, [upcomingOpportunities]);
+
   if (opportunitiesLoading || newsLoading || upcomingLoading) {
     return (
       <div className="min-h-screen py-20 px-6 flex items-center justify-center">
@@ -82,7 +107,7 @@ export default function Funding() {
           label="Funding"
           title="Capital Resources"
           description="Your comprehensive guide to funding opportunities in Chicago's startup ecosystem"
-          stat={opportunities.length + news.length}
+          stat={activeOpportunities.length + news.length}
           statLabel="resources available"
           backgroundImage="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1600&q=80"
         />
@@ -106,7 +131,7 @@ export default function Funding() {
             >
               <DollarSign className="w-4 h-4 mr-2 flex-shrink-0" />
               <span>Opportunities</span>
-              <span className="ml-2 text-[10px] px-1.5 py-0.5 rounded-full bg-white/10 text-white/70">{opportunities.length + upcomingOpportunities.length}</span>
+              <span className="ml-2 text-[10px] px-1.5 py-0.5 rounded-full bg-white/10 text-white/70">{activeOpportunities.length + activeUpcoming.length}</span>
             </Button>
             {/* Capital Insights tab - second on mobile, first on desktop */}
             <Button

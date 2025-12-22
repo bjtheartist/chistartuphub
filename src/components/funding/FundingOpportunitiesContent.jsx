@@ -90,10 +90,22 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
   const getOpportunityDescription = (opp) => opp.description || opp.note || opp.subtitle || '';
   const getOpportunitySectors = (opp) => opp.sectors || opp.focus_areas || [];
   const getOpportunityType = (opp) => {
-    if (opp.opportunity_type) return opp.opportunity_type;
+    const type = (opp.opportunity_type || '').toLowerCase();
+
+    // Map various type values to standardized categories
+    if (type === 'grant') return 'Grant';
+    if (type === 'accelerator' || type === 'accelerator_application') return 'Accelerator';
+    if (type === 'competition' || type === 'pitch_competition') return 'Competition';
+    if (type === 'vc') return 'VC';
+
+    // "standard" and "underrepresented" are typically VC/investor entries
+    if (type === 'standard' || type === 'underrepresented') return 'VC';
+
+    // Fallback: check stage array for hints
     const stageArr = Array.isArray(opp.stage) ? opp.stage : [opp.stage];
     if (stageArr.some(s => s?.toLowerCase() === 'accelerator')) return 'Accelerator';
     if (stageArr.some(s => s?.toLowerCase() === 'competition')) return 'Competition';
+
     return 'VC';
   };
 
