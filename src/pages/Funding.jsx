@@ -23,22 +23,22 @@ export default function Funding() {
     }
   }, [tabParam]);
 
-  const { data: opportunities, isLoading: opportunitiesLoading, error: opportunitiesError } = useQuery({
+  const { data: opportunities = [], isLoading: opportunitiesLoading, error: opportunitiesError } = useQuery({
     queryKey: ['funding-opportunities'],
     queryFn: () => entities.FundingOpportunity.list('-created_date'),
-    initialData: []
+    staleTime: 1000 * 60 * 5, // 5 minutes
   });
 
-  const { data: news, isLoading: newsLoading, error: newsError } = useQuery({
+  const { data: news = [], isLoading: newsLoading, error: newsError } = useQuery({
     queryKey: ['funding-news'],
     queryFn: () => entities.FundingNews.list('-date'),
-    initialData: []
+    staleTime: 1000 * 60 * 5,
   });
 
-  const { data: upcomingOpportunities, isLoading: upcomingLoading, error: upcomingError } = useQuery({
+  const { data: upcomingOpportunities = [], isLoading: upcomingLoading, error: upcomingError } = useQuery({
     queryKey: ['upcoming-opportunities'],
     queryFn: () => entities.UpcomingOpportunity.list('-deadline'),
-    initialData: []
+    staleTime: 1000 * 60 * 5,
   });
 
   // Filter out closed opportunities for accurate counts

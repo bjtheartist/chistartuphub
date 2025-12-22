@@ -22,10 +22,10 @@ export default function Stories() {
   const [page, setPage] = useState(0);
   const ITEMS_PER_PAGE = 12;
 
-  const { data: stories, isLoading, error } = useQuery({
+  const { data: stories = [], isLoading, error } = useQuery({
     queryKey: ['stories'],
     queryFn: () => entities.Story.list('-created_date'),
-    initialData: [],
+    staleTime: 1000 * 60 * 5, // 5 minutes
   });
 
   const sectors = useMemo(() => [

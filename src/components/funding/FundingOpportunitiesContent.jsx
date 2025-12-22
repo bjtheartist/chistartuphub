@@ -234,7 +234,7 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
       .sort((a, b) => {
         if (a.featured && !b.featured) return -1;
         if (!a.featured && b.featured) return 1;
-        return a.name.localeCompare(b.name);
+        return (a.name || '').localeCompare(b.name || '');
       }),
     [filteredOpportunities]
   );
@@ -248,7 +248,7 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
       .sort((a, b) => {
         if (a.featured && !b.featured) return -1;
         if (!a.featured && b.featured) return 1;
-        return a.name.localeCompare(b.name);
+        return (a.name || '').localeCompare(b.name || '');
       }),
     [filteredOpportunities]
   );
@@ -262,7 +262,7 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
       .sort((a, b) => {
         if (a.featured && !b.featured) return -1;
         if (!a.featured && b.featured) return 1;
-        return a.name.localeCompare(b.name);
+        return (a.name || '').localeCompare(b.name || '');
       }),
     [filteredOpportunities]
   );
@@ -276,7 +276,7 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
       .sort((a, b) => {
         if (a.featured && !b.featured) return -1;
         if (!a.featured && b.featured) return 1;
-        return a.name.localeCompare(b.name);
+        return (a.name || '').localeCompare(b.name || '');
       }),
     [filteredOpportunities]
   );

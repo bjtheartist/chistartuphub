@@ -15,10 +15,10 @@ export default function StoryDetail() {
   const urlParams = new URLSearchParams(window.location.search);
   const storyId = urlParams.get('id');
 
-  const { data: stories, isLoading, error } = useQuery({
+  const { data: stories = [], isLoading, error } = useQuery({
     queryKey: ['stories'],
-    queryFn: () => entities.Story.list(),
-    initialData: [],
+    queryFn: () => entities.Story.list('-created_date'),
+    staleTime: 1000 * 60 * 5, // 5 minutes
   });
 
   // Find story by slug or fallback to ID
@@ -179,7 +179,11 @@ export default function StoryDetail() {
             <TrendingUp className="w-8 h-8 text-blue-400" />
             The Journey
           </h2>
-          <div className="text-lg text-white/80 leading-relaxed whitespace-pre-line">{getJourneySummary(story)}</div>
+          {getJourneySummary(story) ? (
+            <div className="text-lg text-white/80 leading-relaxed whitespace-pre-line">{getJourneySummary(story)}</div>
+          ) : (
+            <p className="text-white/50 italic">Story details coming soon. Check back for the full journey of {story.company_name}.</p>
+          )}
         </div>
 
         {/* Competitive Moats */}
