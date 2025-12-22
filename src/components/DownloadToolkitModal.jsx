@@ -68,10 +68,11 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-2">
                 <Download className="w-5 h-5 text-blue-400" />
-                <h2 className="text-xl font-semibold text-white">Download Startup Toolkit</h2>
+                <h2 className="text-xl font-semibold text-white">Startup Maturity Atlas</h2>
+                <span className="bg-green-500/20 text-green-400 text-xs font-bold px-2 py-0.5 rounded-full border border-green-500/30">FREE</span>
               </div>
               <p className="text-sm text-white/60">
-                Enter your email to receive the complete PDF guide
+                Enter your email to receive the complete founder toolkit PDF
               </p>
             </div>
             <button
@@ -127,7 +128,7 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
                 ) : (
                   <>
                     <Download className="w-4 h-4 mr-2" />
-                    Download Toolkit PDF
+                    Download Free PDF
                   </>
                 )}
               </Button>

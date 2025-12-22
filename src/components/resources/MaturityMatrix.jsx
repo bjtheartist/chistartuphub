@@ -172,8 +172,6 @@ const dimensions = [
 ];
 
 function MatrixCellModal({ isOpen, onClose, dimension, phase, question, subtext, troubleshootingQuestions }) {
-  if (!isOpen) return null;
-
   return (
     <AnimatePresence>
       {isOpen && (
@@ -256,9 +254,12 @@ export default function MaturityMatrix() {
       >
         <div className="flex items-center gap-3 mb-3">
           <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-white/50 to-transparent" />
-          <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Maturity Framework</h2>
+          <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">From The Startup Maturity Atlas</h2>
         </div>
-        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">Startup Maturity Matrix</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">
+          Startup Maturity Matrix
+          <span className="ml-3 bg-green-500/20 text-green-400 text-xs font-bold px-2 py-1 rounded-full border border-green-500/30 align-middle">FREE</span>
+        </h2>
         <p className="text-white/40 font-light text-sm md:text-base leading-relaxed max-w-3xl">
           A framework to diagnose where you are and identify your next focus area across four critical dimensions
         </p>

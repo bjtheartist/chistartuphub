@@ -34,7 +34,8 @@ export default function Resources() {
               className="bg-blue-600 hover:bg-blue-700 text-white border-none"
             >
               <Download className="w-4 h-4 mr-2" />
-              Download Toolkit PDF
+              Download Free Toolkit
+              <span className="ml-2 bg-green-500/30 text-green-300 text-[10px] font-bold px-1.5 py-0.5 rounded">FREE</span>
             </Button>
             <Link to={createPageUrl("SubmitResource")}>
               <Button className="accent-button">
