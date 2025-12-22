@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { motion, AnimatePresence } from "framer-motion";
 import { BentoGrid } from "@/components/ui/bento-grid";
 
-export default function FundingOpportunitiesContent({ opportunities, upcomingOpportunities }) {
+export default function FundingOpportunitiesContent({ opportunities = [], upcomingOpportunities = [] }) {
   const [focusFilter, setFocusFilter] = useState("all");
   const [checkSizeFilter, setCheckSizeFilter] = useState("all");
   const [stageFilter, setStageFilter] = useState("all");
@@ -86,10 +86,11 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
   ];
 
   // Helper functions for field normalization
-  const getOpportunityUrl = (opp) => opp.website || opp.link;
-  const getOpportunityDescription = (opp) => opp.description || opp.note || opp.subtitle || '';
-  const getOpportunitySectors = (opp) => opp.sectors || opp.focus_areas || [];
+  const getOpportunityUrl = (opp) => opp?.website || opp?.link || '';
+  const getOpportunityDescription = (opp) => opp?.description || opp?.note || opp?.subtitle || '';
+  const getOpportunitySectors = (opp) => opp?.sectors || opp?.focus_areas || [];
   const getOpportunityType = (opp) => {
+    if (!opp) return 'VC';
     const type = (opp.opportunity_type || '').toLowerCase();
 
     // Map various type values to standardized categories
@@ -111,6 +112,7 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
 
   // Region detection helper
   const getRegion = (opp) => {
+    if (!opp) return 'us-national';
     const name = (opp.name || '').toLowerCase();
     const org = (opp.organization || '').toLowerCase();
     const desc = getOpportunityDescription(opp).toLowerCase();
@@ -138,6 +140,7 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
   };
 
   const getDeadlineStatus = (opp) => {
+    if (!opp) return 'rolling';
     const days = getDaysUntilDeadline(opp.deadline);
     if (days === null) return 'rolling';
     if (days < 0) return 'closed';
@@ -147,6 +150,9 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
 
   const filteredOpportunities = useMemo(() => {
     return opportunities.filter((item) => {
+      // Filter out null/undefined items
+      if (!item) return false;
+
       // Always filter out closed opportunities (deadline has passed)
       const status = getDeadlineStatus(item);
       if (status === 'closed') return false;
@@ -301,8 +307,8 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
     searchQuery !== ""
   ].filter(Boolean).length, [focusFilter, checkSizeFilter, stageFilter, opportunityTypeFilter, regionFilter, deadlineStatusFilter, searchQuery]);
 
-  const convertToBentoItems = (fundingList, showDeadline = false) => {
-    return fundingList.map((fund) => {
+  const convertToBentoItems = (fundingList = [], showDeadline = false) => {
+    return fundingList.filter(Boolean).map((fund) => {
       const type = getOpportunityType(fund);
       const typeIcon = type === 'Grant' ? <DollarSign className="w-4 h-4 text-green-400" /> :
         type === 'Competition' ? <Award className="w-4 h-4 text-yellow-400" /> :
@@ -342,8 +348,8 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
     });
   };
 
-  const convertUpcomingToBentoItems = (opportunitiesList) => {
-    return opportunitiesList.map((opp) => {
+  const convertUpcomingToBentoItems = (opportunitiesList = []) => {
+    return opportunitiesList.filter(Boolean).map((opp) => {
       const typeIcon = opp.type === 'pitch_competition' ? <Award className="w-4 h-4 text-yellow-400" /> :
         opp.type === 'grant' ? <DollarSign className="w-4 h-4 text-green-400" /> :
         opp.type === 'accelerator_application' ? <Rocket className="w-4 h-4 text-orange-400" /> :
