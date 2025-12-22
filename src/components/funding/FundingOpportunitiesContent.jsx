@@ -349,17 +349,24 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
         opp.type === 'accelerator_application' ? <Rocket className="w-4 h-4 text-orange-400" /> :
         <Calendar className="w-4 h-4 text-blue-400" />;
 
-      const deadlineDate = new Date(opp.deadline);
-      const formattedDeadline = deadlineDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      let status = "Rolling";
+      let isPast = false;
 
-      const now = new Date();
-      now.setHours(0, 0, 0, 0);
-      const deadlineDateOnly = new Date(deadlineDate);
-      deadlineDateOnly.setHours(0, 0, 0, 0);
+      if (opp.deadline) {
+        const deadlineDate = new Date(opp.deadline);
+        const formattedDeadline = deadlineDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 
-      const daysUntilDeadline = Math.ceil((deadlineDateOnly.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
-      const isClosingSoon = daysUntilDeadline <= 14 && daysUntilDeadline >= 0;
-      const isPast = daysUntilDeadline < 0;
+        const now = new Date();
+        now.setHours(0, 0, 0, 0);
+        const deadlineDateOnly = new Date(deadlineDate);
+        deadlineDateOnly.setHours(0, 0, 0, 0);
+
+        const daysUntilDeadline = Math.ceil((deadlineDateOnly.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+        const isClosingSoon = daysUntilDeadline <= 14 && daysUntilDeadline >= 0;
+        isPast = daysUntilDeadline < 0;
+
+        status = isPast ? "Closed" : isClosingSoon ? `Closes in ${daysUntilDeadline} days` : `Deadline: ${formattedDeadline}`;
+      }
 
       const descriptionParts = [];
       if (opp.description) descriptionParts.push(opp.description);
@@ -370,7 +377,7 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
         title: opp.name,
         description: description,
         icon: typeIcon,
-        status: isPast ? "Closed" : isClosingSoon ? `Closes in ${daysUntilDeadline} days` : `Deadline: ${formattedDeadline}`,
+        status: status,
         meta: opp.prize_amount || opp.eligibility || "",
         tags: opp.focus_areas?.slice(0, 3) || [],
         cta: "Learn More →",
@@ -616,38 +623,51 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
         </section>
       )}
 
-      {/* Upcoming Opportunities (from separate table) */}
-      {upcomingOpportunities.length > 0 && (
-        <section className="mb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="mb-6"
-          >
-            <div className="flex items-center gap-3 mb-3">
-              <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-yellow-500/50 to-transparent" />
-              <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Deadlines</h2>
-              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-white/50">{upcomingOpportunities.length}</span>
-            </div>
-            <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight">Upcoming Opportunities</h2>
-            <p className="text-white/40 font-light text-sm">Time-sensitive pitch competitions, grants, and accelerator applications</p>
-          </motion.div>
+      {/* Upcoming Opportunities (from separate table) - filter out closed ones */}
+      {(() => {
+        const now = new Date();
+        now.setHours(0, 0, 0, 0);
+        const activeUpcoming = upcomingOpportunities.filter(opp => {
+          if (!opp.deadline) return true;
+          const deadline = new Date(opp.deadline);
+          deadline.setHours(0, 0, 0, 0);
+          return deadline >= now;
+        });
 
-          <div
-            className="cursor-pointer"
-            onClick={(e) => {
-              const link = e.target.closest('[data-link]')?.getAttribute('data-link');
-              if (link) window.open(link, '_blank');
-            }}
-          >
-            <BentoGrid items={convertUpcomingToBentoItems(upcomingOpportunities).map((item, idx) => ({
-              ...item,
-              'data-link': upcomingOpportunities[idx].link
-            }))} />
-          </div>
-        </section>
-      )}
+        if (activeUpcoming.length === 0) return null;
+
+        return (
+          <section className="mb-16">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="mb-6"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-yellow-500/50 to-transparent" />
+                <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Deadlines</h2>
+                <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/5 text-white/50">{activeUpcoming.length}</span>
+              </div>
+              <h2 className="text-xl md:text-2xl font-semibold text-white mb-2 tracking-tight">Upcoming Opportunities</h2>
+              <p className="text-white/40 font-light text-sm">Time-sensitive pitch competitions, grants, and accelerator applications</p>
+            </motion.div>
+
+            <div
+              className="cursor-pointer"
+              onClick={(e) => {
+                const link = e.target.closest('[data-link]')?.getAttribute('data-link');
+                if (link) window.open(link, '_blank');
+              }}
+            >
+              <BentoGrid items={convertUpcomingToBentoItems(activeUpcoming).map((item, idx) => ({
+                ...item,
+                'data-link': activeUpcoming[idx].link
+              }))} />
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Grants Section */}
       {grants.length > 0 && (
