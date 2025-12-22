@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Box, Megaphone, Settings, Brain, X } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 const phases = [
   {
@@ -172,23 +172,17 @@ const dimensions = [
 ];
 
 function MatrixCellModal({ isOpen, onClose, dimension, phase, question, subtext, troubleshootingQuestions }) {
+  if (!isOpen) return null;
+
   return (
-    <AnimatePresence>
-      {isOpen && (
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
-          onClick={onClose}
-        >
-          <motion.div
-            initial={{ scale: 0.95, y: 20 }}
-            animate={{ scale: 1, y: 0 }}
-            exit={{ scale: 0.95, y: 20 }}
-            className="bg-[#0A0A0A] border border-white/[0.15] rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
-            onClick={(e) => e.stopPropagation()}
-          >
+    <div
+      className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
+      onClick={onClose}
+    >
+      <div
+        className="bg-[#0A0A0A] border border-white/[0.15] rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+        onClick={(e) => e.stopPropagation()}
+      >
             <div className="bg-white/[0.04] border-b border-white/[0.1] p-6 flex items-start justify-between sticky top-0 backdrop-blur-xl">
               <div className="flex-1">
                 <div className="text-xs text-blue-400 mb-1 uppercase tracking-wider">
@@ -234,10 +228,8 @@ function MatrixCellModal({ isOpen, onClose, dimension, phase, question, subtext,
                 </p>
               </div>
             </div>
-          </motion.div>
-        </motion.div>
-      )}
-    </AnimatePresence>
+      </div>
+    </div>
   );
 }
 
@@ -258,7 +250,6 @@ export default function MaturityMatrix() {
         </div>
         <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">
           Startup Maturity Matrix
-          <span className="ml-3 bg-green-500/20 text-green-400 text-xs font-bold px-2 py-1 rounded-full border border-green-500/30 align-middle">FREE</span>
         </h2>
         <p className="text-white/40 font-light text-sm md:text-base leading-relaxed max-w-3xl">
           A framework to diagnose where you are and identify your next focus area across four critical dimensions
@@ -302,15 +293,16 @@ export default function MaturityMatrix() {
             {dimension.cells.map((cell, index) => (
               <motion.button
                 key={index}
-                onClick={() =>
+                onClick={() => {
+                  console.log("Cell clicked!", dimension.label, index + 1);
                   setSelectedCell({
                     dimension: dimension.label,
                     phase: index + 1,
                     question: cell.question,
                     subtext: cell.subtext,
                     troubleshootingQuestions: cell.troubleshootingQuestions,
-                  })
-                }
+                  });
+                }}
                 whileHover={{ scale: 1.02, borderColor: "rgba(96, 165, 250, 0.3)" }}
                 whileTap={{ scale: 0.98 }}
                 className="bg-white/[0.06] border border-white/[0.08] hover:border-blue-500/30 rounded-lg p-4 md:p-6 transition-all text-left group"
