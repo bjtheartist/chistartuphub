@@ -5,6 +5,7 @@ import { QueryClientProvider } from '@tanstack/react-query'
 import { queryClientInstance } from '@/lib/query-client'
 import { pagesConfig } from './pages.config'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 
 const { Pages, Layout, mainPage } = pagesConfig;
 const mainPageKey = mainPage ?? Object.keys(Pages)[0];
@@ -47,6 +48,7 @@ function App() {
         </LayoutWrapper>
       </Router>
       <Toaster />
+      <Analytics />
     </QueryClientProvider>
   )
 }
