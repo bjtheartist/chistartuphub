@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { supabase } from "@/api/supabaseClient";
 import { toast } from "sonner";
 
-const PDF_URL = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68fad57ce6a6914f0fbc124a/3ec6c8ceb_StartupMatrixToolkit.pdf";
+const PDF_URL = "https://fbgxeinarhbrqatrsuoj.supabase.co/storage/v1/object/public/ChiStartup%20Hub%20Startup%20Maturity%20Atlas/ChiStartuphub%20Startup%20Maturity%20Atlas.docx%20(4).pdf";
 
 export default function DownloadToolkitModal({ isOpen, onClose }) {
   const [email, setEmail] = useState("");
