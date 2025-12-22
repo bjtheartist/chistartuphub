@@ -219,7 +219,7 @@ export default function FundingOpportunitiesContent({ opportunities = [], upcomi
   return (
     <div>
       {/* Quick Filter Tabs */}
-      <div className="mb-6 overflow-x-auto scrollbar-hide">
+      <div className="mb-6 -mx-4 px-4 md:mx-0 md:px-0 overflow-x-auto scrollbar-hide" style={{ WebkitOverflowScrolling: 'touch' }}>
         <div className="flex gap-2 min-w-max pb-2">
           {quickTabs.map((tab) => {
             const Icon = tab.icon;
