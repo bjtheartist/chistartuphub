@@ -135,6 +135,10 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
 
   const filteredOpportunities = useMemo(() => {
     return opportunities.filter((item) => {
+      // Always filter out closed opportunities (deadline has passed)
+      const status = getDeadlineStatus(item);
+      if (status === 'closed') return false;
+
       // Focus area filter
       if (focusFilter !== "all") {
         const sectors = getOpportunitySectors(item);
@@ -174,9 +178,8 @@ export default function FundingOpportunitiesContent({ opportunities, upcomingOpp
 
       // Deadline status filter
       if (deadlineStatusFilter !== "all") {
-        const status = getDeadlineStatus(item);
-        if (status === 'closed') return false;
-        if (deadlineStatusFilter !== status) {
+        const itemStatus = getDeadlineStatus(item);
+        if (deadlineStatusFilter !== itemStatus) {
           return false;
         }
       }
