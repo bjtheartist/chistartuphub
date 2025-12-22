@@ -61,36 +61,47 @@ export default function Stories() {
 
   // Helper to get founder name(s) from founders array or founder_name
   const getFounderName = (story) => {
-    if (story.founder_name) return story.founder_name;
+    // New Supabase schema uses 'founders' array
     if (story.founders && Array.isArray(story.founders)) {
       return story.founders.join(', ');
     }
+    // Old Base44 schema used 'founder_name' string
+    if (story.founder_name) return story.founder_name;
     return 'Unknown Founder';
   };
 
   // Helper to get journey summary/description
   const getJourneySummary = (story) => {
-    return story.journey_summary || story.description || story.tagline || '';
+    // New Supabase schema uses 'description'
+    // Old Base44 schema used 'journey_summary'
+    return story.description || story.journey_summary || story.tagline || '';
   };
 
   // Helper to get category/sector
   const getCategory = (story) => {
-    return story.category || story.sector || 'Technology';
+    // New Supabase schema uses 'sector'
+    // Old Base44 schema used 'category'
+    return story.sector || story.category || 'Technology';
   };
 
   // Helper to get exit value/valuation
   const getExitValue = (story) => {
-    return story.exit_value || story.valuation || story.funding_raised || '';
+    // New Supabase schema uses 'funding_raised' or 'valuation'
+    return story.funding_raised || story.valuation || story.exit_value || '';
   };
 
   // Helper to get founded year
   const getFounded = (story) => {
-    return story.founded || story.founded_year || '';
+    // New Supabase schema uses 'founded_year'
+    // Old Base44 schema used 'founded'
+    return story.founded_year || story.founded || '';
   };
 
   // Helper to get primary power/moat
   const getPrimaryPower = (story) => {
-    return story.primary_power || story.competitive_moat || '';
+    // New Supabase schema uses 'competitive_moat'
+    // Old Base44 schema used 'primary_power'
+    return story.competitive_moat || story.primary_power || '';
   };
 
   // Helper function to check if a company is a unicorn

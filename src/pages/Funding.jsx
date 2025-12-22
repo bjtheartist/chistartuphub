@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { DollarSign, TrendingUp, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { entities } from "@/api/supabaseClient";
@@ -10,7 +11,17 @@ import SEO from "@/components/SEO";
 import PageHero from "@/components/ui/page-hero";
 
 export default function Funding() {
-  const [activeTab, setActiveTab] = useState("news");
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const tabParam = searchParams.get('tab');
+  const [activeTab, setActiveTab] = useState(tabParam === 'opportunities' ? 'opportunities' : 'news');
+
+  // Update tab when URL param changes
+  useEffect(() => {
+    if (tabParam === 'opportunities') {
+      setActiveTab('opportunities');
+    }
+  }, [tabParam]);
 
   const { data: opportunities, isLoading: opportunitiesLoading, error: opportunitiesError } = useQuery({
     queryKey: ['funding-opportunities'],
@@ -84,29 +95,31 @@ export default function Funding() {
           className="flex justify-center mb-10 md:mb-12 px-2"
         >
           <div className="bg-white/[0.03] p-1.5 rounded-xl border border-white/[0.08] inline-flex gap-1 backdrop-blur-md flex-col sm:flex-row w-full sm:w-auto">
-            <Button
-              onClick={() => setActiveTab("news")}
-              className={`rounded-lg px-5 py-2.5 text-sm transition-all duration-300 justify-center ${
-                activeTab === "news" 
-                  ? "bg-white/[0.1] text-white shadow-sm" 
-                  : "bg-transparent text-white/50 hover:text-white hover:bg-white/[0.05]"
-              }`}
-            >
-              <TrendingUp className="w-4 h-4 mr-2 flex-shrink-0" />
-              <span>Capital Insights</span>
-              <span className="ml-2 text-[10px] px-1.5 py-0.5 rounded-full bg-white/10 text-white/70">{news.length}</span>
-            </Button>
+            {/* Opportunities tab - first on mobile, second on desktop */}
             <Button
               onClick={() => setActiveTab("opportunities")}
-              className={`rounded-lg px-5 py-2.5 text-sm transition-all duration-300 justify-center ${
-                activeTab === "opportunities" 
-                  ? "bg-white/[0.1] text-white shadow-sm" 
+              className={`rounded-lg px-5 py-2.5 text-sm transition-all duration-300 justify-center order-first sm:order-last ${
+                activeTab === "opportunities"
+                  ? "bg-white/[0.1] text-white shadow-sm"
                   : "bg-transparent text-white/50 hover:text-white hover:bg-white/[0.05]"
               }`}
             >
               <DollarSign className="w-4 h-4 mr-2 flex-shrink-0" />
               <span>Opportunities</span>
               <span className="ml-2 text-[10px] px-1.5 py-0.5 rounded-full bg-white/10 text-white/70">{opportunities.length + upcomingOpportunities.length}</span>
+            </Button>
+            {/* Capital Insights tab - second on mobile, first on desktop */}
+            <Button
+              onClick={() => setActiveTab("news")}
+              className={`rounded-lg px-5 py-2.5 text-sm transition-all duration-300 justify-center order-last sm:order-first ${
+                activeTab === "news"
+                  ? "bg-white/[0.1] text-white shadow-sm"
+                  : "bg-transparent text-white/50 hover:text-white hover:bg-white/[0.05]"
+              }`}
+            >
+              <TrendingUp className="w-4 h-4 mr-2 flex-shrink-0" />
+              <span>Capital Insights</span>
+              <span className="ml-2 text-[10px] px-1.5 py-0.5 rounded-full bg-white/10 text-white/70">{news.length}</span>
             </Button>
           </div>
         </motion.div>

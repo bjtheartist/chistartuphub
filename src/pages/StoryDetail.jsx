@@ -43,6 +43,19 @@ export default function StoryDetail() {
     return null;
   }, [stories, slug, storyId]);
 
+  // Helper functions to map between Supabase and old schema field names
+  const getFounderName = (s) => {
+    if (s.founders && Array.isArray(s.founders)) return s.founders.join(', ');
+    return s.founder_name || 'Unknown Founder';
+  };
+
+  const getJourneySummary = (s) => s.description || s.journey_summary || s.tagline || '';
+  const getCategory = (s) => s.sector || s.category || 'Technology';
+  const getFounded = (s) => s.founded_year || s.founded || '';
+  const getExitValue = (s) => s.funding_raised || s.valuation || s.exit_value || '';
+  const getPrimaryPower = (s) => s.competitive_moat || s.primary_power || '';
+  const getSecondaryPower = (s) => s.moat_description || s.secondary_power || '';
+
   const powerIcons = {
     "Scale Economies": Zap,
     "Network Effects": Users,
@@ -106,10 +119,10 @@ export default function StoryDetail() {
   return (
     <div className="min-h-screen py-20 px-6">
       {story && (
-        <SEO 
-          title={`${story.company_name} - ${story.founder_name} | Chicago Lore`}
-          description={story.journey_summary?.substring(0, 160) + "..."}
-          image={story.image_url}
+        <SEO
+          title={`${story.company_name} - ${getFounderName(story)} | Chicago Lore`}
+          description={getJourneySummary(story)?.substring(0, 160) + "..."}
+          image={story.image_url || story.logo_url}
           type="article"
         />
       )}
@@ -126,17 +139,17 @@ export default function StoryDetail() {
         <div className="glass-card p-8 md:p-12 rounded-3xl border border-white/10 mb-8">
           <div className="flex flex-wrap gap-2 mb-4">
             <Badge className="bg-white/10 text-white border-white/20">
-              {story.category}
+              {getCategory(story)}
             </Badge>
-            {story.founded && <Badge className="bg-white/10 text-white border-white/20">Founded {story.founded}</Badge>}
+            {getFounded(story) && <Badge className="bg-white/10 text-white border-white/20">Founded {getFounded(story)}</Badge>}
             {story.exit_status && <Badge className="bg-purple-500/20 text-purple-300 border-purple-400/30">{story.exit_status}</Badge>}
-            {story.exit_value && <Badge className="bg-green-500/20 text-green-300 border-green-400/30">{story.exit_value}</Badge>}
+            {getExitValue(story) && <Badge className="bg-green-500/20 text-green-300 border-green-400/30">{getExitValue(story)}</Badge>}
           </div>
-          
+
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
             {story.company_name}
           </h1>
-          <p className="text-2xl text-white/80 mb-6">{story.founder_name}</p>
+          <p className="text-2xl text-white/80 mb-6">{getFounderName(story)}</p>
           
           {story.website && (
             <a href={story.website} target="_blank" rel="noopener noreferrer" className="inline-block mb-4 mr-4">
@@ -166,27 +179,27 @@ export default function StoryDetail() {
             <TrendingUp className="w-8 h-8 text-blue-400" />
             The Journey
           </h2>
-          <p className="text-xl text-white/80 leading-relaxed">{story.journey_summary}</p>
+          <div className="text-lg text-white/80 leading-relaxed whitespace-pre-line">{getJourneySummary(story)}</div>
         </div>
 
         {/* Competitive Moats */}
-        {(story.primary_power || story.secondary_power) && (
+        {(getPrimaryPower(story) || getSecondaryPower(story)) && (
           <div className="glass-card p-8 rounded-3xl border border-white/10 mb-8">
             <h2 className="text-3xl font-bold text-white mb-6 flex items-center gap-3">
               <Award className="w-8 h-8 text-yellow-400" />
               Competitive Moats
             </h2>
             <div className="grid md:grid-cols-2 gap-4 mb-6">
-              {story.primary_power && (
+              {getPrimaryPower(story) && (
                 <div className="glass-card p-6 rounded-2xl border border-blue-400/30 bg-blue-500/10">
                   <p className="text-blue-400 text-sm font-semibold mb-2">PRIMARY MOAT</p>
-                  <p className="text-2xl font-bold text-white">{story.primary_power}</p>
+                  <p className="text-2xl font-bold text-white">{getPrimaryPower(story)}</p>
                 </div>
               )}
-              {story.secondary_power && (
+              {getSecondaryPower(story) && (
                 <div className="glass-card p-6 rounded-2xl border border-purple-400/30 bg-purple-500/10">
-                  <p className="text-purple-400 text-sm font-semibold mb-2">SECONDARY MOAT</p>
-                  <p className="text-2xl font-bold text-white">{story.secondary_power}</p>
+                  <p className="text-purple-400 text-sm font-semibold mb-2">MOAT DESCRIPTION</p>
+                  <p className="text-base text-white/90 leading-relaxed">{getSecondaryPower(story)}</p>
                 </div>
               )}
             </div>
@@ -317,7 +330,7 @@ export default function StoryDetail() {
         {/* Call to Action */}
         <div className="glass-card p-8 rounded-3xl border border-white/10 text-center">
           <h3 className="text-2xl font-bold text-white mb-4">
-            Inspired by {story.founder_name}'s Journey?
+            Inspired by {getFounderName(story)}'s Journey?
           </h3>
           <p className="text-white/70 mb-6">
             Explore more founder stories and discover the resources that helped them succeed.

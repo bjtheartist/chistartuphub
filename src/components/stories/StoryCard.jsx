@@ -8,15 +8,15 @@ const StoryCard = memo(function StoryCard({ story, size = "default" }) {
     large: "h-96"
   };
 
-  // Helper to get category/sector
-  const getCategory = () => story.category || story.sector || 'Technology';
+  // Helper to get category/sector (Supabase uses 'sector')
+  const getCategory = () => story.sector || story.category || 'Technology';
 
-  // Helper to get founder name(s)
+  // Helper to get founder name(s) (Supabase uses 'founders' array)
   const getFounderName = () => {
-    if (story.founder_name) return story.founder_name;
     if (story.founders && Array.isArray(story.founders)) {
       return story.founders.join(', ');
     }
+    if (story.founder_name) return story.founder_name;
     return 'Unknown Founder';
   };
 
