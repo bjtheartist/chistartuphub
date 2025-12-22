@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { createPortal } from "react-dom";
 import { Box, Megaphone, Settings, Brain, X } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -174,10 +175,11 @@ const dimensions = [
 function MatrixCellModal({ isOpen, onClose, dimension, phase, question, subtext, troubleshootingQuestions }) {
   if (!isOpen) return null;
 
-  return (
+  return createPortal(
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
+      className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
       onClick={onClose}
+      style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0 }}
     >
       <div
         className="bg-[#0A0A0A] border border-white/[0.15] rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
@@ -229,7 +231,8 @@ function MatrixCellModal({ isOpen, onClose, dimension, phase, question, subtext,
               </div>
             </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
 

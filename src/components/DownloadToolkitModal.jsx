@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { createPortal } from "react-dom";
 import { X, Download, Mail, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -47,10 +48,11 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
 
   if (!isOpen) return null;
 
-  return (
+  return createPortal(
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
+      className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
       onClick={onClose}
+      style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0 }}
     >
       <div
         className="bg-[#0A0A0A] border border-white/[0.15] rounded-xl max-w-md w-full overflow-hidden"
@@ -131,6 +133,7 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
               </p>
             </form>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
