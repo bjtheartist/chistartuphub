@@ -11,10 +11,10 @@ export default function AcceleratorsIncubators() {
   const [activeFilter, setActiveFilter] = useState("all");
   const [showFilters, setShowFilters] = useState(false);
 
-  const { data: programs, isLoading, error } = useQuery({
+  const { data: programs = [], isLoading, error } = useQuery({
     queryKey: ['accelerators'],
     queryFn: () => entities.Accelerator.list('-created_date'),
-    initialData: [],
+    staleTime: 1000 * 60 * 5, // 5 minutes
   });
 
   const filterCategories = [

@@ -11,10 +11,10 @@ import PageHero from "@/components/ui/page-hero";
 export default function Community() {
   const [searchQuery, setSearchQuery] = useState("");
 
-  const { data: communities, isLoading, error } = useQuery({
+  const { data: communities = [], isLoading, error } = useQuery({
     queryKey: ['communities'],
     queryFn: () => entities.Community.list('-created_date'),
-    initialData: [],
+    staleTime: 1000 * 60 * 5, // 5 minutes
   });
 
   const filteredCommunities = communities.filter(community => {

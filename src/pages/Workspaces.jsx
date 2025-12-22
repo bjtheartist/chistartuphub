@@ -25,10 +25,10 @@ export default function Workspaces() {
   const [showFilters, setShowFilters] = useState(false);
   const [viewMode, setViewMode] = useState("list"); // "list" or "map"
 
-  const { data: workspaces, isLoading, error } = useQuery({
+  const { data: workspaces = [], isLoading, error } = useQuery({
     queryKey: ['workspaces'],
     queryFn: () => entities.Workspace.list('-created_date'),
-    initialData: [],
+    staleTime: 1000 * 60 * 5, // 5 minutes
   });
 
   const categories = [

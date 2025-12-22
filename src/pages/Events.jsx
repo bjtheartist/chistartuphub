@@ -11,10 +11,10 @@ import PageHero from "@/components/ui/page-hero";
 export default function Events() {
   const [searchQuery, setSearchQuery] = useState("");
 
-  const { data: eventHubs, isLoading, error } = useQuery({
+  const { data: eventHubs = [], isLoading, error } = useQuery({
     queryKey: ['event-hubs'],
     queryFn: () => entities.EventHub.list('-created_date'),
-    initialData: [],
+    staleTime: 1000 * 60 * 5, // 5 minutes
   });
 
   const filteredHubs = eventHubs.filter(hub => {
@@ -119,7 +119,7 @@ export default function Events() {
                       {hub.description}
                     </p>
 
-                    <a href={hub.link} target="_blank" rel="noopener noreferrer" className="mt-auto">
+                    <a href={hub.registration_link} target="_blank" rel="noopener noreferrer" className="mt-auto">
                       <Button className="w-full bg-blue-600/10 hover:bg-blue-600/20 text-blue-400 hover:text-blue-300 border border-blue-500/20 hover:border-blue-500/30 transition-all duration-300 group/btn">
                         Visit Event Calendar
                         <ExternalLink className="w-3.5 h-3.5 ml-2 group-hover/btn:translate-x-0.5 transition-transform" />
@@ -160,7 +160,7 @@ export default function Events() {
                       {hub.description}
                     </p>
 
-                    <a href={hub.link} target="_blank" rel="noopener noreferrer" className="mt-auto">
+                    <a href={hub.registration_link} target="_blank" rel="noopener noreferrer" className="mt-auto">
                       <Button className="w-full bg-white/5 hover:bg-white/10 text-white/60 hover:text-white border border-white/5 hover:border-white/10 text-sm transition-all duration-300 group/btn h-9">
                         Visit Event Calendar
                         <ExternalLink className="w-3 h-3 ml-2 group-hover/btn:translate-x-0.5 transition-transform" />
