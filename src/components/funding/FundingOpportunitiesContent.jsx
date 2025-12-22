@@ -18,12 +18,10 @@ export default function FundingOpportunitiesContent({ opportunities = [], upcomi
   const [page, setPage] = useState(0);
 
   const quickTabs = [
-    { id: "all", label: "All", icon: null },
-    { id: "hot", label: "Hot Deadlines", icon: Flame, color: "text-orange-400" },
-    { id: "Grant", label: "Grants", icon: DollarSign, color: "text-green-400" },
-    { id: "Accelerator", label: "Accelerators", icon: Rocket, color: "text-orange-400" },
-    { id: "Competition", label: "Competitions", icon: Award, color: "text-yellow-400" },
-    { id: "VC", label: "Venture Capital", icon: TrendingUp, color: "text-blue-400" },
+    { id: "all", label: "All" },
+    { id: "hot", label: "🔥 Hot" },
+    { id: "Grant", label: "Grants" },
+    { id: "VC", label: "VC" },
   ];
 
   const focusAreas = [
@@ -217,12 +215,11 @@ export default function FundingOpportunitiesContent({ opportunities = [], upcomi
   };
 
   return (
-    <div className="overflow-visible">
-      {/* Quick Filter Tabs */}
-      <div className="mb-6 overflow-x-auto scrollbar-hide pb-1" style={{ WebkitOverflowScrolling: 'touch' }}>
-        <div className="flex gap-2 w-max">
+    <div>
+      {/* Quick Filter Tabs - compact row that fits on mobile */}
+      <div className="mb-6">
+        <div className="flex gap-1.5 sm:gap-2">
           {quickTabs.map((tab) => {
-            const Icon = tab.icon;
             const count = tabCounts[tab.id] || 0;
             const isActive = activeTab === tab.id;
 
@@ -230,15 +227,14 @@ export default function FundingOpportunitiesContent({ opportunities = [], upcomi
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-300 whitespace-nowrap ${
+                className={`flex-1 flex items-center justify-center gap-1 px-2 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-300 ${
                   isActive
                     ? 'bg-white/10 text-white border border-white/20'
                     : 'bg-white/[0.03] text-white/60 border border-white/[0.06] hover:bg-white/[0.06] hover:text-white/80'
                 }`}
               >
-                {Icon && <Icon className={`w-4 h-4 ${isActive ? tab.color : 'text-white/40'}`} />}
                 <span>{tab.label}</span>
-                <span className={`text-xs px-1.5 py-0.5 rounded-full ${
+                <span className={`text-[10px] sm:text-xs px-1 sm:px-1.5 py-0.5 rounded-full ${
                   isActive ? 'bg-white/20' : 'bg-white/[0.06]'
                 }`}>
                   {count}
