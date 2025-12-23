@@ -287,7 +287,7 @@ export default function MaturityMatrix() {
   const [selectedCell, setSelectedCell] = useState(null);
 
   return (
-    <section className="mb-28">
+    <section id="maturity-matrix" className="mb-28">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

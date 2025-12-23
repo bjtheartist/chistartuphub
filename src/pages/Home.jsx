@@ -277,7 +277,7 @@ export default function Home() {
             badgeHref={createPageUrl("Stories")}
             ctaButtons={[
             { text: "Why Chicago?", href: createPageUrl("WhyChicago"), primary: true },
-            { text: "Explore Resources", href: "#resources", onClick: scrollToResources }]
+            { text: "Start Here", href: createPageUrl("before-you-start") }]
             }
             microDetails={[
             "90+ investors",

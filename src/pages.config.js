@@ -15,6 +15,10 @@ const Community = lazy(() => import('./pages/Community'));
 const About = lazy(() => import('./pages/About'));
 const SubmitResource = lazy(() => import('./pages/SubmitResource'));
 const Contact = lazy(() => import('./pages/Contact'));
+const BeforeYouStart = lazy(() => import('./pages/BeforeYouStart'));
+const NavigatePaths = lazy(() => import('./pages/NavigatePaths'));
+const BusinessTypeExplorer = lazy(() => import('./pages/BusinessTypeExplorer'));
+const HumanHelp = lazy(() => import('./pages/HumanHelp'));
 
 export const PAGES = {
     "Home": Home,
@@ -31,6 +35,10 @@ export const PAGES = {
     "About": About,
     "SubmitResource": SubmitResource,
     "Contact": Contact,
+    "before-you-start": BeforeYouStart,
+    "navigate-toolkit": NavigatePaths,
+    "business-type-explorer": BusinessTypeExplorer,
+    "human-help": HumanHelp,
 }
 
 export const pagesConfig = {
