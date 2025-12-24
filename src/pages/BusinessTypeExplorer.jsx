@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Lightbulb, Handshake, Store, Code, HelpCircle, ArrowRight, ArrowLeft } from "lucide-react";
+import { Lightbulb, Handshake, Store, Code, HelpCircle, ArrowRight, ArrowLeft, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SEO from "@/components/SEO";
 import { motion } from "framer-motion";
@@ -8,6 +8,9 @@ import { motion } from "framer-motion";
 export default function BusinessTypeExplorer() {
   const navigate = useNavigate();
   const [selectedType, setSelectedType] = useState(null);
+  const [showCompass, setShowCompass] = useState(false);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [compassAnswers, setCompassAnswers] = useState({});
 
   const businessTypes = [
     {
@@ -86,22 +89,312 @@ export default function BusinessTypeExplorer() {
     }
   };
 
+  // 3-Question Compass
+  const compassQuestions = [
+    {
+      id: 'revenue',
+      question: 'What creates the money?',
+      description: 'When you get paid, it\'s usually because...',
+      answers: [
+        { id: 'a', label: 'We delivered work for a specific client/customer (time-for-money)', value: 'time' },
+        { id: 'b', label: 'People buy a product that\'s mostly the same each time (product-for-money)', value: 'product' },
+        { id: 'c', label: 'Not sure yet', value: 'unsure' }
+      ]
+    },
+    {
+      id: 'location',
+      question: 'Is the business location-bound?',
+      description: 'Does the business depend on a physical location to deliver the core value?',
+      answers: [
+        { id: 'a', label: 'Yes (customers come to us / we operate in a local service area)', value: 'yes' },
+        { id: 'b', label: 'No (we can sell/deliver beyond one place)', value: 'no' },
+        { id: 'c', label: 'Not sure yet', value: 'unsure' }
+      ]
+    },
+    {
+      id: 'growth',
+      question: 'What has to expand to grow 10×?',
+      description: 'If you had 10× more customers next month, what must increase first?',
+      answers: [
+        { id: 'a', label: 'More people-hours (hiring/service capacity)', value: 'people' },
+        { id: 'b', label: 'More physical capacity (locations, vehicles, equipment, floor space)', value: 'physical' },
+        { id: 'c', label: 'More scalable throughput (servers, automation, inventory/fulfillment/manufacturing)', value: 'scalable' },
+        { id: 'd', label: 'Not sure yet', value: 'unsure' }
+      ]
+    }
+  ];
+
+  const getCompassResult = () => {
+    const { revenue, location, growth } = compassAnswers;
+
+    // Small Business: location-bound OR requires physical capacity
+    if (location === 'yes' || growth === 'physical') {
+      return {
+        type: 'small-business',
+        title: 'Small Business',
+        description: 'Success is tied to a local market and/or physical operations.',
+        resources: [
+          { name: 'City of Chicago BACP Small Business Center', url: 'https://www.chicago.gov/city/en/sites/chicago-business-licensing/home.html' },
+          { name: 'Chicago Business Centers (CBC) Program', url: 'https://www.chicago.gov/city/en/depts/bacp/supp_info/chicagobusinesscenters.html' },
+          { name: 'Illinois SBDC Network', url: 'https://dceo.illinois.gov/smallbizassistance/beginhere/sbdc.html' },
+          { name: 'Women\'s Business Development Center', url: 'https://www.wbdc.org/en/' }
+        ]
+      };
+    }
+
+    // Service Business: time-for-money OR requires people-hours
+    if (revenue === 'time' || growth === 'people') {
+      return {
+        type: 'service-business',
+        title: 'Service Business',
+        description: 'Revenue is tied to your time or your team\'s time.',
+        resources: [
+          { name: 'SCORE Chicago (Free Mentoring)', url: 'https://www.score.org/chicago' },
+          { name: 'Illinois SBDC at Polsky Exchange (UChicago)', url: 'https://polsky.uchicago.edu/polsky-exchange/small-business-development-center/' },
+          { name: 'Women\'s Business Development Center', url: 'https://www.wbdc.org/en/' },
+          { name: 'Illinois SBDC at Chicagoland Chamber', url: 'https://www.chicagolandchamber.org/sbdc/' }
+        ]
+      };
+    }
+
+    // Startup: product-for-money OR requires scalable throughput
+    if (revenue === 'product' || growth === 'scalable') {
+      return {
+        type: 'startup',
+        title: 'Startup (Scalable Product)',
+        description: 'Growth isn\'t tied 1:1 to hours worked. You\'re building a scalable system.',
+        resources: [
+          { name: 'Startup Resources', url: '/Resources' },
+          { name: 'Founder Guides', url: '/Resources#guides' }
+        ]
+      };
+    }
+
+    // Default: still unsure
+    return {
+      type: 'unsure',
+      title: 'Need More Context?',
+      description: 'Read these quick primers to clarify your path:',
+      resources: [
+        { name: 'Kauffman Foundation: Tale of Two Entrepreneurs', url: 'https://www.kauffman.org/reports/a-tale-of-two-entrepreneurs-understanding-differences-in-the-types-of-entrepreneurship-in-the-economy/' },
+        { name: 'Michigan SBDC: Are You Ready to Start?', url: 'https://michigansbdc.org/starting-a-business/are-you-ready-to-start-a-small-business/' }
+      ]
+    };
+  };
+
   const handleSelection = (type) => {
     setSelectedType(type);
-    // Navigate based on selection
-    if (type === 'idea') {
-      navigate('/Resources#maturity-matrix');
-    } else if (type === 'service') {
-      navigate('/Resources');
-    } else if (type === 'small-biz') {
-      navigate('/Funding');
-    } else if (type === 'tech') {
-      navigate('/Resources');
-    } else if (type === 'unsure') {
-      navigate('/Community');
+
+    // If "unsure" or "idea", show compass instead of navigating
+    if (type === 'unsure' || type === 'idea') {
+      setShowCompass(true);
+      setCurrentQuestion(0);
+      setCompassAnswers({});
+    } else {
+      // Direct navigation for known types
+      if (type === 'service') {
+        navigate('/Resources');
+      } else if (type === 'small-biz') {
+        navigate('/Funding');
+      } else if (type === 'tech') {
+        navigate('/Resources');
+      }
     }
   };
 
+  const handleCompassAnswer = (questionId, answerValue) => {
+    setCompassAnswers(prev => ({
+      ...prev,
+      [questionId]: answerValue
+    }));
+
+    // Move to next question if not last
+    if (currentQuestion < compassQuestions.length - 1) {
+      setCurrentQuestion(currentQuestion + 1);
+    }
+  };
+
+  const handleCompassComplete = () => {
+    // Show results (we'll display them instead of navigate)
+    setShowCompass('results');
+  };
+
+  const handleCompassBackToTypes = () => {
+    setShowCompass(false);
+    setSelectedType(null);
+    setCurrentQuestion(0);
+    setCompassAnswers({});
+  };
+
+  // Show compass questions
+  if (showCompass === true) {
+    const question = compassQuestions[currentQuestion];
+    const isLastQuestion = currentQuestion === compassQuestions.length - 1;
+
+    return (
+      <div className="min-h-screen py-12 md:py-20 px-4 md:px-6">
+        <SEO title="3-Question Compass" description="Answer 3 quick questions to find your path" />
+        <div className="max-w-2xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+            {/* Progress */}
+            <div className="mb-8">
+              <div className="flex gap-2 mb-2">
+                {compassQuestions.map((_, idx) => (
+                  <div
+                    key={idx}
+                    className={`h-1 flex-1 rounded-full transition-all ${
+                      idx <= currentQuestion ? 'bg-blue-500' : 'bg-white/10'
+                    }`}
+                  />
+                ))}
+              </div>
+              <p className="text-white/60 text-sm">
+                Question {currentQuestion + 1} of {compassQuestions.length}
+              </p>
+            </div>
+
+            {/* Question */}
+            <div className="mb-8">
+              <h2 className="text-3xl font-bold text-white mb-2">{question.question}</h2>
+              <p className="text-white/60">{question.description}</p>
+            </div>
+
+            {/* Answer Options */}
+            <div className="space-y-3 mb-8">
+              {question.answers.map((answer) => (
+                <motion.button
+                  key={answer.id}
+                  onClick={() => {
+                    handleCompassAnswer(question.id, answer.value);
+                    if (isLastQuestion) {
+                      setTimeout(() => handleCompassComplete(), 300);
+                    }
+                  }}
+                  whileHover={{ x: 4 }}
+                  className="w-full text-left bg-white/[0.05] border border-white/[0.08] hover:border-blue-500/40 rounded-lg p-4 transition-all group"
+                >
+                  <div className="flex items-start gap-3">
+                    <div className="w-5 h-5 rounded-full border-2 border-white/30 group-hover:border-blue-400 flex-shrink-0 mt-0.5 flex items-center justify-center">
+                      {compassAnswers[question.id] === answer.value && (
+                        <div className="w-2.5 h-2.5 bg-blue-400 rounded-full" />
+                      )}
+                    </div>
+                    <p className="text-white group-hover:text-white/90 transition-colors">
+                      {answer.label}
+                    </p>
+                  </div>
+                </motion.button>
+              ))}
+            </div>
+
+            {/* Navigation */}
+            <div className="flex gap-4">
+              <Button
+                onClick={handleCompassBackToTypes}
+                variant="ghost"
+                className="text-white/60 hover:text-white/90"
+              >
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Back
+              </Button>
+              {isLastQuestion && compassAnswers[question.id] && (
+                <Button
+                  onClick={() => handleCompassComplete()}
+                  className="ml-auto bg-blue-600 hover:bg-blue-700"
+                >
+                  See Your Path
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              )}
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    );
+  }
+
+  // Show compass results
+  if (showCompass === 'results') {
+    const result = getCompassResult();
+
+    return (
+      <div className="min-h-screen py-12 md:py-20 px-4 md:px-6">
+        <SEO title="Your Path" description="Here's where you should focus" />
+        <div className="max-w-3xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+            {/* Result Header */}
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+                {result.title}
+              </h2>
+              <p className="text-xl text-white/70 mb-6">
+                {result.description}
+              </p>
+            </div>
+
+            {/* Resources */}
+            <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-8 mb-8">
+              <h3 className="text-xl font-semibold text-white mb-6">
+                Next Steps & Resources
+              </h3>
+              <div className="space-y-3">
+                {result.resources.map((resource, idx) => (
+                  <motion.a
+                    key={idx}
+                    href={resource.url}
+                    target={resource.url.startsWith('/') ? undefined : '_blank'}
+                    rel="noopener noreferrer"
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: idx * 0.1 }}
+                    className="block bg-white/[0.02] border border-white/[0.08] hover:border-blue-500/40 rounded-lg p-4 group transition-all"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-white font-medium group-hover:text-blue-300 transition-colors">
+                        {resource.name}
+                      </span>
+                      {resource.url.startsWith('http') && (
+                        <ExternalLink className="w-4 h-4 text-white/40 group-hover:text-blue-400 flex-shrink-0" />
+                      )}
+                    </div>
+                  </motion.a>
+                ))}
+              </div>
+            </div>
+
+            {/* Navigation */}
+            <div className="flex gap-4 justify-center">
+              <Button
+                onClick={handleCompassBackToTypes}
+                variant="ghost"
+                className="text-white/60 hover:text-white/90"
+              >
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Start Over
+              </Button>
+              <Button
+                onClick={() => navigate('/Resources')}
+                className="bg-blue-600 hover:bg-blue-700"
+              >
+                Go to Resources
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    );
+  }
+
+  // Default view: Business Type Selection
   return (
     <div className="min-h-screen py-12 md:py-20 px-4 md:px-6">
       <SEO
@@ -109,7 +402,7 @@ export default function BusinessTypeExplorer() {
         description="Figure out what type of business you're building and get the right resources for your situation."
         keywords="business type, startup vs small business, service business, Chicago founders"
       />
-      
+
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -131,7 +424,7 @@ export default function BusinessTypeExplorer() {
             {businessTypes.map((type, index) => {
               const colors = colorClasses[type.color];
               const Icon = type.icon;
-              
+
               return (
                 <motion.button
                   key={type.id}
@@ -144,13 +437,13 @@ export default function BusinessTypeExplorer() {
                   className={`${colors.bg} border ${colors.border} ${colors.hover} rounded-xl p-6 transition-all text-left group relative overflow-hidden`}
                 >
                   <div className="absolute inset-0 bg-gradient-to-br from-white/[0.02] to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                  
+
                   <div className="relative z-10 flex items-start gap-4">
                     {/* Icon */}
                     <div className={`${colors.text} flex-shrink-0`}>
                       <Icon className="w-8 h-8" strokeWidth={1.5} />
                     </div>
-                    
+
                     {/* Content */}
                     <div className="flex-1">
                       <h3 className="text-lg font-semibold text-white mb-1">
@@ -165,7 +458,7 @@ export default function BusinessTypeExplorer() {
                         {type.description}
                       </p>
                     </div>
-                    
+
                     {/* Arrow */}
                     <ArrowRight className="w-5 h-5 text-white/30 group-hover:text-white/60 group-hover:translate-x-1 transition-all flex-shrink-0 mt-1" />
                   </div>
