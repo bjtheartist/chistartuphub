@@ -8,7 +8,6 @@ import PageHero from "@/components/ui/page-hero";
 import MaturityMatrix from "@/components/resources/MaturityMatrix";
 import FounderGuidesSection from "@/components/resources/FounderGuidesSection";
 import AIToolsSection from "@/components/resources/AIToolsSection";
-import StayCurrentSection from "@/components/resources/StayCurrentSection";
 import OperationalToolsSection from "@/components/resources/OperationalToolsSection";
 import LearningResourcesSection from "@/components/resources/LearningResourcesSection";
 import GlossarySection from "@/components/resources/GlossarySection";
@@ -27,7 +26,6 @@ const TOOLKIT_SECTION_GROUPS = [
     sections: [
       { id: "guides", label: "Founder Guides" },
       { id: "ai", label: "AI Tools" },
-      { id: "stay-current", label: "Stay Current" },
       { id: "operational", label: "Operational Tools" },
       { id: "learning", label: "Learning Resources" },
     ]
@@ -149,11 +147,6 @@ export default function Resources() {
           {/* AI Tools Section */}
           {(selectedSection === "all" || selectedSection === "ai") && (
             <AIToolsSection searchQuery={searchQuery} />
-          )}
-
-          {/* Stay Current Section */}
-          {(selectedSection === "all" || selectedSection === "stay-current") && (
-            <StayCurrentSection />
           )}
 
           {/* Operational Tools Section */}

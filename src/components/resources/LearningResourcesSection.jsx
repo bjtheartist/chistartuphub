@@ -4,37 +4,70 @@ import { motion } from "framer-motion";
 
 const learningResources = [
   {
-    category: "Educational",
-    color: "bg-pink-400",
-    icon: "E",
-    items: [
-      { name: "Y Combinator Startup School", desc: "Free online course covering the fundamentals of starting a company", link: "https://www.startupschool.org/" },
-      { name: "How to Start a Startup (Stanford)", desc: "Free video series from Stanford featuring successful founders", link: "https://startupclass.samaltman.com/" },
-      { name: "Coursera - Machine Learning", desc: "Andrew Ng's famous course on machine learning fundamentals", link: "https://www.coursera.org/learn/machine-learning" },
-      { name: "The Mom Test", desc: "Learn how to talk to customers and validate your business idea", link: "http://momtestbook.com/" },
-    ],
-  },
-  {
-    category: "Thought Leadership",
-    color: "bg-teal-400",
-    icon: "T",
-    items: [
-      { name: "Paul Graham Essays", desc: "Influential essays on startups, technology, and entrepreneurship", link: "http://www.paulgraham.com/articles.html" },
-      { name: "First Round Review", desc: "In-depth articles and advice covering every aspect of building startups", link: "https://review.firstround.com/" },
-      { name: "NFX Growth Handbook", desc: "Tactical advice on growth strategies and network effects", link: "https://www.nfx.com/growth-handbook" },
-      { name: "Stripe Atlas Guides", desc: "Comprehensive guides on incorporating, fundraising, and growing", link: "https://stripe.com/guides" },
-    ],
-  },
-  {
-    category: "Fundraising",
+    category: "Essential Reading",
     color: "bg-indigo-400",
-    icon: "F",
+    icon: "📚",
     items: [
-      { name: "NFX Signal - Investor Database", desc: "Comprehensive database to find aligned investors for your startup", link: "https://signal.nfx.com/investors" },
+      { name: "The Mom Test", desc: "Learn how to talk to customers and validate your business idea", link: "http://momtestbook.com/" },
+      { name: "Paul Graham Essays", desc: "Influential essays on startups, technology, and entrepreneurship", link: "http://www.paulgraham.com/articles.html" },
       { name: "Venture Deals by Brad Feld", desc: "Essential reading for understanding venture capital and term sheets", link: "https://www.feld.com/archives/2011/07/announcing-venture-deals.html" },
     ],
   },
-
+  {
+    category: "Founder Podcasts",
+    color: "bg-purple-400",
+    icon: "🎙",
+    items: [
+      { name: "Lenny's Podcast", desc: "Conversations with leaders and founders building companies", link: "https://www.lennyspodcast.com/" },
+      { name: "20VC (20 Minute VC)", desc: "Interviews with founders, investors, and operators", link: "https://www.thetwentymincvc.com/" },
+      { name: "My First Million", desc: "Entrepreneurship, business ideas, and startup lessons", link: "https://myfirstmillion.com/" },
+      { name: "Acquire", desc: "Deep dives into company acquisitions and business strategy", link: "https://www.acquired.fm/" },
+      { name: "Founded", desc: "Stories of iconic company founders and their journeys", link: "https://www.foundedbyvcs.com/" },
+      { name: "The Full Ratchet", desc: "Venture capital, fundraising, and startup insights", link: "https://www.fullratchet.net/" },
+    ],
+  },
+  {
+    category: "Newsletters",
+    color: "bg-blue-400",
+    icon: "📧",
+    items: [
+      { name: "Ben's Bites", desc: "Daily AI news and trends in artificial intelligence", link: "https://www.bensbites.co/" },
+      { name: "The Diff", desc: "Curated analysis of technology and business trends", link: "https://diff.substack.com/" },
+      { name: "The Gradient", desc: "Deep dives into AI research and applications", link: "https://thegradient.pub/" },
+      { name: "Founder's Journal", desc: "Lessons and insights for founders building companies", link: "https://www.foundersjournal.co/" },
+    ],
+  },
+  {
+    category: "AI & Tools Directory",
+    color: "bg-cyan-400",
+    icon: "🛠",
+    items: [
+      { name: "Future Tools", desc: "Curated directory of AI tools and software for productivity", link: "https://www.futuretools.io/" },
+      { name: "There's an AI", desc: "Comprehensive AI tools directory organized by category", link: "https://theresanai.com/" },
+      { name: "Product Hunt", desc: "Discover and discuss new tech products and tools", link: "https://www.producthunt.com/" },
+      { name: "AngelList", desc: "Jobs, investments, and insights in the startup world", link: "https://www.angellist.com/" },
+    ],
+  },
+  {
+    category: "YouTube & Video",
+    color: "bg-red-400",
+    icon: "📺",
+    items: [
+      { name: "Ali Abdaal", desc: "Productivity, entrepreneurship, and tech insights", link: "https://www.youtube.com/@AliAbdaal" },
+      { name: "Y Combinator", desc: "Startup advice, founder interviews, and lessons", link: "https://www.youtube.com/@ycombinator" },
+      { name: "Shark Tank", desc: "Real-world pitching and investment decisions", link: "https://www.abc.com/shows/shark-tank" },
+    ],
+  },
+  {
+    category: "Chicago Ecosystem",
+    color: "bg-orange-400",
+    icon: "🏙",
+    items: [
+      { name: "Built In Chicago", desc: "Jobs, news, and resources for the Chicago tech community", link: "https://www.builtinchicago.org/" },
+      { name: "Technori", desc: "News, events, and connections for Chicago startups", link: "https://technori.com/" },
+      { name: "Chicago:Blend", desc: "Diversity and inclusion resources for Chicago founders", link: "https://chicagoblend.org/" },
+    ],
+  },
 ];
 
 export default function LearningResourcesSection() {
@@ -48,12 +81,12 @@ export default function LearningResourcesSection() {
         className="mb-8"
       >
         <div className="flex items-center gap-3 mb-3">
-          <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-green-500/50 to-transparent" />
+          <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-purple-500/50 to-transparent" />
           <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Learning Resources</h2>
         </div>
-        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">Foundational Knowledge</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">Stay Current & Learn</h2>
         <p className="text-white/40 font-light text-sm md:text-base leading-relaxed max-w-3xl">
-          Curated courses, articles, and thought leadership to build a strong foundation in startup fundamentals
+          Essential reading, podcasts, newsletters, and communities to stay informed and connected in the startup ecosystem
         </p>
       </motion.div>
 
