@@ -450,7 +450,7 @@ export default function BusinessTypeExplorer() {
                 <Button onClick={() => navigate('/Resources')} className="w-full bg-blue-600 hover:bg-blue-700">
                   Explore resources anyway (they might still spark ideas)
                 </Button>
-                <Button onClick={handleBackToSelection} variant="outline" className="w-full text-white border-white/20 hover:border-white/40">
+                <Button onClick={handleBackToSelection} className="w-full bg-white/10 hover:bg-white/20 text-white border border-white/20 hover:border-white/40">
                   I actually might be building a product
                 </Button>
               </div>
@@ -529,7 +529,7 @@ export default function BusinessTypeExplorer() {
                 <Button onClick={() => navigate('/Resources')} className="w-full bg-blue-600 hover:bg-blue-700">
                   Explore resources anyway (they might still spark ideas)
                 </Button>
-                <Button onClick={handleBackToSelection} variant="outline" className="w-full text-white border-white/20 hover:border-white/40">
+                <Button onClick={handleBackToSelection} className="w-full bg-white/10 hover:bg-white/20 text-white border border-white/20 hover:border-white/40">
                   I'm actually building a scalable product
                 </Button>
               </div>
