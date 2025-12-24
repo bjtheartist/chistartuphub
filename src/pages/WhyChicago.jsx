@@ -35,15 +35,24 @@ export default function WhyChicago() {
 
   // Play video when modal opens
   useEffect(() => {
-    if (showEasterEgg && videoRef.current && videoLoaded) {
-      const playPromise = videoRef.current.play();
-      if (playPromise !== undefined) {
-        playPromise.catch(err => {
-          console.log("Video autoplay prevented:", err);
-        });
-      }
+    if (showEasterEgg && videoRef.current) {
+      // Small delay to ensure rendering
+      const timer = setTimeout(() => {
+        if (videoRef.current) {
+          // Force video to be in view
+          videoRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+          const playPromise = videoRef.current.play();
+          if (playPromise !== undefined) {
+            playPromise.catch(err => {
+              console.log("Video autoplay prevented or error:", err);
+            });
+          }
+        }
+      }, 200);
+      return () => clearTimeout(timer);
     }
-  }, [showEasterEgg, videoLoaded]);
+  }, [showEasterEgg]);
   const parallaxSections = [
     {
       id: 1,
@@ -192,7 +201,7 @@ export default function WhyChicago() {
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="relative w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden border border-white/20"
+              className="relative w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden border border-white/20 shadow-2xl"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Close Button */}

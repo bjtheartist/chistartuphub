@@ -71,12 +71,6 @@ export default function BeforeYouStart() {
                     <strong className="text-white">Having more resources doesn't automatically make you better equipped.</strong> It can overwhelm as much as it helps.
                   </span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-red-400 rounded-full flex-shrink-0 mt-2" />
-                  <span>
-                    <strong className="text-white">Some of you will use this to clarify your path. Some will use it to rationalize decisions you've already made.</strong> That's human nature.
-                  </span>
-                </li>
               </ul>
             </div>
 
@@ -109,6 +103,57 @@ export default function BeforeYouStart() {
                   <span>Continuous updates as I learn more</span>
                 </li>
               </ul>
+            </div>
+
+            {/* How to Use This Toolkit */}
+            <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-6 md:p-8">
+              <h2 className="text-xl font-semibold text-white mb-6">
+                How to Use This Toolkit
+              </h2>
+              <p className="text-white/70 mb-6">
+                Three simple paths depending on where you are:
+              </p>
+
+              <div className="space-y-4">
+                {/* Path 1 */}
+                <div className="bg-blue-500/10 border border-blue-500/20 rounded-lg p-4">
+                  <div className="flex items-start gap-3">
+                    <div className="text-lg font-semibold text-blue-400 flex-shrink-0">1</div>
+                    <div>
+                      <p className="text-white font-medium">"I know what I need"</p>
+                      <p className="text-white/60 text-sm mt-1">
+                        Go straight to <strong>Resources</strong> and explore by category.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Path 2 */}
+                <div className="bg-purple-500/10 border border-purple-500/20 rounded-lg p-4">
+                  <div className="flex items-start gap-3">
+                    <div className="text-lg font-semibold text-purple-400 flex-shrink-0">2</div>
+                    <div>
+                      <p className="text-white font-medium">"Help me find where to start"</p>
+                      <p className="text-white/60 text-sm mt-1">
+                        Go to <strong>Business Type Explorer</strong> → answer 3 quick questions → get routed to the right path.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Path 3 */}
+                <div className="bg-green-500/10 border border-green-500/20 rounded-lg p-4">
+                  <div className="flex items-start gap-3">
+                    <div className="text-lg font-semibold text-green-400 flex-shrink-0">3</div>
+                    <div>
+                      <p className="text-white font-medium">"I want community"</p>
+                      <p className="text-white/60 text-sm mt-1">
+                        Join the <strong>Peer Community</strong> to connect with other builders in Chicago.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Closing */}
