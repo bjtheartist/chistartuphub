@@ -153,8 +153,7 @@ export default function WhyChicago() {
           {/* Hero Section */}
           <div className="min-h-screen flex flex-col items-center justify-center text-center mb-20">
             <h1
-              onClick={() => setShowEasterEgg(true)}
-              className="text-6xl md:text-8xl font-bold text-white mb-8 max-w-4xl drop-shadow-lg cursor-pointer hover:text-blue-300 transition-colors"
+              className="text-6xl md:text-8xl font-bold text-white mb-8 max-w-4xl drop-shadow-lg"
             >
               Why Start in Chicago?
             </h1>
@@ -178,7 +177,10 @@ export default function WhyChicago() {
             <p className="text-xl text-white/70 max-w-2xl mx-auto mb-8 leading-relaxed">
               Discover the resources, connections, and support you need to build your dream company in the heart of the Midwest.
             </p>
-            <div className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-white/10 to-white/5 border border-white/10">
+            <div
+              onClick={() => setShowEasterEgg(true)}
+              className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-white/10 to-white/5 border border-white/10 cursor-pointer hover:border-blue-400/50 hover:from-white/20 hover:to-white/10 transition-all"
+            >
               <p className="text-white font-semibold text-xl">Chicago: Where Innovation Meets Opportunity</p>
             </div>
           </div>
