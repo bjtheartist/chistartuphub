@@ -1,10 +1,49 @@
-import React from "react";
-import { Building2, Users, DollarSign, Heart, TrendingUp, Award, Globe, Zap, ArrowDown } from "lucide-react";
+import React, { useState, useEffect } from "react";
+import { Building2, Users, DollarSign, Heart, TrendingUp, Award, Globe, Zap, ArrowDown, X } from "lucide-react";
 import ParallaxScrollFeature from "../components/ui/parallax-scroll-feature";
 import SEO from "@/components/SEO";
 import { ShaderBackground } from "@/components/ui/digital-aurora";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function WhyChicago() {
+  const [showEasterEgg, setShowEasterEgg] = useState(false);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+  const videoRef = React.useRef(null);
+
+  // Handle ESC key to close Easter egg
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape" && showEasterEgg) {
+        setShowEasterEgg(false);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [showEasterEgg]);
+
+  // Reset video state when modal closes
+  useEffect(() => {
+    if (!showEasterEgg) {
+      setVideoLoaded(false);
+      if (videoRef.current) {
+        videoRef.current.pause();
+        videoRef.current.currentTime = 0;
+      }
+    }
+  }, [showEasterEgg]);
+
+  // Play video when modal opens
+  useEffect(() => {
+    if (showEasterEgg && videoRef.current && videoLoaded) {
+      const playPromise = videoRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(err => {
+          console.log("Video autoplay prevented:", err);
+        });
+      }
+    }
+  }, [showEasterEgg, videoLoaded]);
   const parallaxSections = [
     {
       id: 1,
@@ -104,7 +143,10 @@ export default function WhyChicago() {
         <div className="max-w-7xl mx-auto">
           {/* Hero Section */}
           <div className="min-h-screen flex flex-col items-center justify-center text-center mb-20">
-            <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 max-w-4xl drop-shadow-lg">
+            <h1
+              onClick={() => setShowEasterEgg(true)}
+              className="text-6xl md:text-8xl font-bold text-white mb-8 max-w-4xl drop-shadow-lg cursor-pointer hover:text-blue-300 transition-colors"
+            >
               Why Start in Chicago?
             </h1>
             <p className="text-xl md:text-2xl text-white/80 max-w-3xl mx-auto leading-relaxed mb-12 drop-shadow-md">
@@ -133,6 +175,63 @@ export default function WhyChicago() {
           </div>
         </div>
       </div>
+
+      {/* Easter Egg Modal - Chicago Bulls Animation */}
+      <AnimatePresence>
+        {showEasterEgg && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="fixed inset-0 bg-black/90 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+            onClick={() => setShowEasterEgg(false)}
+          >
+            <motion.div
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.8, opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="relative w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden border border-white/20"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Close Button */}
+              <button
+                onClick={() => setShowEasterEgg(false)}
+                className="absolute top-4 right-4 z-10 p-2 rounded-lg bg-white/10 hover:bg-white/20 transition-all text-white"
+              >
+                <X className="w-6 h-6" />
+              </button>
+
+              {/* Video */}
+              <video
+                ref={videoRef}
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover bg-black"
+                onCanPlayThrough={() => setVideoLoaded(true)}
+                onError={(e) => console.error("Video load error:", e)}
+              >
+                <source src="/chicago-bulls-easter-egg.webm" type="video/webm" />
+                <p className="text-white text-center p-4">Your browser does not support the video tag.</p>
+              </video>
+
+              {/* Loading state */}
+              {!videoLoaded && (
+                <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+                  <div className="w-8 h-8 border-3 border-white/30 border-t-white rounded-full animate-spin" />
+                </div>
+              )}
+
+              {/* Close Instruction */}
+              <div className="absolute bottom-4 right-4">
+                <p className="text-white/40 text-xs">Click or press ESC to close</p>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
       </div>
     </div>
   );

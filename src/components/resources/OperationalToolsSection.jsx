@@ -9,6 +9,7 @@ const operationalTools = [
     icon: "B",
     items: [
       { name: "Stripe Atlas", desc: "Incorporate a Delaware C-corp and open a business bank account", link: "https://stripe.com/atlas" },
+      { name: "CHibizHub", desc: "Chicago's comprehensive business resource hub for registration, licensing, permits, and compliance", link: "https://www.chibizhub.org/" },
       { name: "Illinois Secretary of State", desc: "Official portal for registering your business in Illinois", link: "https://www.ilsos.gov" },
       { name: "Chicago BACP", desc: "City-level business licenses and permits", link: "https://www.chicago.gov/bacp" },
       { name: "SBA Chicago District Office", desc: "Small Business Administration resources", link: "https://www.sba.gov/offices/district/il/chicago" },
@@ -67,9 +68,40 @@ const operationalTools = [
       { name: "Linear", desc: "Issue tracking for software teams", link: "https://linear.app" },
     ],
   },
+  {
+    category: "Chicago-Specific Resources",
+    color: "bg-red-400",
+    icon: "C",
+    items: [
+      { name: "CHibizHub", desc: "Chicago's comprehensive business resource hub providing guidance on business registration, licensing, permits, and Chicago-specific compliance", link: "https://www.chibizhub.org/" },
+      { name: "NADC", desc: "Technical assistance, training, and resources for small business development and entrepreneurship in the Chicago region", link: "https://nadcchicago.org/" },
+      { name: "Chicago Chamber of Commerce", desc: "Connect with the Chicago business community, access advocacy resources, networking events, and local business insights", link: "https://www.chicagochamber.org/" },
+    ],
+  },
 ];
 
-export default function OperationalToolsSection() {
+export default function OperationalToolsSection({ searchQuery = "" }) {
+  // Filter tools and categories based on search query
+  const filteredTools = searchQuery.trim() === ""
+    ? operationalTools
+    : operationalTools
+        .map((category) => ({
+          ...category,
+          items: category.items.filter((item) => {
+            const query = searchQuery.toLowerCase();
+            return (
+              item.name.toLowerCase().includes(query) ||
+              item.desc.toLowerCase().includes(query)
+            );
+          }),
+        }))
+        .filter((category) => category.items.length > 0);
+
+  // Don't render section if no results match search
+  if (searchQuery.trim() !== "" && filteredTools.length === 0) {
+    return null;
+  }
+
   return (
     <section className="mb-28">
       <motion.div
@@ -83,14 +115,14 @@ export default function OperationalToolsSection() {
           <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-purple-500/50 to-transparent" />
           <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Operational Tools</h2>
         </div>
-        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">Chicago-Specific Resources</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">Essential Tools & Resources</h2>
         <p className="text-white/40 font-light text-sm md:text-base leading-relaxed max-w-3xl">
-          Illinois compliance, local legal guides, and essential tools—your unfair advantage over generic startup advice
+          Operational tools for business formation, legal compliance, finance, hiring, and productivity—plus Chicago-specific resources
         </p>
       </motion.div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {operationalTools.map((category, index) => (
+        {filteredTools.map((category, index) => (
           <motion.div
             key={category.category}
             initial={{ opacity: 0, y: 20 }}
