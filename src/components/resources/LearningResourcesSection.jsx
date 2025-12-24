@@ -51,9 +51,9 @@ export default function LearningResourcesSection() {
           <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-green-500/50 to-transparent" />
           <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Learning Resources</h2>
         </div>
-        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">Essential Reading & Courses</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">Foundational Knowledge</h2>
         <p className="text-white/40 font-light text-sm md:text-base leading-relaxed max-w-3xl">
-          Curated courses, articles, and thought leadership to accelerate your startup journey
+          Curated courses, articles, and thought leadership to build a strong foundation in startup fundamentals
         </p>
       </motion.div>
 
