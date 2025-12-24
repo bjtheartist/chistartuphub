@@ -10,6 +10,7 @@ const founderGuides = [
     color: "bg-blue-400",
     description: "Step-by-step guide to creating a compelling pitch deck that tells your story and gets investor meetings.",
     link: "https://www.ycombinator.com/library/4T-how-to-design-a-better-pitch-deck",
+    attribution: "Y Combinator",
     topics: ["Storytelling", "Design", "Content Strategy"]
   },
   {
@@ -18,6 +19,7 @@ const founderGuides = [
     color: "bg-purple-400",
     description: "Navigate the fundraising process from identifying the right investors to closing your round.",
     link: "https://www.ycombinator.com/library/4A-a-guide-to-seed-fundraising",
+    attribution: "Y Combinator",
     topics: ["Investor Outreach", "Term Sheets", "Due Diligence"]
   },
   {
@@ -26,6 +28,7 @@ const founderGuides = [
     color: "bg-amber-400",
     description: "Build products customers love by understanding market needs, user feedback, and iterative development.",
     link: "https://www.ycombinator.com/library/8e-how-to-talk-to-users",
+    attribution: "Y Combinator",
     topics: ["User Research", "Iteration", "Product-Market Fit"]
   },
   {
@@ -34,6 +37,7 @@ const founderGuides = [
     color: "bg-pink-400",
     description: "Launch your product effectively with a strategic go-to-market plan covering positioning, channels, and tactics.",
     link: "https://firstround.com/review/go-to-market-strategy/",
+    attribution: "First Round Review",
     topics: ["Launch Planning", "Positioning", "Market Fit"]
   },
   {
@@ -42,6 +46,7 @@ const founderGuides = [
     color: "bg-green-400",
     description: "Learn proven strategies for acquiring customers efficiently while managing unit economics and growth.",
     link: "https://www.ycombinator.com/library/6o-customer-acquisition",
+    attribution: "Y Combinator",
     topics: ["CAC", "Growth Hacking", "Unit Economics"]
   },
   {
@@ -50,6 +55,7 @@ const founderGuides = [
     color: "bg-cyan-400",
     description: "Define and track the metrics that matter most to your business using OKRs and performance dashboards.",
     link: "https://www.ycombinator.com/library/90-measuring-what-matters",
+    attribution: "Y Combinator",
     topics: ["OKRs", "Key Metrics", "Analytics"]
   },
   {
@@ -58,6 +64,7 @@ const founderGuides = [
     color: "bg-indigo-400",
     description: "Build a strong founding team by recruiting talent, setting expectations, and creating company culture early.",
     link: "https://www.ycombinator.com/library/6b-the-right-people-part-1",
+    attribution: "Y Combinator",
     topics: ["Recruiting", "Culture", "Equity"]
   },
   {
@@ -66,6 +73,7 @@ const founderGuides = [
     color: "bg-orange-400",
     description: "Find the right pricing model, test pricing strategies, and optimize for revenue growth and customer value.",
     link: "https://www.ycombinator.com/library/6n-pricing-strategy",
+    attribution: "Y Combinator",
     topics: ["Monetization", "Revenue", "Unit Economics"]
   },
   {
@@ -74,6 +82,7 @@ const founderGuides = [
     color: "bg-red-400",
     description: "Keep customers happy and reduce churn by building exceptional support and continuously improving the product.",
     link: "https://www.ycombinator.com/library/6q-customer-retention",
+    attribution: "Y Combinator",
     topics: ["Churn", "Support", "Loyalty"]
   },
   {
@@ -82,6 +91,7 @@ const founderGuides = [
     color: "bg-teal-400",
     description: "Create a values-driven culture that attracts talent, improves productivity, and defines your company's identity.",
     link: "https://www.ycombinator.com/library/6c-building-company-culture",
+    attribution: "Y Combinator",
     topics: ["Values", "Team Dynamics", "Remote Work"]
   },
 ];
@@ -148,6 +158,9 @@ export default function FounderGuidesSection({ searchQuery = "" }) {
                   </h3>
                   <p className="text-sm text-white/60 leading-relaxed mt-2">
                     {guide.description}
+                  </p>
+                  <p className="text-xs text-white/40 mt-3">
+                    Source: {guide.attribution}
                   </p>
                 </div>
               </div>
