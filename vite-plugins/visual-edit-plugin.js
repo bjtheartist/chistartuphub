@@ -157,9 +157,10 @@ export function visualEditPlugin() {
 			}
 
 			try {
-				// Parse the code into an AST
+				// Parse the code into an AST with location information
 				const ast = parse(code, {
 					sourceType: 'module',
+					sourceFilename: id,
 					plugins: [
 						'jsx',
 						'typescript',
@@ -177,6 +178,7 @@ export function visualEditPlugin() {
 						'optionalCatchBinding',
 						'throwExpressions'
 					],
+					attachComments: false,
 				});
 
 				// Traverse the AST and add source location and dynamic content attributes to JSX elements
@@ -226,7 +228,9 @@ export function visualEditPlugin() {
 				const result = generate.default(ast, {
 					compact: false,
 					concise: false,
-					retainLines: true
+					retainLines: true,
+					sourceFileName: id,
+					sourceMaps: false
 				});
 
 				console.log(`[Visual Edit Plugin] Successfully transformed ${id} - processed ${elementsProcessed} JSX elements`);

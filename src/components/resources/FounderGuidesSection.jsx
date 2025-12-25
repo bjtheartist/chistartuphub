@@ -1,170 +1,148 @@
-import React from "react";
-import { FileText, TrendingUp, Lightbulb, Rocket, Users, BarChart3, DollarSign, Heart, Briefcase, ExternalLink } from "lucide-react";
+import { FileText, TrendingUp, Lightbulb, Rocket, Users, BarChart3, DollarSign, Briefcase, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 
-const founderGuides = [
+const corePillars = [
   {
-    title: "How to Build a Pitch Deck",
+    title: "Storytelling & Design",
     icon: FileText,
     color: "bg-blue-400",
-    description: "Learn to design a compelling pitch deck that tells your story, attracts investor attention, and clearly communicates your value proposition.",
+    description: "Master the art of communicating your vision through clear storytelling and compelling design that resonates with investors.",
     links: [
-      { title: "Y Combinator - How to Design a Pitch Deck", url: "https://www.ycombinator.com/library/4T-how-to-design-a-better-pitch-deck" },
-      { title: "Y Combinator - Seed Round Pitch Deck", url: "https://www.ycombinator.com/library/2u-how-to-build-your-seed-round-pitch-deck" },
-      { title: "Sequoia Capital - Business Plan & Pitch", url: "https://www.sequoiacap.com/article/writing-a-business-plan/" },
-      { title: "DocSend - Pitch Deck Examples", url: "https://docsend.com/blog/startup-pitch-decks/" }
+      { title: "Sequoia Capital - Writing a Business Plan", url: "https://www.sequoiacap.com/article/writing-a-business-plan/" },
+      { title: "Y Combinator - How to Build a Pitch Deck", url: "https://www.ycombinator.com/library/2u-how-to-build-a-pitch-deck" },
+      { title: "Slidebean - Pitch Deck Examples", url: "https://slidebean.com/blog/startups-pitch-deck-presentation-complete-guide" }
     ],
-    attribution: "Y Combinator, Sequoia Capital",
-    topics: ["Storytelling", "Design", "Investor Communication"]
+    attribution: "Sequoia Capital, Y Combinator, Slidebean",
+    topics: ["Communication", "Design", "Presentation"]
   },
   {
-    title: "How to Pitch Your Startup",
+    title: "The Art of the Pitch",
     icon: FileText,
     color: "bg-indigo-400",
-    description: "Master the art of pitching—learn how to present your idea, answer tough questions, and convince investors in person.",
+    description: "Perfect your pitch delivery—learn to present confidently, answer tough questions, and persuade investors through storytelling.",
     links: [
-      { title: "Y Combinator - How to Pitch Your Startup", url: "https://www.ycombinator.com/library/6q-how-to-pitch-your-startup" },
-      { title: "First Round - The Art of the Pitch", url: "https://review.firstround.com/the-art-of-the-pitch-lessons-from-silicon-valleys-best" },
+      { title: "Y Combinator - How to Pitch Your Startup", url: "https://www.ycombinator.com/library/4D-how-to-pitch-your-startup" },
+      { title: "First Round Review - Master the Art of Influence", url: "https://review.firstround.com/master-the-art-of-influence-persuasion-as-a-skill-and-habit/" }
     ],
-    attribution: "Y Combinator, First Round",
-    topics: ["Presentation", "Communication", "Investor Relations"]
+    attribution: "Y Combinator, First Round Review",
+    topics: ["Pitching", "Persuasion", "Communication"]
   },
   {
-    title: "How to Fundraise",
+    title: "Fundraising Strategy",
     icon: TrendingUp,
     color: "bg-purple-400",
-    description: "Navigate the complete fundraising process—from identifying the right investors to negotiating terms and closing your round.",
+    description: "Navigate the fundraising landscape—from identifying the right investors to closing your round with optimal terms.",
     links: [
-      { title: "Y Combinator - Seed Fundraising Guide", url: "https://www.ycombinator.com/library/4A-a-guide-to-seed-fundraising" },
-      { title: "First Round - Fundraising Tactics", url: "https://review.firstround.com/the-definitive-guide-to-startup-fundraising" },
-      { title: "Fundraising Lore - Comprehensive Guide", url: "https://hajeonkamps.notion.site/Fundraising-Lore-9d6b8734cf8e4d0ba254b0e62574941c" },
-      { title: "Holloway - Equity Compensation Guide", url: "https://www.holloway.com/g/equity-compensation" }
+      { title: "Y Combinator - A Guide to Seed Fundraising", url: "https://www.ycombinator.com/library/4A-a-guide-to-seed-fundraising" },
+      { title: "First Round Review - The Fundraising Wisdom of 30 Founders", url: "https://review.firstround.com/the-fundraising-wisdom-that-helped-our-founders-raise-18b-in-follow-on-capital/" },
+      { title: "NFX - The Non-Obvious Guide to Fundraising", url: "https://www.nfx.com/post/fundraising-guide" }
     ],
-    attribution: "Y Combinator, First Round, Holloway",
-    topics: ["Investor Outreach", "Term Sheets", "Due Diligence"]
+    attribution: "Y Combinator, First Round Review, NFX",
+    topics: ["Fundraising", "Investor Relations", "Term Sheets"]
   },
   {
-    title: "Customer Research & Discovery",
+    title: "Customer Discovery",
     icon: Users,
     color: "bg-rose-400",
-    description: "Learn how to talk to customers effectively, validate your assumptions, and discover what actually solves their problems.",
+    description: "Learn how to conduct meaningful customer conversations, validate your assumptions, and uncover real market needs.",
     links: [
-      { title: "Y Combinator - How to Talk to Users", url: "https://www.ycombinator.com/library/Iq-how-to-talk-to-users" },
-      { title: "First Round - The Power of Customer Interviews", url: "https://review.firstround.com/the-power-of-interviewing-customers-the-right-way-from-twitters-ex-vp-product" },
+      { title: "Rob Fitzpatrick (The Mom Test) - Workshop Video", url: "https://www.youtube.com/watch?v=Hla1F-Wc6LU" },
+      { title: "Y Combinator - How to Talk to Users", url: "https://www.ycombinator.com/library/6g-how-to-talk-to-users" }
     ],
-    attribution: "Y Combinator, First Round",
-    topics: ["User Research", "Validation", "Discovery"]
+    attribution: "Rob Fitzpatrick, Y Combinator",
+    topics: ["User Research", "Validation", "Customer Interviews"]
   },
   {
-    title: "Product Strategy",
+    title: "Product Development",
     icon: Lightbulb,
     color: "bg-amber-400",
-    description: "Build products customers love by understanding market needs, user feedback, and iterative development cycles.",
+    description: "Build products that users love by mastering product strategy, iterative development, and achieving product-market fit.",
     links: [
-      { title: "Y Combinator - Guide to Building Product", url: "https://www.ycombinator.com/library/5z-a-guide-to-building-product" },
-      { title: "First Round - The Right Way to Ship Software", url: "https://review.firstround.com/the-right-way-to-ship-software" },
+      { title: "First Round Review - The Superhuman Product/Market Fit Engine", url: "https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit/" },
       { title: "Basecamp - Shape Up (Free Book)", url: "https://basecamp.com/shapeup" }
     ],
-    attribution: "Y Combinator, First Round, Basecamp",
-    topics: ["User Research", "Iteration", "Product-Market Fit"]
+    attribution: "First Round Review, Basecamp",
+    topics: ["Product Strategy", "Iteration", "Market Fit"]
   },
   {
-    title: "Go-to-Market Strategy",
+    title: "Go-to-Market (GTM)",
     icon: Rocket,
     color: "bg-pink-400",
-    description: "Launch your product effectively with a strategic go-to-market plan covering positioning, channels, and product-market fit.",
+    description: "Launch your product strategically with a proven go-to-market plan that drives early adoption and sustainable growth.",
     links: [
-      { title: "First Round - Go-to-Market Fit Framework", url: "https://review.firstround.com/forget-product-market-fit-focus-on-go-to-market-fit" },
-      { title: "Y Combinator - Launch Strategy", url: "https://www.ycombinator.com/library/4D-a-guide-to-launching-on-product-hunt-hacker-news-and-reddit" }
+      { title: "First Round Review - The Go-to-Market Fit Framework", url: "https://review.firstround.com/the-founder-s-guide-to-generating-demand-the-go-to-market-fit-framework/" },
+      { title: "Y Combinator - Startup Launch List", url: "https://www.ycombinator.com/launch" }
     ],
-    attribution: "First Round, Y Combinator",
-    topics: ["Launch Planning", "Positioning", "Market Fit"]
+    attribution: "First Round Review, Y Combinator",
+    topics: ["Launch", "Positioning", "Market Entry"]
   },
   {
-    title: "Pricing Strategy",
+    title: "Monetization & Pricing",
     icon: DollarSign,
     color: "bg-orange-400",
-    description: "Find the right pricing model, test pricing strategies, and optimize for revenue growth while maximizing customer value.",
+    description: "Develop a winning pricing strategy that maximizes revenue while delivering customer value in your market.",
     links: [
-      { title: "Y Combinator - Pricing Guide", url: "https://www.ycombinator.com/library/6h-startup-pricing-101" },
-      { title: "First Round - Pricing Framework", url: "https://review.firstround.com/the-price-is-right-essential-tips-for-nailing-your-pricing-strategy" },
-      { title: "ProfitWell - Pricing Strategy Guide", url: "https://www.profitwell.com/recur/all/pricing-strategy-guide" }
+      { title: "Paddle - SaaS Pricing Strategy Guide", url: "https://www.paddle.com/resources/saas-pricing-models" },
+      { title: "Y Combinator - Pricing Guide", url: "https://www.ycombinator.com/library/5x-pricing" }
     ],
-    attribution: "Y Combinator, First Round, ProfitWell",
-    topics: ["Monetization", "Revenue", "Unit Economics"]
+    attribution: "Paddle, Y Combinator",
+    topics: ["Pricing", "Revenue", "Unit Economics"]
   },
   {
-    title: "Customer Acquisition",
+    title: "Growth & Acquisition",
     icon: TrendingUp,
     color: "bg-green-400",
-    description: "Learn proven strategies for acquiring customers efficiently while managing unit economics and scaling growth sustainably.",
+    description: "Master proven growth tactics and customer acquisition strategies that scale sustainably while managing unit economics.",
     links: [
-      { title: "Y Combinator - Growth & Customer Acquisition", url: "https://www.ycombinator.com/library/6o-customer-acquisition" },
-      { title: "First Round - Growth Tactics from Facebook & Twitter", url: "https://review.firstround.com/indispensable-growth-frameworks-from-my-years-at-facebook-twitter-and-wealthfront" },
-      { title: "Traction Book", url: "https://www.tractionbook.com" }
+      { title: "Y Combinator - Growth Guide", url: "https://www.ycombinator.com/library/5r-growth" },
+      { title: "First Round Review - Growth Tactics (Facebook/Twitter/Wealthfront)", url: "https://review.firstround.com/indispensable-growth-frameworks-from-my-years-at-facebook-twitter-and-wealthfront/" }
     ],
-    attribution: "Y Combinator, First Round, Traction Book",
-    topics: ["CAC", "Growth Hacking", "Unit Economics"]
+    attribution: "Y Combinator, First Round Review",
+    topics: ["Growth", "CAC", "Scaling"]
   },
   {
-    title: "Customer Success & Retention",
-    icon: Heart,
-    color: "bg-red-400",
-    description: "Keep customers happy and reduce churn by building exceptional support, engaging users, and continuously improving the product.",
-    links: [
-      { title: "Y Combinator - Retention is King", url: "https://www.ycombinator.com/library/5r-retention-is-king" },
-      { title: "First Round - How Superhuman Built Product-Market Fit", url: "https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit" }
-    ],
-    attribution: "Y Combinator, First Round",
-    topics: ["Churn", "Support", "Loyalty"]
-  },
-  {
-    title: "Measuring What Matters",
+    title: "Metrics & Analytics",
     icon: BarChart3,
     color: "bg-cyan-400",
-    description: "Define and track the metrics that drive your business using OKRs, performance dashboards, and data-driven decision-making.",
+    description: "Track the metrics that matter most—learn how to measure growth, define KPIs, and make data-driven decisions.",
     links: [
-      { title: "Y Combinator - Metrics & Analytics Guide", url: "https://www.ycombinator.com/library/5z-a-guide-to-metrics" },
-      { title: "First Round - Measuring Product-Market Fit", url: "https://review.firstround.com/how-to-measure-product-market-fit" },
-      { title: "What Matters - OKR Framework", url: "https://www.whatmatters.com/get-started" }
+      { title: "a16z - 16 Metrics for Growth", url: "https://a16z.com/16-metrics-guide/" },
+      { title: "a16z - Guide to Growth Metrics", url: "https://a16z.com/introducing-a16z-growths-guide-to-growth-metrics/" }
     ],
-    attribution: "Y Combinator, First Round, What Matters",
-    topics: ["OKRs", "Key Metrics", "Analytics"]
+    attribution: "Andreessen Horowitz",
+    topics: ["Metrics", "Analytics", "KPIs"]
   },
   {
-    title: "Hiring Your First Team",
+    title: "Team & Talent",
     icon: Users,
     color: "bg-violet-400",
-    description: "Build a strong founding team by recruiting talent, setting clear expectations, structuring equity, and creating shared vision.",
+    description: "Build a world-class founding team by recruiting top talent, structuring equity fairly, and fostering collaboration.",
     links: [
-      { title: "Y Combinator - How to Hire", url: "https://www.ycombinator.com/library/6m-how-to-hire" },
-      { title: "First Round - Technical Interviewing from Amazon VP", url: "https://review.firstround.com/the-anatomy-of-the-perfect-technical-interview-from-a-former-amazon-vp" },
-      { title: "Stripe Atlas - Equity Guide", url: "https://stripe.com/atlas/guides/equity" }
+      { title: "Y Combinator - How to Hire", url: "https://www.ycombinator.com/library/46-how-to-hire" },
+      { title: "Holloway - The Guide to Equity Compensation", url: "https://www.holloway.com/g/equity-compensation" }
     ],
-    attribution: "Y Combinator, First Round, Stripe",
-    topics: ["Recruiting", "Culture", "Equity"]
+    attribution: "Y Combinator, Holloway",
+    topics: ["Hiring", "Equity", "Team Building"]
   },
   {
-    title: "Building Company Culture",
+    title: "Culture & Values",
     icon: Briefcase,
     color: "bg-teal-400",
-    description: "Create a values-driven culture that attracts talent, improves productivity, builds trust, and defines your company's identity.",
+    description: "Create a strong company culture that attracts talent, improves retention, and aligns your team around shared values.",
     links: [
-      { title: "Y Combinator - Culture Building Guide", url: "https://www.ycombinator.com/library/5s-building-culture" },
-      { title: "First Round - Finding Your Company's Aspiration", url: "https://review.firstround.com/the-best-startups-resonate-with-aspiration-heres-how-to-find-yours" },
-      { title: "Netflix Culture Deck", url: "https://jobs.netflix.com/culture" }
+      { title: "Netflix - Culture Deck", url: "https://jobs.netflix.com/culture" },
+      { title: "First Round Review - Give Away Your Legos", url: "https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups/" }
     ],
-    attribution: "Y Combinator, First Round, Netflix",
-    topics: ["Values", "Team Dynamics", "Remote Work"]
+    attribution: "Netflix, First Round Review",
+    topics: ["Culture", "Values", "Team Dynamics"]
   },
 ];
 
 export default function FounderGuidesSection({ searchQuery = "" }) {
   // Filter guides based on search query
   const filteredGuides = searchQuery.trim() === ""
-    ? founderGuides
-    : founderGuides.filter((guide) => {
+    ? corePillars
+    : corePillars.filter((guide) => {
         const query = searchQuery.toLowerCase();
         return (
           guide.title.toLowerCase().includes(query) ||
@@ -189,13 +167,13 @@ export default function FounderGuidesSection({ searchQuery = "" }) {
       >
         <div className="flex items-center gap-3 mb-3">
           <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-yellow-500/50 to-transparent" />
-          <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Founder Guides</h2>
+          <h2 className="text-sm font-medium uppercase tracking-[0.15em] text-white/50">Core Pillars</h2>
         </div>
         <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-tight">
-          Essential Founder Knowledge
+          Build Your Foundation
         </h2>
         <p className="text-white/40 font-light text-sm md:text-base leading-relaxed max-w-3xl">
-          Comprehensive guides on critical founder activities—from product strategy and go-to-market planning to hiring and growth metrics
+          Master the essential pillars of startup success—from communicating your vision and fundraising strategy to building products customers love
         </p>
       </motion.div>
 

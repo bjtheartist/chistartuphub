@@ -24,10 +24,10 @@ const TOOLKIT_SECTION_GROUPS = [
   {
     group: "Build & Learn",
     sections: [
-      { id: "guides", label: "Founder Guides" },
+      { id: "guides", label: "Core Pillars" },
       { id: "ai", label: "AI Tools" },
       { id: "operational", label: "Operational Tools" },
-      { id: "learning", label: "Learning Resources" },
+      { id: "learning", label: "Knowledge Base" },
     ]
   },
   {
@@ -107,18 +107,18 @@ export default function Resources() {
 
           {/* Section Filter Tabs - Grouped by Theme */}
           <div className="space-y-3">
-            {TOOLKIT_SECTION_GROUPS.map((group, groupIndex) => (
+            {TOOLKIT_SECTION_GROUPS.map((group) => (
               <div key={group.group}>
                 <p className="text-xs font-semibold uppercase tracking-wider text-white/40 mb-2 px-1">
                   {group.group}
                 </p>
-                <div className="overflow-x-auto">
-                  <div className="flex gap-2 pb-2">
+                <div className="overflow-x-auto md:overflow-visible">
+                  <div className="flex flex-wrap gap-2 pb-2">
                     {group.sections.map((section) => (
                       <button
                         key={section.id}
                         onClick={() => setSelectedSection(section.id)}
-                        className={`px-4 py-2 rounded-lg whitespace-nowrap transition-all ${
+                        className={`px-3 md:px-4 py-2 text-sm md:text-base rounded-lg whitespace-nowrap transition-all flex-shrink-0 ${
                           selectedSection === section.id
                             ? "bg-blue-600 text-white"
                             : "bg-white/[0.05] text-white/60 hover:bg-white/[0.1] hover:text-white/80"
