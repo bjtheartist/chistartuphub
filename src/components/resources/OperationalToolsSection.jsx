@@ -68,16 +68,6 @@ const operationalTools = [
       { name: "Linear", desc: "Issue tracking for software teams", link: "https://linear.app" },
     ],
   },
-  {
-    category: "Chicago-Specific Resources",
-    color: "bg-red-400",
-    icon: "C",
-    items: [
-      { name: "CHibizHub", desc: "Chicago's comprehensive business resource hub providing guidance on business registration, licensing, permits, and Chicago-specific compliance", link: "https://www.chibizhub.org/" },
-      { name: "NADC", desc: "Technical assistance, training, and resources for small business development and entrepreneurship in the Chicago region", link: "https://nadcchicago.org/" },
-      { name: "Chicago Chamber of Commerce", desc: "Connect with the Chicago business community, access advocacy resources, networking events, and local business insights", link: "https://www.chicagochamber.org/" },
-    ],
-  },
 ];
 
 export default function OperationalToolsSection({ searchQuery = "" }) {
