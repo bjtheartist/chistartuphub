@@ -26,7 +26,7 @@ export default function BusinessTypeExplorer() {
       id: "service",
       emoji: "🤝",
       icon: Handshake,
-      title: "I run a service business",
+      title: "I'm building a service business",
       description: "Consulting, agency, professional services",
       color: "blue"
     },
@@ -34,7 +34,7 @@ export default function BusinessTypeExplorer() {
       id: "small-biz",
       emoji: "🏪",
       icon: Store,
-      title: "I own a small business",
+      title: "I'm building a small business",
       subtext: "(restaurant, retail, local services)",
       description: "Physical location or local market",
       color: "green"
@@ -43,7 +43,7 @@ export default function BusinessTypeExplorer() {
       id: "tech",
       emoji: "💻",
       icon: Code,
-      title: "I'm building a tech product",
+      title: "I'm building a startup",
       description: "Software, app, or digital platform",
       color: "purple"
     },
@@ -327,6 +327,14 @@ export default function BusinessTypeExplorer() {
   if (showCompass === 'results') {
     const result = getCompassResult();
 
+    // Map result type to business model name for summary
+    const businessModelNames = {
+      'small-business': 'Small Business',
+      'service-business': 'Service Business',
+      'startup': 'Startup',
+      'unsure': 'Explorer'
+    };
+
     return (
       <div className="min-h-screen py-12 md:py-20 px-4 md:px-6">
         <SEO title="Your Path" description="Here's where you should focus" />
@@ -336,11 +344,18 @@ export default function BusinessTypeExplorer() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
+            {/* Result Summary */}
+            <div className="text-center mb-8">
+              <p className="text-white/60 text-lg mb-4">
+                Based on your answers, your business model matches a:
+              </p>
+              <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">
+                {businessModelNames[result.type] || result.title}
+              </h2>
+            </div>
+
             {/* Result Header */}
             <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                {result.title}
-              </h2>
               <p className="text-xl text-white/70 mb-6">
                 {result.description}
               </p>

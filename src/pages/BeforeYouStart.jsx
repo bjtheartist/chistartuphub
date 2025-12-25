@@ -9,13 +9,13 @@ export default function BeforeYouStart() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen py-12 md:py-20 px-4 md:px-6">
+    <div className="min-h-screen py-20 md:py-24 px-4 md:px-6">
       <SEO
         title="Before You Start"
         description="Understanding ChiStartupHub's approach to founder resources - honest, contextual, and built for Chicago."
         keywords="startup resources, founder toolkit, Chicago startups, honest guidance"
       />
-      
+
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -23,7 +23,7 @@ export default function BeforeYouStart() {
           transition={{ duration: 0.6 }}
         >
           {/* Header */}
-          <div className="text-center mb-12">
+          <div className="text-center mb-12 pt-6">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Before You Start
             </h1>
