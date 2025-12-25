@@ -24,7 +24,7 @@ const knowledgeBase = [
     ],
   },
   {
-    category: "Community Network (Chicago)",
+    category: "Chicago Tech News",
     color: "bg-orange-400",
     icon: "🏙",
     items: [
