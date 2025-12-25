@@ -44,7 +44,7 @@ export default function BusinessTypeExplorer() {
       emoji: "💻",
       icon: Code,
       title: "I'm building a startup",
-      description: "Software, app, or digital platform",
+      description: "Software, app, digital platform, CPG, biotech, hardtech",
       color: "purple"
     },
     {
