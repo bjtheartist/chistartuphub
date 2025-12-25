@@ -25,7 +25,7 @@ const TOOLKIT_SECTION_GROUPS = [
     group: "Build & Learn",
     sections: [
       { id: "guides", label: "Core Pillars" },
-      { id: "ai", label: "AI Tools" },
+      { id: "ai", label: "AI Lab" },
       { id: "operational", label: "Operational Tools" },
       { id: "learning", label: "Knowledge Base" },
     ]

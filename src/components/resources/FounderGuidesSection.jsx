@@ -46,8 +46,8 @@ const corePillars = [
     color: "bg-rose-400",
     description: "Learn how to conduct meaningful customer conversations, validate your assumptions, and uncover real market needs.",
     links: [
-      { title: "Rob Fitzpatrick (The Mom Test) - Workshop Video", url: "https://www.youtube.com/watch?v=Hla1F-Wc6LU" },
-      { title: "Y Combinator - How to Talk to Users", url: "https://www.ycombinator.com/library/6g-how-to-talk-to-users" }
+      { title: "Rob Fitzpatrick (The Mom Test) - Workshop Video", url: "https://www.youtube.com/watch?v=_tl0vcJpbf8" },
+      { title: "Y Combinator - How to Talk to Users", url: "https://www.ycombinator.com/library/Iq-how-to-talk-to-users" }
     ],
     attribution: "Rob Fitzpatrick, Y Combinator",
     topics: ["User Research", "Validation", "Customer Interviews"]
@@ -94,10 +94,10 @@ const corePillars = [
     color: "bg-green-400",
     description: "Master proven growth tactics and customer acquisition strategies that scale sustainably while managing unit economics.",
     links: [
-      { title: "Y Combinator - Growth Guide", url: "https://www.ycombinator.com/library/5r-growth" },
+      { title: "Growth Unhinged - The Emerging Startup Playbook", url: "https://www.growthunhinged.com/p/the-emerging-startup-playbook" },
       { title: "First Round Review - Growth Tactics (Facebook/Twitter/Wealthfront)", url: "https://review.firstround.com/indispensable-growth-frameworks-from-my-years-at-facebook-twitter-and-wealthfront/" }
     ],
-    attribution: "Y Combinator, First Round Review",
+    attribution: "Growth Unhinged, First Round Review",
     topics: ["Growth", "CAC", "Scaling"]
   },
   {
@@ -118,7 +118,7 @@ const corePillars = [
     color: "bg-violet-400",
     description: "Build a world-class founding team by recruiting top talent, structuring equity fairly, and fostering collaboration.",
     links: [
-      { title: "Y Combinator - How to Hire", url: "https://www.ycombinator.com/library/46-how-to-hire" },
+      { title: "Y Combinator - How to Set Up, Hire, and Scale a Growth Strategy and Team", url: "https://www.ycombinator.com/library/59-how-to-set-up-hire-and-scale-a-growth-strategy-and-team" },
       { title: "Holloway - The Guide to Equity Compensation", url: "https://www.holloway.com/g/equity-compensation" }
     ],
     attribution: "Y Combinator, Holloway",
