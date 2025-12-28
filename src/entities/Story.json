@@ -1,0 +1,209 @@
+{
+  "name": "Story",
+  "type": "object",
+  "properties": {
+    "company_name": {
+      "type": "string",
+      "description": "Name of the company"
+    },
+    "founder_name": {
+      "type": "string",
+      "description": "Name of the founder(s)"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "FinTech",
+        "Consumer Tech",
+        "Logistics Tech",
+        "HealthTech",
+        "SaaS",
+        "AI & IoT",
+        "Deep Tech",
+        "HR Tech/SaaS",
+        "Marketplace",
+        "E-commerce",
+        "LegalTech",
+        "FoodTech",
+        "Cloud Storage",
+        "InsurTech",
+        "Hospitality Tech",
+        "B2B SaaS",
+        "Creator Economy",
+        "Facilities Management",
+        "AI/ML"
+      ],
+      "description": "Industry category"
+    },
+    "founded": {
+      "type": "string",
+      "description": "Year company was founded"
+    },
+    "exit_status": {
+      "type": "string",
+      "description": "Exit or current status (e.g., 'IPO 2011', 'Acquired', 'Unicorn')"
+    },
+    "exit_value": {
+      "type": "string",
+      "description": "Exit value or current valuation"
+    },
+    "journey_summary": {
+      "type": "string",
+      "description": "High-level journey summary with arrows"
+    },
+    "scale_economies": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Very High"
+      ],
+      "description": "Rating for scale economies power"
+    },
+    "network_effects": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Very High"
+      ],
+      "description": "Rating for network effects power"
+    },
+    "counter_positioning": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Very High"
+      ],
+      "description": "Rating for counter-positioning power"
+    },
+    "switching_costs": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Very High"
+      ],
+      "description": "Rating for switching costs power"
+    },
+    "branding": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Very High"
+      ],
+      "description": "Rating for branding power"
+    },
+    "cornered_resource": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Very High"
+      ],
+      "description": "Rating for cornered resource power"
+    },
+    "process_power": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Very High"
+      ],
+      "description": "Rating for process power"
+    },
+    "primary_power": {
+      "type": "string",
+      "description": "Primary competitive moat"
+    },
+    "secondary_power": {
+      "type": "string",
+      "description": "Secondary competitive moat"
+    },
+    "power_analysis": {
+      "type": "string",
+      "description": "Detailed analysis of competitive advantages and moats"
+    },
+    "read_time": {
+      "type": "string",
+      "description": "Estimated reading time (e.g., '10 min read')"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "URL of the story image"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this story is featured on the homepage"
+    },
+    "video_url": {
+      "type": "string",
+      "description": "Optional video URL"
+    },
+    "website": {
+      "type": "string",
+      "description": "Company website URL"
+    },
+    "podcast_links": {
+      "type": "array",
+      "description": "Array of podcast episodes",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "article_links": {
+      "type": "array",
+      "description": "Array of articles and interviews",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "resource_links": {
+      "type": "array",
+      "description": "Array of other resources (books, blogs, etc.)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "company_name",
+    "founder_name",
+    "category",
+    "journey_summary"
+  ]
+}

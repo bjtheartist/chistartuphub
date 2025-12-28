@@ -1,0 +1,67 @@
+{
+  "name": "Workspace",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the workspace"
+    },
+    "address": {
+      "type": "string",
+      "description": "Physical address"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the workspace and amenities"
+    },
+    "ideal_for": {
+      "type": "array",
+      "description": "Types of users or businesses ideal for this space",
+      "items": {
+        "type": "string"
+      }
+    },
+    "category": {
+      "type": "array",
+      "description": "Workspace categories",
+      "items": {
+        "type": "string",
+        "enum": [
+          "tech",
+          "diverse",
+          "corporate",
+          "creative",
+          "food",
+          "freelance",
+          "professional"
+        ]
+      }
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this workspace is featured"
+    },
+    "latitude": {
+      "type": "number",
+      "description": "Latitude coordinate for map display"
+    },
+    "longitude": {
+      "type": "number",
+      "description": "Longitude coordinate for map display"
+    },
+    "website": {
+      "type": "string",
+      "description": "Website URL"
+    }
+  },
+  "required": [
+    "name",
+    "address",
+    "description",
+    "ideal_for",
+    "category",
+    "latitude",
+    "longitude"
+  ]
+}

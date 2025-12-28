@@ -1,0 +1,55 @@
+{
+  "name": "ResourceSubmission",
+  "type": "object",
+  "properties": {
+    "resource_name": {
+      "type": "string",
+      "description": "Name of the resource being submitted"
+    },
+    "resource_url": {
+      "type": "string",
+      "description": "URL of the resource"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the resource and why it should be included"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Funding",
+        "Co-Working",
+        "Events",
+        "Community",
+        "Learning Resource",
+        "Tool",
+        "Other"
+      ],
+      "description": "Category of the resource"
+    },
+    "submitter_name": {
+      "type": "string",
+      "description": "Name of person submitting (optional)"
+    },
+    "submitter_email": {
+      "type": "string",
+      "description": "Email of person submitting (optional)"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ],
+      "default": "pending",
+      "description": "Review status of the submission"
+    }
+  },
+  "required": [
+    "resource_name",
+    "resource_url",
+    "description",
+    "category"
+  ]
+}

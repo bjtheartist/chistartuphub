@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Chicago New Venture Challenge",
+    "organization": "University of Chicago Polsky Center",
+    "description": "Premier startup competition at University of Chicago offering prize money and mentorship",
+    "opportunity_type": "Competition",
+    "check_size_min": 5000,
+    "check_size_max": 100000,
+    "stage": [
+      "Idea",
+      "Pre-seed",
+      "Early-stage"
+    ],
+    "sectors": [
+      "All Sectors"
+    ],
+    "website": "https://polsky.uchicago.edu/programs-events/new-venture-challenge/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "mHUB",
+    "organization": "mHUB Chicago",
+    "description": "Hardtech and manufacturing innovation center in Chicago with programs and funding",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": 50000,
+    "stage": [
+      "Pre-seed",
+      "Early-stage"
+    ],
+    "sectors": [
+      "Manufacturing/HardTech"
+    ],
+    "website": "https://mhubchicago.com/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "MATTER",
+    "organization": "MATTER Chicago",
+    "description": "Healthcare startup incubator and accelerator in Chicago",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage",
+      "Revenue-generating"
+    ],
+    "sectors": [
+      "HealthTech"
+    ],
+    "website": "https://matterchicago.com/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "1871",
+    "organization": "Chicagoland Entrepreneurial Center",
+    "description": "Premier tech startup hub and incubator in Chicago",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Pre-seed",
+      "Early-stage",
+      "Revenue-generating"
+    ],
+    "sectors": [
+      "General Tech"
+    ],
+    "website": "https://1871.com/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Chicago Community Loan Fund",
+    "organization": "CCLF",
+    "description": "CDFI providing loans and grants to Chicago small businesses",
+    "opportunity_type": "Grant",
+    "check_size_min": 5000,
+    "check_size_max": 500000,
+    "stage": [
+      "All Stages"
+    ],
+    "sectors": [
+      "Social Impact"
+    ],
+    "website": "https://cclfchicago.org/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Accion Chicago",
+    "organization": "Accion Opportunity Fund",
+    "description": "Microloans and grants for small businesses and entrepreneurs in Chicago",
+    "opportunity_type": "Grant",
+    "check_size_min": 5000,
+    "check_size_max": 100000,
+    "stage": [
+      "Pre-seed",
+      "Early-stage",
+      "Revenue-generating"
+    ],
+    "sectors": [
+      "All Sectors"
+    ],
+    "website": "https://us.accion.org/chicago",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Illinois Small Business Development Center",
+    "organization": "Illinois SBDC",
+    "description": "Statewide network providing consulting and funding assistance",
+    "opportunity_type": "Program",
+    "check_size_min": null,
+    "check_size_max": 50000,
+    "stage": [
+      "All Stages"
+    ],
+    "sectors": [
+      "All Sectors"
+    ],
+    "website": "https://www.ilsbdc.biz/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Northwestern University INVO",
+    "organization": "Northwestern University",
+    "description": "Commercialization support and funding for Northwestern innovations",
+    "opportunity_type": "Grant",
+    "check_size_min": 10000,
+    "check_size_max": 100000,
+    "stage": [
+      "Idea",
+      "Pre-seed"
+    ],
+    "sectors": [
+      "General Tech"
+    ],
+    "website": "https://invo.northwestern.edu/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "BLUE1647",
+    "organization": "BLUE1647",
+    "description": "South Side Chicago tech incubator focusing on underrepresented communities",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": 25000,
+    "stage": [
+      "Pre-seed",
+      "Early-stage"
+    ],
+    "sectors": [
+      "Social Impact"
+    ],
+    "website": "https://www.blue1647.com/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Women's Business Development Center",
+    "organization": "WBDC Chicago",
+    "description": "Support and funding for women-owned businesses in Chicago",
+    "opportunity_type": "Grant",
+    "check_size_min": 5000,
+    "check_size_max": 50000,
+    "stage": [
+      "All Stages"
+    ],
+    "sectors": [
+      "All Sectors"
+    ],
+    "website": "https://www.wbdc.org/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Illinois Science & Technology Coalition",
+    "organization": "ISTC",
+    "description": "Coalition supporting tech and innovation companies in Illinois",
+    "opportunity_type": "Grant",
+    "check_size_min": 25000,
+    "check_size_max": 250000,
+    "stage": [
+      "Early-stage",
+      "Revenue-generating"
+    ],
+    "sectors": [
+      "General Tech"
+    ],
+    "website": "https://www.istcoalition.org/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "P33",
+    "organization": "P33 Chicago",
+    "description": "Public-private partnership advancing Chicago's tech ecosystem",
+    "opportunity_type": "Program",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage",
+      "Revenue-generating"
+    ],
+    "sectors": [
+      "General Tech"
+    ],
+    "website": "https://p33chicago.com/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Impact Engine",
+    "organization": "Impact Engine",
+    "description": "Chicago-based impact investing accelerator",
+    "opportunity_type": "Accelerator",
+    "check_size_min": 50000,
+    "check_size_max": 150000,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Social Impact"
+    ],
+    "website": "https://theimpactengine.com/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "MATH Venture Partners",
+    "organization": "MATH Venture Partners",
+    "description": "Chicago venture capital firm focused on B2B software",
+    "opportunity_type": "VC",
+    "check_size_min": 500000,
+    "check_size_max": 3000000,
+    "stage": [
+      "Early-stage",
+      "Revenue-generating"
+    ],
+    "sectors": [
+      "FinTech"
+    ],
+    "website": "https://mathventurepartners.com/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Gener8tor Chicago",
+    "organization": "Gener8tor",
+    "description": "Accelerator with programs in Chicago and across the Midwest",
+    "opportunity_type": "Accelerator",
+    "check_size_min": 50000,
+    "check_size_max": 100000,
+    "stage": [
+      "Pre-seed",
+      "Early-stage"
+    ],
+    "sectors": [
+      "General Tech"
+    ],
+    "website": "https://www.gener8tor.com/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Pritzker Group Venture Capital",
+    "organization": "Pritzker Group",
+    "description": "Chicago-based VC firm investing in technology companies",
+    "opportunity_type": "VC",
+    "check_size_min": 1000000,
+    "check_size_max": 10000000,
+    "stage": [
+      "Early-stage",
+      "Revenue-generating"
+    ],
+    "sectors": [
+      "General Tech"
+    ],
+    "website": "https://www.pritzkergroup.com/venture-capital",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Portal Innovations",
+    "organization": "Portal Innovations",
+    "description": "Life sciences venture creation studio in Chicago",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": 500000,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "HealthTech"
+    ],
+    "website": "https://portal.vc/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Bunker Labs Chicago",
+    "organization": "Bunker Labs",
+    "description": "Veteran-focused entrepreneurship program with Chicago chapter",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": 25000,
+    "stage": [
+      "Pre-seed",
+      "Early-stage"
+    ],
+    "sectors": [
+      "All Sectors"
+    ],
+    "website": "https://bunkerlabs.org/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Good Food Accelerator",
+    "organization": "Good Food Business Accelerator",
+    "description": "Chicago-based accelerator for sustainable food businesses",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": 25000,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Food/Agriculture"
+    ],
+    "website": "https://goodfoodfdn.org/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Chicago:Blend",
+    "organization": "World Business Chicago",
+    "description": "Program supporting diverse entrepreneurs in Chicago",
+    "opportunity_type": "Program",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All Stages"
+    ],
+    "sectors": [
+      "All Sectors"
+    ],
+    "website": "https://www.worldbusinesschicago.com/chicagoblend/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Polsky Center for Entrepreneurship",
+    "organization": "University of Chicago",
+    "description": "University of Chicago's entrepreneurship hub with various programs",
+    "opportunity_type": "Program",
+    "check_size_min": null,
+    "check_size_max": 50000,
+    "stage": [
+      "Idea",
+      "Pre-seed"
+    ],
+    "sectors": [
+      "All Sectors"
+    ],
+    "website": "https://polsky.uchicago.edu/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "TechNexus",
+    "organization": "TechNexus Venture Collaborative",
+    "description": "Chicago venture collaborative and innovation hub",
+    "opportunity_type": "Accelerator",
+    "check_size_min": 250000,
+    "check_size_max": 1000000,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "General Tech"
+    ],
+    "website": "https://technexus.com/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Cleveland Avenue",
+    "organization": "Cleveland Avenue",
+    "description": "Chicago-based food and beverage focused venture fund",
+    "opportunity_type": "VC",
+    "check_size_min": 500000,
+    "check_size_max": 5000000,
+    "stage": [
+      "Early-stage",
+      "Revenue-generating"
+    ],
+    "sectors": [
+      "Food/Agriculture"
+    ],
+    "website": "https://clevelandavenue.com/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  },
+  {
+    "name": "Vital Proteins Collagen Venture",
+    "organization": "Vital Proteins",
+    "description": "Chicago-based health and wellness investor",
+    "opportunity_type": "VC",
+    "check_size_min": 250000,
+    "check_size_max": 2000000,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "HealthTech"
+    ],
+    "website": "https://www.vitalproteins.com/",
+    "is_active": true,
+    "chicago_focused": true,
+    "featured": false
+  }
+]

@@ -1,0 +1,5334 @@
+[
+  {
+    "id": "f05ea9e7-78c9-41e2-85af-70854438f743",
+    "name": "Cybersecurity & Defence Accelerator",
+    "organization": null,
+    "description": "B2B startups in cybersecurity/defence | Elevate B2B startup, mentorship included | Amount: Varies",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Cybersecurity",
+      "Defense"
+    ],
+    "website": "https://fundsforngos.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-01",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "902f3dba-16c6-49b7-bdb8-9337889e8e05",
+    "name": "Breva Thrive Grant",
+    "organization": null,
+    "description": "US small businesses with 1+ year, generating revenue | Quarterly grant; prefers underserved communities | Amount: $5,000",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General",
+      "Community Impact"
+    ],
+    "website": "https://breva.co",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-01",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "a30733e0-3aa7-461c-a94e-b2580fec2123",
+    "name": "Secretsos Small Business Grant",
+    "organization": null,
+    "description": "Business owners 21+, US-based | Designed for overlooked entrepreneurs | Amount: $2,500",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://secretsos.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-01",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "e1e91636-4947-48d9-ba6a-3acd73ce121a",
+    "name": "Penn Startup Challenge",
+    "organization": null,
+    "description": "Penn students/alumni | Flagship Penn entrepreneurship event | Amount: $200,000+ in prizes",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General Tech"
+    ],
+    "website": "https://venturelab.upenn.edu",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-11",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "5ce29877-2db0-4432-812b-8413f6b99a8e",
+    "name": "Space Symposium Innovate Pitch",
+    "organization": null,
+    "description": "Global companies, TRL 4-7 | Pitch live April 15, 2026 | Amount: Varies",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Space",
+      "Aerospace"
+    ],
+    "website": "https://spacesymposium.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-15",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "42a96db0-0fb2-40fc-ad5f-289ecaed6de7",
+    "name": "YALI Africa Startup Accelerator",
+    "organization": null,
+    "description": "Young East African entrepreneurs | 3-week program at University of Iowa | Amount: Fully Funded",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://opportunitiesforafricans.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-15",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "6660f5a3-2353-4e37-a51d-d61ad7f8de30",
+    "name": "South Summit Madrid",
+    "organization": null,
+    "description": "Startups globally, all sectors | 100 finalist startups, 3-min pitch | Amount: Multiple awards",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General Tech"
+    ],
+    "website": "https://southsummit.io",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-15",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "70561cc0-77dc-40b7-a6da-42b12e117985",
+    "name": "Amex Shop Small Grants",
+    "organization": null,
+    "description": "For-profit, brick-and-mortar, \u226420 employees, operating before 2025 | 250 grants available; Main Street America partner | Amount: $20,000",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Small Business",
+      "Retail"
+    ],
+    "website": "https://americanexpress.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-16",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "4378ad35-9cbc-40f3-ac02-f08436da7f65",
+    "name": "Horizon Europe AI Road Safety",
+    "organization": null,
+    "description": "EU-based consortiums | Predicting and avoiding road crashes | Amount: \u20ac4-6M projects",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "AI",
+      "Transportation"
+    ],
+    "website": "https://ec.europa.eu",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-20",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "c79a6664-2529-4773-87fb-39c97121aa0d",
+    "name": "Horizon Europe Battery Development",
+    "organization": null,
+    "description": "EU-based consortiums | Sustainable battery development | Amount: \u20ac4-6M projects",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Clean Energy",
+      "Manufacturing"
+    ],
+    "website": "https://ec.europa.eu",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-20",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "5ce140e7-5ba0-443b-ba99-14484f3835fe",
+    "name": "AgeTech Open Mic Challenge",
+    "organization": null,
+    "description": "AgeTech startups | From AARP AgeTech Collaborative | Amount: Varies",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "AgeTech",
+      "Longevity"
+    ],
+    "website": "https://agetechcollaborative.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-22",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "082f0f0f-c11d-440a-b722-1c6749d67bfd",
+    "name": "Google for Startups MENA",
+    "organization": null,
+    "description": "MENA region tech startups using AI/ML | 10-week program with Google mentorship | Amount: Equity-free + Cloud credits",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Tech",
+      "AI"
+    ],
+    "website": "https://startup.google.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-30",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "c3c96a1b-bbc0-4754-8592-fd518ca7a452",
+    "name": "Capital One Mobility Program",
+    "organization": null,
+    "description": "Idea-stage and growth startups | Kicks off late March 2026 | Amount: Mentorship + Resources",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Mobility",
+      "Transportation"
+    ],
+    "website": "https://capitalone.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-31",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "b841a3ee-102f-4519-b663-0046d52cf1f3",
+    "name": "Startmate Accelerator",
+    "organization": null,
+    "description": "Australia/New Zealand startups | 12-week program | Amount: $75,000 for 7.5%",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "EdTech",
+      "FinTech",
+      "HealthTech"
+    ],
+    "website": "https://startmate.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-01-31",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "60d3cd05-19ca-44ed-970d-8eec0d10cf07",
+    "name": "Santander Cultivate Small Business Grant",
+    "organization": null,
+    "description": "Food businesses, 1+ year, $25K-$1M revenue, 1-10 employees | 12-week virtual education program included | Amount: $10,000",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Food Industry"
+    ],
+    "website": "https://santander.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-02-02",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "2dbe17a3-c752-4bf6-848a-0e6529b9549a",
+    "name": "Desai Accelerator (U-M Alumni)",
+    "organization": null,
+    "description": "Startups with U-M alum founder | June-September 2026 program | Amount: Mentorship + Resources",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General Tech"
+    ],
+    "website": "https://desaiaccelerator.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-02-08",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "24888158-69f7-41b8-92ce-f78a42bf0a43",
+    "name": "The Liveability Challenge 2026",
+    "organization": null,
+    "description": "Global innovators | Focus on carbon emission reduction | Amount: Up to S$1M",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Decarbonisation",
+      "Climate"
+    ],
+    "website": "https://liveabilitychallenge.sg",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-02-09",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "2b7ec537-2a59-4d1e-97f2-a04b3519c792",
+    "name": "QuickBooks Small Business Hero",
+    "organization": null,
+    "description": "US businesses, 1+ year, \u226499 employees | Must be nominated; 3 winners per quarter | Amount: $20,000",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://quickbooks.intuit.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-02-14",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "629f694e-614c-4cca-8356-9a53a214b21a",
+    "name": "Space Symposium Innovate (Final)",
+    "organization": null,
+    "description": "Global startups, TRL 4-7 | Extended deadline | Amount: Varies",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Space",
+      "Aerospace"
+    ],
+    "website": "https://spacesymposium.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-02-15",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "6872051c-3b1e-4aff-babc-499eb1a46c3b",
+    "name": "EDA Tech Hubs Phase 2",
+    "organization": null,
+    "description": "19 designated Tech Hub regions | Stage II deadline for implementation grants | Amount: Up to $220M total",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Critical Technologies"
+    ],
+    "website": "https://eda.gov",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-02-18",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "b3c1f157-87ab-460e-83a0-a2daae43aa83",
+    "name": "HHS SBIR/STTR",
+    "organization": null,
+    "description": "US small businesses <500 employees | Pending reauthorization; check status | Amount: $150K-$1M+",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Health",
+      "Biomedical"
+    ],
+    "website": "https://seed.nih.gov",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-02-24",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "fc9f878d-f310-4b4d-9059-3adf0bca75ef",
+    "name": "AgeTech February Open Mic",
+    "organization": null,
+    "description": "AgeTech startups | Applications open Dec 12, 2025 | Amount: Varies",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "AgeTech",
+      "Longevity"
+    ],
+    "website": "https://agetechcollaborative.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-02-26",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "d42645d0-e89f-43eb-b0ec-638fa22fabc4",
+    "name": "ViVE Health AgeTech Pitch",
+    "organization": null,
+    "description": "AgeTech MVP-stage startups | Pitch at ViVE Event in LA | Amount: Cash + exposure",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "HealthTech",
+      "AgeTech"
+    ],
+    "website": "https://viveevent.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-02-25",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "c2e0730c-d17d-48cf-adbc-bbf832de553a",
+    "name": "Secretsos Grant (Q1 Close)",
+    "organization": null,
+    "description": "Business owners 21+, US-based | Quarter closes | Amount: $2,500",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://secretsos.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-02-27",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "15b64219-9273-480b-bc5e-eb8e3aa757e7",
+    "name": "Ilitch School Tech Pitch (Finalists)",
+    "organization": null,
+    "description": "WSU students | Finalists announced | Amount: Cash prizes",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Technology"
+    ],
+    "website": "https://ilitchbusiness.wayne.edu",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-02-27",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "a87dd723-df78-427d-bbfb-6aefad5eda8c",
+    "name": "EDA Industry Transformation Grants",
+    "organization": null,
+    "description": "US-based organizations | Part of EDA funding opportunities | Amount: Varies",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Industry",
+      "Workforce"
+    ],
+    "website": "https://eda.gov",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-03-03",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "3488247a-1906-4abb-8305-fa52e0f73d52",
+    "name": "HHS SBIR/STTR (March)",
+    "organization": null,
+    "description": "US small businesses <500 employees | Pending reauthorization | Amount: $150K-$1M+",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Health",
+      "Biomedical"
+    ],
+    "website": "https://seed.nih.gov",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-03-14",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "5e47c1df-ca41-4c5e-a418-276b485a7057",
+    "name": "SXSW Pitch Competition",
+    "organization": null,
+    "description": "Early-stage startups | Part of SXSW Conference in Austin | Amount: Varies",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General Tech"
+    ],
+    "website": "https://sxsw.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": "2026-03-18",
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "d1de4e6b-d883-4ef8-a4a8-e059229fb22b",
+    "name": "NASE Growth Grants (Q1 Review)",
+    "organization": null,
+    "description": "NASE members, 90+ days | Over $1M distributed historically | Amount: Up to $4,000 | Deadline: Quarterly (Jan, Apr, Jul, Oct)",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://nase.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "6c0d4e70-a49b-4bbe-9631-1e1fdab867c4",
+    "name": "HerSuiteSpot Hustler's Microgrant",
+    "organization": null,
+    "description": "US small businesses | Monthly awards | Amount: $1,000 | Deadline: Rolling (monthly)",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Women-focused"
+    ],
+    "website": "https://hersuitespot.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "944ac441-0ad3-4f7e-9845-2144027c646b",
+    "name": "TechRise Pitch Competition",
+    "organization": null,
+    "description": "Chicagoland early-stage entrepreneurs | Weekly Friday competitions on Zoom | Amount: $25,000-$50,000 | Deadline: Rolling (weekly)",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://techrise.me",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "d2e3f1f0-43ea-4d87-bea0-0dc6e5b50d3f",
+    "name": "IL Small Business Capital Grant",
+    "organization": null,
+    "description": "SEDI-owned or VSB (<10 employees) | Focus on underrepresented groups | Amount: $10,000-$245,000 | Deadline: Check DCEO website",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General",
+      "Infrastructure"
+    ],
+    "website": "https://dceo.illinois.gov",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "5e08ddc4-4ff1-4e4d-b226-3d666598e875",
+    "name": "Chicago SBIF Grant",
+    "organization": null,
+    "description": "Chicago businesses in TIF districts | Reimbursable permanent improvements | Amount: Varies | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Building Improvement"
+    ],
+    "website": "https://somercor.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "dc0453db-ef73-4fd8-b85a-fe7fa4738d3e",
+    "name": "IL Federal Grant Match Program",
+    "organization": null,
+    "description": "IL businesses seeking federal grants | Matches federal grant applications | Amount: Up to $15M total | Deadline: Check DCEO website",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://dceo.illinois.gov",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "15a65dd9-d81e-424a-8225-77e4855b8426",
+    "name": "Chicago CDG Large Grant",
+    "organization": null,
+    "description": "Business/property owners, nonprofits | For retail, office, industrial projects | Amount: Up to $5M | Deadline: Check city website",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Community Development"
+    ],
+    "website": "https://chicago.gov",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "7af85929-4b29-4dfb-8e03-681897d75500",
+    "name": "Aurora Finish Line Grant",
+    "organization": null,
+    "description": "Commercial businesses in Aurora | <50 employees required | Amount: Gap financing | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Property Improvement"
+    ],
+    "website": "https://aurora-il.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "1937c6c6-8b28-43d5-aab7-666cb6aa8c3b",
+    "name": "SoGal Black Founder Grant",
+    "organization": null,
+    "description": "Black women & nonbinary entrepreneurs | Partnership with Walmart | Amount: $5,000-$10,000 | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://sogalfoundation.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "3d2b8f34-c9eb-419f-bad5-a261718c713f",
+    "name": "Google Black Founders Fund",
+    "organization": null,
+    "description": "Black-led startups with traction | Plus Cloud credits + mentorship | Amount: Up to $150,000 | Deadline: Q2 2026 (typical)",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Tech"
+    ],
+    "website": "https://startup.google.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "4f9b18d4-b791-4991-99fa-c4bc07d446ae",
+    "name": "NAACP Powershift Grant",
+    "organization": null,
+    "description": "Black entrepreneurs | Resources beyond funding | Amount: $25,000 | Deadline: Check NAACP website",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://naacp.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "ba98009e-6e40-43eb-a8ab-f71a825ec7b4",
+    "name": "Black Girl Ventures Pitch",
+    "organization": null,
+    "description": "Black/Brown women founders | Audience-voted pitch competition | Amount: Varies by city | Deadline: Varies by city",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://blackgirlventures.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "9b57d29c-0db0-4e4d-91f7-50939febb626",
+    "name": "Harlem Capital",
+    "organization": null,
+    "description": "Minority/women founders, Seed-Series A | Equity investment, not grant | Amount: $250K-$1M | Deadline: Rolling",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "Tech-enabled"
+    ],
+    "website": "https://harlem.capital",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "8dbfa6c2-6b13-469c-a721-9c086c2c86ce",
+    "name": "National Black MBA Scale-Up Pitch",
+    "organization": null,
+    "description": "Black entrepreneurs | Live pitch in Atlanta | Amount: $50,000 (1st) | Deadline: Check NBMBAA website",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://nbmbaa.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "c87330b2-00da-445f-bec5-954b5a6f2db4",
+    "name": "Kinetic Black Business Support",
+    "organization": null,
+    "description": "Black-owned, Midwest/Northeast, <25 employees | Must be in service area | Amount: Up to $2,500 | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [],
+    "sectors": [
+      "General"
+    ],
+    "website": "https://kineticbyboe.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:23:24.837414+00:00",
+    "updated_at": "2025-12-22T04:23:24.837414+00:00"
+  },
+  {
+    "id": "06dce262-2bba-433a-b1b2-4927de1faf2f",
+    "name": "Chingona Ventures",
+    "organization": null,
+    "description": "Supporting women and minority-led companies and overlooked founders. | Focus on underrepresented founders | Check size: $100K-$500K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed"
+    ],
+    "sectors": [
+      "Women & minority-led",
+      "Consumer",
+      "B2B"
+    ],
+    "website": "https://www.chingona.ventures/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T15:28:19.602852+00:00"
+  },
+  {
+    "id": "93f6462d-4bd9-41a3-ac98-46b4d4b7ec7c",
+    "name": "West Suburban Angels Inc.",
+    "organization": null,
+    "description": null,
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Chicago suburban startups"
+    ],
+    "website": "https://www.westsuburbanangels.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "f134c0cd-ac5c-463c-97c5-1cb54c069576",
+    "name": "a11y Capital",
+    "organization": null,
+    "description": "Supporting startups building accessible products for people with disabilities. | Focus on underrepresented founders | Check size: $100K-$1M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Accessibility",
+      "Disability inclusion"
+    ],
+    "website": "https://www.a11ycapital.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "01c3eb70-6583-4c22-ab6c-d157576f89ba",
+    "name": "mHUB Spark Fund II",
+    "organization": null,
+    "description": "Energy, medtech, manufacturing, 65 startups over 4 years | Check size: $20M target",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Seed"
+    ],
+    "sectors": [
+      "Hardtech",
+      "Physical Products"
+    ],
+    "website": null,
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "bcc2a5fe-18a1-4885-9425-e950a4ac4cb5",
+    "name": "MassChallenge Chicago",
+    "organization": null,
+    "description": "High-impact startups, all stages | Zero-equity accelerator, top performers win cash prizes | Award: $0 equity, $1M+ in prizes | Location: Global (Chicago program) | Deadline: Annual",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://masschallenge.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "17178a96-cf10-4759-b731-81c5d67d3d95",
+    "name": "MassChallenge HealthTech",
+    "organization": null,
+    "description": "Digital health and healthcare innovation startups | Health-specific cohort, zero equity model | Award: $0 equity, $350K+ in prizes | Location: Global | Deadline: Annual",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "HealthTech"
+    ],
+    "sectors": [
+      "HealthTech"
+    ],
+    "website": "https://masschallenge.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "36b65053-dda4-4b64-aa88-4045d976b3dd",
+    "name": "AWS Activate",
+    "organization": null,
+    "description": "VC-backed or accelerator-backed startups | AWS credits, technical training, no equity | Award: Up to $100K AWS credits | Location: Global | Deadline: Rolling",
+    "opportunity_type": "Credits",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Cloud",
+      "Infrastructure"
+    ],
+    "sectors": [
+      "Cloud",
+      "Infrastructure"
+    ],
+    "website": "https://aws.amazon.com/activate/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "903931c5-707c-4876-865f-0d8b51143605",
+    "name": "Duality Accelerator",
+    "organization": null,
+    "description": "Diverse founders, underrepresented entrepreneurs | Focus on diverse founders | Award: Varies (18 grants listed) | Location: Chicago-preferred | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Impact",
+      "Underrepresented founders"
+    ],
+    "sectors": [
+      "Impact",
+      "Underrepresented founders"
+    ],
+    "website": "https://www.dualityaccelerator.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "ab936acc-f095-41d5-a91f-53cfbb4597dc",
+    "name": "Entrepreneurial Equity Initiative",
+    "organization": null,
+    "description": "Black and Latinx entrepreneurs in Chicago | Chicago-specific, JPMorgan Chase program | Award: $10K grants | Location: Chicago-area | Deadline: Annual",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Black",
+      "Latinx founders"
+    ],
+    "sectors": [
+      "Black",
+      "Latinx founders"
+    ],
+    "website": "https://www.jpmorgan.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "b7e7781d-798e-4050-8905-452be7ce0186",
+    "name": "Evergreen Climate Innovations",
+    "organization": null,
+    "description": "Climate tech startups with measurable carbon impact | Focus on climate solutions with deployment strategy | Award: $150K-$500K | Location: Chicago, IL (HQ or expansion) | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Climate",
+      "Clean energy",
+      "Carbon removal"
+    ],
+    "sectors": [
+      "Climate",
+      "Clean energy",
+      "Carbon removal"
+    ],
+    "website": "http://evergreeninno.org",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "b8a148b3-9774-493b-9a36-00e7e3af1b97",
+    "name": "Google for Startups Cloud Program",
+    "organization": null,
+    "description": "Early-stage startups using or building on Google Cloud | GCP credits, technical support, no equity | Award: Up to $200K Google Cloud credits | Location: Global | Deadline: Rolling",
+    "opportunity_type": "Credits",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Cloud",
+      "AI",
+      "Mobile"
+    ],
+    "sectors": [
+      "Cloud",
+      "AI",
+      "Mobile"
+    ],
+    "website": "https://cloud.google.com/startup",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "dd539d8d-55c0-4c4b-ac95-75a29e6f9dab",
+    "name": "Landis Family Fellow by mHUB",
+    "organization": null,
+    "description": "Hardtech entrepreneurs with technical innovation | Fellowship includes funding, workspace, mentorship | Award: $50K + resources | Location: Chicago, IL | Deadline: Quarterly",
+    "opportunity_type": "Fellowship",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Hardtech",
+      "Physical products",
+      "Manufacturing"
+    ],
+    "sectors": [
+      "Hardtech",
+      "Physical products",
+      "Manufacturing"
+    ],
+    "website": "https://mhubchicago.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "f5dd8677-644f-486e-88b6-1774df670575",
+    "name": "Microsoft for Startups Founders Hub",
+    "organization": null,
+    "description": "Seed-stage startups, B2B focus preferred | Azure credits, GitHub Enterprise, OpenAI API access | Award: Up to $150K Azure credits + $1K+ in tools | Location: Global | Deadline: Rolling",
+    "opportunity_type": "Credits",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Cloud",
+      "AI",
+      "Enterprise software"
+    ],
+    "sectors": [
+      "Cloud",
+      "AI",
+      "Enterprise software"
+    ],
+    "website": "https://www.microsoft.com/startups",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "efb5b6c8-f530-4c6e-99cc-19b65def8f17",
+    "name": "SBIR Phase I - DOD",
+    "organization": null,
+    "description": "Small businesses (<500 employees) with R&D focus. US ownership required | Non-dilutive R&D funding, no IP surrender | Award: Up to $200K | Location: US-based | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Defense",
+      "Dual-use tech",
+      "Innovation"
+    ],
+    "sectors": [
+      "Defense",
+      "Dual-use tech",
+      "Innovation"
+    ],
+    "website": "https://www.sbir.gov/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "428a3c36-3ede-4b32-a65d-32392f7951b0",
+    "name": "SBIR Phase I - DOE",
+    "organization": null,
+    "description": "Energy and climate tech startups with R&D | Energy-focused R&D, strong climate tech emphasis | Award: Up to $250K | Location: US-based | Deadline: Windows open 2x/year",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Energy",
+      "Climate",
+      "Clean tech"
+    ],
+    "sectors": [
+      "Energy",
+      "Climate",
+      "Clean tech"
+    ],
+    "website": "https://www.energy.gov/sbir/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "27e178f4-fe9b-4e72-a714-5073434e4514",
+    "name": "SBIR Phase I - NIH",
+    "organization": null,
+    "description": "Health and life sciences startups with R&D focus | Life sciences R&D, higher award amounts than other agencies | Award: Up to $400K | Location: US-based | Deadline: Windows open 3x/year",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "HealthTech",
+      "BioTech",
+      "Medical devices"
+    ],
+    "sectors": [
+      "HealthTech",
+      "BioTech",
+      "Medical devices"
+    ],
+    "website": "https://sbir.nih.gov/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "310e9e82-e8ec-4f24-8951-7bb9fc03fda5",
+    "name": "SBIR Phase I - NSF",
+    "organization": null,
+    "description": "Deep tech startups with NSF-relevant research | Most founder-friendly SBIR program, no matching required | Award: Up to $275K | Location: US-based | Deadline: Windows open quarterly",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "DeepTech",
+      "Science",
+      "Engineering"
+    ],
+    "sectors": [
+      "DeepTech",
+      "Science",
+      "Engineering"
+    ],
+    "website": "https://seedfund.nsf.gov/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "a04f8cad-442d-47c1-91df-5199a2f7ae07",
+    "name": "The Raise by LongJump",
+    "organization": null,
+    "description": "Post-product, pre-pre-seed Chicago founders planning to fundraise. Raised <$100K dilutive capital, building <1 year | 6-part workshop series (Jan 20 - Mar 11, 2026). Includes pitch deck development, investor matchmaking | Award: $10K (5 winners) | Location: Chicago, IL | Deadline: March 2026",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Pre-seed preparation",
+      "All sectors"
+    ],
+    "sectors": [
+      "Pre-seed preparation",
+      "All sectors"
+    ],
+    "website": "https://longjump.vc",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "573e3d30-18b1-4ff5-83b5-ff70774c862a",
+    "name": "VentureCat Northwestern 2026",
+    "organization": null,
+    "description": "Student entrepreneurs | Application window March 30-April 9 2026, Finals May 27 2026, workshops and prep April-May, Northwestern students | Award: $75000+ prizes | Location: Chicago, IL | Deadline: April 9 2026",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Student-led ventures"
+    ],
+    "sectors": [
+      "Student-led ventures"
+    ],
+    "website": "https://www.venturecat.northwestern.edu/schedule-key-dates/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "6df8ed7a-6e72-4a84-b349-44763d9ed555",
+    "name": "mPOWER by mHUB",
+    "organization": null,
+    "description": "Early-stage hardtech and deeptech startups | Non-dilutive grant for product development | Award: $50K | Location: Chicago, IL | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Hardtech",
+      "DeepTech",
+      "Manufacturing"
+    ],
+    "sectors": [
+      "Hardtech",
+      "DeepTech",
+      "Manufacturing"
+    ],
+    "website": "https://mhubchicago.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "d32370e8-bd34-4b38-8328-179c6d51b6bf",
+    "name": "43North",
+    "organization": null,
+    "description": "High-growth startups willing to relocate to Buffalo | Largest startup prize in US, requires Buffalo relocation | Award: $1M grand prize + $500K runner-up | Location: Buffalo, NY (relocation required) | Deadline: Annual",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://www.43north.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "d63c6d92-7b88-4275-8f36-cac188630ccd",
+    "name": "AAUW Career Development Grants",
+    "organization": null,
+    "description": "Individual professionals | U.S. citizens/permanent residents with bachelor's degree, 400+ instructional hours programs | Award: Up to $8000 | Location: US-based | Deadline: Dec 31 2025",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Women in STEM careers leadership/executive training"
+    ],
+    "sectors": [
+      "Women in STEM careers leadership/executive training"
+    ],
+    "website": "https://www.aauw.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "a6b3fdb8-172f-44e9-bc6b-a2ee2b8ccacd",
+    "name": "Amber Grant",
+    "organization": null,
+    "description": "Women-owned businesses | Women-only, monthly $10K + annual $25K awards | Award: $10K monthly, $25K annual | Location: US, Canada | Deadline: Monthly",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors (women founders)"
+    ],
+    "sectors": [
+      "All sectors (women founders)"
+    ],
+    "website": "https://ambergrantsforwomen.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "f41be33f-ceb3-48ea-9bdd-f0de7c4d5f87",
+    "name": "Amber Grant for Women",
+    "organization": null,
+    "description": "Women-owned businesses | One application enters monthly + year-end consideration, women over 18, 50%+ women-owned, startups eligible | Award: $10000 monthly + $25000 year-end (3 winners) | Location: Global | Deadline: Monthly (last day of month 11:59 PM ET)",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Monthly themed categories (Nov: STEM Dec: Fashion Jan: Skilled Trades)"
+    ],
+    "sectors": [
+      "Monthly themed categories (Nov: STEM Dec: Fashion Jan: Skilled Trades)"
+    ],
+    "website": "https://ambergrantsforwomen.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "c8d7cef6-4723-44e3-b65d-750bf887d8f6",
+    "name": "American Family Institute Innovation Grant",
+    "organization": null,
+    "description": "InsurTech and related technology startups | InsurTech specific, American Family partnership opportunities | Award: Up to $50K | Location: US-based | Deadline: Annual",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "InsurTech"
+    ],
+    "sectors": [
+      "InsurTech"
+    ],
+    "website": "https://www.amfam.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "0858d746-268c-4608-b5ce-5a2f19ebf593",
+    "name": "American Underground - Launch Challenge",
+    "organization": null,
+    "description": "Early-stage startups in the Southeast | Southeast regional, NC-based | Award: $10K-$25K | Location: North Carolina | Deadline: Quarterly",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://www.americanunderground.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "55519180-1d72-458b-b17e-5d28a6621b39",
+    "name": "Arch Grants",
+    "organization": null,
+    "description": "Early-stage startups willing to relocate to St. Louis | Highly competitive, requires 1-year St. Louis commitment | Award: $50K equity-free | Location: St. Louis, MO (relocation required) | Deadline: Annual",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://archgrants.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "b0793489-c5d9-4dcd-aaf7-9577dd50ec60",
+    "name": "Awesome Foundation",
+    "organization": null,
+    "description": "All stages | 84 independently run chapters worldwide, trustees fund grants, encourage any great idea | Award: $1000 monthly | Location: Global | Deadline: Rolling basis",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Projects with awesome ideas (not limited to businesses)"
+    ],
+    "sectors": [
+      "Projects with awesome ideas (not limited to businesses)"
+    ],
+    "website": "https://www.awesomefoundation.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "7c32205a-eb03-4d99-b055-8be8d9047299",
+    "name": "Backstage Capital Accelerator",
+    "organization": null,
+    "description": "Underrepresented founders (women, POC, LGBTQ+) | Takes equity but critical resource for underrepresented founders | Award: $100K + program | Location: Los Angeles, CA | Deadline: Annual",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Underrepresented founders",
+      "All sectors"
+    ],
+    "sectors": [
+      "Underrepresented founders",
+      "All sectors"
+    ],
+    "website": "https://backstagecapital.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "9d2a1ebb-dd68-431e-81f4-87883e3e00ea",
+    "name": "Baylor New Venture Competition - Round 2",
+    "organization": null,
+    "description": "University students/alumni | Top 50 submit full business plan, Finals March 27-28 2026, partnered with National Collegiate Innovation Championship | Award: $200000+ cash + in-kind | Location: Global | Deadline: Jan 19 2026",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors global"
+    ],
+    "sectors": [
+      "All sectors global"
+    ],
+    "website": "https://hankamer.baylor.edu/baugh-center/new-venture",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "a5ad67f4-3570-44d9-8c71-70a60b6920ab",
+    "name": "Capital One Business Grants",
+    "organization": null,
+    "description": "Small businesses, focus on underrepresented founders | Corporate grant program, underrepresented founder focus | Award: Varies, typically $25K | Location: US-based | Deadline: Annual",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Underrepresented founders",
+      "All sectors"
+    ],
+    "sectors": [
+      "Underrepresented founders",
+      "All sectors"
+    ],
+    "website": "https://www.capitalone.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "851b54a3-46e0-4271-8424-e36f139f4327",
+    "name": "Cartier Women's Initiative",
+    "organization": null,
+    "description": "Women-led businesses with social/environmental impact | Global women's entrepreneurship award, impact focus | Award: $100K + mentorship | Location: Global | Deadline: Annual",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Women founders",
+      "Impact"
+    ],
+    "sectors": [
+      "Women founders",
+      "Impact"
+    ],
+    "website": "https://www.cartierwomensinitiative.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "68a1a399-131d-4b50-a76a-a6d40111188e",
+    "name": "Chicago Innovation Exchange Accelerator",
+    "organization": null,
+    "description": "UChicago-affiliated founders and students | University of Chicago entrepreneurship hub, multiple programs | Award: $10K-$25K prizes | Location: Chicago-connected | Deadline: Annual",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://polsky.uchicago.edu/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "c6fe6d41-62b1-4454-88b1-5f545de11d8c",
+    "name": "CodeLaunch USA 2026",
+    "organization": null,
+    "description": "Early-stage | Finals April 15 2026 Miami, World Championship Nov 11 2026, applications open Oct 15 2025 | Award: $50k+ investment + services | Location: Global | Deadline: Feb 1 2026",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "US-based founders"
+    ],
+    "sectors": [
+      "US-based founders"
+    ],
+    "website": "https://codelaunch.com/events/2026-usa/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "b213660c-354a-4fba-aa5a-77baa1efe95a",
+    "name": "Dream Big Competition (BMO)",
+    "organization": null,
+    "description": "Students in Chicago Public Schools with business ideas | High school competition, Chicago-focused | Award: $50K + prizes | Location: Chicago-area | Deadline: Annual",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "High school students",
+      "Chicago"
+    ],
+    "sectors": [
+      "High school students",
+      "Chicago"
+    ],
+    "website": "https://www.bmoharris.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "6ea38b53-8802-4b06-9cda-4675ebf970ff",
+    "name": "EDA Disaster Supplemental - Industry Transformation",
+    "organization": null,
+    "description": "Community/Regional | American communities with major disaster declarations, Readiness grants on rolling basis | Award: Part of $1.45B disaster recovery | Location: Global | Deadline: March 3 2026",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Disaster recovery (hurricanes wildfires floods tornadoes 2023-2024)"
+    ],
+    "sectors": [
+      "Disaster recovery (hurricanes wildfires floods tornadoes 2023-2024)"
+    ],
+    "website": "https://www.eda.gov/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "c211ae5b-5653-415e-a507-f5d375da47a8",
+    "name": "EDA Tech Hubs - Stage II",
+    "organization": null,
+    "description": "Regional development | U.S. Economic Development Administration, Stage I deadline was Nov 7 2025, support American regions as global tech leaders | Award: Part of $220M funding | Location: US-based | Deadline: Feb 18 2026",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Critical technologies regional tech hubs"
+    ],
+    "sectors": [
+      "Critical technologies regional tech hubs"
+    ],
+    "website": "https://www.eda.gov/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "70f885c0-e1fb-412d-b61c-2c684eb88ea5",
+    "name": "EIC Accelerator Step 2 - 1st Cutoff 2026",
+    "organization": null,
+    "description": "Early to Growth | European funding, multiple cutoffs throughout 2026, Step 1 rolling | Award: Up to \u20ac2.5M grant, up to \u20ac15M equity | Location: Global | Deadline: Jan 7 2026",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Deep Technology"
+    ],
+    "sectors": [
+      "Deep Technology"
+    ],
+    "website": "https://eic.ec.europa.eu/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "55445b0b-786a-4c5e-a96e-2330aa40e319",
+    "name": "EIC Accelerator Step 2 - 2nd Cutoff 2026",
+    "organization": null,
+    "description": "Early to Growth | European funding, SMEs and startups, transformational R&D commercialization potential | Award: Up to \u20ac2.5M grant, up to \u20ac15M equity | Location: Global | Deadline: March 4 2026",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Deep Technology"
+    ],
+    "sectors": [
+      "Deep Technology"
+    ],
+    "website": "https://eic.ec.europa.eu/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "011b3fb3-c83f-464b-b587-317d00d89667",
+    "name": "Earth Rising Foundation Grants",
+    "organization": null,
+    "description": "Nonprofits/Organizations | U.S.-based organizations, priority to Indigenous voices, youth activism, sustainable visions | Award: $2500-$40000 | Location: US-based | Deadline: Dec 31 2025",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Climate crisis awareness Indigenous voices regenerative agriculture social justice"
+    ],
+    "sectors": [
+      "Climate crisis awareness Indigenous voices regenerative agriculture social justice"
+    ],
+    "website": "https://www.earthrisingfoundation.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "92b5d0ed-b970-4f42-b9e4-e1da0266ed98",
+    "name": "Elevate Ventures - Community Ideation Fund",
+    "organization": null,
+    "description": "Indiana residents with early-stage ideas | Indiana-only pre-revenue grant | Award: $2K-$10K | Location: Indiana | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://elevateventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "481d3713-faa5-47ea-b18d-4af67a2211ab",
+    "name": "Elevate Ventures - Pre-Seed Accelerator Fund",
+    "organization": null,
+    "description": "Indiana startups, post-revenue preferred | Hybrid grant/convertible structure | Award: Up to $75K (50% grant, 50% convertible) | Location: Indiana | Deadline: Quarterly",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://elevateventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "2c2c34b9-069d-4f69-aca5-5f09eff8e19c",
+    "name": "Faire Small Business Grant",
+    "organization": null,
+    "description": "Early-stage retail | U.S.-based, opened within last year or opening this year, 6-month use window for credit | Award: $5000 in Faire.com credit | Location: US-based | Deadline: Dec 31 2025",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "New retail businesses"
+    ],
+    "sectors": [
+      "New retail businesses"
+    ],
+    "website": "https://www.faire.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "a26791ed-694b-4666-a2c4-49bdc953a9aa",
+    "name": "Fast Forward Nonprofit Accelerator",
+    "organization": null,
+    "description": "Tech nonprofits using tech for social impact | For registered nonprofits only, tech for good focus | Award: $15K + $100K in tech credits | Location: US-based | Deadline: Annual",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Impact tech nonprofits"
+    ],
+    "sectors": [
+      "Impact tech nonprofits"
+    ],
+    "website": "https://www.ffwd.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "02ae0a12-9bed-40ee-b7a0-1a07a37c576d",
+    "name": "FedEx Small Business Grant",
+    "organization": null,
+    "description": "Small businesses with compelling stories | Public voting component, marketing value for participants | Award: $50K grand prize + others | Location: US-based | Deadline: Annual (Spring)",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://www.fedex.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "975b5b27-7562-4fa8-89be-373ff4bf72fa",
+    "name": "Forum Ventures - Launch",
+    "organization": null,
+    "description": "Pre-seed/Seed | Award: Varies | Location: Global | Deadline: Rolling",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "B2B SaaS",
+      "Marketplace",
+      "FinTech"
+    ],
+    "sectors": [
+      "B2B SaaS",
+      "Marketplace",
+      "FinTech"
+    ],
+    "website": "https://www.launch.co/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "3edc202a-9c03-4e66-8e59-e52f78b7471b",
+    "name": "Freed Fellowship",
+    "organization": null,
+    "description": "Small businesses | U.S.-based small business owners, expert feedback included, must win monthly to be eligible for year-end | Award: $500 monthly + $2500 year-end eligibility | Location: US-based | Deadline: Monthly rolling (last day)",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://www.freedfellowship.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "c3a26af3-5e87-4714-bd03-887c09d01a4c",
+    "name": "Global Insurance Accelerator 2026",
+    "organization": null,
+    "description": "Early-stage | 15-week hybrid program, 75+ mentors, Des Moines Iowa, present at Global Insurance Symposium, 100-day program | Award: $50000 for 5% equity | Location: Global | Deadline: Sept 19 2025 (for 2026 cohort)",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "InsurTech (underwriting claims customer engagement automation)"
+    ],
+    "sectors": [
+      "InsurTech (underwriting claims customer engagement automation)"
+    ],
+    "website": "https://www.globalinsuranceaccelerator.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "377b267b-a639-4187-9095-a311bd8e8ae9",
+    "name": "Halcyon Incubator",
+    "organization": null,
+    "description": "Social entrepreneurs addressing social issues | Residential fellowship in DC, impact-focused | Award: $10K stipend + housing + program | Location: Washington DC | Deadline: Annual",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Social impact"
+    ],
+    "sectors": [
+      "Social impact"
+    ],
+    "website": "https://www.halcyonhouse.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "8c26d461-3cde-45a6-9b53-ebe07fb710f9",
+    "name": "Heartland Challenge",
+    "organization": null,
+    "description": "Midwest startups with scalable solutions | Midwest regional competition, various prize tiers | Award: $250K grand prize | Location: Midwest | Deadline: Annual",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://www.heartlandchallenge.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "cc81d7f6-94ec-4422-8aea-1eaf20510708",
+    "name": "Hello Tomorrow Global Challenge",
+    "organization": null,
+    "description": "DeepTech startups solving global challenges | Global deep tech competition, Paris final | Award: \u20ac1M+ in prizes | Location: Global | Deadline: Annual",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "DeepTech"
+    ],
+    "sectors": [
+      "DeepTech"
+    ],
+    "website": "https://hello-tomorrow.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "6b0488de-11fb-4950-8804-5d39ec70c8da",
+    "name": "Illinois SBDC - Innovation Voucher",
+    "organization": null,
+    "description": "Illinois small businesses needing R&D support | Voucher for university research partnerships, Illinois-only | Award: Up to $15K | Location: Illinois | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://dceo.illinois.gov/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "670f2975-ac48-40fb-9800-13c29f7e38a4",
+    "name": "Inc.U Competition (Invent Penn State)",
+    "organization": null,
+    "description": "Undergraduate students | Applications open Jan 12 2026, live final event March 21 2026, undergraduate-led only | Award: Up to $30000 | Location: Global | Deadline: Jan 18 2026",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Student-led startups USA"
+    ],
+    "sectors": [
+      "Student-led startups USA"
+    ],
+    "website": "https://invent.psu.edu/programs/inc-u-competition/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "98651020-e069-4319-ba5c-7d9e10527da9",
+    "name": "Lake Forest College Venture Design Challenge 2026",
+    "organization": null,
+    "description": "College students | Finals April 26 2026, workshops and mentorship included, Lake Forest College students and alumni | Award: $10000+ prizes | Location: Chicago area | Deadline: Feb 13 2026",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://www.lakeforest.edu/academics/majors-and-minors/entrepreneurship-and-innovation/venture-design-challenge",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "a25cd8cd-4241-4053-9934-fe9865894fb6",
+    "name": "LaunchKC Grants \u2014 2026 Cohort",
+    "organization": null,
+    "description": "B2B/SaaS startups willing to engage with KC ecosystem | Requires Kansas City engagement/relocation, highly competitive | Award: $50K | Location: Kansas City, MO (engagement required) | Deadline: Q1 2026",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "B2B SaaS"
+    ],
+    "sectors": [
+      "B2B SaaS"
+    ],
+    "website": "https://www.launchkc.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.260653+00:00",
+    "updated_at": "2025-12-22T04:17:31.260653+00:00"
+  },
+  {
+    "id": "8927cf7c-ed3b-49db-b698-c17ed9980e1e",
+    "name": "Jump Capital",
+    "organization": null,
+    "description": "Data-driven tech investor focused on Fintech, IT, B2B SaaS, and Media. | Check size: $5M-$20M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Series A",
+      "Series B"
+    ],
+    "sectors": [
+      "Fintech",
+      "B2B SaaS",
+      "Media"
+    ],
+    "website": "https://jumpcap.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "7532c103-26fd-46c6-8d01-0229f6d37de6",
+    "name": "The Raise by LongJump",
+    "organization": null,
+    "description": "6-part in-person program (Jan 20 - March 11, 2026). 15 founders selected, 5 receive $10K grants. For post-product, pre-pre-seed Chicago founders planning to fundraise spring/summer 2026. | Check size: $10K grants",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "accelerator"
+    ],
+    "sectors": [
+      "Pre-seed fundraising preparation"
+    ],
+    "website": "https://longjump.vc",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "de4c4e02-c671-404d-a640-a1a9adc5334b",
+    "name": "Capitalize VC",
+    "organization": null,
+    "description": "Chicago",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Pre-seed/Seed"
+    ],
+    "sectors": [
+      "Commerce-enabled Tech"
+    ],
+    "website": "https://airtable.com/apppvODtMSw09eCae/pagCPM2mBqQUDmmmY/form",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "07b25ef3-ac2b-4844-bd22-b15c83edbfc3",
+    "name": "Fifth Star Funds",
+    "organization": null,
+    "description": "Focus on underrepresented founders, B2B/SaaS companies. | Focus on underrepresented founders | Check size: $50K-$250K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed"
+    ],
+    "sectors": [
+      "B2B SaaS",
+      "Underrepresented founders"
+    ],
+    "website": "https://www.fifthstarfunds.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "690d650e-efaa-4d95-936b-715cf3b76f8a",
+    "name": "LongJump",
+    "organization": null,
+    "description": "Chicago program | Check size: $100k + services",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Pre-seed"
+    ],
+    "sectors": [
+      "Industry-agnostic"
+    ],
+    "website": "https://tally.so/r/3qEA5Y",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "1bd40f92-2846-4562-8aa1-16500e4b9a03",
+    "name": "LongJump VC",
+    "organization": null,
+    "description": "Pre-seed program focused on underrepresented founders in Chicago. | Focus on underrepresented founders | Check size: $10K-$100K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed"
+    ],
+    "sectors": [
+      "Industry-agnostic",
+      "Underrepresented founders"
+    ],
+    "website": "https://longjump.vc",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "ee626272-3861-410f-8b5f-252a3929c4e3",
+    "name": "Propellant Ventures",
+    "organization": null,
+    "description": "Chicago early-stage | Check size: $100k-$500k",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Pre-seed/Seed"
+    ],
+    "sectors": [
+      "B2B: HealthTech",
+      "Future of Work",
+      "Supply Chain",
+      "FinTech",
+      "EdTech"
+    ],
+    "website": "https://www.propellant.vc/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "ee8cdf4b-b03e-4b24-881e-9f899d961635",
+    "name": "Sandalphon Capital",
+    "organization": null,
+    "description": "Chicago/Midwest, digital transformation focus | Check size: $100k-$250k (Pre-seed), $500k-$1M (Seed)",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Pre-seed/Seed"
+    ],
+    "sectors": [
+      "Digital Health",
+      "InsurTech",
+      "FinTech",
+      "PropTech",
+      "GovTech"
+    ],
+    "website": "https://sandalphoncapital.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "c2800f31-dcda-4100-8bd3-9ed137342271",
+    "name": "Abundant Venture Partners",
+    "organization": null,
+    "description": "Chicago",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Studio/Seed"
+    ],
+    "sectors": [
+      "Health/Med",
+      "B2B/SaaS"
+    ],
+    "website": "https://www.abundantventurepartners.com/venture-studio/#venture-studio-contact",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "0a9f5819-22f2-467c-a469-d317b11ab3d7",
+    "name": "CMT Digital",
+    "organization": null,
+    "description": "Pre-seed to mid-stage blockchain, crypto, and digital assets investor. | Check size: $250K-$5M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "Blockchain",
+      "Crypto",
+      "Web3"
+    ],
+    "website": "https://cmt.digital",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "8615b8b0-8f0c-4e1b-b91d-e202f94845a3",
+    "name": "Decasonic",
+    "organization": null,
+    "description": "Seed-Series A investor in Web3, AI/Data, and B2B/SaaS. | Check size: $500K-$3M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "Web3",
+      "AI",
+      "B2B SaaS"
+    ],
+    "website": "https://decasonic.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "8f396d7e-8850-47d6-bdea-8f91e44b0eeb",
+    "name": "Harvard Business School Angels - Chicago",
+    "organization": null,
+    "description": "HBS alumni and Chicago startups",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Various"
+    ],
+    "website": "https://www.hbsaec.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "59b5e521-41b7-4474-940b-ae0616782676",
+    "name": "Long Chicago",
+    "organization": null,
+    "description": "Partners with Techstars to revive Techstars Chicago | Check size: $12.5M fund",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Local Chicago startups"
+    ],
+    "website": null,
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "db59e9c8-d2a7-4723-b162-c200dcf37997",
+    "name": "M25",
+    "organization": null,
+    "description": "Most active investor in Midwest startups. Rolling applications. Focus exclusively on Midwest-headquartered tech companies. | Check size: $250K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "Tech companies (Midwest only)"
+    ],
+    "website": "https://www.m25vc.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "86c11f8a-9bcb-4b94-a9cb-ce123de9951e",
+    "name": "Westbound Equity Partners",
+    "organization": null,
+    "description": "Building Wealth & Opportunity for Black, Latino, and underrepresented founders of color. $100M Fund II. | Focus on underrepresented founders | Check size: $250K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed"
+    ],
+    "sectors": [
+      "Black",
+      "Latino",
+      "Underrepresented founders"
+    ],
+    "website": "https://westboundequity.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": true,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "294f83cc-68a2-49ab-b8df-136ebfbd8c11",
+    "name": "7wire Ventures",
+    "organization": null,
+    "description": "Healthcare-focused VC investing in digital health, healthcare IT, and services. Most active healthcare investor in Midwest. | Check size: $5M-$15M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A",
+      "Series B"
+    ],
+    "sectors": [
+      "Digital health",
+      "Healthcare IT"
+    ],
+    "website": "https://www.7wireventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "4945c725-d7c6-4889-8888-6d05493afde7",
+    "name": "Arch Venture Partners",
+    "organization": null,
+    "description": "Life science VC focused on preventing, detecting, and curing disease. | Check size: $5M-$30M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A",
+      "Series B"
+    ],
+    "sectors": [
+      "Life sciences"
+    ],
+    "website": "https://www.archventure.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "e61fa3cf-fa12-4a15-a281-fa8fbe89bb79",
+    "name": "BVF (Blue Venture Fund)",
+    "organization": null,
+    "description": "Life sciences and healthcare technology investor. | Check size: $2M-$10M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A",
+      "Series B"
+    ],
+    "sectors": [
+      "Life sciences",
+      "Biotech"
+    ],
+    "website": "https://blueventurefund.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "1e734700-4cba-4e12-bf83-9c3135e840fd",
+    "name": "Moderne Passport",
+    "organization": null,
+    "description": "Early-stage | 6-month program, exclusive network access | Award: Varies | Location: Global | Deadline: Nov 21, 2026",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "PropTech",
+      "InsurTech",
+      "FinTech"
+    ],
+    "sectors": [
+      "PropTech",
+      "InsurTech",
+      "FinTech"
+    ],
+    "website": "https://www.moderneventures.com/passport",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "7903f9ab-8565-4618-8415-d0ffe6293dfe",
+    "name": "Moderne Passport Industry Immersion",
+    "organization": null,
+    "description": "PropTech, InsurTech, FinTech, Real Estate Tech startups | Customer access program, exclusive network introductions | Award: 6-month immersion, network access | Location: Global | Deadline: Rolling",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "PropTech",
+      "InsurTech",
+      "FinTech"
+    ],
+    "sectors": [
+      "PropTech",
+      "InsurTech",
+      "FinTech"
+    ],
+    "website": "https://www.moderneventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "4459a0a0-b403-4483-bc5d-9643578e4886",
+    "name": "NASE Growth Grants",
+    "organization": null,
+    "description": "Small businesses | Must be NASE member, applications reviewed quarterly, for established businesses | Award: Varies | Location: Global | Deadline: Quarterly (Jan Apr Jul Oct)",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Business growth/development (marketing equipment)"
+    ],
+    "sectors": [
+      "Business growth/development (marketing equipment)"
+    ],
+    "website": "https://www.nase.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "8dbb7fb3-fe91-4af9-beba-9db7c8018b9b",
+    "name": "NIST MEP",
+    "organization": null,
+    "description": "Manufacturing companies, hardtech startups | Manufacturing extension partnership, state-by-state programs | Award: Varies by state, up to $50K cost-share | Location: US-based | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Manufacturing"
+    ],
+    "sectors": [
+      "Manufacturing"
+    ],
+    "website": "https://www.nist.gov/mep",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "f517595e-69a8-408f-941b-ebf7627ffb6f",
+    "name": "NSF I-Corps",
+    "organization": null,
+    "description": "NSF-funded researchers, SBIR/STTR awardees, deep tech founders | Lean LaunchPad methodology, customer discovery training | Award: $50K + training | Location: US-based | Deadline: Rolling cohorts",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "DeepTech",
+      "University spin-outs"
+    ],
+    "sectors": [
+      "DeepTech",
+      "University spin-outs"
+    ],
+    "website": "https://www.nsf.gov/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "9a5bebee-c685-4e18-b46e-fc155f8612ef",
+    "name": "Opportunity Fund",
+    "organization": null,
+    "description": "Low-income entrepreneurs, especially minorities | Microloans not grants, but critical for underserved founders | Award: $2.6K-$100K loans + grants | Location: CA, NV | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Underrepresented founders",
+      "All sectors"
+    ],
+    "sectors": [
+      "Underrepresented founders",
+      "All sectors"
+    ],
+    "website": "https://www.opportunityfund.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "926a3292-2152-4bb7-aeb1-2eab2bc5be57",
+    "name": "P33 Chicago Civic Innovation Challenge",
+    "organization": null,
+    "description": "Tech solutions for civic challenges in Chicago | Chicago-specific civic innovation, partnership opportunities | Award: Varies, typically $50K-$100K | Location: Chicago | Deadline: Annual",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Civic tech"
+    ],
+    "sectors": [
+      "Civic tech"
+    ],
+    "website": "https://www.p33chicago.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "d7ddcaaf-f353-490f-a115-9ea8c6fb5188",
+    "name": "PitchBook University Innovation Prize",
+    "organization": null,
+    "description": "University students with innovative business ideas | National student competition, university affiliation required | Award: $50K grand prize | Location: Any university student | Deadline: Annual",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://pitchbook.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "14e162bd-a2cb-41e5-a210-c3be1294bf5c",
+    "name": "Render Capital",
+    "organization": null,
+    "description": "B2B/SaaS startups | Mixed grants and non-dilutive funding | Award: Varies | Location: Louisville, KY | Deadline: Rolling",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "B2B SaaS"
+    ],
+    "sectors": [
+      "B2B SaaS"
+    ],
+    "website": "https://www.rendercapital.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "d2ecacfb-f63f-46eb-96e2-82999245bf5c",
+    "name": "Rice Business Plan Competition",
+    "organization": null,
+    "description": "University students with business plans | Richest graduate-level business plan competition, April annually | Award: $1M+ in prizes | Location: Any university student | Deadline: Annual",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://rbpc.rice.edu/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "26562b20-8150-4e8c-8ce4-1d3505c70cc8",
+    "name": "SBIR Phase I - NASA",
+    "organization": null,
+    "description": "Space tech, aerospace, advanced materials startups | Space and aerospace innovation, dual-use encouraged | Award: Up to $150K | Location: US-based | Deadline: Windows open annually",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Space",
+      "Aerospace",
+      "Advanced materials"
+    ],
+    "sectors": [
+      "Space",
+      "Aerospace",
+      "Advanced materials"
+    ],
+    "website": "https://sbir.nasa.gov/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "7e716d45-5d17-467c-aecd-f1fb8e16635c",
+    "name": "SBIR Phase I - USDA",
+    "organization": null,
+    "description": "Agriculture, food tech, rural innovation startups | Agriculture and food systems innovation | Award: Up to $175K | Location: US-based | Deadline: Windows open annually",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "AgTech",
+      "Food",
+      "Rural innovation"
+    ],
+    "sectors": [
+      "AgTech",
+      "Food",
+      "Rural innovation"
+    ],
+    "website": "https://www.nifa.usda.gov/sbir",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "7af5778e-0bba-470c-909e-cf4f399068a1",
+    "name": "STTR Phase I (All Agencies)",
+    "organization": null,
+    "description": "Small businesses partnering with research institutions | Requires partnership with university/research institution, similar to SBIR | Award: Similar to SBIR (varies by agency) | Location: US-based | Deadline: Varies by agency",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All SBIR sectors"
+    ],
+    "sectors": [
+      "All SBIR sectors"
+    ],
+    "website": "https://www.sbir.gov/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "9c47ceaf-8e92-47aa-8074-cecd62a27361",
+    "name": "Slauson & Co - Friends & Family",
+    "organization": null,
+    "description": "Pre-seed | LA-based, remote-friendly | Award: Varies | Location: Global | Deadline: Rolling",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "B2B/SaaS",
+      "Fintech"
+    ],
+    "sectors": [
+      "B2B/SaaS",
+      "Fintech"
+    ],
+    "website": "https://c9dk4mvfi53.typeform.com/to/X9xmDDcg",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "b2476467-54b9-4c5a-967e-a5c4091389fe",
+    "name": "South Summit Startup Competition - Madrid",
+    "organization": null,
+    "description": "All stages | 50 finalists pitch at event, Madrid June 4-6 2026, mentoring exposure networking included | Award: Prize + investment opportunities | Location: Global | Deadline: Jan 31 2026",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Innovation across all sectors"
+    ],
+    "sectors": [
+      "Innovation across all sectors"
+    ],
+    "website": "https://www.southsummit.co/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "9a30147d-8761-4e16-81a9-f4b06b432e42",
+    "name": "Space Symposium Innovate Pitch Competition",
+    "organization": null,
+    "description": "Early-stage | Global startups in space sector, pitch in April 2026 at Space Symposium Colorado Springs | Award: Consulting + industry exposure prizes | Location: Global | Deadline: Jan 15 2026",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Space aerospace defense"
+    ],
+    "sectors": [
+      "Space aerospace defense"
+    ],
+    "website": "https://www.spacesymposium.org/innovate-pitch-competition/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "478d6b16-73f2-4398-8993-c8f77c8d0961",
+    "name": "SparkWV - Round 2",
+    "organization": null,
+    "description": "Student entrepreneurs | Finalists notified Feb 20 2026, final presentations March 23 2026, must use VentureDash portal | Award: Prize money TBD | Location: Global | Deadline: Jan 31 2026",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors West Virginia"
+    ],
+    "sectors": [
+      "All sectors West Virginia"
+    ],
+    "website": "https://www.edvgroup.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "20c5e52d-70f0-4963-8526-2bf0863ae8fb",
+    "name": "Start.Pivot.Grow",
+    "organization": null,
+    "description": "Small businesses | In business 2+ years, 1-2 employees including owner, $50k+ annual revenue | Award: $2500 + business planning tools | Location: Global | Deadline: Quarterly",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://www.startpivotgrow.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "2879fb09-1db7-49e8-b9d5-a8dccdf11caf",
+    "name": "Startmate (Australia/NZ)",
+    "organization": null,
+    "description": "Early-stage | 12-week program, Australia/New Zealand focus, strong community network to scale globally | Award: $75000 for 7.5% equity | Location: Global | Deadline: Jan 31 2026",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://www.startmate.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "7271da43-b6ad-44a9-86d7-c19d2afc6181",
+    "name": "Stripe Climate Frontier Fund",
+    "organization": null,
+    "description": "Carbon removal and climate tech with scientific innovation | Advance market commitment for carbon removal, high bar | Award: $1M-$2M | Location: Global | Deadline: Annual",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Carbon removal",
+      "Climate"
+    ],
+    "sectors": [
+      "Carbon removal",
+      "Climate"
+    ],
+    "website": "https://stripe.com/climate",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "e3c506b2-d79d-4780-af66-3ea9b5e6cead",
+    "name": "The Tory Burch Foundation Fellowship",
+    "organization": null,
+    "description": "Women entrepreneurs in product-based or retail businesses | Women in retail/consumer products, includes education program | Award: $5K-$10K + education | Location: US-based | Deadline: Annual",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Women founders",
+      "Retail",
+      "Consumer"
+    ],
+    "sectors": [
+      "Women founders",
+      "Retail",
+      "Consumer"
+    ],
+    "website": "https://www.toryburchfoundation.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "a1bf076a-dee7-417f-91c0-2b6a4b475a01",
+    "name": "UN Global Compact Young SDG Innovators Programme",
+    "organization": null,
+    "description": "Young Professionals | 9-month programme, 4 hours/month minimum, 4 1-day workshops, global or in-country tracks | Award: Free program | Location: Global | Deadline: Jan 31 2026",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Sustainable Development Goals (SDGs)"
+    ],
+    "sectors": [
+      "Sustainable Development Goals (SDGs)"
+    ],
+    "website": "https://unglobalcompact.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "22d65028-24d2-4025-a304-bda9e4b88160",
+    "name": "Urban-X Accelerator",
+    "organization": null,
+    "description": "Startups reimagining city life, urban innovation | MINI and Urban.us partnership, takes equity but included for context | Award: $150K investment (equity) + program value | Location: NYC, SF, or remote | Deadline: Bi-annual",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Smart cities",
+      "Urban tech",
+      "Climate"
+    ],
+    "sectors": [
+      "Smart cities",
+      "Urban tech",
+      "Climate"
+    ],
+    "website": "https://www.urban-x.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "827c9baf-62f0-4dec-8c60-bead3bfc6f3e",
+    "name": "VentureWell E-Team Grant",
+    "organization": null,
+    "description": "University students and recent graduates with STEM innovations | Student and early-career focused, STEM innovations | Award: Phase 1: $5K, Phase 2: $15K | Location: US-based | Deadline: Annual",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "STEM",
+      "DeepTech",
+      "Hardware"
+    ],
+    "sectors": [
+      "STEM",
+      "DeepTech",
+      "Hardware"
+    ],
+    "website": "https://venturewell.org/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "655807e5-8375-49b6-9058-d8764816cdbe",
+    "name": "Ventureneer",
+    "organization": null,
+    "description": "Women entrepreneurs in tech and innovation | Multiple grant opportunities aggregated, women-focused | Award: $2K-$10K (varies) | Location: Women founders | Deadline: Varies",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Tech",
+      "Innovation (women founders)"
+    ],
+    "sectors": [
+      "Tech",
+      "Innovation (women founders)"
+    ],
+    "website": "https://www.ventureneer.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "4b90952b-2439-4f1b-a046-7d120825e9c5",
+    "name": "ViVE Startup Pitch 2026",
+    "organization": null,
+    "description": "Early-stage | Los Angeles, leading event for health and medtech founders, 400+ industry influencers | Award: Prize + exposure to health leaders | Location: Global | Deadline: Feb 22-25 2026",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Healthtech Digital Health"
+    ],
+    "sectors": [
+      "Healthtech Digital Health"
+    ],
+    "website": "https://viveevent.com/startup-pitch",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "50778eeb-91d8-43fb-9231-46d9d411d1e7",
+    "name": "We Pitch Black",
+    "organization": null,
+    "description": "Early-stage | Midwest entrepreneurs, Finale: June 27, 2026 | Award: Up to $15k + $40k services | Location: Global | Deadline: Dec 5, 2026",
+    "opportunity_type": "Competition",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "BIPOC/Immigrant/Refugee"
+    ],
+    "sectors": [
+      "BIPOC/Immigrant/Refugee"
+    ],
+    "website": "https://wepitchblack.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "7b1d55e9-319f-4e95-91fc-fcb79317c4af",
+    "name": "Women's Startup Lab Accelerator",
+    "organization": null,
+    "description": "Women founders in tech | Women-focused, takes no equity, pitch competitions | Award: Program value + pitch opportunities | Location: San Francisco Bay Area | Deadline: Rolling cohorts",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Tech (women founders)"
+    ],
+    "sectors": [
+      "Tech (women founders)"
+    ],
+    "website": "https://www.womenstartuplab.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "897e2fac-465d-40cb-910c-db3096e8fbe7",
+    "name": "ZenBusiness Startup Grant",
+    "organization": null,
+    "description": "Pre-seed/Seed | Must be ZenBusiness customer, business formed within last 3-6 months, meaningful community impact | Award: $5000 | Location: Global | Deadline: Dec 31 2025",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "All sectors"
+    ],
+    "sectors": [
+      "All sectors"
+    ],
+    "website": "https://www.zenbusiness.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "f4c4a845-0fdd-4952-aa3f-6cd2ec6c0752",
+    "name": "gener8tor Curql Accelerate",
+    "organization": null,
+    "description": "B2B fintech startups | Kickoff: Feb 12, 2026. Fintech-specific cohort | Award: Program + travel | Location: Global | Deadline: February 2026",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "B2B FinTech"
+    ],
+    "sectors": [
+      "B2B FinTech"
+    ],
+    "website": "https://www.gener8tor.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "ce216586-8e76-4892-951d-ab4403eeed67",
+    "name": "gener8tor Great Lakes Innovation Accelerator",
+    "organization": null,
+    "description": "Water technology startups in Great Lakes region | Kickoff: Feb 8, 2026. Contact: Soham Dalal | Award: Program coverage + travel | Location: Great Lakes region | Deadline: February 2026",
+    "opportunity_type": "Grant",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Water technology"
+    ],
+    "sectors": [
+      "Water technology"
+    ],
+    "website": "https://www.gener8tor.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.419255+00:00",
+    "updated_at": "2025-12-22T04:17:31.419255+00:00"
+  },
+  {
+    "id": "7cec9260-72f2-4a1f-9be8-3a6597fbd329",
+    "name": "Drive Capital",
+    "organization": null,
+    "description": "B2B/SaaS and Health/Med focus with strong Midwest presence. | Check size: $1M-$5M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "B2B SaaS",
+      "Healthcare"
+    ],
+    "website": "https://www.drivecapital.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "13ea8075-e8a4-4f09-b305-8d170c623a8e",
+    "name": "Earth Foundry",
+    "organization": null,
+    "description": "Climate solutions venture studio and fund focusing on clean energy and sustainability. | Check size: $250K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Climate tech",
+      "Clean energy"
+    ],
+    "website": "https://www.earthfoundry.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "caff6709-1282-40b3-87a2-f497a0836f46",
+    "name": "Elevate Ventures",
+    "organization": null,
+    "description": "Multiple funds & programs for Indiana-based startups. | Check size: $100K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "Indiana startups"
+    ],
+    "website": "https://elevateventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "d197aeb8-070c-4d1a-8718-465fadbb43fe",
+    "name": "Gaingels",
+    "organization": null,
+    "description": "LGBTQ+ investment network with 10,000+ members backing high-growth startups. | Focus on underrepresented founders | Check size: $50K-$500K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "LGBTQ+ founders & allies"
+    ],
+    "website": "https://www.gaingels.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "cb7d9d0a-edd4-415f-8289-1d060f38387d",
+    "name": "Golden Seeds - Chicago Chapter",
+    "organization": null,
+    "description": "Focus on female founders",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Women-led startups"
+    ],
+    "website": null,
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "c58db2ed-df23-40a7-b285-8778e70f1a30",
+    "name": "HBS Alumni Angels Chicago",
+    "organization": null,
+    "description": "Harvard Business School alumni angel investment group. | Check size: $25K-$200K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed"
+    ],
+    "sectors": [
+      "HBS-connected startups"
+    ],
+    "website": "https://www.hbsangels.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "dba8b46c-c129-48f0-8af4-39fac96f669e",
+    "name": "Heartland Angels",
+    "organization": null,
+    "description": null,
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Midwest startups"
+    ],
+    "website": "https://www.heartlandangels.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "33b28549-760a-46d3-b7e3-8b2329e0510e",
+    "name": "High Alpha",
+    "organization": null,
+    "description": "B2B SaaS venture studio and seed investor. | Check size: $500K-$3M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "studio",
+      "seed"
+    ],
+    "sectors": [
+      "B2B SaaS"
+    ],
+    "website": "https://www.highalpha.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "fd6728f0-e5e9-4d2c-9ec4-6759724e19cd",
+    "name": "HighVista Venture Capital Fund XIV",
+    "organization": null,
+    "description": "Exceeded $200M target, focuses on hard-to-access markets | Check size: $270M raised",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Early-stage venture fund managers"
+    ],
+    "website": null,
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "0ee0997f-896e-4051-934d-7dadb7cb2bde",
+    "name": "Hustle Fund Chicago",
+    "organization": null,
+    "description": "Pre-seed fund focused on underrepresented founders. | Focus on underrepresented founders | Check size: $25K-$250K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed"
+    ],
+    "sectors": [
+      "Underrepresented founders"
+    ],
+    "website": "https://www.hustlefund.vc/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "c0aad4b8-ad89-4599-89fa-f7c39b4e9c97",
+    "name": "Builders VC",
+    "organization": null,
+    "description": "Modernizing antiquated industries with technology and innovative solutions. | Check size: $2M-$10M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A",
+      "Series B"
+    ],
+    "sectors": [
+      "Industry transformation",
+      "B2B"
+    ],
+    "website": "https://www.builders.vc",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "8376cbe7-7200-481d-91d3-679646c82a8e",
+    "name": "Cultivian Sandbox",
+    "organization": null,
+    "description": "Food and agriculture technology investor. | Check size: $2M-$10M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A",
+      "Series B"
+    ],
+    "sectors": [
+      "Food tech",
+      "AgTech"
+    ],
+    "website": "https://cultiviansbx.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "4c0333d7-bba4-4852-97f9-a57b86fa62da",
+    "name": "Energize Capital",
+    "organization": null,
+    "description": "Climate software and sustainable innovation solutions investor. | Check size: $5M-$20M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Series A",
+      "Series B"
+    ],
+    "sectors": [
+      "Climate software",
+      "Sustainability"
+    ],
+    "website": "https://www.energizecap.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "b7cca626-6f97-4663-8b8b-dd22f75c4d10",
+    "name": "PEAK6",
+    "organization": null,
+    "description": "Investment firm building and investing in businesses that ought to be. Focus on consumer tech. | Check size: $2M-$15M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A",
+      "Series B"
+    ],
+    "sectors": [
+      "Consumer tech",
+      "Trading tech"
+    ],
+    "website": "https://peak6.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "485ddd70-2b65-403c-83e2-8b0775c22d4a",
+    "name": "S2G Investments",
+    "organization": null,
+    "description": "Multi-stage VC focused on food, agriculture, and sustainability. $1B+ AUM. | Check size: $5M-$20M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A",
+      "Series B"
+    ],
+    "sectors": [
+      "Food",
+      "Agriculture",
+      "Sustainability"
+    ],
+    "website": "https://www.s2gventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "9935ca88-608b-44d7-beb0-e589cf58d1ab",
+    "name": "Baird Capital",
+    "organization": null,
+    "description": "Growth stage",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Growth/Series B+"
+    ],
+    "sectors": [
+      "Software",
+      "Healthcare",
+      "Consumer",
+      "Industrial Tech"
+    ],
+    "website": "https://www.bairdcapital.com/investment-strategies/venture-capital/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "c5334bc3-5455-4a1d-aed1-d3d2f3808d10",
+    "name": "Modern Ventures",
+    "organization": null,
+    "description": null,
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Seed/Series A"
+    ],
+    "sectors": [
+      "PropTech",
+      "InsurTech",
+      "FinTech",
+      "Real Estate Tech"
+    ],
+    "website": "https://www.moderneventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "c6aa0242-c2b3-43fa-b99c-575cef993fe6",
+    "name": "Duality Accelerator",
+    "organization": null,
+    "description": "Accelerator focused on diverse founders and underrepresented entrepreneurs. | Focus on underrepresented founders | Check size: Grant (prize money)",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "accelerator"
+    ],
+    "sectors": [
+      "Underrepresented founders",
+      "Impact"
+    ],
+    "website": "https://www.dualityaccelerator.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "e13f0872-dbaa-41df-8f4d-95e40d430dca",
+    "name": "Forum Ventures \u2014 Launch Accelerator",
+    "organization": null,
+    "description": "B2B SaaS, Marketplace, and Fintech accelerator program. | Check size: $150K investment",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "accelerator"
+    ],
+    "sectors": [
+      "B2B SaaS",
+      "Marketplace",
+      "FinTech"
+    ],
+    "website": "https://www.launch.co/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "b4bc40c7-89e4-47cc-873f-306a4b3e69cd",
+    "name": "Techstars Chicago",
+    "organization": null,
+    "description": "In-person accelerator program providing funding, mentorship, and network access. | Check size: $20K + $100K convertible",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "accelerator"
+    ],
+    "sectors": [
+      "Industry-agnostic",
+      "High-growth"
+    ],
+    "website": "https://www.techstars.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "06d35def-6b11-47de-825c-b0bc76402933",
+    "name": "Techstars Healthcare (Northwestern Medicine)",
+    "organization": null,
+    "description": "Healthcare-specific Techstars program in partnership with Northwestern Medicine. | Check size: $20K + $100K convertible",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "accelerator"
+    ],
+    "sectors": [
+      "Healthcare"
+    ],
+    "website": "https://www.techstars.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "a53e2cbe-e936-426a-a302-4144295dabed",
+    "name": "mHUB Hardtech Accelerator",
+    "organization": null,
+    "description": "MedTech, Smart Manufacturing, and EnergyTech cohorts for hardtech startups. | Check size: Varies",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "accelerator"
+    ],
+    "sectors": [
+      "MedTech",
+      "Smart Manufacturing",
+      "EnergyTech"
+    ],
+    "website": "https://mhubchicago.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "b28fc463-0c03-44a6-ae45-9fa45797631b",
+    "name": "mPOWER by mHUB",
+    "organization": null,
+    "description": "Grant program for early-stage hardtech and deeptech startups. | Check size: $50K grants",
+    "opportunity_type": "Accelerator",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "accelerator"
+    ],
+    "sectors": [
+      "Hardtech",
+      "DeepTech"
+    ],
+    "website": "https://mhubchicago.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "6c1990a7-a46d-4ff1-83be-ac11f370065d",
+    "name": "2048 Ventures",
+    "organization": null,
+    "description": "Check size: $250k-$750k",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Pre-seed"
+    ],
+    "sectors": [
+      "AI/Data",
+      "B2B/SaaS",
+      "Hardtech"
+    ],
+    "website": "https://airtable.com/appV89PYGo3zN47f9/pagNjeYwHGDSGIs3/form",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "03840d25-2302-41c7-8de2-b4cd3aeebec8",
+    "name": "Angeles Investors",
+    "organization": null,
+    "description": "Focus on Latino/Latina founders. | Focus on underrepresented founders | Check size: $25K-$100K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed"
+    ],
+    "sectors": [
+      "Latino/Latina founders"
+    ],
+    "website": "https://angelesinvestors.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "f042dc6d-08b4-462a-841f-8e83ecddfbd8",
+    "name": "Beta Boom",
+    "organization": null,
+    "description": "Founders who defy Silicon Valley mold | Check size: $350k-$500k",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Pre-seed"
+    ],
+    "sectors": [
+      "Software"
+    ],
+    "website": "https://www.betaboom.com/apply",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "3826696d-b223-4f06-8556-d28014a9b026",
+    "name": "Hyde Park Angels",
+    "organization": null,
+    "description": "Largest angel group in Midwest with 100+ members. | Check size: $25K-$250K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed"
+    ],
+    "sectors": [
+      "Industry-agnostic"
+    ],
+    "website": "https://hydeparkangels.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "8ccefe65-8e3f-41b8-837b-a92454ad5a91",
+    "name": "Lightship Capital",
+    "organization": null,
+    "description": "Pre-seed B2B/SaaS investor. | Check size: $100K-$500K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed"
+    ],
+    "sectors": [
+      "B2B SaaS"
+    ],
+    "website": "https://www.lightship.capital/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "08aac912-e59b-41a9-a3ef-a23a72b03953",
+    "name": "Next Chapter Ventures",
+    "organization": null,
+    "description": null,
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Pre-seed/Seed"
+    ],
+    "sectors": [
+      "Scalable business models"
+    ],
+    "website": "https://www.ncvinvestments.com/founders",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "60b54f7c-041d-4991-a606-1b3c710c6ddf",
+    "name": "Plug and Play Tech Center",
+    "organization": null,
+    "description": "Global innovation platform and accelerator across multiple verticals. | Check size: Varies",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed"
+    ],
+    "sectors": [
+      "AgriTech",
+      "Energy",
+      "FinTech",
+      "Health",
+      "DeepTech"
+    ],
+    "website": "https://www.plugandplaytechcenter.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "5d7c4a14-10f0-4e75-9860-ffbe29ae82c0",
+    "name": "Serra Ventures",
+    "organization": null,
+    "description": "Early-stage investor in Midwest technology companies. | Check size: $250K-$3M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "Midwest tech",
+      "B2B"
+    ],
+    "website": "https://www.serraventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "68060bc8-3be5-4ac6-8940-ed7a7ffa2671",
+    "name": "Solanus Capital Partners",
+    "organization": null,
+    "description": "Focus on grit, tenacity, domain expertise | Check size: $5M fund",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Pre-seed/Seed"
+    ],
+    "sectors": [
+      "Sector-agnostic"
+    ],
+    "website": null,
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "402e634e-6730-4323-8728-39afcb438ec7",
+    "name": "Y Combinator",
+    "organization": null,
+    "description": "World's leading startup accelerator. Provides funding, mentorship, and network. 2 cohorts per year. | Check size: $500K (2024 batch)",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed"
+    ],
+    "sectors": [
+      "Industry-agnostic",
+      "High-growth"
+    ],
+    "website": "https://www.ycombinator.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "6d563d83-4631-40d7-b43e-f193170d49da",
+    "name": "53 Stations",
+    "organization": null,
+    "description": "Seed to Series B in tech-forward companies across AI, enterprise software, logistics, healthtech, fintech. | Check size: $500K-$5M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "AI",
+      "Enterprise",
+      "Logistics",
+      "HealthTech",
+      "FinTech"
+    ],
+    "website": "https://www.53stations.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "dd2f457f-e577-40bd-b1c9-059e0e0bac7e",
+    "name": "Barrel Ventures",
+    "organization": null,
+    "description": "Seed and Series A investments in food & beverage and consumer CPG. | Check size: $500K-$5M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "Food & Beverage",
+      "CPG"
+    ],
+    "website": "https://www.barrelvc.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "2b8e10e7-9989-4011-8c40-baa53931d709",
+    "name": "Bluestein Ventures",
+    "organization": null,
+    "description": "Food tech VC investing in future of food, foodtech, B2C and B2B food brands. $45M Fund III. | Check size: $500K-$3M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Food tech",
+      "CPG",
+      "F&B"
+    ],
+    "website": "https://bluesteinventures.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "b8948761-cd32-4afc-a516-a0a17dd414f7",
+    "name": "Bridge Venture Fund",
+    "organization": null,
+    "description": "Early-stage technology companies in the Midwest. | Check size: $250K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Midwest tech",
+      "Early-stage"
+    ],
+    "website": "https://www.bridgeventurefund.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "68c743c8-d93c-460c-881f-99e61e896572",
+    "name": "CIC Angels",
+    "organization": null,
+    "description": null,
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Various"
+    ],
+    "website": "https://www.cicangels.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "a8e68209-2aaa-4040-a014-0ebe52cb874c",
+    "name": "Chicago Arch Angels",
+    "organization": null,
+    "description": "Angel investment group focused on early-stage companies. | Check size: $25K-$250K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Early-stage tech"
+    ],
+    "website": "https://www.chicagoarchangels.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "ce5f2d73-2aa6-4546-9566-34c6bb2cbd36",
+    "name": "Chicago Ventures",
+    "organization": null,
+    "description": "Early-stage VC empowering founders to build enduring companies. Lead early rounds with operational support. | Check size: $500K-$5M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "B2B SaaS",
+      "Marketplace",
+      "Enterprise"
+    ],
+    "website": "https://chicagoventures.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "f5e586fc-006b-4e14-9388-74c43dc12ea3",
+    "name": "Cornerstone Angels",
+    "organization": null,
+    "description": null,
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Various"
+    ],
+    "website": "https://www.cornerstoneangels.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.566775+00:00",
+    "updated_at": "2025-12-22T04:17:31.566775+00:00"
+  },
+  {
+    "id": "80519026-3c0c-42a6-98e2-a1c1a4cf068f",
+    "name": "Hyde Park Venture Partners",
+    "organization": null,
+    "description": "Pre-seed through early Series A investments in high-growth technology startups. | Check size: $500K-$3M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "High-growth tech",
+      "B2B"
+    ],
+    "website": "https://www.hydeparkvp.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "48226aa2-fc1a-4173-9ea7-01d46049c683",
+    "name": "Illini Angels",
+    "organization": null,
+    "description": "University of Illinois alumni angel investment group. | Check size: $25K-$150K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed"
+    ],
+    "sectors": [
+      "UIUC-connected startups"
+    ],
+    "website": "https://www.illiniangels.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "f0134692-9572-4ddc-9137-731b2ecb36ea",
+    "name": "Illinois Ventures",
+    "organization": null,
+    "description": "Investing in University of Illinois deep tech startups. 20+ years, strong alumni network. | Check size: $250K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "DeepTech",
+      "UIUC-connected"
+    ],
+    "website": "https://illinoisventures.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "5f440f61-2c62-4539-81f5-b8078527df15",
+    "name": "IrishAngels",
+    "organization": null,
+    "description": "Notre Dame alumni angel investment group. | Check size: $25K-$150K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Notre Dame-connected"
+    ],
+    "website": "https://irishangels.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "9f404420-ab52-4fde-b87b-d7c75830e593",
+    "name": "JumpStart Ventures",
+    "organization": null,
+    "description": "Healthcare and tech-enabled services. Northeast Ohio focus with national reach. | Check size: $500K-$3M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "Healthcare",
+      "Tech services"
+    ],
+    "website": "https://jumpstart.vc/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "39cc1905-e87f-461f-852a-1ac5838646ee",
+    "name": "Kapor Capital",
+    "organization": null,
+    "description": "Invests in companies solving problems in underrepresented communities (gap-closing tech). | Focus on underrepresented founders | Check size: $500K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Gap-closing tech"
+    ],
+    "website": "https://www.kaporcapital.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "7aa11e83-b10d-4836-adea-8a1186b0dcc4",
+    "name": "Lightbank",
+    "organization": null,
+    "description": "Chicago VC founded by Groupon co-founders Brad Keywell & Eric Lefkofsky. | Check size: $500K-$5M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "High-growth tech",
+      "Consumer"
+    ],
+    "website": "https://www.lightbank.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "14f3902a-2a48-4f24-8332-52a8e6f37ee3",
+    "name": "Listen Ventures",
+    "organization": null,
+    "description": "Most active investor in Midwest. Consumer brands, D2C, Wellness, Food & Beverage focus. | Check size: $500K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Consumer",
+      "D2C",
+      "Wellness",
+      "Food & Beverage"
+    ],
+    "website": "https://www.listen.co",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "ce8dac9c-b10f-42ee-a1a0-207eb645cce4",
+    "name": "Lofty Ventures",
+    "organization": null,
+    "description": null,
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Various"
+    ],
+    "website": "https://www.loftyventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "67d63251-e6f5-4e30-8e4f-46d38588bcf6",
+    "name": "MD Angels",
+    "organization": null,
+    "description": null,
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Healthcare",
+      "Medical"
+    ],
+    "website": "https://www.mdangels.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "975793c5-7f96-4aa0-a707-8e228076b525",
+    "name": "Moderne Ventures",
+    "organization": null,
+    "description": "Strategic VC investing in PropTech, InsurTech, FinTech, Real Estate Tech. | Check size: $500K-$5M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "PropTech",
+      "InsurTech",
+      "FinTech"
+    ],
+    "website": "https://www.moderneventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "88d14660-8a0f-4b1d-a8a3-2328a4482c51",
+    "name": "Next Coast Ventures",
+    "organization": null,
+    "description": "Midwest B2B software companies. Strong Great Lakes region focus. | Check size: $250K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Midwest B2B SaaS"
+    ],
+    "website": "https://www.nextcoast.vc/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "7bf84625-1d40-4355-8a06-821e2c6a4f0b",
+    "name": "Nomadic Venture Partners",
+    "organization": null,
+    "description": "Climate/Energy and Ag/Food technology investor. | Check size: $500K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Climate",
+      "Energy",
+      "Ag",
+      "Food"
+    ],
+    "website": "https://nomadicvp.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "c41a9052-9360-48ee-b227-aefad178cefc",
+    "name": "OCA Ventures",
+    "organization": null,
+    "description": "Tech and scalable services with dramatic growth potential. US and Canada only. | Check size: $1M-$5M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "Tech",
+      "Scalable services"
+    ],
+    "website": "https://www.ocaventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "c9ebeaab-d0b7-47d4-805a-4c08a58e66cf",
+    "name": "Origin Ventures",
+    "organization": null,
+    "description": "Marketplace, Software, Consumer services focus (Digital Native Economy). | Check size: $1M-$5M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "Marketplace",
+      "Software",
+      "Consumer"
+    ],
+    "website": "https://www.originventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "7bb69a2f-fe4c-4101-84db-4f63c3469165",
+    "name": "Origin Ventures Fund VI",
+    "organization": null,
+    "description": "Expanding into deep-tech | Check size: $140M raised",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "AI",
+      "Defense",
+      "Frontier Tech"
+    ],
+    "website": "https://www.originventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "084932d6-8417-43a5-be6c-dce7065af4aa",
+    "name": "PACE Healthcare Capital",
+    "organization": null,
+    "description": "Early-stage healthcare VC focused on digital health, health IT, and healthcare services. | Check size: $500K-$5M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A"
+    ],
+    "sectors": [
+      "Digital health",
+      "Health IT"
+    ],
+    "website": "https://www.pacehealthcapital.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "55487405-64f1-47e3-9d38-50cf6c5f1806",
+    "name": "Pritzker Group",
+    "organization": null,
+    "description": "Venture capital firm focused on SaaS, marketplace, and middle market companies. | Check size: $1M-$10M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A",
+      "Series B"
+    ],
+    "sectors": [
+      "SaaS",
+      "Marketplace",
+      "Consumer"
+    ],
+    "website": "https://www.pritzkergroup.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "733d86b8-d6fd-4a4d-b0da-35713809e5a3",
+    "name": "Redbud VC",
+    "organization": null,
+    "description": "Midwest B2B software, agtech, and industrial technology. | Check size: $250K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "B2B",
+      "AgTech",
+      "Industrial"
+    ],
+    "website": "https://www.redbudvc.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "1cdedc42-b0d2-4263-9f28-c3432ef98bd4",
+    "name": "Sandbox Industries",
+    "organization": null,
+    "description": "VC investing in healthcare, insurance, and food & agriculture innovation. | Check size: $1M-$10M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed",
+      "Series A",
+      "Series B"
+    ],
+    "sectors": [
+      "Healthcare",
+      "Insurance",
+      "Food & Ag"
+    ],
+    "website": "https://sandboxindustries.com",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "36fe1e48-b216-4788-9ac1-71fb03a4da56",
+    "name": "Shore Capital Partners Fund VI & II",
+    "organization": null,
+    "description": "$625M Healthcare Fund VI, $5M-$200M revenue companies | Check size: $850M raised",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Growth"
+    ],
+    "sectors": [
+      "Healthcare",
+      "Search Funds"
+    ],
+    "website": null,
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "fe5d84e4-b060-4319-9479-93645cde6b6d",
+    "name": "Starting Line",
+    "organization": null,
+    "description": "Consumer VC for '99% economy' - democratizing access. $30M Fund II. | Check size: $250K-$1M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Consumer for the 99%"
+    ],
+    "website": "https://www.startingline.vc/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "b83701af-13d9-4fdf-b59b-530b7e9da9af",
+    "name": "Supply Change Capital",
+    "organization": null,
+    "description": "Ag/Food focus targeting diverse founders with food/ag traction. | Focus on underrepresented founders | Check size: $250K-$2M",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "seed"
+    ],
+    "sectors": [
+      "Ag/Food",
+      "Diverse founders"
+    ],
+    "website": "https://www.supplychangecapital.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "332e545d-9618-494b-963e-2cafd04ee67d",
+    "name": "Tawani Ventures",
+    "organization": null,
+    "description": null,
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Seed/Early-stage"
+    ],
+    "sectors": [
+      "Defense",
+      "Aerospace",
+      "Dual-use Tech"
+    ],
+    "website": "https://tawaniventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "f7c4c1f2-ca7d-4a38-a818-20c326ff0a7c",
+    "name": "The Josephine Collective",
+    "organization": null,
+    "description": null,
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Various"
+    ],
+    "website": "https://joinjosephine.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "73fcc65a-b06a-471a-ab96-3afe5200fbd1",
+    "name": "VamosVentures",
+    "organization": null,
+    "description": "Investment fund supporting Latinx founders and startups serving Latino communities. | Focus on underrepresented founders | Check size: $100K-$500K",
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "preseed",
+      "seed"
+    ],
+    "sectors": [
+      "Latinx founders",
+      "Latino communities"
+    ],
+    "website": "https://www.vamosventures.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  },
+  {
+    "id": "66ee8f49-58b3-4717-bb40-60b11d2f0fea",
+    "name": "Vitalize Angels",
+    "organization": null,
+    "description": null,
+    "opportunity_type": "VC",
+    "check_size_min": null,
+    "check_size_max": null,
+    "stage": [
+      "Early-stage"
+    ],
+    "sectors": [
+      "Various"
+    ],
+    "website": "https://www.vitalizeangels.com/",
+    "contact_email": null,
+    "application_link": null,
+    "deadline": null,
+    "is_active": true,
+    "chicago_focused": false,
+    "featured": false,
+    "created_date": "2025-12-22T04:17:31.715284+00:00",
+    "updated_at": "2025-12-22T04:17:31.715284+00:00"
+  }
+]

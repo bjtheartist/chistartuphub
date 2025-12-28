@@ -1,0 +1,31 @@
+name,organization,opportunity_type,funding_type,stage_standard,sectors_standard_str,amount_min_usd,amount_max_usd,website,description,chicago_focused
+Chicago New Venture Challenge,University of Chicago Polsky Center,Competition,Non-dilutive,Idea|Pre-seed|Early-stage,All Sectors,5000,100000,https://polsky.uchicago.edu/programs-events/new-venture-challenge/,Premier startup competition at University of Chicago offering prize money and mentorship,1
+mHUB,mHUB Chicago,Accelerator,Program,Pre-seed|Early-stage,Manufacturing/HardTech,0,50000,https://mhubchicago.com/,Hardtech and manufacturing innovation center in Chicago with programs and funding,1
+MATTER,MATTER Chicago,Accelerator,Program,Early-stage|Revenue-generating,HealthTech,0,0,https://matterchicago.com/,Healthcare startup incubator and accelerator in Chicago,1
+1871,Chicagoland Entrepreneurial Center,Incubator,Program,Pre-seed|Early-stage|Revenue-generating,General Tech,0,0,https://1871.com/,Premier tech startup hub and incubator in Chicago,1
+Hyde Park Angels,Hyde Park Angels,VC,Dilutive,Pre-seed|Early-stage,General Tech,100000,500000,https://www.hydeparkangels.com/,Chicago-based angel investor group focusing on early-stage companies,1
+Lightbank,Lightbank,VC,Dilutive,Early-stage|Revenue-generating,General Tech,500000,5000000,https://lightbank.com/,Chicago venture capital firm investing in technology companies,1
+Chicago Community Loan Fund,CCLF,Grant,Non-dilutive,All Stages,Social Impact,5000,500000,https://cclfchicago.org/,CDFI providing loans and grants to Chicago small businesses,1
+Accion Chicago,Accion Opportunity Fund,Grant,Non-dilutive,Pre-seed|Early-stage|Revenue-generating,All Sectors,5000,100000,https://us.accion.org/chicago,Microloans and grants for small businesses and entrepreneurs in Chicago,1
+Illinois Small Business Development Center,Illinois SBDC,Program,Non-dilutive,All Stages,All Sectors,0,50000,https://www.ilsbdc.biz/,Statewide network providing consulting and funding assistance,1
+Northwestern University INVO,Northwestern University,Grant,Non-dilutive,Idea|Pre-seed,General Tech,10000,100000,https://invo.northwestern.edu/,Commercialization support and funding for Northwestern innovations,1
+BLUE1647,BLUE1647,Incubator,Program,Pre-seed|Early-stage,Social Impact,0,25000,https://www.blue1647.com/,South Side Chicago tech incubator focusing on underrepresented communities,1
+Women's Business Development Center,WBDC Chicago,Grant,Non-dilutive,All Stages,All Sectors,5000,50000,https://www.wbdc.org/,Support and funding for women-owned businesses in Chicago,1
+Illinois Science & Technology Coalition,ISTC,Grant,Non-dilutive,Early-stage|Revenue-generating,General Tech,25000,250000,https://www.istcoalition.org/,Coalition supporting tech and innovation companies in Illinois,1
+P33,P33 Chicago,Program,Non-dilutive,Early-stage|Revenue-generating,General Tech,0,0,https://p33chicago.com/,Public-private partnership advancing Chicago's tech ecosystem,1
+Impact Engine,Impact Engine,Accelerator,Dilutive,Early-stage,Social Impact,50000,150000,https://theimpactengine.com/,Chicago-based impact investing accelerator,1
+MATH Venture Partners,MATH Venture Partners,VC,Dilutive,Early-stage|Revenue-generating,FinTech,500000,3000000,https://mathventurepartners.com/,Chicago venture capital firm focused on B2B software,1
+Chicago Ventures,Chicago Ventures,VC,Dilutive,Early-stage|Revenue-generating,General Tech,1000000,10000000,https://chicagoventures.com/,Seed-stage venture capital firm based in Chicago,1
+OCA Ventures,OCA Ventures,VC,Dilutive,Early-stage|Revenue-generating,HealthTech,2000000,10000000,https://www.ocaventures.com/,Chicago venture capital firm investing in high-growth companies,1
+Gener8tor Chicago,Gener8tor,Accelerator,Dilutive,Pre-seed|Early-stage,General Tech,50000,100000,https://www.gener8tor.com/,Accelerator with programs in Chicago and across the Midwest,1
+Techstars Chicago,Techstars,Accelerator,Dilutive,Pre-seed|Early-stage,General Tech,120000,120000,https://www.techstars.com/accelerators/chicago,Global accelerator with Chicago-based cohorts,1
+Illinois Ventures,University of Illinois,VC,Dilutive,Pre-seed|Early-stage,General Tech,100000,1000000,https://illinoisventures.com/,University of Illinois venture fund supporting Illinois startups,1
+Pritzker Group Venture Capital,Pritzker Group,VC,Dilutive,Early-stage|Revenue-generating,General Tech,1000000,10000000,https://www.pritzkergroup.com/venture-capital,Chicago-based VC firm investing in technology companies,1
+Portal Innovations,Portal Innovations,Accelerator,Program,Early-stage,HealthTech,0,500000,https://portal.vc/,Life sciences venture creation studio in Chicago,1
+Bunker Labs Chicago,Bunker Labs,Accelerator,Non-dilutive,Pre-seed|Early-stage,All Sectors,0,25000,https://bunkerlabs.org/,Veteran-focused entrepreneurship program with Chicago chapter,1
+Good Food Accelerator,Good Food Business Accelerator,Accelerator,Program,Early-stage,Food/Agriculture,0,25000,https://goodfoodfdn.org/,Chicago-based accelerator for sustainable food businesses,1
+Chicago:Blend,World Business Chicago,Program,Non-dilutive,All Stages,All Sectors,0,0,https://www.worldbusinesschicago.com/chicagoblend/,Program supporting diverse entrepreneurs in Chicago,1
+Polsky Center for Entrepreneurship,University of Chicago,Program,Non-dilutive,Idea|Pre-seed,All Sectors,0,50000,https://polsky.uchicago.edu/,University of Chicago's entrepreneurship hub with various programs,1
+TechNexus,TechNexus Venture Collaborative,Accelerator,Dilutive,Early-stage,General Tech,250000,1000000,https://technexus.com/,Chicago venture collaborative and innovation hub,1
+Cleveland Avenue,Cleveland Avenue,VC,Dilutive,Early-stage|Revenue-generating,Food/Agriculture,500000,5000000,https://clevelandavenue.com/,Chicago-based food and beverage focused venture fund,1
+Vital Proteins Collagen Venture,Vital Proteins,VC,Dilutive,Early-stage,HealthTech,250000,2000000,https://www.vitalproteins.com/,Chicago-based health and wellness investor,1

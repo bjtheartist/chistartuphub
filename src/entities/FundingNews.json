@@ -1,0 +1,59 @@
+{
+  "name": "FundingNews",
+  "type": "object",
+  "properties": {
+    "news_type": {
+      "type": "string",
+      "enum": [
+        "fund_closed",
+        "round_closed"
+      ],
+      "description": "Type of funding news: new fund raised or company round closed"
+    },
+    "title": {
+      "type": "string",
+      "description": "Headline of the news (e.g., 'Shore Capital Partners $850M raised')"
+    },
+    "company_or_fund": {
+      "type": "string",
+      "description": "Name of the company or fund"
+    },
+    "amount": {
+      "type": "string",
+      "description": "Amount raised (e.g., '$850M', '$39M Series C')"
+    },
+    "stage": {
+      "type": "string",
+      "description": "Stage of funding (e.g., 'Fund VI', 'Series C', 'Seed')"
+    },
+    "date": {
+      "type": "string",
+      "description": "Date of announcement (e.g., 'October 14, 2025')"
+    },
+    "location": {
+      "type": "string",
+      "description": "City or region (e.g., 'Chicago', 'Plymouth, MN')"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the funding news"
+    },
+    "link": {
+      "type": "string",
+      "description": "URL to news article or announcement"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this news should be featured at the top"
+    }
+  },
+  "required": [
+    "news_type",
+    "title",
+    "company_or_fund",
+    "amount",
+    "description",
+    "link"
+  ]
+}

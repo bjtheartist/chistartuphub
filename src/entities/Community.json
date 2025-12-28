@@ -1,0 +1,28 @@
+{
+  "name": "Community",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the community"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the community"
+    },
+    "website": {
+      "type": "string",
+      "description": "Community website URL"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this community is featured"
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "website"
+  ]
+}

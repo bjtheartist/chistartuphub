@@ -1,0 +1,872 @@
+{
+  "e1e91636-4947-48d9-ba6a-3acd73ce121a": {
+    "name": "Penn Startup Challenge",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "5ce29877-2db0-4432-812b-8413f6b99a8e": {
+    "name": "Space Symposium Innovate Pitch",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "6660f5a3-2353-4e37-a51d-d61ad7f8de30": {
+    "name": "South Summit Madrid",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "5ce140e7-5ba0-443b-ba99-14484f3835fe": {
+    "name": "AgeTech Open Mic Challenge",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "c3c96a1b-bbc0-4754-8592-fd518ca7a452": {
+    "name": "Capital One Mobility Program",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "fc9f878d-f310-4b4d-9059-3adf0bca75ef": {
+    "name": "AgeTech February Open Mic",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "d42645d0-e89f-43eb-b0ec-638fa22fabc4": {
+    "name": "ViVE Health AgeTech Pitch",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "5e47c1df-ca41-4c5e-a418-276b485a7057": {
+    "name": "SXSW Pitch Competition",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "42a96db0-0fb2-40fc-ad5f-289ecaed6de7": {
+    "name": "YALI Africa Startup Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "4378ad35-9cbc-40f3-ac02-f08436da7f65": {
+    "name": "Horizon Europe AI Road Safety",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "082f0f0f-c11d-440a-b722-1c6749d67bfd": {
+    "name": "Google for Startups MENA",
+    "deadline_type": "cohort-based",
+    "cadence": "annual"
+  },
+  "c79a6664-2529-4773-87fb-39c97121aa0d": {
+    "name": "Horizon Europe Battery Development",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "b841a3ee-102f-4519-b663-0046d52cf1f3": {
+    "name": "Startmate Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "2dbe17a3-c752-4bf6-848a-0e6529b9549a": {
+    "name": "Desai Accelerator (U-M Alumni)",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "24888158-69f7-41b8-92ce-f78a42bf0a43": {
+    "name": "The Liveability Challenge 2026",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "15b64219-9273-480b-bc5e-eb8e3aa757e7": {
+    "name": "Ilitch School Tech Pitch (Finalists)",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "9b57d29c-0db0-4e4d-91f7-50939febb626": {
+    "name": "Harlem Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "944ac441-0ad3-4f7e-9845-2144027c646b": {
+    "name": "TechRise Pitch Competition",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "ba98009e-6e40-43eb-a8ab-f71a825ec7b4": {
+    "name": "Black Girl Ventures Pitch",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "8dbfa6c2-6b13-469c-a721-9c086c2c86ce": {
+    "name": "National Black MBA Scale-Up Pitch",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "3d2b8f34-c9eb-419f-bad5-a261718c713f": {
+    "name": "Google Black Founders Fund",
+    "deadline_type": "cohort-based",
+    "cadence": "annual"
+  },
+  "06dce262-2bba-433a-b1b2-4927de1faf2f": {
+    "name": "Chingona Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "3410bde6-7ec2-4ba1-aca3-716bf1f1d5b9": {
+    "name": "Chicago New Venture Challenge",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "ba207ff3-4012-47b6-80a5-6f1d28ae54ee": {
+    "name": "mHUB",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "23e4cd01-9a8b-44b4-957c-e345b5248912": {
+    "name": "MATTER",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "221150d8-7364-4b2a-a99a-800e6a4662d9": {
+    "name": "1871",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "ade07476-1b81-44c1-8ff7-55ae60890618": {
+    "name": "Chicago Community Loan Fund",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "70428618-180d-4338-b515-b6cb46da2fe9": {
+    "name": "Accion Chicago",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "09a01b73-ec08-4b97-b6dd-9eaad26eef8f": {
+    "name": "BLUE1647",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "9beb81e4-8809-4978-9bc1-2145d0f85884": {
+    "name": "Impact Engine",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "e645322c-15f5-4049-9b48-1a1da1f166b8": {
+    "name": "MATH Venture Partners",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "d92c0153-affd-43b9-8246-3e9e0a447302": {
+    "name": "Gener8tor Chicago",
+    "deadline_type": "cohort-based",
+    "cadence": "quarterly"
+  },
+  "71fc8231-c4ae-4616-b589-7ee8dfca0a41": {
+    "name": "Pritzker Group Venture Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "03937d7a-0d41-41fe-be13-998454e3e0de": {
+    "name": "Portal Innovations",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "4e164d38-f7f7-486e-9855-94cf1cafa560": {
+    "name": "Bunker Labs Chicago",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "a22fdd62-5e5e-4330-9133-8a94f6d65637": {
+    "name": "TechNexus",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "80e5bbc1-efd6-42d8-bed1-2cd5c1bebb47": {
+    "name": "Vital Proteins Collagen Venture",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "503d601c-e3e4-4cae-a1fd-aa8efaa8cc38": {
+    "name": "Cleveland Avenue",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "cef91923-8914-480b-be7c-a650d8e675e4": {
+    "name": "Good Food Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "f05ea9e7-78c9-41e2-85af-70854438f743": {
+    "name": "Cybersecurity & Defence Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "428a3c36-3ede-4b32-a65d-32392f7951b0": {
+    "name": "SBIR Phase I - DOE",
+    "deadline_type": "fixed",
+    "cadence": "quarterly"
+  },
+  "f41be33f-ceb3-48ea-9bdd-f0de7c4d5f87": {
+    "name": "Amber Grant for Women",
+    "deadline_type": "fixed",
+    "cadence": "monthly"
+  },
+  "68a1a399-131d-4b50-a76a-a6d40111188e": {
+    "name": "Chicago Innovation Exchange Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "f517595e-69a8-408f-941b-ebf7627ffb6f": {
+    "name": "NSF I-Corps",
+    "deadline_type": "cohort-based",
+    "cadence": "quarterly"
+  },
+  "22d65028-24d2-4025-a304-bda9e4b88160": {
+    "name": "Urban-X Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "c6aa0242-c2b3-43fa-b99c-575cef993fe6": {
+    "name": "Duality Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "80519026-3c0c-42a6-98e2-a1c1a4cf068f": {
+    "name": "Hyde Park Venture Partners",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "f134c0cd-ac5c-463c-97c5-1cb54c069576": {
+    "name": "a11y Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "93f6462d-4bd9-41a3-ac98-46b4d4b7ec7c": {
+    "name": "West Suburban Angels Inc.",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "01c3eb70-6583-4c22-ab6c-d157576f89ba": {
+    "name": "mHUB Spark Fund II",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "bcc2a5fe-18a1-4885-9425-e950a4ac4cb5": {
+    "name": "MassChallenge Chicago",
+    "deadline_type": "cohort-based",
+    "cadence": "annual"
+  },
+  "17178a96-cf10-4759-b731-81c5d67d3d95": {
+    "name": "MassChallenge HealthTech",
+    "deadline_type": "cohort-based",
+    "cadence": "annual"
+  },
+  "f5dd8677-644f-486e-88b6-1774df670575": {
+    "name": "Microsoft for Startups Founders Hub",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "b8a148b3-9774-493b-9a36-00e7e3af1b97": {
+    "name": "Google for Startups Cloud Program",
+    "deadline_type": "cohort-based",
+    "cadence": "annual"
+  },
+  "efb5b6c8-f530-4c6e-99cc-19b65def8f17": {
+    "name": "SBIR Phase I - DOD",
+    "deadline_type": "fixed",
+    "cadence": "quarterly"
+  },
+  "36b65053-dda4-4b64-aa88-4045d976b3dd": {
+    "name": "AWS Activate",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "dd539d8d-55c0-4c4b-ac95-75a29e6f9dab": {
+    "name": "Landis Family Fellow by mHUB",
+    "deadline_type": "cohort-based",
+    "cadence": "annual"
+  },
+  "310e9e82-e8ec-4f24-8951-7bb9fc03fda5": {
+    "name": "SBIR Phase I - NSF",
+    "deadline_type": "fixed",
+    "cadence": "quarterly"
+  },
+  "a6b3fdb8-172f-44e9-bc6b-a2ee2b8ccacd": {
+    "name": "Amber Grant",
+    "deadline_type": "fixed",
+    "cadence": "monthly"
+  },
+  "573e3d30-18b1-4ff5-83b5-ff70774c862a": {
+    "name": "VentureCat Northwestern 2026",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "d32370e8-bd34-4b38-8328-179c6d51b6bf": {
+    "name": "43North",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "9d2a1ebb-dd68-431e-81f4-87883e3e00ea": {
+    "name": "Baylor New Venture Competition - Round 2",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "27e178f4-fe9b-4e72-a714-5073434e4514": {
+    "name": "SBIR Phase I - NIH",
+    "deadline_type": "fixed",
+    "cadence": "quarterly"
+  },
+  "7c32205a-eb03-4d99-b055-8be8d9047299": {
+    "name": "Backstage Capital Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "70f885c0-e1fb-412d-b61c-2c684eb88ea5": {
+    "name": "EIC Accelerator Step 2 - 1st Cutoff 2026",
+    "deadline_type": "fixed",
+    "cadence": "quarterly"
+  },
+  "55445b0b-786a-4c5e-a96e-2330aa40e319": {
+    "name": "EIC Accelerator Step 2 - 2nd Cutoff 2026",
+    "deadline_type": "fixed",
+    "cadence": "quarterly"
+  },
+  "02ae0a12-9bed-40ee-b7a0-1a07a37c576d": {
+    "name": "FedEx Small Business Grant",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "c3a26af3-5e87-4714-bd03-887c09d01a4c": {
+    "name": "Global Insurance Accelerator 2026",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "c6fe6d41-62b1-4454-88b1-5f545de11d8c": {
+    "name": "CodeLaunch USA 2026",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "b213660c-354a-4fba-aa5a-77baa1efe95a": {
+    "name": "Dream Big Competition (BMO)",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "377b267b-a639-4187-9095-a311bd8e8ae9": {
+    "name": "Halcyon Incubator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "8c26d461-3cde-45a6-9b53-ebe07fb710f9": {
+    "name": "Heartland Challenge",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "cc81d7f6-94ec-4422-8aea-1eaf20510708": {
+    "name": "Hello Tomorrow Global Challenge",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "59b5e521-41b7-4474-940b-ae0616782676": {
+    "name": "Long Chicago",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "6b0488de-11fb-4950-8804-5d39ec70c8da": {
+    "name": "Illinois SBDC - Innovation Voucher",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "670f2975-ac48-40fb-9800-13c29f7e38a4": {
+    "name": "Inc.U Competition (Invent Penn State)",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "98651020-e069-4319-ba5c-7d9e10527da9": {
+    "name": "Lake Forest College Venture Design Challenge 2026",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "8927cf7c-ed3b-49db-b698-c17ed9980e1e": {
+    "name": "Jump Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "de4c4e02-c671-404d-a640-a1a9adc5334b": {
+    "name": "Capitalize VC",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "07b25ef3-ac2b-4844-bd22-b15c83edbfc3": {
+    "name": "Fifth Star Funds",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "690d650e-efaa-4d95-936b-715cf3b76f8a": {
+    "name": "LongJump",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "1bd40f92-2846-4562-8aa1-16500e4b9a03": {
+    "name": "LongJump VC",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "ee626272-3861-410f-8b5f-252a3929c4e3": {
+    "name": "Propellant Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "ee8cdf4b-b03e-4b24-881e-9f899d961635": {
+    "name": "Sandalphon Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "c2800f31-dcda-4100-8bd3-9ed137342271": {
+    "name": "Abundant Venture Partners",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "0a9f5819-22f2-467c-a469-d317b11ab3d7": {
+    "name": "CMT Digital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "8615b8b0-8f0c-4e1b-b91d-e202f94845a3": {
+    "name": "Decasonic",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "8f396d7e-8850-47d6-bdea-8f91e44b0eeb": {
+    "name": "Harvard Business School Angels - Chicago",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "db59e9c8-d2a7-4723-b162-c200dcf37997": {
+    "name": "M25",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "86c11f8a-9bcb-4b94-a9cb-ce123de9951e": {
+    "name": "Westbound Equity Partners",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "294f83cc-68a2-49ab-b8df-136ebfbd8c11": {
+    "name": "7wire Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "4945c725-d7c6-4889-8888-6d05493afde7": {
+    "name": "Arch Venture Partners",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "e61fa3cf-fa12-4a15-a281-fa8fbe89bb79": {
+    "name": "BVF (Blue Venture Fund)",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "7e716d45-5d17-467c-aecd-f1fb8e16635c": {
+    "name": "SBIR Phase I - USDA",
+    "deadline_type": "fixed",
+    "cadence": "quarterly"
+  },
+  "7af5778e-0bba-470c-909e-cf4f399068a1": {
+    "name": "STTR Phase I (All Agencies)",
+    "deadline_type": "fixed",
+    "cadence": "quarterly"
+  },
+  "1e734700-4cba-4e12-bf83-9c3135e840fd": {
+    "name": "Moderne Passport",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "7903f9ab-8565-4618-8415-d0ffe6293dfe": {
+    "name": "Moderne Passport Industry Immersion",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "926a3292-2152-4bb7-aeb1-2eab2bc5be57": {
+    "name": "P33 Chicago Civic Innovation Challenge",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "d7ddcaaf-f353-490f-a115-9ea8c6fb5188": {
+    "name": "PitchBook University Innovation Prize",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "d2ecacfb-f63f-46eb-96e2-82999245bf5c": {
+    "name": "Rice Business Plan Competition",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "9c47ceaf-8e92-47aa-8074-cecd62a27361": {
+    "name": "Slauson & Co - Friends & Family",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "b2476467-54b9-4c5a-967e-a5c4091389fe": {
+    "name": "South Summit Startup Competition - Madrid",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "478d6b16-73f2-4398-8993-c8f77c8d0961": {
+    "name": "SparkWV - Round 2",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "2879fb09-1db7-49e8-b9d5-a8dccdf11caf": {
+    "name": "Startmate (Australia/NZ)",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "26562b20-8150-4e8c-8ce4-1d3505c70cc8": {
+    "name": "SBIR Phase I - NASA",
+    "deadline_type": "fixed",
+    "cadence": "quarterly"
+  },
+  "cb7d9d0a-edd4-415f-8289-1d060f38387d": {
+    "name": "Golden Seeds - Chicago Chapter",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "dba8b46c-c129-48f0-8af4-39fac96f669e": {
+    "name": "Heartland Angels",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "fd6728f0-e5e9-4d2c-9ec4-6759724e19cd": {
+    "name": "HighVista Venture Capital Fund XIV",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "f4c4a845-0fdd-4952-aa3f-6cd2ec6c0752": {
+    "name": "gener8tor Curql Accelerate",
+    "deadline_type": "cohort-based",
+    "cadence": "quarterly"
+  },
+  "ce216586-8e76-4892-951d-ab4403eeed67": {
+    "name": "gener8tor Great Lakes Innovation Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "quarterly"
+  },
+  "a1bf076a-dee7-417f-91c0-2b6a4b475a01": {
+    "name": "UN Global Compact Young SDG Innovators Programme",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "4b90952b-2439-4f1b-a046-7d120825e9c5": {
+    "name": "ViVE Startup Pitch 2026",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "50778eeb-91d8-43fb-9231-46d9d411d1e7": {
+    "name": "We Pitch Black",
+    "deadline_type": "fixed",
+    "cadence": "annual"
+  },
+  "7cec9260-72f2-4a1f-9be8-3a6597fbd329": {
+    "name": "Drive Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "13ea8075-e8a4-4f09-b305-8d170c623a8e": {
+    "name": "Earth Foundry",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "caff6709-1282-40b3-87a2-f497a0836f46": {
+    "name": "Elevate Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "d197aeb8-070c-4d1a-8718-465fadbb43fe": {
+    "name": "Gaingels",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "c58db2ed-df23-40a7-b285-8778e70f1a30": {
+    "name": "HBS Alumni Angels Chicago",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "33b28549-760a-46d3-b7e3-8b2329e0510e": {
+    "name": "High Alpha",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "0ee0997f-896e-4051-934d-7dadb7cb2bde": {
+    "name": "Hustle Fund Chicago",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "7b1d55e9-319f-4e95-91fc-fcb79317c4af": {
+    "name": "Women's Startup Lab Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "6c1990a7-a46d-4ff1-83be-ac11f370065d": {
+    "name": "2048 Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "f042dc6d-08b4-462a-841f-8e83ecddfbd8": {
+    "name": "Beta Boom",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "b4bc40c7-89e4-47cc-873f-306a4b3e69cd": {
+    "name": "Techstars Chicago",
+    "deadline_type": "cohort-based",
+    "cadence": "annual"
+  },
+  "06d35def-6b11-47de-825c-b0bc76402933": {
+    "name": "Techstars Healthcare (Northwestern Medicine)",
+    "deadline_type": "cohort-based",
+    "cadence": "annual"
+  },
+  "a53e2cbe-e936-426a-a302-4144295dabed": {
+    "name": "mHUB Hardtech Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "60b54f7c-041d-4991-a606-1b3c710c6ddf": {
+    "name": "Plug and Play Tech Center",
+    "deadline_type": "cohort-based",
+    "cadence": "quarterly"
+  },
+  "402e634e-6730-4323-8728-39afcb438ec7": {
+    "name": "Y Combinator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "c0aad4b8-ad89-4599-89fa-f7c39b4e9c97": {
+    "name": "Builders VC",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "8376cbe7-7200-481d-91d3-679646c82a8e": {
+    "name": "Cultivian Sandbox",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "4c0333d7-bba4-4852-97f9-a57b86fa62da": {
+    "name": "Energize Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "b7cca626-6f97-4663-8b8b-dd22f75c4d10": {
+    "name": "PEAK6",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "485ddd70-2b65-403c-83e2-8b0775c22d4a": {
+    "name": "S2G Investments",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "9935ca88-608b-44d7-beb0-e589cf58d1ab": {
+    "name": "Baird Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "03840d25-2302-41c7-8de2-b4cd3aeebec8": {
+    "name": "Angeles Investors",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "3826696d-b223-4f06-8556-d28014a9b026": {
+    "name": "Hyde Park Angels",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "8ccefe65-8e3f-41b8-837b-a92454ad5a91": {
+    "name": "Lightship Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "08aac912-e59b-41a9-a3ef-a23a72b03953": {
+    "name": "Next Chapter Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "5d7c4a14-10f0-4e75-9860-ffbe29ae82c0": {
+    "name": "Serra Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "68060bc8-3be5-4ac6-8940-ed7a7ffa2671": {
+    "name": "Solanus Capital Partners",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "6d563d83-4631-40d7-b43e-f193170d49da": {
+    "name": "53 Stations",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "dd2f457f-e577-40bd-b1c9-059e0e0bac7e": {
+    "name": "Barrel Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "2b8e10e7-9989-4011-8c40-baa53931d709": {
+    "name": "Bluestein Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "e13f0872-dbaa-41df-8f4d-95e40d430dca": {
+    "name": "Forum Ventures \u2014 Launch Accelerator",
+    "deadline_type": "cohort-based",
+    "cadence": "biannual"
+  },
+  "b8948761-cd32-4afc-a516-a0a17dd414f7": {
+    "name": "Bridge Venture Fund",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "68c743c8-d93c-460c-881f-99e61e896572": {
+    "name": "CIC Angels",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "a8e68209-2aaa-4040-a014-0ebe52cb874c": {
+    "name": "Chicago Arch Angels",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "ce5f2d73-2aa6-4546-9566-34c6bb2cbd36": {
+    "name": "Chicago Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "f5e586fc-006b-4e14-9388-74c43dc12ea3": {
+    "name": "Cornerstone Angels",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "48226aa2-fc1a-4173-9ea7-01d46049c683": {
+    "name": "Illini Angels",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "f0134692-9572-4ddc-9137-731b2ecb36ea": {
+    "name": "Illinois Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "5f440f61-2c62-4539-81f5-b8078527df15": {
+    "name": "IrishAngels",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "9f404420-ab52-4fde-b87b-d7c75830e593": {
+    "name": "JumpStart Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "39cc1905-e87f-461f-852a-1ac5838646ee": {
+    "name": "Kapor Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "7aa11e83-b10d-4836-adea-8a1186b0dcc4": {
+    "name": "Lightbank",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "14f3902a-2a48-4f24-8332-52a8e6f37ee3": {
+    "name": "Listen Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "ce8dac9c-b10f-42ee-a1a0-207eb645cce4": {
+    "name": "Lofty Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "67d63251-e6f5-4e30-8e4f-46d38588bcf6": {
+    "name": "MD Angels",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "975793c5-7f96-4aa0-a707-8e228076b525": {
+    "name": "Moderne Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "88d14660-8a0f-4b1d-a8a3-2328a4482c51": {
+    "name": "Next Coast Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "7bf84625-1d40-4355-8a06-821e2c6a4f0b": {
+    "name": "Nomadic Venture Partners",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "c41a9052-9360-48ee-b227-aefad178cefc": {
+    "name": "OCA Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "c9ebeaab-d0b7-47d4-805a-4c08a58e66cf": {
+    "name": "Origin Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "084932d6-8417-43a5-be6c-dce7065af4aa": {
+    "name": "PACE Healthcare Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "55487405-64f1-47e3-9d38-50cf6c5f1806": {
+    "name": "Pritzker Group",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "733d86b8-d6fd-4a4d-b0da-35713809e5a3": {
+    "name": "Redbud VC",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "1cdedc42-b0d2-4263-9f28-c3432ef98bd4": {
+    "name": "Sandbox Industries",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "36fe1e48-b216-4788-9ac1-71fb03a4da56": {
+    "name": "Shore Capital Partners Fund VI & II",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "fe5d84e4-b060-4319-9479-93645cde6b6d": {
+    "name": "Starting Line",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "b83701af-13d9-4fdf-b59b-530b7e9da9af": {
+    "name": "Supply Change Capital",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "332e545d-9618-494b-963e-2cafd04ee67d": {
+    "name": "Tawani Ventures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "f7c4c1f2-ca7d-4a38-a818-20c326ff0a7c": {
+    "name": "The Josephine Collective",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "73fcc65a-b06a-471a-ab96-3afe5200fbd1": {
+    "name": "VamosVentures",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  },
+  "66ee8f49-58b3-4717-bb40-60b11d2f0fea": {
+    "name": "Vitalize Angels",
+    "deadline_type": "rolling",
+    "cadence": "rolling"
+  }
+}

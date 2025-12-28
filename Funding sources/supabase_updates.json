@@ -1,0 +1,110 @@
+[
+  {
+    "id": "902f3dba-16c6-49b7-bdb8-9337889e8e05",
+    "name": "Breva Thrive Grant",
+    "check_size_min": 15000,
+    "check_size_max": 15000
+  },
+  {
+    "id": "4378ad35-9cbc-40f3-ac02-f08436da7f65",
+    "name": "Horizon Europe AI Road Safety",
+    "check_size_min": 1000000,
+    "check_size_max": 10000000
+  },
+  {
+    "id": "c79a6664-2529-4773-87fb-39c97121aa0d",
+    "name": "Horizon Europe Battery Development",
+    "check_size_min": 1000000,
+    "check_size_max": 10000000
+  },
+  {
+    "id": "082f0f0f-c11d-440a-b722-1c6749d67bfd",
+    "name": "Google for Startups MENA",
+    "check_size_min": 100000,
+    "check_size_max": 200000
+  },
+  {
+    "id": "a87dd723-df78-427d-bbfb-6aefad5eda8c",
+    "name": "EDA Industry Transformation Grants",
+    "check_size_min": 50000,
+    "check_size_max": 1000000
+  },
+  {
+    "id": "1937c6c6-8b28-43d5-aab7-666cb6aa8c3b",
+    "name": "SoGal Black Founder Grant",
+    "check_size_min": 5000,
+    "check_size_max": 10000
+  },
+  {
+    "id": "bcc2a5fe-18a1-4885-9425-e950a4ac4cb5",
+    "name": "MassChallenge Chicago",
+    "check_size_min": 0,
+    "check_size_max": 100000
+  },
+  {
+    "id": "17178a96-cf10-4759-b731-81c5d67d3d95",
+    "name": "MassChallenge HealthTech",
+    "check_size_min": 0,
+    "check_size_max": 100000
+  },
+  {
+    "id": "a6b3fdb8-172f-44e9-bc6b-a2ee2b8ccacd",
+    "name": "Amber Grant",
+    "check_size_min": 10000,
+    "check_size_max": 25000
+  },
+  {
+    "id": "f41be33f-ceb3-48ea-9bdd-f0de7c4d5f87",
+    "name": "Amber Grant for Women",
+    "check_size_min": 10000,
+    "check_size_max": 25000
+  },
+  {
+    "id": "6ea38b53-8802-4b06-9cda-4675ebf970ff",
+    "name": "EDA Disaster Supplemental - Industry Transformation",
+    "check_size_min": 50000,
+    "check_size_max": 1000000
+  },
+  {
+    "id": "70f885c0-e1fb-412d-b61c-2c684eb88ea5",
+    "name": "EIC Accelerator Step 2 - 1st Cutoff 2026",
+    "check_size_min": 500000,
+    "check_size_max": 17500000
+  },
+  {
+    "id": "55445b0b-786a-4c5e-a96e-2330aa40e319",
+    "name": "EIC Accelerator Step 2 - 2nd Cutoff 2026",
+    "check_size_min": 500000,
+    "check_size_max": 17500000
+  },
+  {
+    "id": "02ae0a12-9bed-40ee-b7a0-1a07a37c576d",
+    "name": "FedEx Small Business Grant",
+    "check_size_min": 15000,
+    "check_size_max": 50000
+  },
+  {
+    "id": "f517595e-69a8-408f-941b-ebf7627ffb6f",
+    "name": "NSF I-Corps",
+    "check_size_min": 50000,
+    "check_size_max": 1000000
+  },
+  {
+    "id": "26562b20-8150-4e8c-8ce4-1d3505c70cc8",
+    "name": "SBIR Phase I - NASA",
+    "check_size_min": 50000,
+    "check_size_max": 275000
+  },
+  {
+    "id": "7e716d45-5d17-467c-aecd-f1fb8e16635c",
+    "name": "SBIR Phase I - USDA",
+    "check_size_min": 50000,
+    "check_size_max": 275000
+  },
+  {
+    "id": "7af5778e-0bba-470c-909e-cf4f399068a1",
+    "name": "STTR Phase I (All Agencies)",
+    "check_size_min": 50000,
+    "check_size_max": 275000
+  }
+]
