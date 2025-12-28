@@ -15,6 +15,7 @@ const Community = lazy(() => import('./pages/Community'));
 const About = lazy(() => import('./pages/About'));
 const SubmitResource = lazy(() => import('./pages/SubmitResource'));
 const Contact = lazy(() => import('./pages/Contact'));
+const Profile = lazy(() => import('./pages/Profile'));
 
 export const PAGES = {
     "Home": Home,
@@ -31,6 +32,7 @@ export const PAGES = {
     "About": About,
     "SubmitResource": SubmitResource,
     "Contact": Contact,
+    "Profile": Profile,
 }
 
 export const pagesConfig = {

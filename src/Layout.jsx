@@ -13,12 +13,19 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
+import { useAuth } from "@/contexts/AuthContext";
+import UserMenu from "@/components/auth/UserMenu";
+import LoginModal from "@/components/auth/LoginModal";
+import SignupModal from "@/components/auth/SignupModal";
 
 export default function Layout({ children }) {
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [isLoading, setIsLoading] = useState(!window.hasShownLoader);
+  const [showLogin, setShowLogin] = useState(false);
+  const [showSignup, setShowSignup] = useState(false);
+  const { user } = useAuth();
 
   const handleLoadComplete = () => {
     setIsLoading(false);
@@ -396,6 +403,26 @@ export default function Layout({ children }) {
                   Submit Resource
                 </Button>
               </Link>
+
+              {/* Auth Section */}
+              {user ? (
+                <UserMenu />
+              ) : (
+                <div className="flex items-center gap-3 ml-2">
+                  <button
+                    onClick={() => setShowLogin(true)}
+                    className="nav-link text-sm font-medium"
+                  >
+                    Sign In
+                  </button>
+                  <Button
+                    onClick={() => setShowSignup(true)}
+                    className="bg-blue-600 hover:bg-blue-700 text-white text-sm h-9 px-4"
+                  >
+                    Get Started
+                  </Button>
+                </div>
+              )}
             </div>
 
             {/* Mobile Menu Button */}
@@ -545,6 +572,24 @@ export default function Layout({ children }) {
           </div>
         </div>
       </footer>
+
+      {/* Auth Modals */}
+      <LoginModal
+        isOpen={showLogin}
+        onClose={() => setShowLogin(false)}
+        onSwitchToSignup={() => {
+          setShowLogin(false);
+          setShowSignup(true);
+        }}
+      />
+      <SignupModal
+        isOpen={showSignup}
+        onClose={() => setShowSignup(false)}
+        onSwitchToLogin={() => {
+          setShowSignup(false);
+          setShowLogin(true);
+        }}
+      />
       </SmoothScrollProvider>
     </div>
   );
