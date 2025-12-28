@@ -12,7 +12,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Checkbox } from '@/components/ui/checkbox';
-import { Loader2 } from 'lucide-react';
+import { Loader2, Bookmark, Shield, Eye, EyeOff } from 'lucide-react';
 import { toast } from 'sonner';
 
 const ROLES = [
@@ -45,6 +45,7 @@ const INTERESTS = [
 export default function SignupModal({ isOpen, onClose, onSwitchToLogin }) {
   const [step, setStep] = useState(1);
   const [loading, setLoading] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
   const { signUp, signInWithOAuth, updateProfile } = useAuth();
 
   // Step 1: Email & Password
@@ -85,42 +86,61 @@ export default function SignupModal({ isOpen, onClose, onSwitchToLogin }) {
     e.preventDefault();
     setLoading(true);
 
-    // Sign up
-    const { data, error: signUpError } = await signUp(email, password, {
-      full_name: fullName,
-    });
+    try {
+      console.log('Starting signup process...');
 
-    if (signUpError) {
+      // Sign up
+      const { data, error: signUpError } = await signUp(email, password, {
+        full_name: fullName,
+      });
+
+      console.log('Signup response:', { data, error: signUpError });
+
+      if (signUpError) {
+        console.error('Signup error:', signUpError);
+        toast.error('Signup failed', {
+          description: signUpError.message,
+        });
+        setLoading(false);
+        return;
+      }
+
+      // Create profile
+      if (data?.user) {
+        console.log('Creating profile for user:', data.user.id);
+        const { error: profileError } = await updateProfile({
+          email,
+          full_name: fullName,
+          company_name: companyName,
+          role,
+          stage,
+          interests: selectedInterests,
+        });
+
+        if (profileError) {
+          console.error('Profile creation error:', profileError);
+          toast.error('Profile creation failed', {
+            description: profileError.message,
+          });
+        } else {
+          console.log('Profile created successfully');
+        }
+      }
+
+      toast.success('Welcome to ChiStartupHub!', {
+        description: 'Your account has been created successfully!',
+      });
+
+      setLoading(false);
+      resetForm();
+      onClose();
+    } catch (error) {
+      console.error('Unexpected error during signup:', error);
       toast.error('Signup failed', {
-        description: signUpError.message,
+        description: 'An unexpected error occurred. Please try again.',
       });
       setLoading(false);
-      return;
     }
-
-    // Create profile
-    if (data.user) {
-      const { error: profileError } = await updateProfile({
-        email,
-        full_name: fullName,
-        company_name: companyName,
-        role,
-        stage,
-        interests: selectedInterests,
-      });
-
-      if (profileError) {
-        console.error('Profile creation error:', profileError);
-      }
-    }
-
-    toast.success('Welcome to ChiStartupHub!', {
-      description: 'Your account has been created. Please check your email to verify.',
-    });
-
-    setLoading(false);
-    resetForm();
-    onClose();
   };
 
   const toggleInterest = (interest) => {
@@ -170,6 +190,26 @@ export default function SignupModal({ isOpen, onClose, onSwitchToLogin }) {
 
         {step === 1 && (
           <>
+            {/* Privacy & Benefits Info */}
+            <div className="bg-blue-600/10 border border-blue-600/20 rounded-lg p-4 mb-4">
+              <div className="space-y-2">
+                <div className="flex items-start gap-3">
+                  <Bookmark className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
+                  <div>
+                    <p className="text-sm text-white/90 font-medium">Save & Bookmark Resources</p>
+                    <p className="text-xs text-white/60">Easily save events, funding opportunities, and workspaces for later</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Shield className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
+                  <div>
+                    <p className="text-sm text-white/90 font-medium">Your Privacy Matters</p>
+                    <p className="text-xs text-white/60">We take your privacy seriously and never share your data without permission</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <form onSubmit={handleStep1Submit} className="space-y-4 mt-4">
               <div>
                 <Label htmlFor="fullName" className="text-white/80">Full Name</Label>
@@ -196,15 +236,28 @@ export default function SignupModal({ isOpen, onClose, onSwitchToLogin }) {
 
               <div>
                 <Label htmlFor="signup-password" className="text-white/80">Password</Label>
-                <Input
-                  id="signup-password"
-                  type="password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  className="bg-white/5 border-white/10 text-white"
-                  required
-                  minLength={6}
-                />
+                <div className="relative">
+                  <Input
+                    id="signup-password"
+                    type={showPassword ? "text" : "password"}
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    className="bg-white/5 border-white/10 text-white pr-10"
+                    required
+                    minLength={6}
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setShowPassword(!showPassword)}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-white/40 hover:text-white/60 transition-colors"
+                  >
+                    {showPassword ? (
+                      <EyeOff className="w-4 h-4" />
+                    ) : (
+                      <Eye className="w-4 h-4" />
+                    )}
+                  </button>
+                </div>
                 <p className="text-xs text-white/40 mt-1">At least 6 characters</p>
               </div>
 
