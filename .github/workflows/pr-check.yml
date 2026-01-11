@@ -281,9 +281,9 @@ jobs:
         run: |
           echo "Testing preview at: $PREVIEW_URL"
 
-          # Create test file in e2e directory (matches playwright testDir)
+          # Create test file in e2e directory (matches playwright testDir, uses ES modules)
           cat > e2e/preview-smoke-test.spec.js << 'EOF'
-          const { test, expect } = require('@playwright/test');
+          import { test, expect } from '@playwright/test';
 
           const PREVIEW_URL = process.env.PREVIEW_URL;
 
