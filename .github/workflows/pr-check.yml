@@ -280,7 +280,62 @@ jobs:
       - name: Run smoke tests against preview
         run: |
           echo "Testing preview at: $PREVIEW_URL"
-          npx playwright test e2e/preview-smoke.spec.js --project=chromium --reporter=list
+
+          # Create test file in root directory
+          cat > smoke-test.spec.js << 'EOF'
+          const { test, expect } = require('@playwright/test');
+
+          const PREVIEW_URL = process.env.PREVIEW_URL;
+
+          test.describe('Preview Smoke Tests', () => {
+            test('preview loads successfully', async ({ page }) => {
+              const response = await page.goto(PREVIEW_URL);
+              expect(response.status()).toBeLessThan(400);
+              await expect(page.locator('#root')).not.toBeEmpty({ timeout: 15000 });
+            });
+
+            test('no critical errors on preview', async ({ page }) => {
+              const errors = [];
+              page.on('console', msg => {
+                if (msg.type() === 'error') {
+                  errors.push(msg.text());
+                }
+              });
+
+              await page.goto(PREVIEW_URL);
+              await page.waitForTimeout(3000);
+
+              const criticalErrors = errors.filter(e =>
+                !e.includes('favicon') &&
+                !e.includes('PostHog') &&
+                !e.includes('analytics')
+              );
+              expect(criticalErrors).toHaveLength(0);
+            });
+
+            test('app renders without crash', async ({ page }) => {
+              let crashed = false;
+              page.on('pageerror', () => { crashed = true; });
+
+              await page.goto(PREVIEW_URL);
+              await page.waitForTimeout(2000);
+
+              expect(crashed).toBe(false);
+            });
+
+            test('navigation works', async ({ page }) => {
+              await page.goto(PREVIEW_URL);
+              await expect(page.locator('#root')).not.toBeEmpty({ timeout: 10000 });
+
+              // Check a key page loads
+              await page.goto(PREVIEW_URL + '/opportunities');
+              await expect(page.locator('#root')).not.toBeEmpty({ timeout: 10000 });
+            });
+          });
+          EOF
+
+          # Run with explicit path to the test file
+          npx playwright test ./smoke-test.spec.js --project=chromium
         env:
           PREVIEW_URL: ${{ needs.preview.outputs.preview-url }}
           PLAYWRIGHT_BASE_URL: ${{ needs.preview.outputs.preview-url }}
