@@ -6,10 +6,10 @@
         "-y",
         "@supabase/mcp-server-supabase@latest",
         "--project-ref",
-        "${SUPABASE_PROJECT_REF}"
+        "fbgxeinarhbrqatrsuoj"
       ],
       "env": {
-        "SUPABASE_ACCESS_TOKEN": "${SUPABASE_ACCESS_TOKEN}"
+        "SUPABASE_ACCESS_TOKEN": "sbp_beb3ad00c45c5fe8ea70bf5e87d4a9a364a663a5"
       }
     },
     "vercel": {

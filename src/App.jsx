@@ -1,6 +1,6 @@
 import './App.css'
 import { Suspense } from 'react'
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "sonner"
 import { QueryClientProvider } from '@tanstack/react-query'
 import { queryClientInstance } from '@/lib/query-client'
 import { pagesConfig } from './pages.config'
@@ -121,7 +121,19 @@ function App() {
               </Suspense>
             </LayoutWrapper>
           </Router>
-          <Toaster />
+          <Toaster
+            theme="dark"
+            position="top-right"
+            toastOptions={{
+              style: {
+                background: '#0F0F0F',
+                border: '1px solid rgba(255, 255, 255, 0.1)',
+                color: 'white',
+                fontFamily: 'ui-monospace, SFMono-Regular, Monaco, Menlo, monospace',
+                fontSize: '12px',
+              },
+            }}
+          />
           <Analytics />
         </AuthProvider>
       </QueryClientProvider>

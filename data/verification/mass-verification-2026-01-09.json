@@ -1,0 +1,718 @@
+[
+  {
+    "id": "CAP-021",
+    "name": "NSpire Startup Slam",
+    "url": "https://www.nola.com/sponsored/st_tammany_corporation/apply-now-nspire-startup-slam-pitch-competition-returns-in-2026/article_ceda24bf-26a8-4374-8809-5b4bc68e9865.html",
+    "priority": "HOT",
+    "timestamp": "2026-01-09T22:10:46.359Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Apply Now: NSpire Startup Slam Pitch Competition Returns in 2026 | Sponsored: St. Tammany Corporation | nola.com",
+    "screenshotPath": "data/screenshots-batch2/CAP-021-1767996649398.png",
+    "keywordsFound": [
+      "startup",
+      "pitch",
+      "competition",
+      "slam",
+      "capital one"
+    ],
+    "keywordsMissing": [],
+    "amountFound": [
+      "$170,000",
+      "$100,000",
+      "$50,000",
+      "$40,000",
+      "$65,000"
+    ],
+    "deadlineFound": [
+      "January 8, 2026",
+      "November 16, 2025",
+      "Nov 9, 2025"
+    ],
+    "confidenceScore": 100,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-022",
+    "name": "Penn Startup Challenge",
+    "url": "https://venturelab.upenn.edu/startup-challenge",
+    "priority": "HOT",
+    "timestamp": "2026-01-09T22:10:50.270Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Startup Challenge",
+    "screenshotPath": "data/screenshots-batch2/CAP-022-1767996652161.png",
+    "keywordsFound": [
+      "startup",
+      "challenge",
+      "penn",
+      "venture",
+      "prize"
+    ],
+    "keywordsMissing": [],
+    "amountFound": [
+      "$200,000",
+      "$75,000",
+      "$50,000",
+      "$10,000",
+      "$30,000"
+    ],
+    "deadlineFound": [
+      "January 11, 2026",
+      "March 20, 2026",
+      "May 1, 2026",
+      "MAY 02, 2025",
+      "APRIL 16, 2024"
+    ],
+    "confidenceScore": 100,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-052",
+    "name": "ERC Consolidator Grant",
+    "url": "https://erc.europa.eu/apply-grant/consolidator-grant",
+    "priority": "HOT",
+    "timestamp": "2026-01-09T22:10:52.422Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "ERC Consolidator Grant: Funding for Emerging Research Leaders",
+    "screenshotPath": "data/screenshots-batch2/CAP-052-1767996654532.png",
+    "keywordsFound": [
+      "ERC",
+      "grant",
+      "research",
+      "european",
+      "consolidator"
+    ],
+    "keywordsMissing": [],
+    "amountFound": [
+      "€2",
+      "€1",
+      "€728"
+    ],
+    "deadlineFound": null,
+    "confidenceScore": 85,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-037",
+    "name": "MassChallenge FinTech",
+    "url": "https://masschallenge.org/fintech/",
+    "priority": "HOT",
+    "timestamp": "2026-01-09T22:10:54.726Z",
+    "status": "partial",
+    "linkWorks": true,
+    "pageTitle": "FinTech - MassChallenge",
+    "screenshotPath": "data/screenshots-batch2/CAP-037-1767996657695.png",
+    "keywordsFound": [
+      "fintech",
+      "masschallenge"
+    ],
+    "keywordsMissing": [
+      "accelerator",
+      "boston"
+    ],
+    "amountFound": null,
+    "deadlineFound": null,
+    "confidenceScore": 55,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-031",
+    "name": "a16z Speedrun SR006",
+    "url": "https://a16z.com/speedrun/",
+    "priority": "HOT",
+    "timestamp": "2026-01-09T22:10:58.134Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "a16z Speedrun",
+    "screenshotPath": "data/screenshots-batch2/CAP-031-1767996661499.png",
+    "keywordsFound": [
+      "speedrun",
+      "a16z",
+      "andreessen",
+      "startup"
+    ],
+    "keywordsMissing": [
+      "accelerator"
+    ],
+    "amountFound": [
+      "$1M",
+      "$180M"
+    ],
+    "deadlineFound": null,
+    "confidenceScore": 79,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-042",
+    "name": "EIC Accelerator Step 2",
+    "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+    "priority": "HOT",
+    "timestamp": "2026-01-09T22:11:01.867Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "EIC Accelerator - European Innovation Council - European Commission",
+    "screenshotPath": "data/screenshots-batch2/CAP-042-1767996664201.png",
+    "keywordsFound": [
+      "EIC",
+      "accelerator",
+      "european",
+      "innovation",
+      "grant"
+    ],
+    "keywordsMissing": [],
+    "amountFound": [
+      "€1",
+      "€10",
+      "€220",
+      "€414",
+      "€20"
+    ],
+    "deadlineFound": [
+      "7/01/2026",
+      "04/03/2026",
+      "06/05/2026",
+      "08/07/2026",
+      "02/09/2026"
+    ],
+    "confidenceScore": 100,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-044",
+    "name": "EmpowHer Grants (Boundless Futures)",
+    "url": "https://www.boundlessfutures.org/empowher",
+    "priority": "HOT",
+    "timestamp": "2026-01-09T22:11:04.384Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Empowher Marketplace - Boundless Futures Foundation",
+    "screenshotPath": "data/screenshots-batch2/CAP-044-1767996667005.png",
+    "keywordsFound": [
+      "empowher",
+      "grant",
+      "impact"
+    ],
+    "keywordsMissing": [
+      "women",
+      "social"
+    ],
+    "amountFound": [
+      "$1"
+    ],
+    "deadlineFound": null,
+    "confidenceScore": 73,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-023",
+    "name": "Rice Business Plan Competition",
+    "url": "https://rbpc.rice.edu/",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:07.271Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Rice Business Plan Competition - Largest and Richest Student Startup Competition",
+    "screenshotPath": "data/screenshots-batch2/CAP-023-1767996669506.png",
+    "keywordsFound": [
+      "rice",
+      "business",
+      "plan",
+      "competition",
+      "student"
+    ],
+    "keywordsMissing": [],
+    "amountFound": [
+      "$1 million",
+      "$1",
+      "$6",
+      "$4",
+      "$1M"
+    ],
+    "deadlineFound": [
+      "January 31, 2026",
+      "DEC 3, 2025",
+      "NOV 19, 2025",
+      "DEC 9, 2025",
+      "NOV 21, 2025"
+    ],
+    "confidenceScore": 100,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-041",
+    "name": "Social Enterprise Accelerator (KY)",
+    "url": "https://soar-ky.org/social-enterprise-accelerator/",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:09.921Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Social Enterprise Accelerator Cohort 2026 - Application Deadline - SOAR",
+    "screenshotPath": "data/screenshots-batch2/CAP-041-1767996673007.png",
+    "keywordsFound": [
+      "social",
+      "enterprise",
+      "accelerator",
+      "kentucky",
+      "community"
+    ],
+    "keywordsMissing": [],
+    "amountFound": null,
+    "deadlineFound": null,
+    "confidenceScore": 70,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-051",
+    "name": "IAF Emerging Space Leaders Grant",
+    "url": "https://www.iafastro.org/activities/emerging-space-leaders/",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:13.188Z",
+    "status": "needs_review",
+    "linkWorks": false,
+    "pageTitle": "404 error",
+    "screenshotPath": "data/screenshots-batch2/CAP-051-1767996677261.png",
+    "keywordsFound": [
+      "space",
+      "IAF"
+    ],
+    "keywordsMissing": [
+      "leaders",
+      "grant",
+      "emerging"
+    ],
+    "amountFound": null,
+    "deadlineFound": null,
+    "confidenceScore": 22,
+    "notes": [],
+    "httpStatus": 404
+  },
+  {
+    "id": "CAP-049",
+    "name": "Breva Thrive Grant",
+    "url": "https://www.breva.co/thrive-grant",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:17.420Z",
+    "status": "needs_review",
+    "linkWorks": false,
+    "pageTitle": "Page not found · GitHub Pages",
+    "screenshotPath": "data/screenshots-batch2/CAP-049-1767996679144.png",
+    "keywordsFound": [],
+    "keywordsMissing": [
+      "breva",
+      "thrive",
+      "grant",
+      "business"
+    ],
+    "amountFound": null,
+    "deadlineFound": null,
+    "confidenceScore": 10,
+    "notes": [],
+    "httpStatus": 404
+  },
+  {
+    "id": "CAP-057",
+    "name": "OHCHR Minorities Fellowship",
+    "url": "https://www.ohchr.org/en/about-us/fellowship-programmes",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:19.282Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Fellowship programmes | OHCHR",
+    "screenshotPath": "data/screenshots-batch2/CAP-057-1767996681928.png",
+    "keywordsFound": [
+      "OHCHR",
+      "minorities",
+      "fellowship",
+      "human rights"
+    ],
+    "keywordsMissing": [],
+    "amountFound": null,
+    "deadlineFound": null,
+    "confidenceScore": 70,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-032",
+    "name": "Y Combinator Spring 2026",
+    "url": "https://www.ycombinator.com/apply",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:22.106Z",
+    "status": "partial",
+    "linkWorks": true,
+    "pageTitle": "Apply to Y Combinator | Y Combinator",
+    "screenshotPath": "data/screenshots-batch2/CAP-032-1767996684622.png",
+    "keywordsFound": [
+      "YC",
+      "combinator",
+      "startup",
+      "batch"
+    ],
+    "keywordsMissing": [
+      "accelerator"
+    ],
+    "amountFound": null,
+    "deadlineFound": null,
+    "confidenceScore": 64,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-024",
+    "name": "Space Symposium Pitch Competition",
+    "url": "https://www.spacesymposium.org/pitch-competition/",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:24.792Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Pitch Competition - Space Symposium - April 13th - 16th, 2026",
+    "screenshotPath": "data/screenshots-batch2/CAP-024-1767996687353.png",
+    "keywordsFound": [
+      "space",
+      "symposium",
+      "pitch",
+      "competition",
+      "aerospace"
+    ],
+    "keywordsMissing": [],
+    "amountFound": null,
+    "deadlineFound": [
+      "April 16, 2026",
+      "January 11, 2026",
+      "February 15, 2026",
+      "JANUARY 11, 2026"
+    ],
+    "confidenceScore": 85,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-029",
+    "name": "BCIC Biomedical Pitch Competition",
+    "url": "https://bcicglobal.org/biomedical-pitch-competition/",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:27.616Z",
+    "status": "partial",
+    "linkWorks": true,
+    "pageTitle": "2022 BCIC国际生物医疗创投大赛圆满落幕 – Boston Capital Investment Club",
+    "screenshotPath": "data/screenshots-batch2/CAP-029-1767996692324.png",
+    "keywordsFound": [
+      "BCIC",
+      "biotech"
+    ],
+    "keywordsMissing": [
+      "biomedical",
+      "pitch",
+      "healthcare"
+    ],
+    "amountFound": null,
+    "deadlineFound": null,
+    "confidenceScore": 52,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-043",
+    "name": "Future Founders Fellowship",
+    "url": "https://www.futurefounders.com/fellowship/",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:32.685Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Fellowship | Future Founders Future Founders",
+    "screenshotPath": "data/screenshots-batch2/CAP-043-1767996695872.png",
+    "keywordsFound": [
+      "future",
+      "founders",
+      "fellowship",
+      "entrepreneur"
+    ],
+    "keywordsMissing": [],
+    "amountFound": [
+      "$374 million",
+      "$299 million"
+    ],
+    "deadlineFound": [
+      "February 4, 2026"
+    ],
+    "confidenceScore": 100,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-039",
+    "name": "MedTech Innovator",
+    "url": "https://medtechinnovator.org/apply/",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:36.100Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "MedTech Innovator Accelerator for seed-series C companies",
+    "screenshotPath": "data/screenshots-batch2/CAP-039-1767996698653.png",
+    "keywordsFound": [
+      "medtech",
+      "innovator",
+      "accelerator",
+      "medical",
+      "device"
+    ],
+    "keywordsMissing": [],
+    "amountFound": [
+      "$500,000"
+    ],
+    "deadlineFound": null,
+    "confidenceScore": 85,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-034",
+    "name": "Techstars Founder Catalyst",
+    "url": "https://www.techstars.com/founder-catalyst",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:39.002Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Pre-Accelerator Program | Techstars Founder Catalyst",
+    "screenshotPath": "data/screenshots-batch2/CAP-034-1767996701819.png",
+    "keywordsFound": [
+      "techstars",
+      "founder",
+      "catalyst",
+      "pre-accelerator"
+    ],
+    "keywordsMissing": [],
+    "amountFound": [
+      "$400K"
+    ],
+    "deadlineFound": null,
+    "confidenceScore": 85,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-035",
+    "name": "Freshmango Accelerator",
+    "url": "https://freshmango.co/",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:42.298Z",
+    "status": "error",
+    "linkWorks": false,
+    "pageTitle": null,
+    "screenshotPath": null,
+    "keywordsFound": [],
+    "keywordsMissing": [],
+    "amountFound": null,
+    "deadlineFound": null,
+    "confidenceScore": 0,
+    "notes": [],
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://freshmango.co/"
+  },
+  {
+    "id": "CAP-038",
+    "name": "CAFE Fintech Accelerator",
+    "url": "https://ftcafe.org/apply/",
+    "priority": "WARM",
+    "timestamp": "2026-01-09T22:11:42.437Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "CAFE Fintech Startup Accelerator Program - Apply Now - CAFE",
+    "screenshotPath": "data/screenshots-batch2/CAP-038-1767996704808.png",
+    "keywordsFound": [
+      "CAFE",
+      "fintech",
+      "accelerator",
+      "financial"
+    ],
+    "keywordsMissing": [],
+    "amountFound": null,
+    "deadlineFound": [
+      "November 21, 2025"
+    ],
+    "confidenceScore": 85,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-030",
+    "name": "Iowa Biotech Showcase",
+    "url": "https://www.iowabio.org/iowa_biotech_pitch_competition/",
+    "priority": "COOL",
+    "timestamp": "2026-01-09T22:11:45.050Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Iowa Biotech Showcase Pitch Competition – March 4, 2026",
+    "screenshotPath": "data/screenshots-batch2/CAP-030-1767996707471.png",
+    "keywordsFound": [
+      "iowa",
+      "biotech",
+      "showcase",
+      "pitch"
+    ],
+    "keywordsMissing": [
+      "agriculture"
+    ],
+    "amountFound": [
+      "$10,000",
+      "$25,000"
+    ],
+    "deadlineFound": [
+      "March 4, 2026"
+    ],
+    "confidenceScore": 94,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-050",
+    "name": "Secretsos Small Business Grant",
+    "url": "https://secretsos.com/grant",
+    "priority": "COOL",
+    "timestamp": "2026-01-09T22:11:47.632Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Foundation Grant Rules | Secretsos™",
+    "screenshotPath": "data/screenshots-batch2/CAP-050-1767996710524.png",
+    "keywordsFound": [
+      "secretsos",
+      "grant",
+      "small business"
+    ],
+    "keywordsMissing": [
+      "underserved"
+    ],
+    "amountFound": [
+      "$2,500",
+      "$15.00"
+    ],
+    "deadlineFound": [
+      "January 1, 2026",
+      "March 31, 2026",
+      "April 30, 2026"
+    ],
+    "confidenceScore": 93,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-048",
+    "name": "Google Black Founders Fund",
+    "url": "https://startup.google.com/programs/black-founders-fund/",
+    "priority": "COOL",
+    "timestamp": "2026-01-09T22:11:50.698Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Black Founders Fund - Google for Startups",
+    "screenshotPath": "data/screenshots-batch2/CAP-048-1767996712791.png",
+    "keywordsFound": [
+      "google",
+      "black",
+      "founders",
+      "fund",
+      "startup"
+    ],
+    "keywordsMissing": [],
+    "amountFound": [
+      "$40 million"
+    ],
+    "deadlineFound": null,
+    "confidenceScore": 85,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-027",
+    "name": "Hello Tomorrow Global Challenge",
+    "url": "https://hello-tomorrow.org/global-challenge/",
+    "priority": "COOL",
+    "timestamp": "2026-01-09T22:11:53.045Z",
+    "status": "verified",
+    "linkWorks": true,
+    "pageTitle": "Hello Tomorrow Challenge",
+    "screenshotPath": "data/screenshots-batch2/CAP-027-1767996722189.png",
+    "keywordsFound": [
+      "hello",
+      "tomorrow",
+      "deep tech",
+      "challenge",
+      "global"
+    ],
+    "keywordsMissing": [],
+    "amountFound": [
+      "€100"
+    ],
+    "deadlineFound": null,
+    "confidenceScore": 85,
+    "notes": [],
+    "httpStatus": 200
+  },
+  {
+    "id": "CAP-005-RETRY",
+    "name": "Skip Grants (Retry)",
+    "url": "https://www.helloskip.com/small-business-grants",
+    "priority": "RETRY",
+    "timestamp": "2026-01-09T22:12:02.365Z",
+    "status": "partial",
+    "linkWorks": false,
+    "pageTitle": "Skip - Fund Your Business",
+    "screenshotPath": "data/screenshots-batch2/CAP-005-RETRY-1767996724461.png",
+    "keywordsFound": [
+      "skip",
+      "grant",
+      "business"
+    ],
+    "keywordsMissing": [],
+    "amountFound": null,
+    "deadlineFound": null,
+    "confidenceScore": 40,
+    "notes": [],
+    "httpStatus": 404
+  },
+  {
+    "id": "CAP-011-RETRY",
+    "name": "Compute Challengers (Retry)",
+    "url": "https://www.computechallengers.com/",
+    "priority": "RETRY",
+    "timestamp": "2026-01-09T22:12:04.616Z",
+    "status": "error",
+    "linkWorks": false,
+    "pageTitle": null,
+    "screenshotPath": null,
+    "keywordsFound": [],
+    "keywordsMissing": [],
+    "amountFound": null,
+    "deadlineFound": null,
+    "confidenceScore": 0,
+    "notes": [],
+    "error": "page.goto: Timeout 20000ms exceeded."
+  },
+  {
+    "id": "CAP-019-RETRY",
+    "name": "Intuit QuickBooks Grants (Corrected)",
+    "url": "https://quickbooks.intuit.com/r/funding-and-grants/",
+    "priority": "RETRY",
+    "timestamp": "2026-01-09T22:12:24.708Z",
+    "status": "error",
+    "linkWorks": false,
+    "pageTitle": null,
+    "screenshotPath": null,
+    "keywordsFound": [],
+    "keywordsMissing": [],
+    "amountFound": null,
+    "deadlineFound": null,
+    "confidenceScore": 0,
+    "notes": [],
+    "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://quickbooks.intuit.com/r/funding-and-grants/"
+  }
+]

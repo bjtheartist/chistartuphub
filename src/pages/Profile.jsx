@@ -44,113 +44,17 @@ import { supabase } from '@/api/supabaseClient';
 import { PostAskModal } from '@/components/founder-asks';
 import { ADMIN_EMAILS } from '@/constants/adminEmails';
 import { ProfileOffersTab, ProfileAsksTab } from '@/components/profile';
+import {
+  SECTOR_OPTIONS,
+  BADGE_OPTIONS,
+  TECH_STACK_OPTIONS,
+  OPPORTUNITY_TYPES,
+  TECH_BADGES,
+  TECH_ICONS,
+  STAGE_CONFIG,
+} from '@/constants/profileOptions';
 
-// ============================================
-// STANDARDIZED OPTIONS FOR NO-ALGORITHM SEARCH
-// ============================================
-
-const SECTOR_OPTIONS = [
-  // Core Sectors (The Bedrock) - 6 items
-  "FinTech",
-  "HealthTech",
-  "Life Sciences",
-  "Logistics & Supply Chain",
-  "Food & AgTech",
-  "Manufacturing 4.0",
-  // Emerging Tech - 5 items
-  "Web3 & Blockchain",
-  "AI & Machine Learning",
-  "CleanTech & Energy",
-  "EdTech",
-  "PropTech",
-  // Consumer & Services - 5 items
-  "DTC / CPG",
-  "Marketplaces",
-  "SaaS (B2B)",
-  "GovTech / CivicTech",
-  "HardTech / Hardware"
-];
-// Total: 16 sectors
-
-const BADGE_OPTIONS = [
-  // Professional Identity - 4 items
-  "Technical Founder",
-  "Non-Technical Founder",
-  "Solo Founder",
-  "Student Founder",
-  // Achievements - 5 items
-  "YC Alum",
-  "Techstars Alum",
-  "Bootstrapped",
-  "Venture Backed",
-  "Ex-FAANG",
-  // Community & Diversity (CRITICAL - Opt-In) - 7 items
-  "Woman Founder",
-  "Black Founder",
-  "Latino/a/x Founder",
-  "Asian Founder",
-  "LGBTQ+ Founder",
-  "Veteran Founder",
-  "Immigrant Founder"
-];
-// Total: 16 badges
-
-const TECH_STACK_OPTIONS = [
-  // Languages & Core
-  "Python", "TypeScript", "JavaScript", "Golang", "Rust", "Swift", "Ruby", "Java", "C++",
-  // Frontend & Mobile
-  "React", "React Native", "Next.js", "Vue.js", "Tailwind CSS", "Flutter", "SwiftUI",
-  // Backend & DB
-  "Node.js", "Supabase", "Firebase", "PostgreSQL", "MongoDB", "GraphQL", "Django", "Rails",
-  // Cloud & DevOps
-  "AWS", "Vercel", "Docker", "Kubernetes", "Google Cloud", "Azure",
-  // Design & Product
-  "Figma", "Linear", "Notion", "Webflow", "Framer"
-];
-
-const OPPORTUNITY_TYPES = [
-  "Talent (Hiring)",
-  "Capital (Raising)",
-  "Work (Looking for Role)",
-  "Connect (Networking)"
-];
-
-// Badges that unlock Tech Stack field
-const TECH_BADGES = ["Technical Founder", "Full Stack Dev"];
-
-// Tech stack icons
-const TECH_ICONS = {
-  'React': '⚛️',
-  'Tailwind': '🎨',
-  'Supabase': '⚡',
-  'Node.js': '🟢',
-  'Vercel': '▲',
-  'Python': '🐍',
-  'TypeScript': '📘',
-  'Next.js': '▲',
-  'PostgreSQL': '🐘',
-  'AWS': '☁️',
-  'Firebase': '🔥',
-  'GraphQL': '◈',
-  'Docker': '🐳',
-  'Figma': '🎨',
-  'JavaScript': '💛',
-  'Vue': '💚',
-  'Angular': '🔴',
-  'Go': '🔵',
-  'Rust': '🦀',
-};
-
-// Stage badge config
-const STAGE_CONFIG = {
-  'idea': { label: 'Idea Stage', color: 'from-purple-500 to-violet-600' },
-  'pre-revenue': { label: 'Pre-Revenue', color: 'from-blue-500 to-cyan-600' },
-  'early-revenue': { label: 'Early Revenue', color: 'from-green-500 to-emerald-600' },
-  'growth': { label: 'Growth Stage', color: 'from-orange-500 to-amber-600' },
-  'scaling': { label: 'Scaling', color: 'from-red-500 to-rose-600' },
-};
-
-// Resource recommendations based on interests
+// Resource recommendations based on interests (uses icons from imports)
 const INTEREST_RESOURCES = {
   'Capital/Funding': { icon: DollarSign, title: 'Funding', link: '/Funding', color: 'from-green-500 to-emerald-600' },
   'Co-Working Spaces': { icon: Building2, title: 'Workspaces', link: '/Workspaces', color: 'from-purple-500 to-violet-600' },

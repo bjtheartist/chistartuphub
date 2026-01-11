@@ -1,0 +1,56 @@
+SERIAL_ID,Opportunity Name,Organization,Amount,Deadline,Category,Source File,Confidence,DUP_FLAG,SIMILAR_TO,KEEP,Notes
+CSH-GRT-001,Microsoft Imagine Cup,Microsoft,$50K-$100K,2026-01-09,Student Founders,capital-access-validated,VERIFIED,UNIQUE,,YES,Student AI founders - deadline TODAY
+CSH-GRT-002,Amex Shop Small Grants,American Express/Main Street America,$20K,2026-01-16,Small Business,capital-access-validated,VERIFIED,DUPLICATE,CSH-GRT-002-B,MERGE,Same opportunity - keep one
+CSH-GRT-002-B,Amex Shop Small Grants,American Express/Main Street America,$20000,2026-01-16,Small Business Retail,hot-deals-jan2026,VERIFIED,DUPLICATE,CSH-GRT-002,MERGE,Same as CSH-GRT-002
+CSH-ACC-003,Google for Startups Accelerator Canada,Google,Equity-free + credits,2026-01-22,Accelerator,capital-access-validated,VERIFIED,UNIQUE,,YES,Canadian AI/ML startups
+CSH-CMP-004,Rice Business Plan Competition,Rice University,$1M+ in prizes,2026-01-31,Student Founders,capital-access-validated,VERIFIED,UNIQUE,,YES,World's largest student competition
+CSH-ACC-005,Y Combinator Spring 2026,Y Combinator,$500K,2026-02-09,Accelerator,capital-access-validated,VERIFIED,UNIQUE,,YES,Premier accelerator 7% equity
+CSH-ACC-006,Founder Institute Chicago 2026,Founder Institute,Equity-based,2026-03-01,Accelerator,capital-access-validated,VERIFIED,UNIQUE,,YES,Chicago-focused - FEATURED
+CSH-ACC-007,Chloe Capital NYC Founder Fellowship,Chloe Capital/NYCEDC,$300K,2025-12-31,Diversity-Focused,capital-access-validated,VERIFIED,UNIQUE,,CHECK DEADLINE,May have passed
+CSH-GRT-008,VHNYC by Visible Hands,Visible Hands/NYCEDC,$10K,2025-12-31,Diversity-Focused,capital-access-validated,VERIFIED,UNIQUE,,CHECK DEADLINE,May have passed
+CSH-FEL-009,a16z New Media Fellowship,Andreessen Horowitz,Resources only,2025-12-31,Fellowship,capital-access-validated,VERIFIED,UNIQUE,,CHECK DEADLINE,May have passed
+CSH-ACC-010,Greylock Edge,Greylock Partners,Flexible,Rolling,Accelerator,capital-access-validated,VERIFIED,UNIQUE,,YES,Rolling - always open
+CSH-ACC-011,500 Global Flagship Accelerator,500 Global,$150K,Rolling,Accelerator,capital-access-validated,VERIFIED,UNIQUE,,YES,Rolling - Q1 2026 batch
+CSH-CMP-012,Liveability Challenge 2026,Temasek Foundation,S$4M pool,2026-02-09,Climate Tech,capital-access-validated,VERIFIED,UNIQUE,,YES,Climate/sustainability
+CSH-GRT-013,Braze Tech for Equitable Future,Braze,Product grant,2026-01-16,Diversity-Focused,capital-access-validated,VERIFIED,UNIQUE,,YES,Black/women founders
+CSH-ACC-014,Village Capital Women in Tech US 2026,Village Capital,TBD,TBD,Diversity-Focused,capital-access-validated,PARTIAL,SIMILAR,CSH-ACC-014-B,VERIFY,Check against new research
+CSH-ACC-014-B,US Women in Tech Accelerator,Village Capital/Standard Chartered,$25000,2026-01-30,Women-Led Tech,hot-deals-jan2026,VERIFIED,SIMILAR,CSH-ACC-014,KEEP,More detailed - VERIFIED deadline
+CSH-CMP-015,MIT Climate & Energy Prize,MIT,$100000,2026-01-11,Climate/Energy,hot-deals-jan2026,VERIFIED,UNIQUE,,YES,University climate startups
+CSH-ACC-016,Purdue Innovates Accelerator,Purdue University,$100K SAFE,2026-01-11,All Industries,hot-deals-jan2026,VERIFIED,UNIQUE,,YES,High-growth any industry
+CSH-ACC-017,Cox Cleantech Accelerator,gener8tor/Cox,$250000,2026-01-11,CleanTech,hot-deals-jan2026,VERIFIED,UNIQUE,,YES,Atlanta in-person
+CSH-ACC-018,BEAM Circular Accelerator,gener8tor,$100K value,2026-01-11,Bioeconomy,hot-deals-jan2026,VERIFIED,UNIQUE,,YES,Circular bioeconomy
+CSH-ACC-019,U.S. Venture Sustainability,U.S. Venture,$100000,2026-01-04,Sustainability,hot-deals-jan2026,90,UNIQUE,,CHECK DEADLINE,May have passed Jan 4
+CSH-ACC-020,MassBio DRIVE Spring 2026,MassBio,Accelerator,2026-01-16,Biotech,hot-deals-jan2026,85,UNIQUE,,YES,Biotech/Diagnostics
+CSH-GRT-021,FY26 Great Streets Retail DC,DC Government,Varies,2026-01-16,Retail DC,hot-deals-jan2026,90,UNIQUE,,YES,DC location only
+CSH-GRT-022,Her Agenda Breakthrough Grant,Her Agenda,$5000,2026-01-18,Women,hot-deals-jan2026,80,UNIQUE,,YES,Newsletter subscribers
+CSH-GRT-023,Santander X Cultivate Grant,Santander,$2500-$20000,2026-01-18,Food Industry,hot-deals-jan2026,80,UNIQUE,,YES,Food entrepreneurs
+CSH-ACC-024,Funding Lab Q1 2026,Funding Lab,Advisory,2026-01-18,All Sectors,hot-deals-jan2026,70,UNIQUE,,VERIFY,Lower confidence
+CSH-ACC-025,EIT NEB Startup Accelerator,EIT,Accelerator,2026-01-19,Impact-Driven,hot-deals-jan2026,85,UNIQUE,,YES,European startups
+CSH-GRT-026,FY 2026 Robust Retail DC,DC Government,$10000,2026-01-20,Retail DC,hot-deals-jan2026,VERIFIED,UNIQUE,,YES,DC retail businesses
+CSH-CMP-027,PropTech Startup Showdown SXSW,Realtor.com/NAR,$5000,2026-01-23,PropTech,hot-deals-jan2026,90,SIMILAR,CSH-CMP-027-B,VERIFY,Check against capital-access entry
+CSH-CMP-027-B,PropTech SXSW Showdown,SXSW,Competition prizes,TBD,PropTech,capital-access-validated,NOT VERIFIED,SIMILAR,CSH-CMP-027,REMOVE,Less verified version
+CSH-GRT-028,Agriculture Industries Innovation AU,NSW Government,Varies,2026-01-23,Agriculture,hot-deals-jan2026,75,UNIQUE,,YES,Australia only
+CSH-FEL-029,Mastercard Foundation EdTech,Mastercard Foundation/MEST,$60000,2026-01-30,EdTech Africa,hot-deals-jan2026,VERIFIED,UNIQUE,,YES,African EdTech
+CSH-GRT-030,FruitGuys Community Fund,FruitGuys,$5000,2026-01-30,Agriculture,hot-deals-jan2026,85,UNIQUE,,YES,Small farms <250 acres
+CSH-CMP-031,Sustainability Open Innovation,Enterprise Singapore,S$100K,2026-01-30,Sustainability,hot-deals-jan2026,85,UNIQUE,,YES,Singapore/Asia
+CSH-GRT-032,Women Founders Grant,Women Founders Grant,$5000,2026-01-31,Women-Owned,hot-deals-jan2026,85,UNIQUE,,YES,Monthly rolling
+CSH-ACC-033,Startmate ANZ,Startmate,$75K/7.5%,2026-01-31,FinTech/EdTech,hot-deals-jan2026,90,UNIQUE,,YES,Australia/NZ
+CSH-CMP-034,Rice Veterans Pitch Competition,Rice University,$30000,2026-01-31,Veterans,hot-deals-jan2026,90,UNIQUE,,YES,Veteran entrepreneurs
+CSH-CMP-035,Flywheel Investment Conference,Flywheel,Investment,2026-01-31,All Sectors,hot-deals-jan2026,70,UNIQUE,,VERIFY,Lower confidence
+CSH-GRT-036,Skip's $10K Kickoff Grants,Skip,$10000,2026-01-31,All Sectors,hot-deals-jan2026,85,UNIQUE,,YES,Two grants available
+CSH-GRT-037,Breva Thrive Grant,Breva,$5000,2026-01-31,Community Impact,hot-deals-jan2026,85,UNIQUE,,YES,Quarterly LMI areas
+CSH-GRT-038,EmpowHer Grant,Boundless Futures,$25000,2026-01-31,Women,hot-deals-jan2026,VERIFIED,UNIQUE,,YES,Quarterly reimbursement
+CSH-GRT-039,Citizens NYC Microgrants,Citizens Bank,$5000,2026-02-02,Small Business,hot-deals-jan2026,80,UNIQUE,,YES,NYC only
+CSH-GRT-040,Neurodiverse Entrepreneur Program,Various,Varies,2026-02-02,Accessibility,hot-deals-jan2026,65,UNIQUE,,VERIFY,Lower confidence
+CSH-ACC-041,Berkeley SkyDeck Batch 22,UC Berkeley,Accelerator,2026-02-13,All Sectors,hot-deals-jan2026,VERIFIED,UNIQUE,,YES,Silicon Valley acceleration
+CSH-GRT-042,Farmer Veteran Fellowship,Farmer Veteran Coalition,Varies,2026-02-14,Veterans,hot-deals-jan2026,85,UNIQUE,,YES,Veteran farmers
+CSH-GRT-043,Intuit Small Business Hero,Intuit QuickBooks,$20000,2026-02-14,All Sectors,hot-deals-jan2026,90,UNIQUE,,YES,Quarterly three winners
+CSH-CMP-044,Space Symposium Pitch,Space Foundation,$5000+,2026-02-15,Space,hot-deals-jan2026,85,UNIQUE,,YES,Space industry
+CSH-CMP-045,Space Symposium Innovate,Space Foundation,Varies,2026-02-15,Space,hot-deals-jan2026,85,SIMILAR,CSH-CMP-044,VERIFY,Same event different track?
+CSH-ACC-046,Electrify Nevada Accelerator,Various,Varies,2026-02-22,CleanTech,hot-deals-jan2026,75,UNIQUE,,YES,EV Nevada focus
+CSH-CMP-047,CNBC Disruptor 50 2026,CNBC,PR/Recognition,2026-02-23,All Innovation,hot-deals-jan2026,95,UNIQUE,,YES,Major PR value
+CSH-CMP-048,Launch Your Venture Embry-Riddle,Embry-Riddle,$10000,2026-02-24,Aviation,hot-deals-jan2026,85,UNIQUE,,YES,Aviation/aerospace students
+CSH-GRT-049,SoGal Black Founder Grant,SoGal Ventures,$10000,Rolling,Diversity,hot-deals-jan2026,90,UNIQUE,,YES,Monthly selection
+CSH-ACC-050,EIC Accelerator Step 2,EU Innovation Council,€2.5M,2026-01-07,Deep Tech,hot-deals-jan2026,95,UNIQUE,,CHECK DEADLINE,European deep tech
+CSH-GRT-051,D-Prize,D-Prize,$20000,Spring 2026,Social Impact,hot-deals-jan2026,90,UNIQUE,,YES,Awaiting launch date
+CSH-GRT-052,AU-EU Youth Action Lab,AU-EU,€30000,2026-01-07,Youth Africa,hot-deals-jan2026,75,UNIQUE,,CHECK DEADLINE,May have passed

@@ -58,9 +58,8 @@ export default function Settings() {
   const saveSettings = async () => {
     try {
       setSaving(true);
-      console.log('[SETTINGS] Saving with role:', selectedRole, 'user.id:', user.id);
 
-      const { data, error } = await supabase
+      const { error } = await supabase
         .from("user_profiles")
         .update({
           role: selectedRole,
@@ -73,19 +72,15 @@ export default function Settings() {
         .eq("id", user.id)
         .select();
 
-      console.log('[SETTINGS] Update result:', { data, error });
-
       if (error) throw error;
 
       setMessage({ type: "success", text: `Settings saved! Role set to: ${selectedRole}` });
       if (refreshProfile) {
-        console.log('[SETTINGS] Refreshing profile...');
         await refreshProfile();
       }
 
       setTimeout(() => setMessage({ type: "", text: "" }), 5000);
     } catch (error) {
-      console.error("[SETTINGS] Error saving:", error);
       setMessage({ type: "error", text: `Failed to save: ${error.message}` });
     } finally {
       setSaving(false);
@@ -103,16 +98,12 @@ export default function Settings() {
     );
     if (!confirmed) return;
 
-    try {
-      // Note: Full account deletion requires backend support
-      // For now, we'll just sign out and show a message
-      setMessage({ 
-        type: "info", 
-        text: "Please contact hello@chistartuphub.com to complete account deletion." 
-      });
-    } catch (error) {
-      console.error("Error:", error);
-    }
+    // Note: Full account deletion requires backend support
+    // For now, we'll just sign out and show a message
+    setMessage({
+      type: "info",
+      text: "Please contact hello@chistartuphub.com to complete account deletion."
+    });
   };
 
   if (!user) return null;

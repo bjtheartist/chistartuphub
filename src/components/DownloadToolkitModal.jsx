@@ -17,14 +17,11 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
   const [showSuccess, setShowSuccess] = useState(false);
 
   const triggerDownload = () => {
-    console.log("Triggering download...");
-
     // Method 1: Open in new tab (works best on mobile)
     const newWindow = window.open(PDF_URL, '_blank');
 
     // Method 2: If popup was blocked, try creating a link
     if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
-      console.log("Popup blocked, trying link method...");
       const link = document.createElement('a');
       link.href = PDF_URL;
       link.target = '_blank';
@@ -37,7 +34,6 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted");
 
     if (!email) {
       toast.error("Please enter your email");
@@ -48,7 +44,6 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
 
     // Try to save email to database (don't block on failure)
     try {
-      console.log("Attempting to save email...");
       const { error } = await supabase
         .from('email_signups')
         .insert({
@@ -58,18 +53,13 @@ export default function DownloadToolkitModal({ isOpen, onClose }) {
         });
 
       if (error) {
-        console.error('Email signup error (non-blocking):', error);
-        // Continue anyway - don't block the download
-      } else {
-        console.log("Email saved successfully");
+        // Non-blocking - continue with download anyway
       }
-    } catch (err) {
-      console.error('Email signup exception (non-blocking):', err);
-      // Continue anyway - don't block the download
+    } catch {
+      // Non-blocking - continue with download anyway
     }
 
     // ALWAYS trigger download and show success
-    console.log("Showing success and triggering download...");
     triggerDownload();
     setShowSuccess(true);
     setIsSubmitting(false);

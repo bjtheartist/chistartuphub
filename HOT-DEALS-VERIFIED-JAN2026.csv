@@ -1,0 +1,41 @@
+ID,Opportunity Name,Organization,Amount,Deadline,Focus Area,Eligibility,Official URL,Confidence Score,Source,Notes
+1,MIT Climate & Energy Prize,MIT,$100000,2026-01-11,Climate/Energy,Global university students climate startups,https://cep.mit.edu/,98,Direct website verification,VERIFIED - 15 years running 260+ alumni $1.7B follow-on
+2,Purdue Innovates Accelerator,Purdue University,$100K SAFE,2026-01-11,All Industries,High-growth startups any industry,https://purdueinnovates.org/incubator/accelerator/,98,Direct website verification,VERIFIED - 3-month investment program mentorship
+3,Cox Cleantech Accelerator,gener8tor/Cox,$250000,2026-01-11,CleanTech,Early-stage climate technology companies,https://www.gener8tor.com/sustainability,98,Direct website verification,VERIFIED - In-person Atlanta + mentorship
+4,BEAM Circular Accelerator,gener8tor,$100K value,2026-01-11,Bioeconomy/Circular,Early-stage circular bioeconomy solutions,https://www.gener8tor.com/beam,95,Direct website reference,VERIFIED - 12-week hybrid program
+5,U.S. Venture Sustainability Accelerator,U.S. Venture,$100000,2026-01-04,Sustainability,Sustainability startups,https://usventure.com/,90,gener8tor reference,Referenced on gener8tor sustainability page
+6,Amex Shop Small Grants,American Express/Main Street America,$20000,2026-01-16,Small Business Retail,Brick-and-mortar 20 or fewer employees pre-2025,https://mainstreet.org/about/partner-collaborations/amex-shop-small-grant-program,98,Direct website verification,VERIFIED - 500+ grants $10M+ pool
+7,MassBio DRIVE Spring 2026,MassBio,Accelerator,2026-01-16,Biotech/Diagnostics,Scientific founders therapeutic pipelines,https://www.massbio.org/drive/application/,85,Search results,Application live - check portal for exact deadline
+8,FY26 Great Streets Retail DC,DC Government,Varies,2026-01-16,Retail DC Corridors,DC businesses in Great Streets Corridors,https://greatstreets.dc.gov/,90,Search results,Location-specific DC grant
+9,Her Agenda Breakthrough Grant,Her Agenda,$5000,2026-01-18,Women Entrepreneurs,Women entrepreneurs newsletter subscribers,https://heragenda.com/,80,Entreprenista reference,Must be subscribed to newsletter
+10,Santander X Cultivate Grant,Santander,$2500-$20000,2026-01-18,Food Industry,Early-stage food entrepreneurs underserved,https://santanderx.com/,80,Search results,12-week curriculum plus mentorship
+11,Funding Lab Q1 2026,Funding Lab,Advisory/Varies,2026-01-18,All Sectors,Early-stage startups raising seed,https://fundinglab.co/,70,Search results,Virtual advisory 3-month program
+12,EIT NEB Startup Accelerator,EIT,Accelerator,2026-01-19,Impact-Driven,Impact-driven startups Europe,https://eit.europa.eu/,85,fundsforNGOs reference,European accelerator program
+13,FY 2026 Robust Retail DC,DC Government,$10000,2026-01-20,Retail DC,DC-based retail businesses,https://dslbd.dc.gov/robustretailgrant,98,Direct website verification,VERIFIED - ~50 businesses $500K pool lottery
+14,PropTech Startup Showdown SXSW,Realtor.com/NAR,$5000,2026-01-23,PropTech/Real Estate,Early and growth stage PropTech,https://www.spacesymposium.org/pitch-competition/,90,PR Newswire announcement,6 finalists Second Century Ventures meetings
+15,Agriculture Industries Innovation AU,NSW Government,Varies,2026-01-23,Agriculture/Export,Australian agriculture sector,https://nsw.gov.au/,75,Search results,Technology equipment grants
+16,US Women in Tech Accelerator,Village Capital/Standard Chartered,$25000,2026-01-30,Women-Led Tech,Early-stage women-led tech startups US,https://vilcap.com/programs/women-in-tech-accelerator-us-2026,98,Direct website verification,VERIFIED - Two startups receive $25K grant
+17,Mastercard Foundation EdTech,Mastercard Foundation/MEST,$60000,2026-01-30,EdTech Africa,African EdTech ventures growth stage,https://meltwater.org/edtech-fellowship/,98,Direct website verification,VERIFIED - Equity-free 3rd cohort
+18,FruitGuys Community Fund,FruitGuys,$5000,2026-01-30,Agriculture/Sustainability,Farms under 250 acres,https://fruitguys.com/communityfund,85,Search results,Beehives soil health projects
+19,Sustainability Open Innovation,Enterprise Singapore,S$100K pool,2026-01-30,Sustainability,Startups innovators sustainability,https://enterprisesg.gov.sg/,85,fundsforNGOs reference,7th Edition Hexagon Group
+20,Women Founders Grant,Women Founders Grant,$5000,2026-01-31,Women-Owned,51%+ women-owned US businesses,https://womenfoundersgrant.com/,85,Direct website,Monthly rolling grants
+21,Startmate ANZ,Startmate,$75K for 7.5%,2026-01-31,EdTech FinTech HealthTech,Australia/New Zealand startups,https://www.startmate.com/,90,Search results,12-week program funding mentorship
+22,Rice Veterans Pitch Competition,Rice University,$30000 total,2026-01-31,Veteran Entrepreneurs,Military veteran entrepreneurs,https://rbpc.rice.edu/veterans,90,Search results,$15K first $10K second $5K third
+23,Flywheel Investment Conference,Flywheel,Investment,2026-01-31,All Sectors,Startups seeking investors,https://flywheelconference.com/,70,Search results,Investor mentor connections
+24,Skip's $10K Kickoff Grants,Skip,$10000,2026-01-31,All Sectors,US-based entrepreneurs,https://skip.com/grants,85,GrantWatch/NerdWallet,Two $10K grants available
+25,Breva Thrive Grant,Breva,$5000,2026-01-31,Community Impact,US revenue-generating community impact,https://breva.io/,85,Direct website reference,Quarterly LMI area preference
+26,EmpowHer Grant,Boundless Futures Foundation,$25000,2026-01-31,Women Entrepreneurs,Female entrepreneurs 22+ US revenue-generating,https://boundlessfutures.org/,98,Direct website verification,VERIFIED - Quarterly applications reimbursement
+27,Citizens NYC Microgrants,Citizens Bank,$5000,2026-02-02,Community Small Business,NYC 2+ years 10 or fewer employees,https://citizensbank.com/,80,Entreprenista reference,Community-focused initiatives
+28,Neurodiverse Entrepreneur Program,Various,Varies,2026-02-02,Accessibility/Inclusion,Autism dyslexia ADD/ADHD founders,https://entreprenista.com/,65,Entreprenista reference,Developmental/cognitive differences
+29,Berkeley SkyDeck Batch 22,UC Berkeley,Accelerator,2026-02-13,All Sectors FinTech,Startups seeking SV acceleration,https://skydeck.berkeley.edu/program/,98,Direct website verification,VERIFIED - Apps Jan-Feb 13 orientation May
+30,Farmer Veteran Fellowship,Farmer Veteran Coalition,Varies,2026-02-14,Veteran Farmers,Veteran farmers,https://farmvetco.org/,85,NerdWallet reference,Applications open January 2026
+31,Intuit Small Business Hero,Intuit QuickBooks,$20000,2026-02-14,All Sectors,US small businesses courage perseverance,https://quickbooks.intuit.com/small-business-hero/,90,US Chamber reference,Three winners per quarter
+32,Space Symposium Pitch,Space Foundation,$5000+,2026-02-15,Space Industry,Space industry startups,https://www.spacesymposium.org/,85,Search results,Premier space startup showcase
+33,Space Symposium Innovate,Space Foundation,Varies,2026-02-15,Space Innovation,Space innovation startups,https://www.spacesymposium.org/innovate,85,Search results,Industry government investment judges
+34,Electrify Nevada Accelerator,Various,Varies,2026-02-22,CleanTech/EV,Clean energy Nevada,https://electrifynevada.com/,75,gener8tor reference,EV and clean energy focus
+35,CNBC Disruptor 50 2026,CNBC,Recognition/PR,2026-02-23,All Innovation,Venture-backed post-2011,https://www.cnbc.com/disruptor-50/,95,CNBC direct,14th annual list major PR value
+36,Launch Your Venture,Embry-Riddle,$10000,2026-02-24,Aviation/Aerospace,University students aviation,https://embryriddle.edu/,85,Search results,Revolutionary aviation ideas
+37,SoGal Black Founder Grant,SoGal Ventures,$10000,Rolling Monthly,Black Women/Nonbinary,Black women/nonbinary scalable solutions,https://sogalventures.com/,90,Multiple references,Monthly grantee selection
+38,EIC Accelerator Step 2,European Innovation Council,Up to €2.5M,2026-01-07,Deep Tech,European deep tech startups,https://eic.ec.europa.eu/,95,Direct EU source,€50M climate adaptation allocation
+39,D-Prize,D-Prize,$20000,Spring 2026 TBD,Social Impact,Low/middle income country entrepreneurs,https://d-prize.org/,90,Direct website - awaiting launch,Sign up for launch notification
+40,AU-EU Youth Action Lab,AU-EU,€30000,2026-01-07,Youth Social Enterprise,Youth-led Africa orgs,https://aueu.org/,75,fundsforNGOs reference,Social economic impact
