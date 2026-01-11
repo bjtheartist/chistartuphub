@@ -54,6 +54,7 @@ export default function SavedResources() {
       return;
     }
     fetchSavedItems();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, navigate]);
 
   const fetchSavedItems = async () => {

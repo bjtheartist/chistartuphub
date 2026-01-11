@@ -450,7 +450,7 @@ export default function Assessment() {
     }
   };
 
-  const handleFeedback = async (_helpful) => {
+  const handleFeedback = async () => {
     setFeedbackGiven(true);
     // Could save to Supabase for analytics
     toast.success("Thanks for your feedback!");
@@ -464,7 +464,7 @@ export default function Assessment() {
   const getGaps = () => {
     if (!results) return [];
     return Object.entries(results.dimensions)
-      .filter(([_id, data]) => data.phase === 1)
+      .filter(([, data]) => data.phase === 1)
       .map(([id]) => DIMENSIONS.find((d) => d.id === id));
   };
 

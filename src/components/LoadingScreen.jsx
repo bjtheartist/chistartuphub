@@ -38,6 +38,7 @@ export default function LoadingScreen({ onComplete }) {
     });
 
     return animation.stop;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

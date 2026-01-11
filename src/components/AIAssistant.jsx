@@ -39,7 +39,8 @@ export default function AIAssistant() {
   // Don't render if user is not logged in (must be after all hooks)
   if (!user) return null;
 
-  const _getSystemPrompt = () => {
+  // eslint-disable-next-line no-unused-vars -- Will be used when Edge Function is deployed
+  const getSystemPrompt = () => {
     const stageContext = profile?.stage ? STAGE_CONTEXT[profile.stage] : 'at an early stage';
     const interests = profile?.interests?.join(', ') || 'general startup resources';
     const role = profile?.role || 'founder';

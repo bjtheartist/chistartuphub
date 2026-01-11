@@ -36,7 +36,8 @@ const addToRemoveQueue = (toastId) => {
   toastTimeouts.set(toastId, timeout);
 };
 
-const _clearFromRemoveQueue = (toastId) => {
+// eslint-disable-next-line no-unused-vars
+const clearFromRemoveQueue = (toastId) => {
   const timeout = toastTimeouts.get(toastId);
   if (timeout) {
     clearTimeout(timeout);

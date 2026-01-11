@@ -141,6 +141,7 @@ export default function FundingOpportunitiesContent({ opportunities = [] }) {
       if (daysB !== null) return 1;
       return 0;
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [opportunities, activeTab, focusFilter, stageFilter, regionFilter, searchQuery]);
 
   const tabCounts = useMemo(() => {
@@ -156,6 +157,7 @@ export default function FundingOpportunitiesContent({ opportunities = [] }) {
       if (days !== null && days >= 0 && days <= 30) counts.hot++;
     });
     return counts;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [opportunities]);
 
   const totalPages = Math.ceil(filteredOpportunities.length / ITEMS_PER_PAGE);

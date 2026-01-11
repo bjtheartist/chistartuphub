@@ -100,6 +100,7 @@ export default function Admin() {
     }
 
     fetchAllData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, navigate]);
 
   const fetchAllData = async () => {

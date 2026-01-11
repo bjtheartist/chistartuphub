@@ -183,7 +183,7 @@ export default function SignupModal({ isOpen, onClose, onSwitchToLogin, onSignup
         setSuccessName(firstName);
         setSignupSuccess(true);
       }
-    } catch (_error) {
+    } catch {
       toast.error('Signup failed', {
         description: 'An unexpected error occurred. Please try again.',
       });

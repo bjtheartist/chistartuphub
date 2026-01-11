@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { createPortal } from 'react-dom';
-import { X, Calendar, DollarSign, MapPin, ExternalLink, Bookmark, BookmarkCheck, Flame, Building2, Target, Clock } from 'lucide-react';
+import { X, Calendar, DollarSign, MapPin, ExternalLink, Bookmark, BookmarkCheck, Flame, Building2, Target } from 'lucide-react';
 import { useAuth } from '@/contexts/AuthContext';
 import { supabase } from '@/api/supabaseClient';
 import { toast } from 'sonner';
