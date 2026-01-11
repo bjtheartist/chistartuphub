@@ -70,11 +70,13 @@ export default defineConfig({
     },
   ],
 
-  /* Run local dev server before starting the tests */
-  webServer: {
-    command: process.env.CI ? 'npm run preview' : 'npm run dev',
-    url: process.env.CI ? 'http://localhost:4173' : 'http://localhost:5173',
-    reuseExistingServer: !process.env.CI,
-    timeout: 120 * 1000,
-  },
+  /* Run local dev server before starting the tests (skip if using external URL) */
+  webServer: process.env.PLAYWRIGHT_BASE_URL?.startsWith('http')
+    ? undefined
+    : {
+        command: process.env.CI ? 'npm run preview' : 'npm run dev',
+        url: process.env.CI ? 'http://localhost:4173' : 'http://localhost:5173',
+        reuseExistingServer: !process.env.CI,
+        timeout: 120 * 1000,
+      },
 });

@@ -21,6 +21,7 @@ permissions:
   contents: read
   pull-requests: write
   issues: write
+  deployments: write
 
 jobs:
   # ============================================
@@ -335,6 +336,7 @@ jobs:
           npx playwright test preview-smoke.spec.js --project=chromium --reporter=list
         env:
           PREVIEW_URL: ${{ needs.preview.outputs.preview-url }}
+          PLAYWRIGHT_BASE_URL: ${{ needs.preview.outputs.preview-url }}
 
       - name: Report results
         if: always()
