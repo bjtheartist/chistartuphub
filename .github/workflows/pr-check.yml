@@ -281,8 +281,8 @@ jobs:
         run: |
           echo "Testing preview at: $PREVIEW_URL"
 
-          # Create test file in root directory
-          cat > smoke-test.spec.js << 'EOF'
+          # Create test file in e2e directory (matches playwright testDir)
+          cat > e2e/preview-smoke-test.spec.js << 'EOF'
           const { test, expect } = require('@playwright/test');
 
           const PREVIEW_URL = process.env.PREVIEW_URL;
@@ -335,7 +335,7 @@ jobs:
           EOF
 
           # Run with explicit path to the test file
-          npx playwright test ./smoke-test.spec.js --project=chromium
+          npx playwright test e2e/preview-smoke-test.spec.js --project=chromium
         env:
           PREVIEW_URL: ${{ needs.preview.outputs.preview-url }}
           PLAYWRIGHT_BASE_URL: ${{ needs.preview.outputs.preview-url }}
