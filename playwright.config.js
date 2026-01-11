@@ -71,7 +71,7 @@ export default defineConfig({
   ],
 
   /* Run local dev server before starting the tests (skip if using external URL) */
-  webServer: process.env.PLAYWRIGHT_BASE_URL?.startsWith('http')
+  webServer: (process.env.PLAYWRIGHT_BASE_URL && !process.env.PLAYWRIGHT_BASE_URL.includes('localhost'))
     ? undefined
     : {
         command: process.env.CI ? 'npm run preview' : 'npm run dev',
