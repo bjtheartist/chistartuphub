@@ -9,7 +9,7 @@
 -- ===========================================
 -- Core fields standardized across all platforms
 CREATE TABLE IF NOT EXISTS aggregated_events (
-  id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   
   -- Source identification
   source TEXT NOT NULL,                         -- 'meetup', 'eventbrite', 'luma', 'manual'
@@ -97,7 +97,7 @@ CREATE TRIGGER update_aggregated_events_updated_at
 -- EVENT SOURCES CONFIG TABLE
 -- ===========================================
 CREATE TABLE IF NOT EXISTS event_sources (
-  id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   name TEXT NOT NULL UNIQUE,                    -- 'meetup', 'eventbrite', 'luma'
   display_name TEXT NOT NULL,
   source_type TEXT NOT NULL,                    -- 'api', 'scraper', 'manual'
@@ -142,7 +142,7 @@ CREATE TRIGGER update_event_sources_updated_at
 -- SYNC LOGS TABLE
 -- ===========================================
 CREATE TABLE IF NOT EXISTS event_sync_logs (
-  id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
   source_name TEXT NOT NULL,
   started_at TIMESTAMPTZ DEFAULT NOW(),
   completed_at TIMESTAMPTZ,

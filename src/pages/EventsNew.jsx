@@ -1,128 +1,16 @@
 import { useState, useEffect, useMemo } from "react";
-import { 
-  Calendar, 
-  Search, 
-  ArrowUpRight, 
-  MapPin, 
-  Users, 
-  Clock,
+import {
+  Calendar,
+  Search,
+  ArrowUpRight,
+  MapPin,
   Video,
-  ExternalLink,
-  Filter,
-  ChevronRight
 } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
 import { entities, supabase } from "@/api/supabaseClient";
 import SEO from "@/components/SEO";
 import ShareActions from "@/components/ShareActions";
 import { BureauAtmosphere, BureauFooter } from "@/components/bureau";
-
-// Mock data for fallback when database is empty
-const MOCK_EVENTS = [
-  {
-    id: "1",
-    title: "Chicago AI & ML Meetup",
-    description: "Monthly gathering of AI/ML practitioners. This month: Building RAG applications with LangChain.",
-    event_date: "2026-01-28",
-    start_time: "2026-01-28T18:00:00",
-    end_time: "2026-01-28T21:00:00",
-    venue_name: "1871",
-    venue_address: "111 N Canal St, Chicago",
-    is_virtual: false,
-    organizer_name: "Chicago AI Meetup",
-    rsvp_count: 127,
-    category: "ai-ml",
-    source: "meetup",
-    registration_url: "https://meetup.com/chicago-ai",
-    image_url: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=200&fit=crop",
-    is_live: true,
-  },
-  {
-    id: "2",
-    title: "Founder Office Hours with Hyde Park Angels",
-    description: "Get feedback on your pitch deck from experienced angel investors.",
-    event_date: "2026-01-29",
-    start_time: "2026-01-29T14:00:00",
-    end_time: "2026-01-29T16:00:00",
-    venue_name: "Polsky Center",
-    venue_address: "1452 E 53rd St, Chicago",
-    is_virtual: false,
-    organizer_name: "Hyde Park Angels",
-    rsvp_count: 24,
-    category: "networking",
-    source: "eventbrite",
-    registration_url: "https://eventbrite.com/e/123",
-    image_url: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=200&fit=crop",
-  },
-  {
-    id: "3",
-    title: "Web3 Chicago: DeFi Deep Dive",
-    description: "Understanding decentralized finance protocols and their applications.",
-    event_date: "2026-01-29",
-    start_time: "2026-01-29T18:30:00",
-    end_time: "2026-01-29T20:30:00",
-    venue_name: "Online",
-    is_virtual: true,
-    virtual_url: "https://zoom.us/j/123",
-    organizer_name: "Web3 Chicago",
-    rsvp_count: 89,
-    category: "web3",
-    source: "luma",
-    registration_url: "https://lu.ma/web3chicago",
-    image_url: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=200&fit=crop",
-  },
-  {
-    id: "4",
-    title: "HealthTech Demo Day",
-    description: "MATTER's quarterly startup demo day featuring healthcare innovations from 8 startups.",
-    event_date: "2026-01-30",
-    start_time: "2026-01-30T17:00:00",
-    end_time: "2026-01-30T20:00:00",
-    venue_name: "MATTER",
-    venue_address: "222 W Merchandise Mart Plaza",
-    is_virtual: false,
-    organizer_name: "MATTER",
-    rsvp_count: 156,
-    category: "pitch",
-    source: "eventbrite",
-    registration_url: "https://matter.health/events",
-    image_url: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=200&fit=crop",
-  },
-  {
-    id: "5",
-    title: "React Chicago: Server Components Workshop",
-    description: "Hands-on workshop building with React Server Components and Next.js 15.",
-    event_date: "2026-02-01",
-    start_time: "2026-02-01T10:00:00",
-    end_time: "2026-02-01T14:00:00",
-    venue_name: "Thoughtworks",
-    venue_address: "200 E Randolph St",
-    is_virtual: false,
-    organizer_name: "React Chicago",
-    rsvp_count: 45,
-    category: "workshop",
-    source: "meetup",
-    registration_url: "https://meetup.com/react-chicago",
-    image_url: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=200&fit=crop",
-  },
-  {
-    id: "6",
-    title: "Chicago Startup Week Kickoff",
-    description: "Opening ceremony and networking for Chicago's biggest startup celebration.",
-    event_date: "2026-02-03",
-    start_time: "2026-02-03T18:00:00",
-    end_time: "2026-02-03T21:00:00",
-    venue_name: "Navy Pier",
-    venue_address: "600 E Grand Ave",
-    is_virtual: false,
-    organizer_name: "Chicago Startup Week",
-    rsvp_count: 500,
-    category: "conference",
-    source: "eventbrite",
-    registration_url: "https://chicagostartupweek.com",
-    image_url: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=200&fit=crop",
-  },
-];
 
 // Category configuration
 const CATEGORIES = [
@@ -191,7 +79,7 @@ function EventCard({ event, index }) {
   return (
     <div className="group relative bg-white/[0.02] border border-white/10 hover:bg-white/[0.05] hover:border-white/20 transition-all duration-300">
       {/* Live Badge */}
-      {event.is_live && (
+      {event.status === 'live' && (
         <div className="absolute top-4 left-4 z-10 flex items-center gap-2 px-3 py-1 bg-red-500/20 border border-red-500/30">
           <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
           <span className="font-mono text-[10px] uppercase tracking-[0.15em] text-red-400">Live</span>
@@ -356,29 +244,17 @@ export default function EventsNew() {
     staleTime: 1000 * 60 * 5, // 5 minutes
   });
 
-  // Use aggregated events if available, otherwise fall back to mock data
-  const events = aggregatedEvents.length > 0 ? aggregatedEvents : MOCK_EVENTS;
-
-  // Filter events
+  // Filter events (category is already filtered server-side via the query)
   const filteredEvents = useMemo(() => {
-    return events.filter(event => {
-      // Search filter
-      if (searchQuery) {
-        const searchLower = searchQuery.toLowerCase();
-        const titleMatch = event.title?.toLowerCase().includes(searchLower);
-        const descMatch = event.description?.toLowerCase().includes(searchLower);
-        const orgMatch = event.organizer_name?.toLowerCase().includes(searchLower);
-        if (!titleMatch && !descMatch && !orgMatch) return false;
-      }
-      
-      // Category filter
-      if (selectedCategory !== "all" && event.category !== selectedCategory) {
-        return false;
-      }
-      
-      return true;
+    if (!searchQuery) return aggregatedEvents;
+    const searchLower = searchQuery.toLowerCase();
+    return aggregatedEvents.filter(event => {
+      const titleMatch = event.title?.toLowerCase().includes(searchLower);
+      const descMatch = event.description?.toLowerCase().includes(searchLower);
+      const orgMatch = event.organizer_name?.toLowerCase().includes(searchLower);
+      return titleMatch || descMatch || orgMatch;
     });
-  }, [events, searchQuery, selectedCategory]);
+  }, [aggregatedEvents, searchQuery]);
 
   // Group by date
   const groupedEvents = useMemo(() => groupEventsByDate(filteredEvents), [filteredEvents]);
@@ -424,7 +300,7 @@ export default function EventsNew() {
               style={{ animationDelay: '400ms' }}
             >
               <div className="flex items-baseline gap-2">
-                <span className="font-mono text-2xl text-white">{events.length}</span>
+                <span className="font-mono text-2xl text-white">{aggregatedEvents.length}</span>
                 <span className="font-mono text-xs text-white/40 uppercase tracking-[0.15em]">Upcoming Events</span>
               </div>
               <div className="flex items-baseline gap-2">
@@ -504,32 +380,45 @@ export default function EventsNew() {
             <div className="relative">
               {/* Vertical Line */}
               <div className="absolute left-[116px] top-0 bottom-0 w-px bg-white/10 hidden md:block" />
-              
-              {groupedEvents.map(([date, dateEvents], groupIndex) => (
+
+              {/* Loading State */}
+              {eventsLoading && (
+                <div className="border border-white/10 p-16 text-center">
+                  <div className="w-6 h-6 border-2 border-white/20 border-t-white/60 rounded-full animate-spin mx-auto mb-4" />
+                  <span className="bureau-label block">[SYNCING_EVENTS]</span>
+                  <p className="text-white/40 mt-2">Loading events from aggregated sources...</p>
+                </div>
+              )}
+
+              {!eventsLoading && groupedEvents.map(([date, dateEvents]) => (
                 <div key={date} className="mb-8">
                   {/* Date Header */}
                   <DateHeader date={date} />
-                  
+
                   {/* Events for this date */}
                   <div className="md:ml-[140px] space-y-4">
                     {dateEvents.map((event, eventIndex) => (
-                      <EventCard 
-                        key={event.id} 
-                        event={event} 
+                      <EventCard
+                        key={event.id}
+                        event={event}
                         index={eventIndex}
                       />
                     ))}
                   </div>
                 </div>
               ))}
-              
+
               {/* Empty State */}
-              {filteredEvents.length === 0 && (
+              {!eventsLoading && filteredEvents.length === 0 && (
                 <div className="border border-white/10 p-16 text-center">
                   <Calendar className="w-12 h-12 text-white/20 mx-auto mb-4" strokeWidth={1} />
                   <span className="bureau-label block mb-4">[NO_EVENTS_FOUND]</span>
                   <p className="text-white/40 mb-6">
-                    {searchQuery ? 'No events match your search.' : 'No upcoming events in this category.'}
+                    {searchQuery
+                      ? 'No events match your search.'
+                      : selectedCategory !== 'all'
+                        ? 'No upcoming events in this category.'
+                        : 'No events synced yet. Events are aggregated from Meetup, Eventbrite, and Luma every 4 hours.'}
                   </p>
                   {(searchQuery || selectedCategory !== "all") && (
                     <button
