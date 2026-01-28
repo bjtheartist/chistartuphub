@@ -116,7 +116,7 @@ export function standardizeEvent(
   }
 
   // Generate dedup hash
-  event.dedup_hash = generateDedupHash(event.title, event.event_date, event.venue_name);
+  event.dedup_hash = generateDedupHash(event.title, event.event_date, event.venue_name, event.start_time);
 
   // Fallback registration URL
   if (!event.registration_url) {
@@ -128,6 +128,19 @@ export function standardizeEvent(
   event.raw_data = cleanRaw;
 
   return event;
+}
+
+/**
+ * Validate that a standardized event has all required NOT NULL fields
+ * before upserting into the aggregated_events table.
+ */
+export function isValidEvent(event: StandardizedEvent): { valid: boolean; reason?: string } {
+  if (!event.external_id) return { valid: false, reason: 'missing external_id' };
+  if (!event.source_url) return { valid: false, reason: 'missing source_url' };
+  if (!event.title) return { valid: false, reason: 'missing title' };
+  if (!event.event_date) return { valid: false, reason: 'missing event_date' };
+  if (!event.start_time) return { valid: false, reason: 'missing start_time' };
+  return { valid: true };
 }
 
 /**
@@ -213,11 +226,13 @@ export function generateDedupHash(
   title: string,
   eventDate: string | null,
   venueName: string,
+  startTime: string | null = null,
 ): string {
   const normalized = [
     (title || '').toLowerCase().replace(/[^a-z0-9]/g, ''),
     eventDate || '',
     (venueName || '').toLowerCase().replace(/[^a-z0-9]/g, ''),
+    startTime || '',
   ].join('');
 
   // Synchronous hash using simple djb2 + fnv mix for deterministic output.
@@ -259,7 +274,7 @@ export function cleanDescription(text: string): string {
 function extractExternalIdFromUrl(url: string, source: string): string {
   if (source === 'eventbrite') {
     // Eventbrite URLs: https://www.eventbrite.com/e/title-123456789
-    const match = url.match(/\/e\/[^/]*?-(\d+)(?:\?|$)/);
+    const match = url.match(/\/e\/[^/]*?-(\d+)/);
     if (match) return match[1];
     // Fallback: last numeric segment
     const numMatch = url.match(/(\d{6,})(?:\?|$)/);

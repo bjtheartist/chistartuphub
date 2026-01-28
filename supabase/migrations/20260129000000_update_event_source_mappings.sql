@@ -1,6 +1,9 @@
 -- Update event_sources field_mapping to use format-aware sub-mappings.
 -- The standardizer picks the right sub-mapping based on the _sourceFormat tag
 -- attached by each scraper to its raw event data.
+--
+-- NOTE: registration_url is NOT mapped here because standardize.ts
+-- automatically falls back to source_url when registration_url is empty.
 
 -- Meetup: raw GraphQL objects (single format)
 UPDATE event_sources
@@ -19,8 +22,7 @@ SET field_mapping = '{
     "venue.state": "state",
     "group.name": "organizer_name",
     "group.link": "organizer_url",
-    "images[0].baseUrl": "image_url",
-    "eventUrl": "registration_url"
+    "images[0].baseUrl": "image_url"
   }
 }'::jsonb
 WHERE name = 'meetup';
@@ -43,7 +45,6 @@ SET field_mapping = '{
     "organizer.name": "organizer_name",
     "organizer.url": "organizer_url",
     "logo.url": "image_url",
-    "url": "registration_url",
     "is_free": "is_free",
     "ticket_availability.minimum_ticket_price.display": "price_info"
   },
@@ -62,7 +63,6 @@ SET field_mapping = '{
     "organizer.name": "organizer_name",
     "organizer.url": "organizer_url",
     "logo.url": "image_url",
-    "url": "registration_url",
     "is_free": "is_free",
     "ticket_availability.minimum_ticket_price.display": "price_info"
   },
@@ -79,7 +79,6 @@ SET field_mapping = '{
     "organizer.name": "organizer_name",
     "organizer.url": "organizer_url",
     "image": "image_url",
-    "url": "registration_url",
     "isAccessibleForFree": "is_free"
   },
   "serverdata": {
@@ -96,7 +95,6 @@ SET field_mapping = '{
     "primary_venue.address.region": "state",
     "primary_organizer.name": "organizer_name",
     "image.url": "image_url",
-    "url": "registration_url",
     "is_free": "is_free"
   }
 }'::jsonb
@@ -112,8 +110,7 @@ SET field_mapping = '{
     "start_at": "start_time",
     "end_at": "end_time",
     "url": "source_url",
-    "cover_url": "image_url",
-    "url": "registration_url"
+    "cover_url": "image_url"
   },
   "jsonld": {
     "name": "title",
@@ -126,7 +123,6 @@ SET field_mapping = '{
     "location.address.addressLocality": "city",
     "organizer.name": "organizer_name",
     "image": "image_url",
-    "url": "registration_url",
     "isAccessibleForFree": "is_free"
   }
 }'::jsonb

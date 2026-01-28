@@ -13,7 +13,7 @@
 
 // deno-lint-ignore-file no-explicit-any
 
-import { delay } from '../utils.ts';
+import { delay, deduplicateBy, isChicagoArea } from '../utils.ts';
 
 const CHICAGO_TECH_GROUPS = [
   'Chicago-AI-and-Machine-Learning-Meetup',
@@ -89,14 +89,7 @@ export async function fetchMeetupEvents(): Promise<any[]> {
     allEvents.push(...gqlEvents);
   }
 
-  // Deduplicate by id or eventUrl
-  const seen = new Map<string, any>();
-  for (const e of allEvents) {
-    const key = e.id || e.eventUrl || JSON.stringify(e);
-    if (!seen.has(key)) seen.set(key, e);
-  }
-  const unique = Array.from(seen.values());
-
+  const unique = deduplicateBy(allEvents, (e) => e.id || e.eventUrl || JSON.stringify(e));
   return unique.filter(isChicagoArea);
 }
 
@@ -237,21 +230,3 @@ async function fetchViaGql(): Promise<any[]> {
   return allEvents;
 }
 
-// ============================================================
-// Helpers
-// ============================================================
-
-function isChicagoArea(event: any): boolean {
-  if (event.isOnline) return true;
-
-  const city = (event.venue?.city || '').toLowerCase();
-  const state = (event.venue?.state || '').toLowerCase();
-
-  const chicagoAreaCities = [
-    'chicago', 'evanston', 'oak park', 'skokie', 'naperville',
-    'schaumburg', 'aurora', 'joliet', 'elgin', 'waukegan',
-    'cicero', 'arlington heights', 'bolingbrook', 'palatine',
-  ];
-
-  return chicagoAreaCities.includes(city) || state === 'il' || state === 'illinois';
-}

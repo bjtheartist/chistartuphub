@@ -15,7 +15,7 @@
 
 // deno-lint-ignore-file no-explicit-any
 
-import { delay } from '../utils.ts';
+import { delay, deduplicateBy, isChicagoArea, parseJsonLdEvents } from '../utils.ts';
 
 const CHICAGO_LUMA_CALENDARS = [
   'chicagotech',
@@ -38,15 +38,7 @@ export async function fetchLumaEvents(): Promise<any[]> {
     await delay(500);
   }
 
-  // Deduplicate by raw ID
-  const seen = new Map<string, any>();
-  for (const e of allEvents) {
-    const id = e.api_id || e.event_id || e.id;
-    if (id && !seen.has(id)) seen.set(id, e);
-  }
-  const unique = Array.from(seen.values());
-
-  // Filter to Chicago area
+  const unique = deduplicateBy(allEvents, (e) => e.api_id || e.event_id || e.id || '');
   return unique.filter(isChicagoArea);
 }
 
@@ -161,58 +153,9 @@ function parseHtmlEvents(html: string): any[] {
     }
   }
 
-  // JSON-LD (tag with _sourceFormat so standardizer can use jsonld mapping)
-  const jsonLdMatches = html.match(
-    /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,
-  );
-  if (jsonLdMatches) {
-    for (const match of jsonLdMatches) {
-      try {
-        const jsonStr = match
-          .replace(/<script type="application\/ld\+json">/, '')
-          .replace(/<\/script>/, '');
-        const data = JSON.parse(jsonStr);
-        if (data['@type'] === 'Event') {
-          events.push({ ...data, _sourceFormat: 'jsonld' });
-        }
-      } catch {
-        // Skip
-      }
-    }
-  }
+  // JSON-LD (shared utility tags with _sourceFormat)
+  events.push(...parseJsonLdEvents(html));
 
   return events;
 }
 
-function isChicagoArea(event: any): boolean {
-  // Virtual events are always included
-  if (event.location_type === 'online') return true;
-
-  // Check geo_address_json
-  let city = '';
-  let address = '';
-
-  if (event.geo_address_json) {
-    let geo = event.geo_address_json;
-    if (typeof geo === 'string') {
-      try { geo = JSON.parse(geo); } catch { geo = {}; }
-    }
-    city = (geo.city || '').toLowerCase();
-    address = (geo.full_address || geo.address || '').toLowerCase();
-  } else if (event.geo_address_info) {
-    city = (event.geo_address_info.city || '').toLowerCase();
-    address = (event.geo_address_info.full_address || '').toLowerCase();
-  }
-
-  // For JSON-LD events
-  if (event.location?.address?.addressLocality) {
-    city = event.location.address.addressLocality.toLowerCase();
-  }
-
-  const indicators = [
-    'chicago', 'il', 'illinois', 'evanston', 'oak park',
-    'skokie', 'naperville', 'schaumburg',
-  ];
-
-  return indicators.some((ind) => city.includes(ind) || address.includes(ind));
-}

@@ -94,6 +94,7 @@ function EventCard({ event, index }) {
               src={event.image_url} 
               alt={event.title}
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+              onError={(e) => { e.currentTarget.style.display = 'none'; }}
             />
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#050A14]/80" />
           </div>
@@ -150,15 +151,15 @@ function EventCard({ event, index }) {
             
             {/* Actions */}
             <div className="flex items-center gap-2">
-              <a 
-                href={event.registration_url} 
-                target="_blank" 
+              <a
+                href={event.registration_url}
+                target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`RSVP for ${event.title}`}
+                className="font-mono text-[10px] uppercase tracking-[0.15em] px-4 py-2 border border-white/20 text-white/60 hover:bg-white hover:text-black hover:border-white transition-colors flex items-center gap-2 cursor-crosshair"
               >
-                <button className="font-mono text-[10px] uppercase tracking-[0.15em] px-4 py-2 border border-white/20 text-white/60 hover:bg-white hover:text-black hover:border-white transition-colors flex items-center gap-2 cursor-crosshair">
-                  <span>RSVP</span>
-                  <ArrowUpRight className="w-3 h-3" strokeWidth={1.5} />
-                </button>
+                <span>RSVP</span>
+                <ArrowUpRight className="w-3 h-3" strokeWidth={1.5} />
               </a>
               <ShareActions
                 resourceType="event"
@@ -214,12 +215,12 @@ export default function EventsNew() {
   });
 
   // Fetch aggregated events from database
-  const { data: aggregatedEvents = [], isLoading: eventsLoading } = useQuery({
+  const { data: aggregatedEvents = [], isLoading: eventsLoading, isError, error } = useQuery({
     queryKey: ['aggregated-events', viewMode, selectedCategory],
     queryFn: async () => {
       let query = supabase
         .from('aggregated_events')
-        .select('*')
+        .select('id, source, source_url, title, description, event_date, start_time, end_time, timezone, is_virtual, venue_name, venue_address, city, virtual_url, organizer_name, category, image_url, registration_url, is_free, price_info, status')
         .eq('is_duplicate', false)
         .order('event_date', { ascending: true })
         .order('start_time', { ascending: true })
@@ -301,7 +302,9 @@ export default function EventsNew() {
             >
               <div className="flex items-baseline gap-2">
                 <span className="font-mono text-2xl text-white">{aggregatedEvents.length}</span>
-                <span className="font-mono text-xs text-white/40 uppercase tracking-[0.15em]">Upcoming Events</span>
+                <span className="font-mono text-xs text-white/40 uppercase tracking-[0.15em]">
+                  {viewMode === 'past' ? 'Past Events' : 'Upcoming Events'}
+                </span>
               </div>
               <div className="flex items-baseline gap-2">
                 <span className="font-mono text-2xl text-white">{eventHubs.length}+</span>
@@ -323,7 +326,7 @@ export default function EventsNew() {
                   placeholder="SEARCH_EVENTS..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="flex-1 bg-transparent font-mono text-sm text-white placeholder:text-white/30 focus:outline-none uppercase tracking-[0.1em]"
+                  className="flex-1 bg-transparent font-mono text-sm text-white placeholder:text-white/30 focus:outline-none focus-visible:ring-1 focus-visible:ring-white/30 uppercase tracking-[0.1em]"
                 />
               </div>
               
@@ -387,6 +390,16 @@ export default function EventsNew() {
                   <div className="w-6 h-6 border-2 border-white/20 border-t-white/60 rounded-full animate-spin mx-auto mb-4" />
                   <span className="bureau-label block">[SYNCING_EVENTS]</span>
                   <p className="text-white/40 mt-2">Loading events from aggregated sources...</p>
+                </div>
+              )}
+
+              {!eventsLoading && isError && (
+                <div className="border border-red-500/20 p-16 text-center">
+                  <Calendar className="w-12 h-12 text-red-400/40 mx-auto mb-4" strokeWidth={1} />
+                  <span className="bureau-label block mb-4">[SYNC_ERROR]</span>
+                  <p className="text-white/40 mb-6">
+                    Failed to load events. Please try again later.
+                  </p>
                 </div>
               )}
 

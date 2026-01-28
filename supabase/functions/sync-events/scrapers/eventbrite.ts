@@ -9,7 +9,7 @@
 
 // deno-lint-ignore-file no-explicit-any
 
-import { delay } from '../utils.ts';
+import { delay, deduplicateBy, parseJsonLdEvents } from '../utils.ts';
 
 const SEARCH_KEYWORDS = [
   'tech',
@@ -38,14 +38,7 @@ export async function fetchEventbriteEvents(): Promise<any[]> {
     await delay(500);
   }
 
-  // Deduplicate by a derived ID
-  const seen = new Map<string, any>();
-  for (const e of allEvents) {
-    const id = deriveId(e);
-    if (id && !seen.has(id)) seen.set(id, e);
-  }
-
-  return Array.from(seen.values());
+  return deduplicateBy(allEvents, deriveId);
 }
 
 async function searchEvents(keyword: string): Promise<any[]> {
@@ -100,35 +93,8 @@ async function scrapeSearchPage(keyword: string): Promise<any[]> {
 }
 
 function parseHtmlResults(html: string): any[] {
-  const events: any[] = [];
-
-  // JSON-LD structured data
-  const jsonLdMatches = html.match(
-    /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,
-  );
-
-  if (jsonLdMatches) {
-    for (const match of jsonLdMatches) {
-      try {
-        const jsonStr = match
-          .replace(/<script type="application\/ld\+json">/, '')
-          .replace(/<\/script>/, '');
-        const data = JSON.parse(jsonStr);
-
-        if (data['@type'] === 'Event') {
-          events.push({ ...data, _sourceFormat: 'jsonld' });
-        } else if (Array.isArray(data)) {
-          for (const item of data) {
-            if (item['@type'] === 'Event') {
-              events.push({ ...item, _sourceFormat: 'jsonld' });
-            }
-          }
-        }
-      } catch {
-        // Skip invalid JSON
-      }
-    }
-  }
+  // JSON-LD structured data (shared utility)
+  const events: any[] = parseJsonLdEvents(html);
 
   // __SERVER_DATA__
   const serverDataMatch = html.match(
