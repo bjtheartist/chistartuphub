@@ -12,7 +12,7 @@ import {
   ChevronRight
 } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
-import { entities } from "@/api/supabaseClient";
+import { entities, supabase } from "@/api/supabaseClient";
 import SEO from "@/components/SEO";
 import ShareActions from "@/components/ShareActions";
 import { BureauAtmosphere, BureauFooter } from "@/components/bureau";
@@ -329,7 +329,7 @@ export default function EventsNew() {
   const { data: aggregatedEvents = [], isLoading: eventsLoading } = useQuery({
     queryKey: ['aggregated-events', viewMode, selectedCategory],
     queryFn: async () => {
-      let query = entities.supabase
+      let query = supabase
         .from('aggregated_events')
         .select('*')
         .eq('is_duplicate', false)
