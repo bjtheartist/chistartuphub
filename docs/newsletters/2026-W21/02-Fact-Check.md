@@ -1,5 +1,5 @@
 # Fact-Check Log
-*Generated: 2026-05-21T20:49:27.240Z*
+*Generated: 2026-05-23T20:03:28.347Z*
 
 ## Summary
 - Deals: 0 verified (2+ sources), 0 single-source
@@ -10,7 +10,7 @@
 
 | Fund | Size | Sources | Status |
 |------|------|---------|--------|
-| S2G Investments Solutions Fund I | $1 billion | 3 | ✅ |
+| S2G Investments — Solutions Fund I | $1 Billion | 3 | ✅ |
 | Heitman Value Partners Fund VI | $2B | 3 | ✅ |
 
 ## ❌ Broken Links

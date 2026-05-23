@@ -1,5 +1,5 @@
 # Capital Access Newsletter
-**Volume 20 | May 21, 2026**
+**Volume 20 | May 23, 2026**
 
 ---
 
@@ -19,11 +19,11 @@ Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ## Fund News
 
-### S2G Investments Solutions Fund I | $1 billion
+### S2G Investments — Solutions Fund I | $1 Billion
 
 **Sector:** Growth-stage investment in food & agriculture, energy, and oceans
 
-S2G Investments has closed its Solutions Fund I, a $1 billion fund aimed at scaling growth-stage companies across various sectors including food, agriculture, energy, and oceans.
+S2G Investments announced the final closing of Solutions Fund I, a $1 billion growth-stage investment fund aimed at scaling companies across food & agriculture, energy, and oceans. The fund received commitments from a diverse coalition of institutional investors.
 
 **Close Date:** 2026-05-12
 **Source:** [Stellus Capital Management Closes Stellus Credit Fund IV – Company Announcement - Financial Times](https://markets.ft.com/data/announce/detail?dockey=600-202605191054PR_NEWS_USPRX____DA62003-1)
@@ -34,7 +34,7 @@ S2G Investments has closed its Solutions Fund I, a $1 billion fund aimed at scal
 
 **Sector:** Real estate investment management
 
-Heitman LLC announced the final close of its largest closed-end fundraise to date, exceeding its target size and reaching a hard cap of $2 billion. The fund focuses on real estate investments through private equity, debt, and publicly traded real estate securities.
+Heitman LLC announced the final close of its Heitman Value Partners Fund VI, which received commitments totaling $2 billion, exceeding its target size and reaching its hard cap. This fund is the firm's largest closed-end fundraise to date.
 
 **Close Date:** 2026-05-12
 **Source:** [Heitman aims for $2bn raise with debut self-storage fund - Private Equity Real Estate | PERE](https://www.perenews.com/heitman-aims-for-2bn-raise-with-debut-self-storage-fund/) | [Stellus Capital Management Closes Stellus Credit Fund IV – Company Announcement - Financial Times](https://markets.ft.com/data/announce/detail?dockey=600-202605191054PR_NEWS_USPRX____DA62003-1)
