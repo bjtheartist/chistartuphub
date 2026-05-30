@@ -1,5 +1,5 @@
 # Fact-Check Log
-*Generated: 2026-05-28T21:06:17.166Z*
+*Generated: 2026-05-30T20:04:58.853Z*
 
 ## Summary
 - Deals: 0 verified (2+ sources), 0 single-source
@@ -10,9 +10,9 @@
 
 | Fund | Size | Sources | Status |
 |------|------|---------|--------|
-| S2G Investments — Solutions Fund I | $1 Billion | 3 | ✅ |
+| S2G Investments Solutions Fund I | $1 Billion | 3 | ✅ |
 
 ## ❌ Broken Links
 
-- https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans — "S2G Investments Closes $1 Billion Solutions Fund I"
+- https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans — "S2G Investments Closes $1 Billion Solutions Fund I to Scale Growth-Stage Companies Across Food & Agriculture, Energy, and Oceans"
 - https://www.wsj.com/pro/private-equity/jeb-bushs-finback-investment-raises-nearly-500-million-for-new-fund-0dbddaa1 — "Jeb Bush’s Finback Investment Raises Nearly $500 Million for New Fund - WSJ"

@@ -1,6 +1,6 @@
 # Research Notes — 2026-W22
-*Generated: 2026-05-28T21:06:17.164Z*
-*Window: 2026-05-21 to 2026-05-28 (deals) | 2026-04-23 to 2026-05-28 (funds)*
+*Generated: 2026-05-30T20:04:58.851Z*
+*Window: 2026-05-23 to 2026-05-30 (deals) | 2026-04-25 to 2026-05-30 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -12,17 +12,17 @@
 
 ## Fund News (1)
 
-### S2G Investments — Solutions Fund I — $1 Billion ✅
+### S2G Investments Solutions Fund I — $1 Billion ✅
 - **Manager:** S2G Investments
-- **Strategy:** Growth-stage investment fund focused on food & agriculture, energy, and oceans.
+- **Strategy:** Growth-stage investment across food & agriculture, energy, and oceans
 - **Close date:** 2026-05-12
-- **Description:** S2G Investments announced the final closing of Solutions Fund I, a $1 billion growth-stage investment fund aimed at scaling companies across various sectors. The fund received commitments from a diverse coalition of institutional investors.
+- **Description:** S2G Investments has announced the final closing of its Solutions Fund I, a $1 billion growth-stage investment fund aimed at scaling companies in food & agriculture, energy, and oceans. The fund received commitments from a diverse coalition of institutional investors.
 - **Sources (3):**
-  - [S2G Investments Closes $1 Billion Solutions Fund I](https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans) [BROKEN LINK]
+  - [S2G Investments Closes $1 Billion Solutions Fund I to Scale Growth-Stage Companies Across Food & Agriculture, Energy, and Oceans](https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans) [BROKEN LINK]
   - [Jeb Bush’s Finback Investment Raises Nearly $500 Million for New Fund - WSJ](https://www.wsj.com/pro/private-equity/jeb-bushs-finback-investment-raises-nearly-500-million-for-new-fund-0dbddaa1) [BROKEN LINK]
   - [Stellus Capital Management Closes Stellus Credit Fund IV – Company Announcement - Financial Times](https://markets.ft.com/data/announce/detail?dockey=600-202605191054PR_NEWS_USPRX____DA62003-1)
 
-## Upcoming Deadlines (5)
+## Upcoming Deadlines (6)
 
 | Deadline | Name | Type | Amount | Link | Status |
 |----------|------|------|--------|------|--------|
@@ -31,6 +31,7 @@
 | May 31 | TechChicago Startup Challenge | Competition | $5K–$25K | https://gotechchicago.com/week/ | LIVE |
 | Jun 1 | Hello Tomorrow Global Challenge 2026 | Competition | Varies | https://hello-tomorrow.org/global-challenge/ | LIVE |
 | Jun 15 | TechCrunch Startup Battlefield 200 | Competition | $100K–$100K | https://techcrunch.com/startup-battlefield/ | LIVE |
+| Jun 19 | Black Girl Ventures Pitch LA | Competition | Varies | https://www.blackgirlventures.org/bgv-pitch | LIVE |
 
 ## Chicago Rolling Programs (215)
 

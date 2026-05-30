@@ -1,5 +1,5 @@
 # Capital Access Newsletter
-**Volume 21 | May 28, 2026**
+**Volume 21 | May 30, 2026**
 
 ---
 
@@ -19,11 +19,11 @@ Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ## Fund News
 
-### S2G Investments — Solutions Fund I | $1 Billion
+### S2G Investments Solutions Fund I | $1 Billion
 
-**Sector:** Growth-stage investment fund focused on food & agriculture, energy, and oceans.
+**Sector:** Growth-stage investment across food & agriculture, energy, and oceans
 
-S2G Investments announced the final closing of Solutions Fund I, a $1 billion growth-stage investment fund aimed at scaling companies across various sectors. The fund received commitments from a diverse coalition of institutional investors.
+S2G Investments has announced the final closing of its Solutions Fund I, a $1 billion growth-stage investment fund aimed at scaling companies in food & agriculture, energy, and oceans. The fund received commitments from a diverse coalition of institutional investors.
 
 **Close Date:** 2026-05-12
 **Source:** [Stellus Capital Management Closes Stellus Credit Fund IV – Company Announcement - Financial Times](https://markets.ft.com/data/announce/detail?dockey=600-202605191054PR_NEWS_USPRX____DA62003-1)
@@ -46,6 +46,7 @@ S2G Investments announced the final closing of Solutions Fund I, a $1 billion gr
 | Deadline | Opportunity | Amount | Link |
 |----------|-------------|--------|------|
 | **Jun 15** | TechCrunch Startup Battlefield 200 | $100K–$100K | [Apply](https://techcrunch.com/startup-battlefield/) |
+| **Jun 19** | Black Girl Ventures Pitch LA | Varies | [Apply](https://www.blackgirlventures.org/bgv-pitch) |
 
 **Full list:** [chistartuphub.com/funding](https://chistartuphub.com/funding)
 
@@ -69,7 +70,7 @@ Know a founder who should see this? Forward it.
 ## Sources
 
 **Fund Closes:**
-- [S2G Investments Closes $1 Billion Solutions Fund I](https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans) [BROKEN]
+- [S2G Investments Closes $1 Billion Solutions Fund I to Scale Growth-Stage Companies Across Food & Agriculture, Energy, and Oceans](https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans) [BROKEN]
 - [Jeb Bush’s Finback Investment Raises Nearly $500 Million for New Fund - WSJ](https://www.wsj.com/pro/private-equity/jeb-bushs-finback-investment-raises-nearly-500-million-for-new-fund-0dbddaa1) [BROKEN]
 - [Stellus Capital Management Closes Stellus Credit Fund IV – Company Announcement - Financial Times](https://markets.ft.com/data/announce/detail?dockey=600-202605191054PR_NEWS_USPRX____DA62003-1)
 
