@@ -1,6 +1,6 @@
 # Research Notes — 2026-W23
-*Generated: 2026-06-04T20:54:49.088Z*
-*Window: 2026-05-28 to 2026-06-04 (deals) | 2026-04-30 to 2026-06-04 (funds)*
+*Generated: 2026-06-06T20:06:25.434Z*
+*Window: 2026-05-30 to 2026-06-06 (deals) | 2026-05-02 to 2026-06-06 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -10,9 +10,17 @@
 
 *No Form D filings in window.*
 
-## Fund News (0)
+## Fund News (1)
 
-*No fund closes found.*
+### Solutions Fund I — $1B ✅
+- **Manager:** S2G Investments
+- **Strategy:** Growth-stage investment across food & agriculture, energy, and oceans
+- **Close date:** 2026-05-12
+- **Description:** S2G Investments has closed its Solutions Fund I, a $1 billion growth-stage investment fund aimed at scaling companies in food & agriculture, energy, and oceans. The fund received commitments from a diverse coalition of institutional investors.
+- **Sources (3):**
+  - [S2G Investments Closes $1 Billion Solutions Fund I](https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans) [BROKEN LINK]
+  - [Stellus Capital Management Closes Stellus Credit Fund IV – Company Announcement - Financial Times](https://markets.ft.com/data/announce/detail?dockey=600-202605191054PR_NEWS_USPRX____DA62003-1)
+  - [Alpine targets $1B fund to invest in its own businesses - PitchBook](https://pitchbook.com/news/articles/alpine-targets-1b-fund-to-invest-in-its-own-businesses) [BROKEN LINK]
 
 ## Upcoming Deadlines (2)
 

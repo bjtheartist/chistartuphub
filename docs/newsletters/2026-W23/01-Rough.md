@@ -1,11 +1,12 @@
 # Capital Access Newsletter
-**Volume 22 | June 4, 2026**
+**Volume 22 | June 6, 2026**
 
 ---
 
 ## Opening
 
 [PLACEHOLDER: Billy writes opening — 0 deals totaling ~$0M
++ $1000M in new fund capital.
 Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ---
@@ -18,7 +19,14 @@ Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ## Fund News
 
-[PLACEHOLDER: Billy adds fund news from research notes or network intel]
+### Solutions Fund I | $1B
+
+**Sector:** Growth-stage investment across food & agriculture, energy, and oceans
+
+S2G Investments has closed its Solutions Fund I, a $1 billion growth-stage investment fund aimed at scaling companies in food & agriculture, energy, and oceans. The fund received commitments from a diverse coalition of institutional investors.
+
+**Close Date:** 2026-05-12
+**Source:** [Stellus Capital Management Closes Stellus Credit Fund IV – Company Announcement - Financial Times](https://markets.ft.com/data/announce/detail?dockey=600-202605191054PR_NEWS_USPRX____DA62003-1)
 
 ---
 
@@ -52,7 +60,12 @@ Know a founder who should see this? Forward it.
 
 ## Sources
 
+**Fund Closes:**
+- [S2G Investments Closes $1 Billion Solutions Fund I](https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans) [BROKEN]
+- [Stellus Capital Management Closes Stellus Credit Fund IV – Company Announcement - Financial Times](https://markets.ft.com/data/announce/detail?dockey=600-202605191054PR_NEWS_USPRX____DA62003-1)
+- [Alpine targets $1B fund to invest in its own businesses - PitchBook](https://pitchbook.com/news/articles/alpine-targets-1b-fund-to-invest-in-its-own-businesses) [BROKEN]
+
 ---
 
-*Vol. 22 | Research edition*
+*Vol. 22 | Research edition | $1000M+ in new fund capital*
 *Author: Billy Ndizeye*
