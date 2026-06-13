@@ -36,5 +36,5 @@
 8. Final polish → publish to Substack
 
 ---
-*Generated: 2026-06-11T21:17:00.778Z*
+*Generated: 2026-06-13T20:12:09.013Z*
 *Agent version: 1.0.0*

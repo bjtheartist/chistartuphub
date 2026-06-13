@@ -1,5 +1,5 @@
 # Capital Access Newsletter
-**Volume 23 | June 11, 2026**
+**Volume 23 | June 13, 2026**
 
 ---
 
@@ -19,14 +19,14 @@ Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ## Fund News
 
-### Solutions Fund I | $1B
+### S2G Investments Solutions Fund I | $1B
 
 **Sector:** Growth-stage investment across food & agriculture, energy, and oceans
 
-S2G Investments has closed its Solutions Fund I, a $1 billion growth-stage investment fund aimed at scaling companies in food & agriculture, energy, and oceans. The fund received commitments from a diverse coalition of institutional investors.
+S2G Investments has announced the final closing of Solutions Fund I, a $1 billion growth-stage investment fund aimed at scaling companies in food & agriculture, energy, and oceans. The fund received commitments from a diverse coalition of institutional investors.
 
 **Close Date:** 2026-05-12
-**Source:** [YieldMax® ETFs Announces Planned Closure of Four ETFs - markets.businessinsider.com](https://markets.businessinsider.com/news/stocks/yieldmax-etfs-announces-planned-closure-of-four-etfs-1036209098)
+**Source:** 
 
 ---
 
@@ -37,12 +37,12 @@ S2G Investments has closed its Solutions Fund I, a $1 billion growth-stage inves
 | Deadline | Opportunity | Amount | Link |
 |----------|-------------|--------|------|
 | **Jun 15** | TechCrunch Startup Battlefield 200 | $100K–$100K | [Apply](https://techcrunch.com/startup-battlefield/) |
+| **Jun 19** | Black Girl Ventures Pitch LA | Varies | [Apply](https://www.blackgirlventures.org/bgv-pitch) |
 
 ### Coming Up
 
 | Deadline | Opportunity | Amount | Link |
 |----------|-------------|--------|------|
-| **Jun 19** | Black Girl Ventures Pitch LA | Varies | [Apply](https://www.blackgirlventures.org/bgv-pitch) |
 | **Jun 30** | Google Black Founders Fund 2026 | $100K–$150K | [Apply](https://startup.google.com/programs/black-founders-fund/) |
 | **Jun 30** | RAISE the STAKES AI Competition | $50K–$10M | [Apply](https://www.raisesummit.com/raise-the-stakes) |
 | **Jun 30** | Bits & Pretzels Startup Pitch | Up to $50K | [Apply](https://www.bitsandpretzels.com/startups) |
@@ -82,9 +82,9 @@ Know a founder who should see this? Forward it.
 ## Sources
 
 **Fund Closes:**
-- [S2G Investments Closes $1 Billion Solutions Fund I to Scale Growth-Stage Companies Across Food & Agriculture, Energy, and Oceans](https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans) [BROKEN]
-- [YieldMax® ETFs Announces Planned Closure of Four ETFs - markets.businessinsider.com](https://markets.businessinsider.com/news/stocks/yieldmax-etfs-announces-planned-closure-of-four-etfs-1036209098)
-- [Exclusive | Warren Equity Partners Banks $2.8 Billion for Infrastructure-Services Bets - WSJ](https://www.wsj.com/pro/private-equity/warren-equity-partners-banks-2-8-billion-for-infrastructure-services-bets-926d1cb0) [BROKEN]
+- [S2G Investments Closes $1 Billion Solutions Fund I](https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans) [BROKEN]
+- [Blackstone hits final close of third Asian fund on $13.1B - PitchBook](https://pitchbook.com/news/articles/blackstone-hits-final-close-of-third-asian-fund-on-13-1b) [BROKEN]
+- [Eurazeo raises €3.9B for direct lending fund, beating target - PitchBook](https://pitchbook.com/news/articles/eurazeo-raises-3-9b-for-direct-lending-fund-beating-target) [BROKEN]
 
 ---
 

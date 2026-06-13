@@ -1,6 +1,6 @@
 # Research Notes — 2026-W24
-*Generated: 2026-06-11T21:17:00.778Z*
-*Window: 2026-06-04 to 2026-06-11 (deals) | 2026-05-07 to 2026-06-11 (funds)*
+*Generated: 2026-06-13T20:12:09.013Z*
+*Window: 2026-06-06 to 2026-06-13 (deals) | 2026-05-09 to 2026-06-13 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -12,15 +12,15 @@
 
 ## Fund News (1)
 
-### Solutions Fund I — $1B ✅
+### S2G Investments Solutions Fund I — $1B ✅
 - **Manager:** S2G Investments
 - **Strategy:** Growth-stage investment across food & agriculture, energy, and oceans
 - **Close date:** 2026-05-12
-- **Description:** S2G Investments has closed its Solutions Fund I, a $1 billion growth-stage investment fund aimed at scaling companies in food & agriculture, energy, and oceans. The fund received commitments from a diverse coalition of institutional investors.
+- **Description:** S2G Investments has announced the final closing of Solutions Fund I, a $1 billion growth-stage investment fund aimed at scaling companies in food & agriculture, energy, and oceans. The fund received commitments from a diverse coalition of institutional investors.
 - **Sources (3):**
-  - [S2G Investments Closes $1 Billion Solutions Fund I to Scale Growth-Stage Companies Across Food & Agriculture, Energy, and Oceans](https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans) [BROKEN LINK]
-  - [YieldMax® ETFs Announces Planned Closure of Four ETFs - markets.businessinsider.com](https://markets.businessinsider.com/news/stocks/yieldmax-etfs-announces-planned-closure-of-four-etfs-1036209098)
-  - [Exclusive | Warren Equity Partners Banks $2.8 Billion for Infrastructure-Services Bets - WSJ](https://www.wsj.com/pro/private-equity/warren-equity-partners-banks-2-8-billion-for-infrastructure-services-bets-926d1cb0) [BROKEN LINK]
+  - [S2G Investments Closes $1 Billion Solutions Fund I](https://www.businesswire.com/news/home/20260512836810/en/S2G-Investments-Closes-%241-Billion-Solutions-Fund-I-to-Scale-Growth-Stage-Companies-Across-Food-Agriculture-Energy-and-Oceans) [BROKEN LINK]
+  - [Blackstone hits final close of third Asian fund on $13.1B - PitchBook](https://pitchbook.com/news/articles/blackstone-hits-final-close-of-third-asian-fund-on-13-1b) [BROKEN LINK]
+  - [Eurazeo raises €3.9B for direct lending fund, beating target - PitchBook](https://pitchbook.com/news/articles/eurazeo-raises-3-9b-for-direct-lending-fund-beating-target) [BROKEN LINK]
 
 ## Upcoming Deadlines (18)
 
