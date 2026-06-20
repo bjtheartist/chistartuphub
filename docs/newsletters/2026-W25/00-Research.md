@@ -1,6 +1,6 @@
 # Research Notes — 2026-W25
-*Generated: 2026-06-18T21:21:20.622Z*
-*Window: 2026-06-11 to 2026-06-18 (deals) | 2026-05-14 to 2026-06-18 (funds)*
+*Generated: 2026-06-20T20:13:15.266Z*
+*Window: 2026-06-13 to 2026-06-20 (deals) | 2026-05-16 to 2026-06-20 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -14,11 +14,11 @@
 
 *No fund closes found.*
 
-## Upcoming Deadlines (17)
+## Upcoming Deadlines (16)
 
 | Deadline | Name | Type | Amount | Link | Status |
 |----------|------|------|--------|------|--------|
-| Jun 19 | Black Girl Ventures Pitch LA | Competition | Varies | https://www.blackgirlventures.org/bgv-pitch | LIVE |
+| Jun 30 | DxPx Pitch - Diagnostics & Digital Health | Competition | $50K–$2M | https://dxpx-pitch.com/ | LIVE |
 | Jun 30 | We Rise Together Storefront Grant | Grant | $5K–$13K | https://www.chicago.gov/city/en/sites/neighborhood-opportunity-fund/home.html | DEAD_OR_UNREACHABLE |
 | Jun 30 | Google Black Founders Fund 2026 | Grant | $100K–$150K | https://startup.google.com/programs/black-founders-fund/ | LIVE |
 | Jun 30 | RAISE the STAKES AI Competition | Competition | $50K–$10M | https://www.raisesummit.com/raise-the-stakes | DEAD_OR_UNREACHABLE |
@@ -30,7 +30,6 @@
 | Jun 30 | EdTechWeek Shark Tank | Competition | $25K–$250K | https://www.edtechweek.com/sharktank | LIVE |
 | Jun 30 | Venture-Z ICSDI 2026 | Competition | $5K–$25K | https://www.icsdi.org/studentscompetitions | UNCHECKED |
 | Jun 30 | Small Business Innovation Research (SBIR) Grant | Grant | Varies | https://dceo.illinois.gov/aboutdceo/grantopportunities/grants.html | UNCHECKED |
-| Jun 30 | DxPx Pitch - Diagnostics & Digital Health | Competition | $50K–$2M | https://dxpx-pitch.com/ | UNCHECKED |
 | Jun 30 | CodeLaunch USA 2026 | Accelerator | Varies | https://codelaunch.com/events/2026-usa/ | UNCHECKED |
 | Jun 30 | Grow-NY Food & AgTech Competition | Competition | $250K–$1M | https://www.grow-ny.com/competition-details/ | UNCHECKED |
 | Jun 30 | TechRise Pitch Competition | Competition | $25K–$50K | https://techrise.me | UNCHECKED |
