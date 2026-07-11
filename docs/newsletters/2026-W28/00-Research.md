@@ -1,6 +1,6 @@
 # Research Notes — 2026-W28
-*Generated: 2026-07-09T20:44:22.542Z*
-*Window: 2026-07-02 to 2026-07-09 (deals) | 2026-06-04 to 2026-07-09 (funds)*
+*Generated: 2026-07-11T20:02:14.687Z*
+*Window: 2026-07-04 to 2026-07-11 (deals) | 2026-06-06 to 2026-07-11 (funds)*
 
 ## Web-Discovered Deals (0)
 
