@@ -1,5 +1,5 @@
 # Capital Access Newsletter
-**Volume 28 | July 16, 2026**
+**Volume 28 | July 18, 2026**
 
 ---
 
