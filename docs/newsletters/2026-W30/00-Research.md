@@ -1,6 +1,6 @@
 # Research Notes — 2026-W30
-*Generated: 2026-07-23T20:10:07.938Z*
-*Window: 2026-07-16 to 2026-07-23 (deals) | 2026-06-18 to 2026-07-23 (funds)*
+*Generated: 2026-07-25T20:08:05.646Z*
+*Window: 2026-07-18 to 2026-07-25 (deals) | 2026-06-20 to 2026-07-25 (funds)*
 
 ## Web-Discovered Deals (0)
 
