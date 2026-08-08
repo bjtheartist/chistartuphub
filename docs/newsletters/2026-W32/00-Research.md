@@ -1,6 +1,6 @@
 # Research Notes — 2026-W32
-*Generated: 2026-08-07T00:39:28.470Z*
-*Window: 2026-07-31 to 2026-08-07 (deals) | 2026-07-03 to 2026-08-07 (funds)*
+*Generated: 2026-08-08T19:24:26.283Z*
+*Window: 2026-08-01 to 2026-08-08 (deals) | 2026-07-04 to 2026-08-08 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -19,38 +19,38 @@
 - **Description:** GTCR has announced the final close of its inaugural Capital Solutions Fund with approximately $1.25 billion in aggregate commitments, focusing on transformative growth in various sectors.
 - **Sources (3):**
   - [GTCR Closes $1.25 Billion Capital Solutions Fund](https://www.prnewswire.com/news-releases/gtcr-closes-1-25-billion-capital-solutions-fund-302837130.html)
-  - [GTCR attracts $1.25bn for new capital solutions strategy - Alternatives Watch](https://www.alternativeswatch.com/2026/07/29/gtcr-new-capital-solutions-strategy-1-25-billion)
-  - [Pantheon Closes $3.2B Global Co-Investment Fund VI](https://www.themiddlemarket.com/latest-news/pantheon-closes-3-2b-global-co-investment-fund-vi)
+  - [GTCR Closes $1.25 Billion Capital Solutions Fund](https://www.google.com/goto?url=CAESnwEB7keqTbeR22pwys5YSef9JBOmwroSOy8CRfUj2ksL9rlDnU51W_XFEwdRkedQsjEN3bNPdh5_J8WmiC4y5KEgdl6foPGGSWR9jdSDuze_XaWaelSS32S4x6i523Jetx31Jb41k7kIz45LfCdWCA1YoRcz2VAfmpO4r2udGc5OqPK_53o4uvvK-Y_x3R-Ro9CRoUGT-TvRlz8M80NMH2o%3D)
+  - [GTCR首只资本解决方案基金关闭12.5亿美元：少数结构化股权策略如何重塑私募基金的架构演化？ - Aiying](https://fund.aiying.cc/news/6523.html)
 
 ### First Trust Enhanced Short Maturity ETF — N/A ✅
 - **Manager:** First Trust Advisors L.P.
-- **Strategy:** Investment management — ETFs
-- **Close date:** 2026-07-31
-- **Description:** First Trust Advisors L.P. announces the declaration of the monthly distribution for the First Trust Enhanced Short Maturity ETF.
+- **Strategy:** Exchange-traded fund
+- **Close date:** 2026-08-04
+- **Description:** First Trust Advisors L.P. announces the declaration of the Monthly distribution for First Trust Enhanced Short Maturity ETF, a series of First Trust Exchange-Traded Fund IV.
 - **Sources (3):**
   - [First Trust Advisors L.P. Announces Distribution for First Trust Enhanced Short Maturity ETF](https://www.businesswire.com/news/home/20260730644298/en/First-Trust-Advisors-L.P.-Announces-Distribution-for-First-Trust-Enhanced-Short-Maturity-ETF) [BROKEN LINK]
-  - [First Trust reports 4.73% stake in Western Asset GDO | GDO SEC Filing - Form SCHEDULE 13G/A](https://www.stocktitan.net/sec-filings/GDO/schedule-13g-a-western-asset-global-corporate-opportunity-fund-inc-am-22e1fd41c001.html)
-  - [First Trust reports 3.88% stake in TCW Strategic Income | TSI SEC Filing - Form SCHEDULE 13G/A](https://www.stocktitan.net/sec-filings/TSI/schedule-13g-a-tcw-strategic-income-fund-inc-amended-passive-investme-2ea7a99ad07e.html)
+  - [First Trust High Yield 2027 Term Fund (FTHY) details ... - Stock Titan](https://www.stocktitan.net/sec-filings/FTHY/n-csr-first-trust-high-yield-opportunities-2027-term-fund-sec-filing-cb0a2c8ee09f.html)
+  - [First Trust High Yield (FTHY) investors to elect two fund trustees](https://www.stocktitan.net/sec-filings/FTHY/def-14a-first-trust-high-yield-opportunities-2027-term-fund-definitiv-f6a21adf8767.html)
 
 ### First Trust High Yield Opportunities 2027 Term Fund — N/A ✅
 - **Manager:** First Trust Advisors L.P.
-- **Strategy:** High yield investment income
-- **Close date:** 2026-08-01
-- **Description:** The First Trust High Yield Opportunities 2027 Term Fund has declared its monthly common share distribution of $0.125 per share, focusing on providing high current income through various investment strategies.
+- **Strategy:** Closed-end fund
+- **Close date:** 2026-08-25
+- **Description:** First Trust High Yield Opportunities 2027 Term Fund has declared the Fund’s regularly scheduled monthly common share distribution in the amount of $0.125 per share.
 - **Sources (3):**
   - [First Trust High Yield Opportunities 2027 Term Fund Declares its Monthly Common Share Distribution of $0.125 Per Share for August](https://www.businesswire.com/news/home/20260720482386/en/First-Trust-High-Yield-Opportunities-2027-Term-Fund-Declares-its-Monthly-Common-Share-Distribution-of-%240.125-Per-Share-for-August) [BROKEN LINK]
-  - [First Trust reports 4.73% stake in Western Asset GDO | GDO SEC Filing - Form SCHEDULE 13G/A](https://www.stocktitan.net/sec-filings/GDO/schedule-13g-a-western-asset-global-corporate-opportunity-fund-inc-am-22e1fd41c001.html)
-  - [First Trust reports 3.88% stake in TCW Strategic Income | TSI SEC Filing - Form SCHEDULE 13G/A](https://www.stocktitan.net/sec-filings/TSI/schedule-13g-a-tcw-strategic-income-fund-inc-amended-passive-investme-2ea7a99ad07e.html)
+  - [First Trust High Yield 2027 Term Fund (FTHY) details ... - Stock Titan](https://www.stocktitan.net/sec-filings/FTHY/n-csr-first-trust-high-yield-opportunities-2027-term-fund-sec-filing-cb0a2c8ee09f.html)
+  - [First Trust Advisors L.P. Announces Distribution for First Trust Enhanced Short Maturity ETF](https://www.businesswire.com/news/home/20260730644298/en/First-Trust-Advisors-L.P.-Announces-Distribution-for-First-Trust-Enhanced-Short-Maturity-ETF) [BROKEN LINK]
 
 ### First Trust Mortgage Income Fund — N/A ✅
 - **Manager:** First Trust Advisors L.P.
-- **Strategy:** Mortgage income investment
-- **Close date:** 2026-08-01
-- **Description:** The First Trust Mortgage Income Fund has declared its monthly common share distribution of $0.065 per share, focusing on generating income through mortgage-related investments.
+- **Strategy:** Closed-end fund
+- **Close date:** 2026-08-17
+- **Description:** First Trust Mortgage Income Fund has declared the Fund’s regularly scheduled monthly common share distribution in the amount of $0.065 per share.
 - **Sources (3):**
   - [First Trust Mortgage Income Fund Declares its Monthly Common Share Distribution of $0.065 Per Share for August](https://www.businesswire.com/news/home/20260720652755/en/First-Trust-Mortgage-Income-Fund-Declares-its-Monthly-Common-Share-Distribution-of-%240.065-Per-Share-for-August) [BROKEN LINK]
-  - [First Trust reports 4.73% stake in Western Asset GDO | GDO SEC Filing - Form SCHEDULE 13G/A](https://www.stocktitan.net/sec-filings/GDO/schedule-13g-a-western-asset-global-corporate-opportunity-fund-inc-am-22e1fd41c001.html)
-  - [First Trust reports 3.88% stake in TCW Strategic Income | TSI SEC Filing - Form SCHEDULE 13G/A](https://www.stocktitan.net/sec-filings/TSI/schedule-13g-a-tcw-strategic-income-fund-inc-amended-passive-investme-2ea7a99ad07e.html)
+  - [First Trust High Yield 2027 Term Fund (FTHY) details ... - Stock Titan](https://www.stocktitan.net/sec-filings/FTHY/n-csr-first-trust-high-yield-opportunities-2027-term-fund-sec-filing-cb0a2c8ee09f.html)
+  - [First Trust Advisors L.P. Announces Distribution for First Trust Enhanced Short Maturity ETF](https://www.businesswire.com/news/home/20260730644298/en/First-Trust-Advisors-L.P.-Announces-Distribution-for-First-Trust-Enhanced-Short-Maturity-ETF) [BROKEN LINK]
 
 ## Upcoming Deadlines (0)
 
