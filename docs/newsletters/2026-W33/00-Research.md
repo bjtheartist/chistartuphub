@@ -1,6 +1,6 @@
 # Research Notes — 2026-W33
-*Generated: 2026-08-13T19:54:39.859Z*
-*Window: 2026-08-06 to 2026-08-13 (deals) | 2026-07-09 to 2026-08-13 (funds)*
+*Generated: 2026-08-15T19:17:24.937Z*
+*Window: 2026-08-08 to 2026-08-15 (deals) | 2026-07-11 to 2026-08-15 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -14,23 +14,23 @@
 
 ### First Trust Income Opportunities ETF — $368B ✅
 - **Manager:** First Trust Advisors L.P.
-- **Strategy:** Investment services including unit investment trusts, ETFs, closed-end funds, mutual funds, and separate managed accounts.
+- **Strategy:** Investment advisory services
 - **Close date:** 2026-08-10
-- **Description:** First Trust Advisors L.P. provides a variety of investment services and has collective assets under management of approximately $368 billion as of June 30, 2026.
+- **Description:** First Trust Advisors L.P. announces the declaration of the monthly distribution for the First Trust Income Opportunities ETF, which is part of their extensive investment services.
 - **Sources (3):**
   - [First Trust Advisors L.P. Announces Distribution for First Trust Income Opportunities ETF](https://www.businesswire.com/news/home/20260810485905/en/First-Trust-Advisors-L.P.-Announces-Distribution-for-First-Trust-Income-Opportunities-ETF) [BROKEN LINK]
   - [First Trust Advisors L.P. Announces Distributions for Exchange-Traded Funds](https://www.businesswire.com/news/home/20260731969965/en/First-Trust-Advisors-L.P.-Announces-Distributions-for-Exchange-Traded-Funds) [BROKEN LINK]
   - [First Trust completes FCT reorganization into FFLX ETF | FCT 8-K Filing](https://www.stocktitan.net/sec-filings/FCT/8-k-first-trust-senior-floating-rate-income-fund-ii-reports-material--8d9ed89d3ee2.html)
 
-### First Trust Mortgage Income Fund — N/A ✅
+### First Trust High Yield Opportunities 2027 Term Fund — N/A ✅
 - **Manager:** First Trust Advisors L.P.
-- **Strategy:** Investment advisory services
-- **Close date:** 2026-08-17
-- **Description:** First Trust Mortgage Income Fund has declared its monthly common share distribution of $0.065 per share, payable to shareholders. The fund is managed by First Trust Advisors, which provides a variety of investment services.
+- **Strategy:** High yield investment
+- **Close date:** 2026-07-20
+- **Description:** The First Trust High Yield Opportunities 2027 Term Fund declares its monthly common share distribution, focusing on providing high current income.
 - **Sources (3):**
-  - [First Trust Mortgage Income Fund Declares its Monthly Common Share Distribution of $0.065 Per Share for August](https://www.businesswire.com/news/home/20260720652755/en/First-Trust-Mortgage-Income-Fund-Declares-its-Monthly-Common-Share-Distribution-of-%240.065-Per-Share-for-August) [BROKEN LINK]
-  - [First Trust High Yield (FTHY) investors to elect two fund trustees](https://www.stocktitan.net/sec-filings/FTHY/def-14a-first-trust-high-yield-opportunities-2027-term-fund-definitiv-f6a21adf8767.html)
+  - [First Trust High Yield Opportunities 2027 Term Fund Declares its Monthly Common Share Distribution of $0.125 Per Share for August](https://www.businesswire.com/news/home/20260720482386/en/First-Trust-High-Yield-Opportunities-2027-Term-Fund-Declares-its-Monthly-Common-Share-Distribution-of-%240.125-Per-Share-for-August) [BROKEN LINK]
   - [First Trust Advisors L.P. Announces Distributions for Exchange-Traded Funds](https://www.businesswire.com/news/home/20260720184523/en/First-Trust-Advisors-L.P.-Announces-Distributions-for-Exchange-Traded-Funds) [BROKEN LINK]
+  - [First Trust Mortgage Income Fund Declares its Monthly Common Share Distribution of $0.065 Per Share for August](https://finance.yahoo.com/markets/stocks/articles/first-trust-mortgage-income-fund-201000198.html)
 
 ## Upcoming Deadlines (2)
 

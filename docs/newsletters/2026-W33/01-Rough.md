@@ -1,5 +1,5 @@
 # Capital Access Newsletter
-**Volume 32 | August 13, 2026**
+**Volume 32 | August 15, 2026**
 
 ---
 
@@ -21,23 +21,23 @@ Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ### First Trust Income Opportunities ETF | $368B
 
-**Sector:** Investment services including unit investment trusts, ETFs, closed-end funds, mutual funds, and separate managed accounts.
+**Sector:** Investment advisory services
 
-First Trust Advisors L.P. provides a variety of investment services and has collective assets under management of approximately $368 billion as of June 30, 2026.
+First Trust Advisors L.P. announces the declaration of the monthly distribution for the First Trust Income Opportunities ETF, which is part of their extensive investment services.
 
 **Close Date:** 2026-08-10
 **Source:** [First Trust completes FCT reorganization into FFLX ETF | FCT 8-K Filing](https://www.stocktitan.net/sec-filings/FCT/8-k-first-trust-senior-floating-rate-income-fund-ii-reports-material--8d9ed89d3ee2.html)
 
 ---
 
-### First Trust Mortgage Income Fund | N/A
+### First Trust High Yield Opportunities 2027 Term Fund | N/A
 
-**Sector:** Investment advisory services
+**Sector:** High yield investment
 
-First Trust Mortgage Income Fund has declared its monthly common share distribution of $0.065 per share, payable to shareholders. The fund is managed by First Trust Advisors, which provides a variety of investment services.
+The First Trust High Yield Opportunities 2027 Term Fund declares its monthly common share distribution, focusing on providing high current income.
 
-**Close Date:** 2026-08-17
-**Source:** [First Trust High Yield (FTHY) investors to elect two fund trustees](https://www.stocktitan.net/sec-filings/FTHY/def-14a-first-trust-high-yield-opportunities-2027-term-fund-definitiv-f6a21adf8767.html)
+**Close Date:** 2026-07-20
+**Source:** [First Trust Mortgage Income Fund Declares its Monthly Common Share Distribution of $0.065 Per Share for August](https://finance.yahoo.com/markets/stocks/articles/first-trust-mortgage-income-fund-201000198.html)
 
 ---
 
@@ -75,9 +75,9 @@ Know a founder who should see this? Forward it.
 - [First Trust Advisors L.P. Announces Distribution for First Trust Income Opportunities ETF](https://www.businesswire.com/news/home/20260810485905/en/First-Trust-Advisors-L.P.-Announces-Distribution-for-First-Trust-Income-Opportunities-ETF) [BROKEN]
 - [First Trust Advisors L.P. Announces Distributions for Exchange-Traded Funds](https://www.businesswire.com/news/home/20260731969965/en/First-Trust-Advisors-L.P.-Announces-Distributions-for-Exchange-Traded-Funds) [BROKEN]
 - [First Trust completes FCT reorganization into FFLX ETF | FCT 8-K Filing](https://www.stocktitan.net/sec-filings/FCT/8-k-first-trust-senior-floating-rate-income-fund-ii-reports-material--8d9ed89d3ee2.html)
-- [First Trust Mortgage Income Fund Declares its Monthly Common Share Distribution of $0.065 Per Share for August](https://www.businesswire.com/news/home/20260720652755/en/First-Trust-Mortgage-Income-Fund-Declares-its-Monthly-Common-Share-Distribution-of-%240.065-Per-Share-for-August) [BROKEN]
-- [First Trust High Yield (FTHY) investors to elect two fund trustees](https://www.stocktitan.net/sec-filings/FTHY/def-14a-first-trust-high-yield-opportunities-2027-term-fund-definitiv-f6a21adf8767.html)
+- [First Trust High Yield Opportunities 2027 Term Fund Declares its Monthly Common Share Distribution of $0.125 Per Share for August](https://www.businesswire.com/news/home/20260720482386/en/First-Trust-High-Yield-Opportunities-2027-Term-Fund-Declares-its-Monthly-Common-Share-Distribution-of-%240.125-Per-Share-for-August) [BROKEN]
 - [First Trust Advisors L.P. Announces Distributions for Exchange-Traded Funds](https://www.businesswire.com/news/home/20260720184523/en/First-Trust-Advisors-L.P.-Announces-Distributions-for-Exchange-Traded-Funds) [BROKEN]
+- [First Trust Mortgage Income Fund Declares its Monthly Common Share Distribution of $0.065 Per Share for August](https://finance.yahoo.com/markets/stocks/articles/first-trust-mortgage-income-fund-201000198.html)
 
 ---
 
