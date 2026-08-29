@@ -1,5 +1,5 @@
 # Fact-Check Log
-*Generated: 2026-08-28T02:25:27.490Z*
+*Generated: 2026-08-29T21:29:32.397Z*
 
 ## Summary
 - Deals: 0 verified (2+ sources), 0 single-source
@@ -10,8 +10,8 @@
 
 | Fund | Size | Sources | Status |
 |------|------|---------|--------|
-| GTCR Capital Solutions Fund | $1.25 Billion | 3 | ✅ |
-| Wind Point Partners XI | $3.2 Billion | 3 | ✅ |
+| GTCR Capital Solutions Fund | $1.25B | 3 | ✅ |
+| Wind Point Partners XI | $3.2B | 3 | ✅ |
 
 ## ❌ Broken Links
 

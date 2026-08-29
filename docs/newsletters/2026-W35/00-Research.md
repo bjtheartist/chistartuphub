@@ -1,6 +1,6 @@
 # Research Notes — 2026-W35
-*Generated: 2026-08-28T02:25:27.489Z*
-*Window: 2026-08-21 to 2026-08-28 (deals) | 2026-07-24 to 2026-08-28 (funds)*
+*Generated: 2026-08-29T21:29:32.394Z*
+*Window: 2026-08-22 to 2026-08-29 (deals) | 2026-07-25 to 2026-08-29 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -12,25 +12,25 @@
 
 ## Fund News (2)
 
-### GTCR Capital Solutions Fund — $1.25 Billion ✅
+### GTCR Capital Solutions Fund — $1.25B ✅
 - **Manager:** GTCR
 - **Strategy:** Private equity — transformative growth in various sectors
 - **Close date:** 2026-07-29
-- **Description:** GTCR announced the final close of its inaugural Capital Solutions Fund with approximately $1.25 billion in aggregate commitments, focusing on transformative growth in multiple sectors.
+- **Description:** GTCR has announced the final close of its inaugural Capital Solutions Fund with approximately $1.25 billion in aggregate commitments, focusing on transformative growth in multiple sectors.
 - **Sources (3):**
   - [GTCR Closes $1.25 Billion Capital Solutions Fund](https://www.prnewswire.com/news-releases/gtcr-closes-1-25-billion-capital-solutions-fund-302837130.html)
-  - [Makers Fund closes $250m entertainment fund; Castlelake prices $261m securitization - Alternatives Watch](https://www.alternativeswatch.com/2026/08/20/makers-fund-250-million-entertainment-castlelake-rmbs-securitization/)
-  - [The Venture Market Is Not Recovering. It Is Reorganizing. - natlawreview.com](https://natlawreview.com/article/venture-market-not-recovering-it-reorganizing?amp)
+  - [GTCR Closes $1.25 Billion Capital Solutions Fund](https://peprofessional.com/2026/08/gtcr-closes-1-25-billion-capital-solutions-fund)
+  - [Fundraising - Mergers & Acquisitions](https://www.themiddlemarket.com/tag/fundraising)
 
-### Wind Point Partners XI — $3.2 Billion ✅
+### Wind Point Partners XI — $3.2B ✅
 - **Manager:** Wind Point Partners
-- **Strategy:** Private equity — partnering with management teams for transformational growth
+- **Strategy:** Private equity
 - **Close date:** 2026-07-29
-- **Description:** Wind Point Partners announced the successful closing of its latest fund, Wind Point Partners XI, which was oversubscribed and exceeded the hard cap with total commitments of $3.2 billion.
+- **Description:** Wind Point Partners, a leading Chicago-based private equity firm, announced the successful closing of its latest fund, Wind Point Partners XI, which was oversubscribed and exceeded the hard cap with total commitments of $3.2 billion.
 - **Sources (3):**
   - [Wind Point Partners Announces Final Close of Oversubscribed Fund XI at $3.2 Billion](https://www.businesswire.com/news/home/20260729573815/en/Wind-Point-Partners-Announces-Final-Close-of-Oversubscribed-Fund-XI-at-%243.2-Billion) [BROKEN LINK]
-  - [Wind Point Partners Closes $3.2B Fund at Hard Cap](https://www.linkedin.com/posts/kevindritter_privateequity-fundraising-alternativeinvestments-activity-7495707978994524160-ZQPc)
-  - [Wind Point Partners Closes Record $3.2 Billion Fund XI](https://www.linkedin.com/posts/peforum_wind-point-partners-closes-record-32-activity-7494637827167711232-XkZU)
+  - [Wind Point Partners Raises $3.2B Fund XI](https://www.linkedin.com/posts/thrivealternatives-capitaladvisory_congratulations-privatemarkets-partnership-activity-7488507457464475648-JUcp)
+  - [Wind Point Partners Closes $3.2B Fund at Hard Cap | Kevin Ritter posted on the topic | LinkedIn](https://www.linkedin.com/posts/kevindritter_privateequity-fundraising-alternativeinvestments-activity-7495707978994524160-ZQPc)
 
 ## Upcoming Deadlines (3)
 
