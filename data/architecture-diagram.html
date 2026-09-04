@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChiStartupHub — Architecture</title>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0a0a0a; padding: 30px; font-family: 'SF Mono', 'Fira Code', monospace; color: #e4e4e7; }
+    h1 { text-align: center; font-size: 1.6rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 6px; color: #fff; }
+    .subtitle { text-align: center; font-size: 0.75rem; color: #71717a; letter-spacing: 0.15em; margin-bottom: 32px; }
+    .section { margin-bottom: 40px; }
+    .section-title {
+      font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+      color: #a1a1aa; border-bottom: 1px solid #27272a; padding-bottom: 8px; margin-bottom: 16px;
+    }
+    .mermaid { background: #111; border: 1px solid #27272a; border-radius: 6px; padding: 20px; overflow-x: auto; }
+    .mermaid svg { width: 100%; min-height: 200px; }
+    .stats {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 32px;
+    }
+    .stat {
+      background: #111; border: 1px solid #27272a; border-radius: 6px; padding: 16px; text-align: center;
+    }
+    .stat-value { font-size: 1.8rem; font-weight: 300; color: #fff; }
+    .stat-label { font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: #71717a; margin-top: 4px; }
+    .stat-delta { font-size: 0.65rem; color: #4ade80; margin-top: 2px; }
+  </style>
+</head>
+<body>
+
+<h1>ChiStartupHub</h1>
+<p class="subtitle">Data Flow & State Management &mdash; March 2026</p>
+
+<!-- Key Stats -->
+<div class="stats">
+  <div class="stat">
+    <div class="stat-value">66,619</div>
+    <div class="stat-label">Investors (after migration)</div>
+    <div class="stat-delta">+64,514 from funding_opp</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">2,854</div>
+    <div class="stat-label">Funding Opportunities</div>
+    <div class="stat-delta">grants + accelerators + competitions</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">6</div>
+    <div class="stat-label">Free Data Sources</div>
+    <div class="stat-delta">$0 total API cost</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">21%</div>
+    <div class="stat-label">Location Coverage</div>
+    <div class="stat-delta">+3,692 from enrichment</div>
+  </div>
+</div>
+
+<!-- Diagram 1: Data Pipeline -->
+<div class="section">
+  <div class="section-title">1. Data Ingestion & Enrichment Pipeline</div>
+  <div class="mermaid">
+flowchart LR
+    subgraph Sources["Free APIs ($0)"]
+        SEC["SEC EDGAR\n61K entities"]
+        GLEIF["GLEIF\nLegal entities"]
+        PP["ProPublica\nNonprofits"]
+        WD["Wikidata\nSPARQL"]
+        USA["USAspending\nFed grants"]
+        OVC["OpenVC\nCSV data"]
+    end
+
+    subgraph Scripts["Enrichment Scripts"]
+        E1["enrich-sec-edgar\nCIK → address"]
+        E2["enrich-gleif\nLEI → HQ"]
+        E3["enrich-irs990\nEIN → location"]
+        E4["enrich-wikidata\nSPARQL → website"]
+        E5["enrich-usaspending\nawards → size"]
+        E6["enrich-free-sources\nCSV cross-match"]
+    end
+
+    subgraph DB["Supabase DB"]
+        FO[("funding_opportunities\n68,586 records")]
+        MIG["migrate-investors.mjs\nsplit vc/angel → investors"]
+        INV[("investors\n66,619 records")]
+        FO2[("funding_opportunities\n~2,854 events")]
+    end
+
+    SEC --> E1 --> FO
+    GLEIF --> E2 --> FO
+    PP --> E3 --> FO
+    WD --> E4 --> FO
+    USA --> E5 --> FO
+    OVC --> E6 --> FO
+
+    FO -->|"65,732 vc/angel"| MIG --> INV
+    FO -->|"2,854 grants/accel"| FO2
+
+    style Sources fill:#0d2818,stroke:#22c55e,color:#bbf7d0
+    style Scripts fill:#1e1b4b,stroke:#818cf8,color:#c7d2fe
+    style DB fill:#1c1917,stroke:#f97316,color:#fed7aa
+  </div>
+</div>
+
+<!-- Diagram 2: Database Schema -->
+<div class="section">
+  <div class="section-title">2. Database Schema & Relationships</div>
+  <div class="mermaid">
+erDiagram
+    investors {
+        uuid id PK
+        text canonical_name
+        text website
+        text domain
+        text hq_city
+        text hq_state
+        text hq_country
+        boolean is_midwest
+        text investor_type
+        text stage_focus
+        text[] sectors
+        int check_size_min
+        int check_size_max
+        text description
+        vector embedding
+        int mvip_score
+        int completeness_score
+    }
+
+    funding_opportunities {
+        uuid id PK
+        text name
+        text organization
+        text opportunity_type
+        date deadline
+        text application_link
+        int check_size_min
+        int check_size_max
+        text[] sectors
+        text[] stage
+        text website
+        vector embedding
+        int completeness_score
+    }
+
+    user_profiles {
+        uuid id PK
+        uuid auth_id FK
+        text display_name
+        text role
+    }
+
+    investor_pipeline {
+        uuid id PK
+        uuid user_id FK
+        uuid investor_id FK
+        text stage
+        text tag
+        text notes
+    }
+
+    saved_searches {
+        uuid id PK
+        uuid user_id FK
+        text query
+        text search_mode
+        jsonb filters
+    }
+
+    saved_lists {
+        uuid id PK
+        uuid user_id FK
+        text name
+        uuid[] investor_ids
+    }
+
+    founder_asks {
+        uuid id PK
+        uuid user_id FK
+        text title
+        text category
+        text description
+    }
+
+    bookmarks {
+        uuid id PK
+        uuid user_id FK
+        text resource_type
+        uuid resource_id
+    }
+
+    subscriptions {
+        uuid id PK
+        uuid user_id FK
+        text plan
+        text stripe_id
+    }
+
+    investors ||--o{ investor_pipeline : "tracked by"
+    user_profiles ||--o{ investor_pipeline : "owns"
+    user_profiles ||--o{ saved_searches : "owns"
+    user_profiles ||--o{ saved_lists : "owns"
+    user_profiles ||--o{ bookmarks : "owns"
+    user_profiles ||--o{ founder_asks : "creates"
+    user_profiles ||--|| subscriptions : "has"
+  </div>
+</div>
+
+<!-- Diagram 3: React App Architecture -->
+<div class="section">
+  <div class="section-title">3. React App — State Management & Data Flow</div>
+  <div class="mermaid">
+flowchart TB
+    subgraph Providers["Context Providers (App Root)"]
+        AUTH["AuthContext\nsession / profile\nsignIn / signOut"]
+        SUBS["SubscriptionContext\nisPro / checkout / portal"]
+    end
+
+    subgraph RQCache["React Query Cache (5min stale)"]
+        Q1["['investors']"]
+        Q2["['funding-opportunities']"]
+        Q3["['upcoming-opportunities']"]
+        Q4["['founder-asks']"]
+        Q5["['investor-pipeline', uid]"]
+        Q6["['saved-searches', uid]"]
+        Q7["['saved-lists', uid]"]
+        Q8["['bookmarks', uid, type]"]
+    end
+
+    subgraph Hooks["Custom Hooks"]
+        H1["useInvestorSearch\nboolean + semantic"]
+        H2["useOpportunitySearch"]
+        H3["useUnifiedSearch"]
+        H4["useInvestorPipeline"]
+        H5["usePipelineAnnotations"]
+        H6["useFounderAsks"]
+        H7["useBookmarks"]
+        H8["useSavedSearches"]
+        H9["useSavedLists"]
+        H10["useInvestorExport"]
+    end
+
+    subgraph Pages["Pages"]
+        P1["/Investors"]
+        P2["/Funding"]
+        P3["/Opportunities"]
+        P4["/Profile"]
+        P5["/ Home"]
+    end
+
+    subgraph Comps["Key Components"]
+        C1["InvestorPageContent"]
+        C2["InvestorStrip / Card / Modal"]
+        C3["TieredResults"]
+        C4["FundingPageContent"]
+        C5["NoirZineCard / Modal"]
+        C6["FounderAskCard"]
+        C7["SearchModeToggle"]
+    end
+
+    %% DB to cache
+    Q1 -->|"public_investors view"| H1
+    Q2 --> H2 & H3
+    Q1 --> H3
+    Q4 --> H6
+    Q5 --> H4 --> H5
+    Q6 --> H8
+    Q7 --> H9
+    Q8 --> H7
+
+    %% Hooks to pages
+    H1 --> P1
+    H2 & H3 --> P2
+    H6 --> P3
+    H7 --> P4
+
+    %% Pages to components
+    P1 --> C1 --> C2 & C3 & C7
+    P2 --> C4 --> C5
+    P3 --> C6
+
+    %% Context flows
+    AUTH -.->|"auth state"| P1 & P2 & P3 & P4
+    SUBS -.->|"isPro"| P1 & P2
+
+    style Providers fill:#312e81,stroke:#818cf8,color:#c7d2fe
+    style RQCache fill:#1e3a5f,stroke:#38bdf8,color:#bae6fd
+    style Hooks fill:#3b1764,stroke:#c084fc,color:#e9d5ff
+    style Pages fill:#064e3b,stroke:#34d399,color:#a7f3d0
+    style Comps fill:#27272a,stroke:#a1a1aa,color:#e4e4e7
+  </div>
+</div>
+
+<!-- Diagram 4: Search Flow -->
+<div class="section">
+  <div class="section-title">4. Investor Search Flow (Semantic + Boolean)</div>
+  <div class="mermaid">
+sequenceDiagram
+    participant U as User
+    participant UI as SearchModeToggle
+    participant H as useInvestorSearch
+    participant EF as Edge Function<br/>(parse-investor-query)
+    participant AI as OpenAI + DeepSeek
+    participant RPC as hybrid_search_investors<br/>(pgvector RPC)
+    participant DB as investors table<br/>(66K records)
+
+    U->>UI: Type query + Enter
+    UI->>H: search(query)
+
+    alt Boolean Mode
+        H->>H: parseBooleanQuery(query)
+        H->>H: Filter in-memory<br/>(AND/OR/NOT/quotes)
+        H-->>U: Filtered results
+    else Semantic Mode (Pro only)
+        H->>EF: POST /parse-investor-query
+        EF->>AI: Generate embedding<br/>+ parse filters
+        AI-->>EF: {embedding, filters}
+        EF-->>H: {embedding, parsedFilters}
+        H->>RPC: hybrid_search(embedding, filters)
+        RPC->>DB: pgvector cosine similarity<br/>+ filter clauses
+        DB-->>RPC: Ranked matches
+        RPC-->>H: Tiered results
+        H->>H: Progressive relaxation<br/>(if < 5 results)
+        H-->>U: strong / exploring / broader
+    end
+
+    U->>U: Refine with AND/OR/NOT<br/>(post-filter semantic results)
+  </div>
+</div>
+
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'dark',
+    themeVariables: {
+      darkMode: true,
+      background: '#111',
+      primaryColor: '#1e1b4b',
+      primaryTextColor: '#e0e7ff',
+      primaryBorderColor: '#4f46e5',
+      lineColor: '#6366f1',
+      secondaryColor: '#1a1a2e',
+      tertiaryColor: '#0f172a',
+      fontSize: '12px',
+      fontFamily: 'SF Mono, Fira Code, monospace',
+    },
+    flowchart: { useMaxWidth: true, htmlLabels: true, curve: 'basis', padding: 12 },
+    er: { useMaxWidth: true, fontSize: 11 },
+    sequence: { useMaxWidth: true, fontSize: 12, actorFontSize: 11, messageFontSize: 11 },
+  });
+</script>
+</body>
+</html>

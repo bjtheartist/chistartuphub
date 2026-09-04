@@ -1,9 +1,13 @@
 import React from 'react';
-import { X, ExternalLink, Share2 } from 'lucide-react';
+import { X, ExternalLink, Share2, Loader2 } from 'lucide-react';
 import { toast } from 'sonner';
 import { cn } from '@/lib/utils';
 import { useAuth } from '@/contexts/AuthContext';
+import { useSubscription } from '@/contexts/SubscriptionContext';
 import { useInvestorPipeline } from '@/hooks/useInvestorPipeline';
+import { useCoinvestors } from '@/hooks/useCoinvestors';
+import { useKeyPeople } from '@/hooks/useKeyPeople';
+import { UpgradePrompt } from '@/components/UpgradePrompt';
 import { AddToPipelineButton } from './AddToPipelineButton';
 import { InvestorTagSelector } from './InvestorTagSelector';
 import { InvestorNotesField } from './InvestorNotesField';
@@ -33,8 +37,11 @@ export function InvestorModal({
   onClose
 }) {
   const { user } = useAuth();
+  const { isPro } = useSubscription();
   const { getItem, updateTag, updateNotes } = useInvestorPipeline();
   const pipelineItem = investor ? getItem(investor.id) : null;
+  const { data: coinvestors, isLoading: coinvestorsLoading } = useCoinvestors(investor?.id);
+  const { data: keyPeople, isLoading: peopleLoading } = useKeyPeople(investor?.id);
   // Lock body scroll when modal is open
   React.useEffect(() => {
     if (isOpen) {
@@ -202,6 +209,97 @@ export function InvestorModal({
               </div>
             )}
 
+            {/* Key People */}
+            <div className="mb-8">
+              <h3 className="text-[10px] uppercase tracking-[0.2em] text-chi-dim mb-4">
+                Key People <span className="text-chi-muted ml-1">(SEC Filings)</span>
+              </h3>
+              {peopleLoading ? (
+                <div className="flex items-center gap-2 py-4">
+                  <Loader2 className="w-3 h-3 text-chi-muted animate-spin" />
+                  <span className="font-mono text-[11px] text-chi-muted">Loading...</span>
+                </div>
+              ) : keyPeople?.length > 0 ? (
+                <div className="flex flex-wrap gap-2">
+                  {keyPeople.slice(0, 12).map((person) => (
+                    <div
+                      key={person.name}
+                      className="border border-chi-ghost/30 px-3 py-2 hover:border-chi-ghost transition-colors"
+                    >
+                      <div className="font-mono text-xs text-white">{person.name}</div>
+                      <div className="font-mono text-[9px] text-chi-dim mt-0.5">
+                        {person.roles.join(' · ')}
+                        {person.dealCount > 1 && (
+                          <span className="ml-1 text-chi-muted">({person.dealCount} filings)</span>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                  {keyPeople.length > 12 && (
+                    <div className="flex items-center px-3 py-2 font-mono text-[10px] text-chi-dim">
+                      + {keyPeople.length - 12} more
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <p className="font-mono text-[11px] text-chi-dim">
+                  No personnel data available from SEC filings.
+                </p>
+              )}
+            </div>
+
+            {/* Co-Investors */}
+            <div className="mb-8">
+              <h3 className="text-[10px] uppercase tracking-[0.2em] text-chi-dim mb-4">
+                Co-Investors <span className="text-chi-muted ml-1">(Form D Filings)</span>
+              </h3>
+              {coinvestorsLoading ? (
+                <div className="flex items-center gap-2 py-4">
+                  <Loader2 className="w-3 h-3 text-chi-muted animate-spin" />
+                  <span className="font-mono text-[11px] text-chi-muted">Loading co-investment data...</span>
+                </div>
+              ) : coinvestors?.length > 0 ? (
+                <div className="space-y-2">
+                  {coinvestors.slice(0, 8).map((co) => (
+                    <div
+                      key={co.investor_id}
+                      className="flex items-center justify-between border border-chi-ghost/30 px-4 py-3 hover:border-chi-ghost transition-colors"
+                    >
+                      <div className="flex-1 min-w-0">
+                        <div className="font-mono text-sm text-white truncate">
+                          {co.investor?.canonical_name || 'Unknown Investor'}
+                        </div>
+                        <div className="font-mono text-[10px] text-chi-dim mt-0.5">
+                          {co.investor?.hq_city && co.investor?.hq_state
+                            ? `${co.investor.hq_city}, ${co.investor.hq_state}`
+                            : co.investor?.investor_type?.toUpperCase() || ''}
+                        </div>
+                      </div>
+                      <div className="text-right shrink-0 ml-4">
+                        <div className="font-mono text-xs text-white">
+                          {co.shared_deals} deal{co.shared_deals > 1 ? 's' : ''}
+                        </div>
+                        {co.shared_companies?.length > 0 && (
+                          <div className="font-mono text-[9px] text-chi-dim mt-0.5 max-w-[200px] truncate">
+                            {co.shared_companies.slice(0, 3).join(', ')}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                  {coinvestors.length > 8 && (
+                    <div className="font-mono text-[10px] text-chi-dim pt-1">
+                      + {coinvestors.length - 8} more co-investors
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <p className="font-mono text-[11px] text-chi-dim">
+                  No co-investment data found in Form D filings.
+                </p>
+              )}
+            </div>
+
             {/* Notes (logged-in only) */}
             {user && investor?.id && (
               <div className="mb-8">
@@ -213,6 +311,13 @@ export function InvestorModal({
             )}
           </div>
           
+          {/* Upgrade Prompt (when website is gated) */}
+          {!isPro && !website && (
+            <div className="px-6 md:px-8 pb-4">
+              <UpgradePrompt variant="inline" feature="Contact details" />
+            </div>
+          )}
+
           {/* Footer Actions */}
           <div className="p-6 md:p-8 border-t border-chi-grid bg-black/30">
             <div className="flex items-center justify-between">
@@ -232,7 +337,7 @@ export function InvestorModal({
                   <Share2 className="w-4 h-4" />
                 </button>
               </div>
-              
+
               {website && (
                 <a
                   href={website}

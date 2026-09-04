@@ -1,0 +1,817 @@
+{
+  "nonVcBreakdown": {
+    "real_estate": 2539,
+    "credit": 1299,
+    "infrastructure": 201,
+    "hedge_fund": 194,
+    "insurance": 23,
+    "agriculture": 25,
+    "passive": 59,
+    "commodity": 58
+  },
+  "totalNonVc": 4398,
+  "totalVcRelevant": 62243,
+  "uniqueFirms": 55911,
+  "multiGroupCount": 3825,
+  "recordsToConsolidate": 6332,
+  "topGroups": [
+    {
+      "parentName": "MVP LS",
+      "count": 103,
+      "funds": [
+        "MVP LS FUND CC LLC",
+        "MVP LS FUND DIV LLC",
+        "MVP LS FUND DXLVIII LLC",
+        "MVP LS FUND CDLXVI LLC",
+        "MVP LS FUND CXXXIII LLC",
+        "MVP LS FUND DLXXVII LLC",
+        "MVP LS Fund XXXV LLC",
+        "MVP LS FUND CLXI LLC",
+        "MVP LS FUND CDXLIV LLC",
+        "MVP LS FUND DCXXI LLC"
+      ]
+    },
+    {
+      "parentName": "LaSalle Global Employee Co-Investment",
+      "count": 37,
+      "funds": [
+        "LaSalle Global Employee Co-Investment Fund B L.P., in respect of LRECS Founding - Class C",
+        "LaSalle Global Employee Co-Investment Fund B L.P. in respect of Class GTA W21 LP - B",
+        "LaSalle Global Employee Co-Investment Fund B, L.P. in respect of Class Korea Logistics Separate Account - C",
+        "LaSalle Global Employee Co-Investment Fund B, L.P. in respect of Class LMREC V - D",
+        "LaSalle Global Employee Co-Investment Fund L.P. in respect of Class Asia VI - C",
+        "LaSalle Global Employee Co-Investment Fund B L.P., in solely in respect to Concentrated GPF Class A",
+        "LaSalle Global Employee Co-Investment Fund L.P. in respect of Class Sunrise Sorrento Ridge I - A",
+        "LaSalle Global Employee Co-Investment Fund B, L.P. in respect of Class LMREC V - E",
+        "LaSalle Global Employee Co-Investment Fund B, L.P. in respect of Class LVP US IX - A",
+        "LaSalle Global Employee Co-Investment Fund B L.P., in respect of LRECS Founding - Class B"
+      ]
+    },
+    {
+      "parentName": "V360 Holdings",
+      "count": 33,
+      "funds": [
+        "V360 Holdings LLC Series 2304A",
+        "V360 Holdings LLC Series Osmind Fund I",
+        "V360 Holdings LLC Series Apex Fund II",
+        "V360 Holdings LLC Series 2312A",
+        "V360 HOLDINGS LLC SERIES 2404A",
+        "V360 Holdings LLC Series 2308B",
+        "V360 Holdings LLC Series Saronic Fund I",
+        "V360 Holdings LLC Series Graphiant Fund I",
+        "V360 Holdings LLC Series SM-FH-01",
+        "V360 Holdings LLC Series 2302B"
+      ]
+    },
+    {
+      "parentName": "WM CAPITAL PARTNERS",
+      "count": 31,
+      "funds": [
+        "WM CAPITAL PARTNERS VIII, LLC",
+        "WM CAPITAL PARTNERS XXI, LLC",
+        "WM CAPITAL PARTNERS XI, LLC",
+        "WM CAPITAL PARTNERS XXVI, LLC",
+        "WM Capital Partners XXVIII, LLC",
+        "WM Capital Partners X, LLC",
+        "WM CAPITAL PARTNERS VI, LLC",
+        "WM CAPITAL PARTNERS XVII, LLC",
+        "WM CAPITAL PARTNERS XXII, LLC",
+        "WM CAPITAL PARTNERS XXIII, LLC"
+      ]
+    },
+    {
+      "parentName": "G Squared Opportunities",
+      "count": 29,
+      "funds": [
+        "G Squared Opportunities Fund IV LLC, Series N-2",
+        "G Squared Opportunities Fund IV LLC, Series O-2",
+        "G Squared Opportunities Fund IV LLC, Series K-1",
+        "G Squared Opportunities Fund IV LLC, Series I-1",
+        "G Squared Opportunities Fund IV LLC Series Q-2",
+        "G Squared Opportunities Fund IV LLC, Series P-2",
+        "G Squared Opportunities Fund IV LLC, Series P-1",
+        "G Squared Opportunities Fund IV LLC Series N-7",
+        "G Squared Opportunities Fund IV LLC, Series M-5",
+        "G Squared Opportunities Fund IV LLC Series U-1"
+      ]
+    },
+    {
+      "parentName": "PATHWAY PRIVATE EQUITY",
+      "count": 27,
+      "funds": [
+        "PATHWAY PRIVATE EQUITY FUND CV-A, LP",
+        "Pathway Private Equity Fund XXX-FP, LP",
+        "Pathway Private Equity Fund Investors 7 (Cayman), LP",
+        "Pathway Private Equity Fund XVII-B, LP",
+        "Pathway Private Equity Fund XXIX, LP",
+        "Pathway Private Equity Fund V-D, LP",
+        "Pathway Private Equity Fund XXV, LP",
+        "Pathway Private Equity Fund XX-B, LP",
+        "Pathway Private Equity Fund XXXII (Cayman), LP",
+        "Pathway Private Equity Fund III-Co, LP"
+      ]
+    },
+    {
+      "parentName": "MV Startup",
+      "count": 26,
+      "funds": [
+        "MV Startup Fund XXXVIII LLC",
+        "MV Startup Fund XIV LLC",
+        "MV Startup Fund XXVI LLC",
+        "MV Startup Fund XXVIII LLC",
+        "MV Startup Fund III Series 2",
+        "MV Startup Fund XXXIII LLC",
+        "MV Startup Fund XXV LLC",
+        "MV Startup Fund XXXVI LLC",
+        "MV Startup Fund XXIX LLC",
+        "MV Startup Fund XV LLC"
+      ]
+    },
+    {
+      "parentName": "Aliya Growth",
+      "count": 26,
+      "funds": [
+        "Aliya Growth Fund LLC - Series HH",
+        "Aliya Growth Fund LLC - Series PP",
+        "Aliya Growth Fund LLC - Series Q",
+        "Aliya Growth Fund LLC - Series DD",
+        "Aliya Growth Fund LLC - Series K",
+        "Aliya Growth Fund LLC - Series AA",
+        "Aliya Growth Fund LLC - Series D",
+        "Aliya Growth Fund LLC - Series T",
+        "Aliya Growth Fund LLC - Series BB",
+        "Aliya Growth Fund LLC - Series EE"
+      ]
+    },
+    {
+      "parentName": "JS VENTURE",
+      "count": 24,
+      "funds": [
+        "JS VENTURE FUND LLC SERIES A28",
+        "JS VENTURE FUND LLC SERIES A12",
+        "JS VENTURE FUND LLC SERIES A35",
+        "JS VENTURE FUND LLC SERIES A18",
+        "JS VENTURE FUND LLC SERIES A34",
+        "JS VENTURE FUND LLC SERIES A23",
+        "JS Venture Fund LLC Series A8",
+        "JS Venture Fund LLC Series A7",
+        "JS VENTURE FUND LLC SERIES A27",
+        "JS VENTURE FUND LLC SERIES A29"
+      ]
+    },
+    {
+      "parentName": "Silver Edge Venture",
+      "count": 23,
+      "funds": [
+        "Silver Edge Venture Fund LLC Series N1 - Kraken",
+        "Silver Edge Venture Fund LLC Series O1 - BitPay",
+        "Silver Edge Venture Fund E1 - Synexis",
+        "Silver Edge Venture Fund C1 - Impossible Foods",
+        "Silver Edge Venture Fund B1-A-Palantir",
+        "Silver Edge Venture Fund B1 - Palantir",
+        "Silver Edge Venture Fund A1 - TopGolf",
+        "Silver Edge Venture Fund K1 - UiPath",
+        "Silver Edge Venture Fund F1 - Plastiq",
+        "Silver Edge Venture Fund LLC Series I1-A - Triller"
+      ]
+    },
+    {
+      "parentName": "Adit Growth Equity",
+      "count": 23,
+      "funds": [
+        "Adit Growth Equity Co-Invest, LLC - Series Magic-1",
+        "Adit Growth Equity LLC",
+        "Adit Growth Equity II, LLC",
+        "Adit Growth Equity III Co-Invest, LLC - Series Esme-1",
+        "Adit Growth Equity Co-Invest, LLC - Series Palantir-1",
+        "Adit Growth Equity Co-Invest, LLC - Series Airbnb-1",
+        "Adit Growth Equity Co-Invest, LLC - Series Klarna-1",
+        "Adit Growth Equity III Co-Invest, LLC - Series Klarna-1",
+        "Adit Growth Equity III Co-Invest, LLC - Series Airbnb-1",
+        "Adit Growth Equity Co-Invest, LLC - Series Esme-1"
+      ]
+    },
+    {
+      "parentName": "Eclipse",
+      "count": 22,
+      "funds": [
+        "Eclipse SPV IV, L.P.",
+        "Eclipse SPV XIII, L.P.",
+        "Eclipse SPV XIX, L.P.",
+        "Eclipse SPV XXIII, L.P.",
+        "Eclipse SPV XVII, L.P.",
+        "Eclipse SPV XXV, L.P.",
+        "Eclipse SPV XXII, L.P.",
+        "Eclipse SPV XXVI, L.P.",
+        "Eclipse SPV I, L.P.",
+        "Eclipse SPV XVIII, L.P."
+      ]
+    },
+    {
+      "parentName": "Lansing Street Real Estate",
+      "count": 21,
+      "funds": [
+        "Lansing Street Real Estate Fund LLC - Series AU",
+        "Lansing Street Real Estate Fund LLC - Series AH",
+        "Lansing Street Real Estate Fund LLC - Series AR",
+        "Lansing Street Real Estate Fund LLC - Series AD",
+        "Lansing Street Real Estate Fund LLC - Series AV",
+        "Lansing Street Real Estate Fund LLC - Series AG",
+        "Lansing Street Real Estate Fund LLC - Series AM",
+        "Lansing Street Real Estate Fund LLC - Series AF",
+        "Lansing Street Real Estate Fund LLC - Series AE",
+        "Lansing Street Real Estate Fund LLC - Series AA"
+      ]
+    },
+    {
+      "parentName": "MVP ES",
+      "count": 19,
+      "funds": [
+        "MVP ES Fund XXXIII LLC",
+        "MVP ES FUND LXXXVIII LLC",
+        "MVP ES FUND XLVIII LLC",
+        "MVP ES FUND XIV LLC",
+        "MVP ES FUND LIV LLC",
+        "MVP ES Fund I LLC",
+        "MVP ES FUND XLVI LLC",
+        "MVP ES FUND CXV LLC",
+        "MVP ES Fund LXXVII LLC",
+        "MVP ES FUND L LLC"
+      ]
+    },
+    {
+      "parentName": "Ancora Impact",
+      "count": 19,
+      "funds": [
+        "Ancora Impact Fund SPC Ltd. - Segregated Portfolio E",
+        "Ancora Impact Fund LP - Series FF",
+        "Ancora Impact Fund LP - Series J",
+        "Ancora Impact Fund LP - Series EE",
+        "Ancora Impact Fund LP - Series BB",
+        "Ancora Impact Fund LP - Series Q",
+        "Ancora Impact Fund LP - Series DD",
+        "Ancora Impact Fund LP - Series M",
+        "Ancora Impact Fund SPC Ltd. - Segregated Portfolio I",
+        "Ancora Impact Fund SPC Ltd. - Segregated Portfolio H"
+      ]
+    },
+    {
+      "parentName": "AlpInvest Co-Investment",
+      "count": 17,
+      "funds": [
+        "AlpInvest Co-Investment Fund (Lux Euro Master) VIII, SCSp",
+        "AlpInvest Co-Investment Fund (Offshore Feeder) VIII, L.P.",
+        "AlpInvest Co-Investment Fund (Lux Feeder) IX, SCSp",
+        "AlpInvest Co-Investment Fund (Lux Euro Master) IX, SCSp",
+        "AlpInvest Co-Investment Fund (Offshore Feeder) IX, L.P.",
+        "AlpInvest Co-Investment Fund (Onshore) VIII, L.P.",
+        "AlpInvest Co-Investment Fund (Offshore Feeder) VII, L.P.",
+        "AlpInvest Co-Investment Fund (Offshore) IX, L.P.",
+        "AlpInvest Co-Investment Fund (Lux Feeder) VIII, SCSp",
+        "AlpInvest Co-Investment Fund (Lux Master) IX, SCSp"
+      ]
+    },
+    {
+      "parentName": "SEA Venture Capital",
+      "count": 16,
+      "funds": [
+        "SEA Venture Capital Fund - Alung Note 2018 L.P.",
+        "SEA Venture Capital Fund - Smart Pipe, L.P.",
+        "SEA Venture Capital Fund - Ridgetop-2011,L.P.",
+        "SEA Venture Capital Fund - ClearCount CN-10,L.P.",
+        "SEA Venture Capital Fund - ClearCount CN-11, L.P.",
+        "SEA Venture Capital Fund - Smartpipe 2015 Series B-1 L.P.",
+        "SEA Venture Capital Fund - Ridgetop V L.P.",
+        "SEA Venture Capital Fund - Ridgetop L.P.",
+        "SEA Venture Capital Fund - Inspired Technologies, L.P.",
+        "SEA Venture Capital Fund - MiaSole L.P."
+      ]
+    },
+    {
+      "parentName": "Planck Holdings",
+      "count": 16,
+      "funds": [
+        "Planck Holdings LLC-Series 2021C",
+        "Planck Holdings LLC- Series 2021Q",
+        "Planck Holdings LLC- Series 2022E",
+        "Planck Holdings LLC - Series 2023F",
+        "Planck Holdings LLC - Series 2023K",
+        "Planck Holdings LLC - Series WRM Software",
+        "Planck Holdings LLC",
+        "Planck Holdings LLC - Series 2023T",
+        "Planck Holdings LLC - Series 2023G",
+        "Planck Holdings LLC - Series 2023L"
+      ]
+    },
+    {
+      "parentName": "HOF Capital Growth Opportunity",
+      "count": 15,
+      "funds": [
+        "HOF Capital Growth Opportunity XXIX, LLC",
+        "HOF Capital Growth Opportunity XXVIII, LLC",
+        "HOF Capital Growth Opportunity XXXVII LLC",
+        "HOF Capital Growth Opportunity XXI, LLC",
+        "HOF Capital Growth Opportunity XL, LLC",
+        "HOF Capital Growth Opportunity XVI, LLC",
+        "HOF Capital Growth Opportunity XXXIII, LLC",
+        "HOF Capital Growth Opportunity XXXV, LLC",
+        "HOF Capital Growth Opportunity XV, LLC",
+        "HOF Capital Growth Opportunity XXII, LLC"
+      ]
+    },
+    {
+      "parentName": "RCP",
+      "count": 14,
+      "funds": [
+        "RCP GP FUND II, LP",
+        "RCP",
+        "RCP Fund XVI Cayman Feeder",
+        "RCP Fund II Co-Invest-Beacon 1, L.P.",
+        "RCP Fund II AI, LP",
+        "RCP Fund III Employee Co-Invest, L.P.",
+        "RCP Fund XV Cayman Feeder",
+        "RCP Fund II Co-Invest-DataLink 1, L.P.",
+        "RCP Fund XVIII Cayman Feeder",
+        "RCP Fund XIV Cayman Feeder"
+      ]
+    },
+    {
+      "parentName": "Advent Latin American Private Equity",
+      "count": 13,
+      "funds": [
+        "Advent Latin American Private Equity Fund V-F L.P.",
+        "Advent Latin American Private Equity Fund V L.P.",
+        "Advent Latin American Private Equity Fund VII-A SCSp",
+        "Advent Latin American Private Equity Fund V-B L.P.",
+        "Advent Latin American Private Equity Fund V-A L.P.",
+        "Advent Latin American Private Equity Fund V-C L.P.",
+        "Advent Latin American Private Equity Fund VII-B SCSp",
+        "Advent Latin American Private Equity Fund V-D L.P.",
+        "Advent Latin American Private Equity Fund VII-C SCSp",
+        "Advent Latin American Private Equity Fund V-G Limited Partnership"
+      ]
+    },
+    {
+      "parentName": "IEQ Capital Access",
+      "count": 13,
+      "funds": [
+        "IEQ Capital Access Fund - Pretium Single-Family Rental Fund III, L.P.",
+        "IEQ Capital Access Fund - Carter-Haston Multifamily Fund V, L.P.",
+        "IEQ Capital Access Fund - Clairmont Capital Co-GP Fund IV, L.P.",
+        "IEQ Capital Access Fund - OS Fund V, L.P.",
+        "IEQ Capital Access Fund - GoodFinch Fund V, L.P.",
+        "IEQ Capital Access Fund - Transformation Capital Fund IV, L.P.",
+        "IEQ Capital Access Fund - Bridge Multifamily Fund IV (TE), L.P.",
+        "IEQ Capital Access Fund - Fortress Credit Opportunities Fund V Expansion, L.P.",
+        "IEQ Capital Access Fund - Commonfund Secondaries Fund III, L.P.",
+        "IEQ Capital Access Fund - FP Credit Partners III, L.P."
+      ]
+    },
+    {
+      "parentName": "KKR Asian",
+      "count": 13,
+      "funds": [
+        "KKR Asian Fund II Private Investors Offshore, L.P.",
+        "KKR Asian Fund III Private Investors, LLC",
+        "KKR Asian Fund III ESC (Lev)L.P.",
+        "KKR Asian Fund IV - Co-Invest L.P.",
+        "KKR Asian Fund IV (iCapital), L.P.",
+        "KKR Asian Fund III L.P.",
+        "KKR Asian Fund III Private Investors (Direct) L.P.",
+        "KKR Asian Fund III ESC (Unlev) L.P.",
+        "KKR Asian Fund III SBS (Lev) L.P.",
+        "KKR Asian Fund IV SBS L.P."
+      ]
+    },
+    {
+      "parentName": "Silver Edge Pre-IPO",
+      "count": 12,
+      "funds": [
+        "Silver Edge Pre-IPO Fund LLC Series P1 - Ui Path",
+        "Silver Edge Pre-IPO Fund LLC Series L1 - VIA Motors",
+        "Silver Edge Pre-IPO Fund LLC Series N1 - Triller",
+        "Silver Edge Pre-IPO Fund LLC Series M1 - Sofi",
+        "Silver Edge Pre-IPO Fund LLC Series F1 - 23&Me",
+        "Silver Edge Pre-IPO Fund LLC Series Q1 - ThoughtSpot",
+        "Silver Edge Pre-IPO Fund LLC Series B1A - Palantir",
+        "Silver Edge Pre-IPO Fund LLC Series K1 - Plastiq",
+        "Silver Edge Pre-IPO Fund LLC Series J1 - Synexis",
+        "Silver Edge Pre-IPO Fund LLC"
+      ]
+    },
+    {
+      "parentName": "KKR Global Impact",
+      "count": 12,
+      "funds": [
+        "KKR Global Impact Fund II Private Investors (Onshore) L.P.",
+        "KKR Global Impact Fund II Private Investors (Offshore) L.P.",
+        "KKR Global Impact Fund SBS (Unlev) L.P.",
+        "KKR Global Impact Fund II Private investors (Offshore B) L.P.",
+        "KKR Global Impact Fund II SBS L.P.",
+        "KKR Global Impact Fund (iCapital), L.P.",
+        "KKR Global Impact Fund SBS (Lev) L.P.",
+        "KKR Global Impact Fund II ESC (Lev) L.P.",
+        "KKR Global Impact Fund II ESC (Unlev) L.P.",
+        "KKR Global Impact Fund II Private Investors (Onshore B) L.P."
+      ]
+    },
+    {
+      "parentName": "Tiger Global Private Investment Partners",
+      "count": 12,
+      "funds": [
+        "Tiger Global Private Investment Partners XI, LP",
+        "Tiger Global Private Investment Partners XV Feeder, L.P.",
+        "Tiger Global Private Investment Partners VI, L.P.",
+        "Tiger Global Private Investment Partners XII, L.P.",
+        "TIGER GLOBAL PRIVATE INVESTMENT PARTNERS IX, L.P.",
+        "Tiger Global Private Investment Partners XVI, L.P.",
+        "Tiger Global Private Investment Partners XVI Feeder, L.P.",
+        "TIGER GLOBAL PRIVATE INVESTMENT PARTNERS VIII, L.P.",
+        "Tiger Global Private Investment Partners VII, L.P.",
+        "Tiger Global Private Investment Partners XV, L.P."
+      ]
+    },
+    {
+      "parentName": "RXR QOZ",
+      "count": 12,
+      "funds": [
+        "RXR QOZ Fund I - I LLC",
+        "RXR QOZ Fund I - E LLC",
+        "RXR QOZ Fund I - D LLC",
+        "RXR QOZ Fund I - G LLC",
+        "RXR QOZ Fund I - C LLC",
+        "RXR QOZ Fund I - L LLC",
+        "RXR QOZ Fund I - B LLC",
+        "RXR QOZ Fund I - A LLC",
+        "RXR QOZ Fund I - J LLC",
+        "RXR QOZ Fund I - H LLC"
+      ]
+    },
+    {
+      "parentName": "Trucks Growth",
+      "count": 12,
+      "funds": [
+        "Trucks Growth Fund LP - A2",
+        "Trucks Growth Fund LP - C3",
+        "Trucks Growth Fund LP - C2",
+        "Trucks Growth Fund LP - A1",
+        "Trucks Growth Fund LP - B2",
+        "Trucks Growth Fund LP - B3",
+        "Trucks Growth Fund LP - B1",
+        "Trucks Growth Fund LP - C1",
+        "Trucks Growth Fund LP - C4",
+        "Trucks Growth Fund LP - A3"
+      ]
+    },
+    {
+      "parentName": "Washington Harbour Metaverse",
+      "count": 12,
+      "funds": [
+        "Washington Harbour Metaverse LLC",
+        "Washington Harbour Metaverse VII LLC",
+        "Washington Harbour Metaverse X, LLC",
+        "Washington Harbour Metaverse XVI, LLC",
+        "Washington Harbour Metaverse V LLC",
+        "Washington Harbour Metaverse II, LLC",
+        "Washington Harbour Metaverse XV LLC",
+        "Washington Harbour Metaverse VIII LLC",
+        "Washington Harbour Metaverse XII, LLC",
+        "Washington Harbour Metaverse XIII, LLC"
+      ]
+    },
+    {
+      "parentName": "EMG",
+      "count": 11,
+      "funds": [
+        "EMG Fund V Accordion Offshore, LP",
+        "EMG Fund III Offshore, L.P.",
+        "EMG Fund V Iron Ore Phase 3 Co-Investment, LP",
+        "EMG Fund II Ascent Offshore Co-Investment, LP",
+        "EMG Fund III Ascent Co-Investment, LP",
+        "EMG Fund IV PAA Co-Investment, LP",
+        "EMG Fund IV Sable Co-Investment, LP",
+        "EMG Fund V Spur Holdings, LLC",
+        "EMG Fund V Catahoula Resources Holdings, LLC",
+        "EMG Fund III Feeder, LP"
+      ]
+    },
+    {
+      "parentName": "AUGUREY VENTURES II, LLC",
+      "count": 11,
+      "funds": [
+        "AUGUREY VENTURES II, LLC - SERIES WAVEAEROSPACE A",
+        "AUGUREY VENTURES II, LLC - SERIES COREWEAVE A",
+        "AUGUREY VENTURES II, LLC - SERIES FIGURE B",
+        "AUGUREY VENTURES II, LLC - SERIES ANTHROPIC B",
+        "AUGUREY VENTURES II - SERIES SPACEX A",
+        "AUGUREY VENTURES II, LLC - SERIES COREWEAVE B",
+        "AUGUREY VENTURES II - SERIES STIM A",
+        "AUGUREY VENTURES II, LLC - SERIES ANDURIL B",
+        "AUGUREY VENTURES II, LLC - SERIES VOYAGER SPACE A",
+        "AUGUREY VENTURES II - SERIES SPACEX B"
+      ]
+    },
+    {
+      "parentName": "Orion Energy Credit Opportunities",
+      "count": 11,
+      "funds": [
+        "Orion Energy Credit Opportunities Fund II FF, L.P.",
+        "Orion Energy Credit Opportunities Fund III GPFA PV, L.P.",
+        "Orion Energy Credit Opportunities Fund II GPFA, L.P.",
+        "Orion Energy Credit Opportunities Fund II Evolution COI Co-Investment A, L.P.",
+        "Orion Energy Credit Opportunities Fund II Mohegan Co-Investment, L.P.",
+        "Orion Energy Credit Opportunities Fund II, L.P.",
+        "Orion Energy Credit Opportunities Fund II PV, L.P.",
+        "Orion Energy Credit Opportunities Fund II Keystone Co-Investment, L.P.",
+        "Orion Energy Credit Opportunities Fund II Evolution Co-Investment B, L.P.",
+        "Orion Energy Credit Opportunities Fund II King Ranch Co-Investment, L.P."
+      ]
+    },
+    {
+      "parentName": "KKR European",
+      "count": 11,
+      "funds": [
+        "KKR European Fund V SBS (Lev) L.P.",
+        "KKR European Fund V (USD) SCSp",
+        "KKR European Fund V SBS (Unlev) L.P.",
+        "KKR European Fund IV SBS L.P.",
+        "KKR European Fund IV L.P.",
+        "KKR European Fund V ESC (Lev) L.P.",
+        "KKR European Fund V (EUR) SCSp",
+        "KKR European Fund V ESC (Unlev) L.P.",
+        "KKR European Fund IV ESC L.P.",
+        "KKR European Fund V Private Investors (Direct) L.P."
+      ]
+    },
+    {
+      "parentName": "Cava Capital",
+      "count": 11,
+      "funds": [
+        "Cava Capital SPV III LLC",
+        "CAVA CAPITAL SPV XV, LLC",
+        "CAVA CAPITAL SPV VIII, LLC",
+        "Cava Capital SPV V LLC",
+        "Cava Capital SPV I LLC",
+        "CAVA CAPITAL SPV XII, LLC",
+        "Cava Capital SPV IV, LLC",
+        "Cava Capital SPV X, LLC",
+        "Cava Capital",
+        "Cava Capital SPV XIII, LLC"
+      ]
+    },
+    {
+      "parentName": "StepStone VC Secondaries",
+      "count": 11,
+      "funds": [
+        "StepStone VC Secondaries Fund V-B, L.P.",
+        "StepStone VC Secondaries Fund VI (Lux Feeder) SCSp, SICAV-RAIF",
+        "StepStone VC Secondaries Fund V (Cayman), L.P.",
+        "StepStone VC Secondaries Fund VI-M LP",
+        "StepStone VC Secondaries Fund V-D",
+        "StepStone VC Secondaries",
+        "StepStone VC Secondaries Fund VI-K LP",
+        "StepStone VC Secondaries Fund VI (Lux) SCSp, SICAV-RAIF",
+        "StepStone VC Secondaries Fund ND LP",
+        "StepStone VC Secondaries Fund ND (Cayman) LP"
+      ]
+    },
+    {
+      "parentName": "Audax Direct Lending Solutions",
+      "count": 11,
+      "funds": [
+        "Audax Direct Lending Solutions Fund III-B Feeder, LLC",
+        "Audax Direct Lending Solutions Fund II-D, L.P.",
+        "Audax Direct Lending Solutions Fund III B-1 Feeder, LLC",
+        "Audax Direct Lending Solutions Fund III-A Rated Feeder, L.P.",
+        "Audax Direct Lending Solutions Fund III-C Rated Feeder, L.P.",
+        "Audax Direct Lending Solutions Fund II-B, L.P.",
+        "Audax Direct Lending Solutions Fund II-A, L.P.",
+        "Audax Direct Lending Solutions Fund II B-1, L.P.",
+        "Audax Direct Lending Solutions Fund III-D, SCSp",
+        "Audax Direct Lending Solutions Fund III-D Feeder, SCSp"
+      ]
+    },
+    {
+      "parentName": "Thursday Ventures",
+      "count": 10,
+      "funds": [
+        "Thursday Ventures XXIV LLC",
+        "Thursday Ventures",
+        "Thursday Ventures XXI LLC",
+        "Thursday Ventures XXIII LLC",
+        "Thursday Ventures XIX LLC",
+        "Thursday Ventures XVII LLC",
+        "Thursday Ventures XX LLC",
+        "Thursday Ventures XIII LLC",
+        "Thursday Ventures XV LLC",
+        "Thursday Ventures XIV LLC"
+      ]
+    },
+    {
+      "parentName": "Fortress Credit Opportunities",
+      "count": 10,
+      "funds": [
+        "Fortress Credit Opportunities Fund V Expansion MA-CRPTF LP",
+        "Fortress Credit Opportunities Fund IV (G) L.P.",
+        "Fortress Credit Opportunities Fund V Expansion (A) LP",
+        "Fortress Credit Opportunities Fund V Expansion (B) LP",
+        "Fortress Credit Opportunities Fund III (A) LP",
+        "Fortress Credit Opportunities Fund II (B) LP",
+        "Fortress Credit Opportunities Fund II (C) L.P.",
+        "Fortress Credit Opportunities Fund II (E) LP",
+        "Fortress Credit Opportunities Fund V Expansion (E) LP",
+        "Fortress Credit Opportunities Fund III (D) LP"
+      ]
+    },
+    {
+      "parentName": "Oaktree European Principal",
+      "count": 10,
+      "funds": [
+        "Oaktree European Principal Fund III (Delaware), L.P.",
+        "Oaktree European Principal Fund III (U.S.), L.P.",
+        "Oaktree European Principal Fund III, L.P.",
+        "Oaktree European Principal Fund III (Parallel) Feeder, L.P.",
+        "Oaktree European Principal Fund IV Feeder (Cayman), L.P.",
+        "Oaktree European Principal Fund III (Parallel), L.P.",
+        "Oaktree European Principal Fund III (Cayman), L.P.",
+        "Oaktree European Principal Fund V Offshore USD, Ltd.",
+        "Oaktree European Principal Fund V Feeder (USDH), L.P.",
+        "Oaktree European Principal Fund IV Feeder (U.S.), L.P."
+      ]
+    },
+    {
+      "parentName": "Yukon Capital Partners",
+      "count": 10,
+      "funds": [
+        "Yukon Capital Partners Parallel III, L.P.",
+        "Yukon Capital Partners IV, L.P.",
+        "Yukon Capital Partners, L.P.",
+        "Yukon Capital Partners II, L.P.",
+        "Yukon Capital Partners Parallel II, L.P.",
+        "Yukon Capital Partners Parallel, L.P.",
+        "Yukon Capital Partners III, L.P.",
+        "Yukon Capital Partners Parallel IV, L.P.",
+        "YUKON CAPITAL PARTNERS V, L.P.",
+        "YUKON CAPITAL PARTNERS IC PARALLEL V, L.P."
+      ]
+    },
+    {
+      "parentName": "Aegis Special Situations",
+      "count": 10,
+      "funds": [
+        "Aegis Special Situations Fund LLC - Series Digital Freight Network I",
+        "Aegis Special Situations Fund LLC - Series Fintech III",
+        "Aegis Special Situations Fund LLC - Series Big Data III",
+        "Aegis Special Situations Fund LLC - Series Aerospace II",
+        "Aegis Special Situations Fund LLC - Series DAS I",
+        "Aegis Special Situations Fund LLC - Series HealthTech I",
+        "Aegis Special Situations Fund LLC - Series Hospitality I",
+        "Aegis Special Situations Fund LLC - Series Plant Protein I",
+        "Aegis Special Situations Fund LLC - Series Agritech II",
+        "Aegis Special Situations Fund LLC - Series Medtech VI"
+      ]
+    },
+    {
+      "parentName": "BDT Capital Partners",
+      "count": 10,
+      "funds": [
+        "BDT Capital Partners Fund 3 (TE), L.P.",
+        "BDT Capital Partners Fund II (SWF), L.P.",
+        "BDT Capital Partners",
+        "BDT Capital Partners Fund 4 (EU) SCSp",
+        "BDT Capital Partners Annex Fund, L.P.",
+        "BDT Capital Partners Fund 3 (Lux) SCSp",
+        "BDT CAPITAL PARTNERS FUND I-A, L.P.",
+        "BDT Capital Partners Fund 3 (DEL), L.P.",
+        "BDT Capital Partners Annex Fund I-A, L.P.",
+        "BDT Capital Partners Fund 4 (INT), L.P."
+      ]
+    },
+    {
+      "parentName": "GTCR",
+      "count": 10,
+      "funds": [
+        "GTCR CO-INVEST FEEDER XIII LP",
+        "GTCR",
+        "GTCR FUND XIV/C LP",
+        "GTCR FUND XIV/B LP",
+        "GTCR CO-INVEST FEEDER XIV LP",
+        "GTCR FUND XIII/A LP",
+        "GTCR FUND XIII/B LP",
+        "GTCR CO-INVEST XIII LP",
+        "GTCR FUND XIII/C LP",
+        "GTCR FUND XIV/A LP"
+      ]
+    },
+    {
+      "parentName": "Crestline Opportunity",
+      "count": 10,
+      "funds": [
+        "Crestline Opportunity Fund III (Europe) Cayman, Ltd.",
+        "Crestline Opportunity Fund II, L.P.",
+        "Crestline Opportunity Fund III (Europe) US, L.P.",
+        "Crestline Opportunity Fund V Offshore FT/FNT, L.P.",
+        "CRESTLINE OPPORTUNITY FUND IV ONSHORE STE, L.P.",
+        "Crestline Opportunity Fund V Offshore TE/SWF, L.P.",
+        "Crestline Opportunity Fund III (Cayman), Ltd.",
+        "CRESTLINE OPPORTUNITY FUND IV ONSHORE T, L.P.",
+        "Crestline Opportunity Fund IV Onshore TE, L.P.",
+        "Crestline Opportunity Fund V Onshore T/STE, L.P."
+      ]
+    },
+    {
+      "parentName": "LLR Equity Partners",
+      "count": 10,
+      "funds": [
+        "LLR Equity Partners Parallel V, L.P.",
+        "LLR Equity Partners VII, L.P.",
+        "LLR Equity Partners V Co-Invest, L.P.",
+        "LLR Equity Partners Parallel VI, L.P.",
+        "LLR EQUITY PARTNERS PARALLEL IV, L.P.",
+        "LLR Equity Partners Parallel VII, L.P.",
+        "LLR EQUITY PARTNERS IV, L.P.",
+        "LLR Equity Partners VI, L.P.",
+        "LLR Equity Partners V, L.P.",
+        "LLR Equity Partners VI Co-Invest, L.P."
+      ]
+    },
+    {
+      "parentName": "REVERENCE CAPITAL PARTNERS OPPORTUNITIES",
+      "count": 10,
+      "funds": [
+        "REVERENCE CAPITAL PARTNERS OPPORTUNITIES FUND V (PE FUND III) CO-INVEST, L.P.",
+        "Reverence Capital Partners Opportunities Fund II (Parallel), L.P.",
+        "REVERENCE CAPITAL PARTNERS OPPORTUNITIES FUND V (FOO) (PE FUND III), L.P.",
+        "Reverence Capital Partners Opportunities Fund II, L.P.",
+        "REVERENCE CAPITAL PARTNERS OPPORTUNITIES FUND V (AI) (PE FUND III), L.P.",
+        "REVERENCE CAPITAL PARTNERS OPPORTUNITIES FUND V-A (PE FUND III), L.P.",
+        "REVERENCE CAPITAL PARTNERS OPPORTUNITIES FUND V (PE FUND III), L.P.",
+        "Reverence Capital Partners Opportunities Fund II (AI), L.P.",
+        "Reverence Capital Partners Opportunities Fund II (Cayman), L.P.",
+        "REVERENCE CAPITAL PARTNERS OPPORTUNITIES FUND V-C1 (PE FUND III), L.P."
+      ]
+    },
+    {
+      "parentName": "New Founding Venture",
+      "count": 10,
+      "funds": [
+        "New Founding Venture Fund LP - B2",
+        "New Founding Venture Fund LP - B1",
+        "New Founding Venture Fund LP - A4",
+        "New Founding Venture Fund LP - C2",
+        "New Founding Venture Fund LP - B4",
+        "New Founding Venture Fund LP - A1",
+        "New Founding Venture Fund LP - C1",
+        "New Founding Venture Fund LP - A2",
+        "New Founding Venture Fund LP - A3",
+        "New Founding Venture Fund LP - B3"
+      ]
+    },
+    {
+      "parentName": "Schechter Private Capital",
+      "count": 10,
+      "funds": [
+        "Schechter Private Capital Fund I, LLC - Series BB",
+        "Schechter Private Capital Fund I, LLC - Series JJ",
+        "Schechter Private Capital Fund I, LLC - Series DD",
+        "Schechter Private Capital Fund I, LLC - Series Z2",
+        "Schechter Private Capital Fund I, LLC - Series R",
+        "Schechter Private Capital Fund I, LLC - Series GG",
+        "Schechter Private Capital Fund I, LLC - Series FF",
+        "Schechter Private Capital",
+        "Schechter Private Capital Fund I, LLC - Series AA",
+        "Schechter Private Capital Fund I, LLC - Series FF2"
+      ]
+    },
+    {
+      "parentName": "Landmark Dividend Growth",
+      "count": 9,
+      "funds": [
+        "Landmark Dividend Growth Fund LLC - A",
+        "Landmark Dividend Growth Fund LLC - D",
+        "Landmark Dividend Growth Fund - J LLC",
+        "Landmark Dividend Growth Fund - N LLC",
+        "Landmark Dividend Growth Fund - K LLC",
+        "LANDMARK DIVIDEND GROWTH FUND - G LLC",
+        "LANDMARK DIVIDEND GROWTH FUND - E LLC",
+        "Landmark Dividend Growth Fund - I LLC",
+        "Landmark Dividend Growth Fund - M LLC"
+      ]
+    },
+    {
+      "parentName": "AUGUREY VENTURES III",
+      "count": 9,
+      "funds": [
+        "AUGUREY VENTURES III - SERIES STIM A",
+        "AUGUREY VENTURES III - SERIES SPACEX B",
+        "AUGUREY VENTURES III, LLC - SERIES VOYAGER SPACE A",
+        "AUGUREY VENTURES III - SERIES CRUSOE B",
+        "AUGUREY VENTURES III, LLC - SERIES ANTHROPIC B",
+        "AUGUREY VENTURES III - SERIES AVANTTECH A",
+        "AUGUREY VENTURES III - SERIES KRAKEN A",
+        "AUGUREY VENTURES III, LLC - SERIES ANTHROPIC A",
+        "AUGUREY VENTURES III - SERIES SPACEX A"
+      ]
+    }
+  ]
+}

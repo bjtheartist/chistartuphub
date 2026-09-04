@@ -26,6 +26,8 @@ const Admin = lazy(() => import('./pages/Admin'));
 const Assessment = lazy(() => import('./pages/Assessment'));
 const Terms = lazy(() => import('./pages/Terms'));
 const Investors = lazy(() => import('./pages/Investors'));
+const Pricing = lazy(() => import('./pages/Pricing'));
+const InvestorInsights = lazy(() => import('./pages/InvestorInsights'));
 
 export const PAGES = {
     "Home": Home,
@@ -53,6 +55,8 @@ export const PAGES = {
     "assessment": Assessment,
     "terms": Terms,
     "Investors": Investors,
+    "Pricing": Pricing,
+    "investor-insights": InvestorInsights,
 }
 
 export const pagesConfig = {

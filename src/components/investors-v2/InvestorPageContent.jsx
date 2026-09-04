@@ -14,154 +14,50 @@ import { SaveListButton } from './SaveListButton';
 import { ExportInvestorsButton } from './ExportInvestorsButton';
 import { useInvestorSearch } from '@/hooks/useInvestorSearch';
 import { usePipelineAnnotations } from '@/hooks/usePipelineAnnotations';
-import { parseBooleanQuery, matchesBooleanQuery, filterTieredResults } from '@/lib/booleanSearch';
-import { getInvestorQuality } from '@/lib/investorQuality';
+import { filterTieredResults } from '@/lib/booleanSearch';
+import { useSubscription } from '@/contexts/SubscriptionContext';
+import { UpgradePrompt } from '@/components/UpgradePrompt';
+import { useFilteredInvestors, useInvestorCounts, QUALITY_TIERS } from '@/hooks/useFilteredInvestors';
 
-const ITEMS_PER_PAGE = 6;
-
-export function InvestorPageContent({ investors = [] }) {
+export function InvestorPageContent() {
   const [activeCategory, setActiveCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedSearch, setDebouncedSearch] = useState('');
   const [showFilters, setShowFilters] = useState(false);
   const [activeFilters, setActiveFilters] = useState({});
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedInvestor, setSelectedInvestor] = useState(null);
   const [searchMode, setSearchMode] = useState('boolean');
+  const [searchTimer, setSearchTimer] = useState(null);
+  const [qualityTier, setQualityTier] = useState('verified');
 
   const aiSearch = useInvestorSearch();
   const { annotations } = usePipelineAnnotations();
+  const { isPro } = useSubscription();
 
-  // Calculate counts for each category (single pass through investors)
-  const counts = useMemo(() => {
-    const result = {
-      total: 0,
-      all: 0,
-      vc: 0,
-      angel: 0,
-      family_office: 0,
-      cvc: 0,
-      midwest: 0,
-      complete: 0,
-      usable: 0,
-      needs_review: 0,
-    };
+  // Server-side counts (lightweight HEAD requests)
+  const { data: counts = { total: 0, all: 0, vc: 0, angel: 0, family_office: 0, cvc: 0, midwest: 0 } } = useInvestorCounts();
 
-    for (const inv of investors) {
-      result.all++;
-      const type = inv.investor_type?.toLowerCase() || '';
-      const quality = getInvestorQuality(inv);
+  // Server-side filtered + paginated investors
+  const {
+    investors: filteredInvestors,
+    totalCount,
+    totalPages,
+    isLoading: browseLoading,
+  } = useFilteredInvestors({
+    category: activeCategory,
+    searchQuery: debouncedSearch,
+    filters: activeFilters,
+    page: currentPage,
+    qualityTier,
+  });
 
-      if (type === 'vc') result.vc++;
-      else if (type === 'angel') result.angel++;
-      else if (type === 'family_office' || type === 'family office') result.family_office++;
-      else if (type === 'cvc' || type === 'corporate') result.cvc++;
-
-      if (inv.is_midwest) result.midwest++;
-      if (quality.score >= 80) result.complete++;
-      if (quality.score >= 60) result.usable++;
-      if (quality.score < 35) result.needs_review++;
-    }
-
-    result.total = result.all;
-    return result;
-  }, [investors]);
-
-  // Filter investors based on category, search, and filters
-  const filteredInvestors = useMemo(() => {
-    let result = [...investors].sort((a, b) => {
-      const qualityDelta = getInvestorQuality(b).score - getInvestorQuality(a).score;
-      if (qualityDelta !== 0) return qualityDelta;
-
-      const scoreDelta = (b.mvip_score || 0) - (a.mvip_score || 0);
-      if (scoreDelta !== 0) return scoreDelta;
-
-      return (a.canonical_name || '').localeCompare(b.canonical_name || '');
-    });
-
-    // Category filter (consolidated logic)
-    if (activeCategory !== 'all') {
-      result = result.filter(i => {
-        if (activeCategory === 'midwest') return i.is_midwest;
-
-        const type = i.investor_type?.toLowerCase() || '';
-        if (activeCategory === 'family_office') return type === 'family_office' || type === 'family office';
-        if (activeCategory === 'cvc') return type === 'cvc' || type === 'corporate';
-        return type === activeCategory;
-      });
-    }
-
-    // Search filter (supports boolean: AND, OR, NOT/-, "quoted phrases")
-    if (searchQuery.trim()) {
-      const parsed = parseBooleanQuery(searchQuery);
-      if (parsed && parsed.length > 0) {
-        result = result.filter(i => matchesBooleanQuery([
-          (i.canonical_name || '').toLowerCase(),
-          (i.description || '').toLowerCase(),
-          (i.hq_city || '').toLowerCase(),
-        ], parsed));
-      }
-    }
-
-    // Stage filter
-    if (activeFilters.stage?.length > 0) {
-      result = result.filter(i => {
-        const stage = i.stage_focus?.toLowerCase() || '';
-        return activeFilters.stage.some(s => stage.includes(s.replace('_', ' ')));
-      });
-    }
-
-    // Check size filter
-    if (activeFilters.checkSize?.length > 0) {
-      result = result.filter(i => {
-        const max = i.check_size_max || 0;
-        return activeFilters.checkSize.some(cs => {
-          if (cs === 'under_500k') return max < 500000;
-          if (cs === '500k_2m') return max >= 500000 && max < 2000000;
-          if (cs === '2m_10m') return max >= 2000000 && max < 10000000;
-          if (cs === 'over_10m') return max >= 10000000;
-          return true;
-        });
-      });
-    }
-
-    // Location filter
-    if (activeFilters.location?.length > 0) {
-      result = result.filter(i => {
-        const city = i.hq_city?.toLowerCase() || '';
-        const isMidwest = i.is_midwest;
-
-        return activeFilters.location.some(loc => {
-          if (loc === 'midwest') return isMidwest;
-          if (loc === 'chicago') return city === 'chicago';
-          if (loc === 'coastal') return ['san francisco', 'new york', 'los angeles', 'boston', 'seattle'].includes(city);
-          if (loc === 'national') return true;
-          return true;
-        });
-      });
-    }
-
-    // Profile quality filter
-    if (activeFilters.profileQuality?.length > 0) {
-      result = result.filter(i => {
-        const quality = getInvestorQuality(i);
-        return activeFilters.profileQuality.some(q => {
-          if (q === 'complete') return quality.score >= 80;
-          if (q === 'usable') return quality.score >= 60;
-          if (q === 'needs_review') return quality.score < 35;
-          return true;
-        });
-      });
-    }
-
-    return result;
-  }, [investors, activeCategory, searchQuery, activeFilters]);
-
-  // Pagination
-  const totalPages = Math.ceil(filteredInvestors.length / ITEMS_PER_PAGE);
-  const paginatedInvestors = filteredInvestors.slice(
-    (currentPage - 1) * ITEMS_PER_PAGE,
-    currentPage * ITEMS_PER_PAGE
-  );
+  // Debounced search — wait 400ms after typing stops before querying server
+  const updateDebouncedSearch = (value) => {
+    if (searchTimer) clearTimeout(searchTimer);
+    const timer = setTimeout(() => setDebouncedSearch(value), 400);
+    setSearchTimer(timer);
+  };
 
   // Reset page when filters change
   const handleCategoryChange = (category) => {
@@ -241,6 +137,9 @@ export function InvestorPageContent({ investors = [] }) {
               }}
               onChange={(e) => {
                 setSearchQuery(e.target.value);
+                if (searchMode === 'boolean') {
+                  updateDebouncedSearch(e.target.value);
+                }
                 if (!e.target.value.trim() && searchMode === 'semantic' && aiSearch.searchActive) {
                   aiSearch.clearSearch();
                 }
@@ -294,8 +193,13 @@ export function InvestorPageContent({ investors = [] }) {
         onClearAll={handleClearFilters}
       />
 
+      {/* Pro gate for semantic search */}
+      {searchMode === 'semantic' && !isPro && (
+        <UpgradePrompt variant="banner" feature="AI-powered semantic search" />
+      )}
+
       {/* AI Search Mode vs Browse Mode */}
-      {searchMode === 'semantic' && aiSearch.searchActive ? (
+      {searchMode === 'semantic' && isPro && aiSearch.searchActive ? (
         <>
           {/* AI Search Results */}
           {aiSearch.isSearching ? (
@@ -355,19 +259,23 @@ export function InvestorPageContent({ investors = [] }) {
             counts={counts}
           />
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            <div className="border border-chi-ghost/50 bg-black/30 px-4 py-3">
-              <span className="text-[9px] uppercase tracking-[0.18em] text-chi-dim font-mono block mb-1">Complete Profiles</span>
-              <span className="font-display text-2xl text-emerald-300">{counts.complete.toLocaleString()}</span>
-            </div>
-            <div className="border border-chi-ghost/50 bg-black/30 px-4 py-3">
-              <span className="text-[9px] uppercase tracking-[0.18em] text-chi-dim font-mono block mb-1">Usable Profiles</span>
-              <span className="font-display text-2xl text-amber-300">{counts.usable.toLocaleString()}</span>
-            </div>
-            <div className="border border-chi-ghost/50 bg-black/30 px-4 py-3">
-              <span className="text-[9px] uppercase tracking-[0.18em] text-chi-dim font-mono block mb-1">Needs Review</span>
-              <span className="font-display text-2xl text-chi-muted">{counts.needs_review.toLocaleString()}</span>
-            </div>
+          {/* Quality Tier Toggle */}
+          <div className="flex items-center gap-2">
+            <span className="text-chi-dim font-mono text-[10px] uppercase tracking-[0.15em] mr-2">Profile Quality</span>
+            {Object.entries(QUALITY_TIERS).map(([key, { label }]) => (
+              <button
+                key={key}
+                onClick={() => { setQualityTier(key); setCurrentPage(1); }}
+                className={cn(
+                  "px-3 py-1.5 border font-mono text-[10px] uppercase tracking-[0.1em] transition-colors",
+                  qualityTier === key
+                    ? "border-white text-white bg-white/[0.08]"
+                    : "border-chi-ghost/30 text-chi-dim hover:border-chi-ghost hover:text-chi-muted"
+                )}
+              >
+                {label}
+              </button>
+            ))}
           </div>
 
           {/* Results Header */}
@@ -378,7 +286,7 @@ export function InvestorPageContent({ investors = [] }) {
             </h2>
             <div className="flex items-center gap-3">
               <span className="text-chi-muted font-mono text-sm">
-                {filteredInvestors.length} Results
+                {totalCount.toLocaleString()} Results
               </span>
               <SaveListButton investors={filteredInvestors} />
               <ExportInvestorsButton investors={filteredInvestors} filename="investors" />
@@ -386,13 +294,18 @@ export function InvestorPageContent({ investors = [] }) {
           </div>
 
           {/* Results Grid */}
-          {paginatedInvestors.length > 0 ? (
+          {browseLoading ? (
+            <div className="flex items-center justify-center gap-3 py-20">
+              <Loader2 className="w-5 h-5 text-chi-muted animate-spin" />
+              <span className="text-chi-muted font-mono text-sm">Loading investors...</span>
+            </div>
+          ) : filteredInvestors.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {paginatedInvestors.map((investor, index) => (
+              {filteredInvestors.map((investor, index) => (
                 <InvestorCard
                   key={investor.id}
                   investor={investor}
-                  index={(currentPage - 1) * ITEMS_PER_PAGE + index}
+                  index={(currentPage - 1) * 6 + index}
                   onClick={() => setSelectedInvestor(investor)}
                   annotation={annotations?.get(String(investor.id))}
                 />

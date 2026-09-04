@@ -1,0 +1,3602 @@
+{
+  "harvested_at": "2026-03-09T22:25:52.724Z",
+  "total_records": 237,
+  "sources": {
+    "github_awesome_vc_oss": 75,
+    "github_awesome_vc_fundraising": 51,
+    "github_search": 24,
+    "openvc": 45,
+    "crunchbase_open": 47
+  },
+  "records": [
+    {
+      "name": "Abstraction Capital",
+      "website": "https://abstraction.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Abstraction Capital](https://abstraction.vc/) | Pre-Seed/Seed | $0.1-4M | US | [Buf](https://buf.build/), [Parabeac](https://parabeac.com/), [Ivy](https://lets-unify.ai/), [Wasp](https://wasp.sh/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 4000000
+    },
+    {
+      "name": "Angel Invest",
+      "website": "https://www.angelinvest.ventures/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Angel Invest](https://www.angelinvest.ventures/) | Pre-Seed/Seed | $0.1M | Germany | [Rasa](https://rasa.com/), [Resoto](https://resoto.com/), [Dagshub](https://dagshub.com/), [Deta](https://www.deta.sh/), [MindsDB](https://mindsdb.com/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 100000
+    },
+    {
+      "name": "Boldstart",
+      "website": "https://boldstart.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Boldstart](https://boldstart.vc/) | Pre-Seed/Seed | $0.5-5M | US | [Liveblocks](https://liveblocks.io/), [Cloudquery](https://www.cloudquery.io/), [Darklang](https://darklang.com/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 5000000
+    },
+    {
+      "name": "Crane",
+      "website": "https://crane.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Crane](https://crane.vc/) | Pre-Seed/Seed | $1-6M | UK | [Novu](https://novu.co/), [ZenML](https://zenml.io/home), [Cerbos](https://cerbos.dev), [Gitpod](https://gitpod.io) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 1000000,
+      "check_size_max": 6000000
+    },
+    {
+      "name": "eCAPITAL",
+      "website": "https://ecapital.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[eCAPITAL](https://ecapital.vc/) | Seed, Series A | $1-10M | DE | [Tenzir](https://tenzir.com/), [Exein](https://www.exein.io/), [Open-Xchange](https://www.open-xchange.com/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 1000000,
+      "check_size_max": 10000000
+    },
+    {
+      "name": "Elaia",
+      "website": "https://www.elaia.com",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Elaia](https://www.elaia.com) | Pre-Seed/Seed, Series A,B | $0.3-12M | France | [Giskard](https://www.giskard.ai), [Qbeast](https://qbeast.io), [Nuclia](https://nuclia.com), [CodeNotary](https://codenotary.com), [TraefikLabs](https://traefik.io) |",
+      "stage": [
+        "pre-seed",
+        "series-a"
+      ],
+      "check_size_min": 300000,
+      "check_size_max": 12000000
+    },
+    {
+      "name": "Essence VC",
+      "website": "https://www.essencevc.fund/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Essence VC](https://www.essencevc.fund/) | Pre-Seed/Seed | $0.5-5M | US | [ReadySet](https://readyset.io/), [Project Discovery](https://projectdiscovery.io/#/), [Encore](https://encore.dev/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 5000000
+    },
+    {
+      "name": "Serena Capital",
+      "website": "https://www.serena.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Serena Capital](https://www.serena.vc/)| Pre-Seed/Seed | $0.5-4M | EU | [Opsmill](https://github.com/opsmill), [Pyannote](https://github.com/pyannote-audio), [Koin](https://github.com/InsertKoinIO/koin) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 4000000
+    },
+    {
+      "name": "Firstminute Capital",
+      "website": "https://www.firstminute.capital/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Firstminute Capital](https://www.firstminute.capital/) | Pre-Seed/Seed | $0.25-5M | UK | [Element](https://element.io/), [n8n](https://n8n.io/), [Nuxt.js](https://nuxtjs.org/), [Quickwit](https://quickwit.io/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 5000000
+    },
+    {
+      "name": "Fly Ventures",
+      "website": "https://fly.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Fly Ventures](https://fly.vc/) | Pre-Seed/Seed | $1-3M | Germany | [GitGuardian](https://www.gitguardian.com/), [Evidently AI](https://evidentlyai.com/), [Objectiv](https://objectiv.io/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 1000000,
+      "check_size_max": 3000000
+    },
+    {
+      "name": "Grayscale Ventures",
+      "website": "https://grayscale.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Grayscale Ventures](https://grayscale.vc/) | Pre-Seed/Seed | $0.3-1M | India | [Hasura](https://hasura.io/), [Testsigma](https://testsigma.com/), [Bytebeam](https://bytebeam.io/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 300000,
+      "check_size_max": 1000000
+    },
+    {
+      "name": "Grand Ventures",
+      "website": "https://grandvcp.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Grand Ventures](https://grandvcp.com/) | Pre-Seed/Seed | $0.5-2M | US | [Astronomer](https://www.astronomer.io/), [Payload](https://payloadcms.com/), [Traceloop](https://www.traceloop.com/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 2000000
+    },
+    {
+      "name": "Haystack",
+      "website": "https://Haystack.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Haystack](https://Haystack.vc/) | Pre-Seed/Seed | $0.25-1.5M | US | [Hashicorp](https://www.hashicorp.com/), [RedPanda](https://redpanda.com/), [Astro](https://astro.build/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 1500000
+    },
+    {
+      "name": "Heavybit",
+      "website": "https://www.heavybit.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Heavybit](https://www.heavybit.com/)* | Pre‑Seed/Seed | $0.5‑5M | US | [Gradle](https://gradle.org/), [LocalStack](https://localstack.cloud/), [Memgraph](https://memgraph.com/)|",
+      "stage": [
+        "seed"
+      ],
+      "check_size_min": 5000000,
+      "check_size_max": 5000000
+    },
+    {
+      "name": "HorizonVC",
+      "website": "https://horizon.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[HorizonVC](https://horizon.vc/) | Pre-Seed/Seed | $0.3-1.5M | US | [Nango](https://nango.dev/), [Shuttle](https://shuttle.rs/), [Caesar Labs](https://github.com/caesarHQ/cx-copilot) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 300000,
+      "check_size_max": 1500000
+    },
+    {
+      "name": "Isai Venture (JP Anciaux)",
+      "website": "https://isai.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Isai Venture (JP Anciaux)](https://isai.vc/) | Pre-Seed/Seed | $0.25-3.5M | FR-US | [Strapi](https://strapi.io/), [Nuxt](https://nuxt.com/), [Kestra](https://kestra.io), [Numworks](https://numworks.com) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 3500000
+    },
+    {
+      "name": "Kima Ventures",
+      "website": "https://www.kimaventures.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Kima Ventures](https://www.kimaventures.com/)| Pre-Seed/Seed | $0.15M | France | [AirByte](https://airbyte.com/), [Docker](https://www.docker.com/), [GitGuardian](https://www.gitguardian.com/), [Liveblocks](https://liveblocks.io/), [Meilisearch](https://www.meilisearch.com/)",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 150000,
+      "check_size_max": 150000
+    },
+    {
+      "name": "Lombardstreet Ventures",
+      "website": "https://lombardstreet.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Lombardstreet Ventures](https://lombardstreet.vc/) | Pre-Seed/Seed | $0.3-1M | US | [Kong](https://www.konghq.com/), [Sysdig](https://sysdig.com/), [Hydra](https://hydras.io/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 300000,
+      "check_size_max": 1000000
+    },
+    {
+      "name": "Lunar Ventures",
+      "website": "https://lunar.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Lunar Ventures](https://lunar.vc/) | Pre-Seed/Seed | $0.3-1M | Germany | [deepset](https://www.deepset.ai/), [Zama](https://www.zama.ai), [WASP](https://wasp-lang.dev/), [NannyML](https://www.nannyml.com/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 300000,
+      "check_size_max": 1000000
+    },
+    {
+      "name": "Mango Capital",
+      "website": "https://www.mangocapitalinc.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Mango Capital](https://www.mangocapitalinc.com/) | Pre-Seed/Seed | $0.5-2M | US | [Hashicorp](https://www.hashicorp.com/), [Couchbase](https://www.couchbase.com/), [InfluxData](https://www.influxdata.com/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 2000000
+    },
+    {
+      "name": "OpenCapital.vc",
+      "website": "https://opencapital.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[OpenCapital.vc](https://opencapital.vc/)* | Pre-Seed | $0.3-$0.5 | FR | [Kestra](https://www.kestra.io/), [Traefik Labs.com](https://traefik.io/), [Twenty CRM](https://www.twenty.com/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 0,
+      "check_size_max": 1
+    },
+    {
+      "name": "OSS Capital",
+      "website": "https://oss.capital/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[OSS Capital](https://oss.capital/)* | Pre-Seed/Seed | $0.1-6M | US | [Rocket.chat](https://www.rocket.chat/), [Cal.com](https://cal.com/), [Forem](https://www.forem.com/), [Remix](https://remix.run/), [OpenBB](https://openbb.co/), [BoxyHQ](https://boxyhq.com/), [MindsDB](https://mindsdb.com/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 6000000
+    },
+    {
+      "name": "Open Core Ventures",
+      "website": "https://opencoreventures.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Open Core Ventures](https://opencoreventures.com/)* | Pre-Seed/Seed | $0.1-2M | US | [Fleet](https://fleetdm.com/), [FlowForge](https://flowforge.com/), [Mermaid Chart](https://mermaid.live/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 2000000
+    },
+    {
+      "name": "Peak",
+      "website": "https://peak.capital/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Peak](https://peak.capital/) | Pre-Seed/Seed | Europe | $250k-4M | [apideck](https://www.apideck.com/), [Open Social](https://www.getopensocial.com/), [Widgetbook](https://www.widgetbook.io/)|",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 4000000
+    },
+    {
+      "name": "Seedcamp",
+      "website": "https://seedcamp.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Seedcamp](https://seedcamp.com/) | Pre-Seed/Seed | $0.2-0.5M | UK | [Meilisearch](https://www.meilisearch.com/), [Medusa](https://medusajs.com/),  [Cerbos](https://cerbos.dev/) |",
+      "stage": [],
+      "check_size_min": 200000,
+      "check_size_max": 500000
+    },
+    {
+      "name": "Speedinvest",
+      "website": "https://speedinvest.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Speedinvest](https://speedinvest.com/) | Pre-Seed/Seed | $0.7-3M | Europe | [mindsDB](https://mindsdb.com/), [crate.io](https://crate.io/), [Gitpod](https://gitpod.io), [Qovery](https://www.qovery.com/), [Wasmer](https://wasmer.io/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 700000,
+      "check_size_max": 3000000
+    },
+    {
+      "name": "Ratio",
+      "website": "https://ratio.ventures/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Ratio](https://ratio.ventures/) | Pre-Seed/Seed | | US | [n8n](https://n8n.io/), [ToolJet](https://tooljet.com/), [Chatwoot](https://chatwoot.com/) |",
+      "stage": [
+        "pre-seed"
+      ]
+    },
+    {
+      "name": "XAnge",
+      "website": "https://xange.fr/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[XAnge](https://xange.fr/) | Pre-Seed/Seed | $0.5-10M | France, Germany | [Odoo](https://www.odoo.com/), [Prestashop](https://www.prestashop.com/), [Misakey](https://docs.misakey.com/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 10000000
+    },
+    {
+      "name": "Y Combinator",
+      "website": "https://www.ycombinator.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Y Combinator](https://www.ycombinator.com/)* | Pre-Seed/Seed | $0.5M | US | [Apollo](https://www.apollographql.com/), [Posthog](https://posthog.com/), [MindsDB](https://mindsdb.com/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 500000
+    },
+    {
+      "name": "500 Startups",
+      "website": "https://500.co/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[500 Startups](https://500.co/) |\tPre-Seed / Seed |\t$0.025-0.5M |\tGlobal |\t[GitLab](https://gitlab.com/), [mycroft](https://mycroft.ai/), [Predictionio](https://www.prediction.io/) |",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 25000,
+      "check_size_max": 500000
+    },
+    {
+      "name": "Basis Set",
+      "website": "https://www.basisset.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Basis Set](https://www.basisset.com/) | Pre-Seed/Seed, Series A | $0.1-4M | US | [Rasa](https://rasa.com/), [Orchest](https://www.orchest.io/), [FerretDB](https://www.ferretdb.io/) |",
+      "stage": [
+        "pre-seed",
+        "series-a"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 4000000
+    },
+    {
+      "name": "btov",
+      "website": "https://www.btov.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[btov](https://www.btov.vc/) | Pre-Seed/Seed, Series A+ | $0.25-20M | Switzerland, Germany, Luxemburg | [QuantumSimulations](https://quantumsimulations.de/solutions), [Kubermatic](https://www.kubermatic.com/), [deepcode](https://www.deepcode.ai/) |",
+      "stage": [
+        "pre-seed",
+        "series-a"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 20000000,
+      "description": "Switzerland, Germany, Luxemburg"
+    },
+    {
+      "name": "Gradient Ventures",
+      "website": "https://www.gradient.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Gradient Ventures](https://www.gradient.com/) | Pre-Seed/Seed, Series A | | US | [Orchest](https://www.orchest.io/), [Streamlit](https://streamlit.io/), [Moov.io](https://moov.io/) |",
+      "stage": [
+        "pre-seed",
+        "series-a"
+      ]
+    },
+    {
+      "name": "Hive Ventures",
+      "website": "https://www.hiveventures.io/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Hive Ventures](https://www.hiveventures.io/) | Pre-Seed/Seed, Series A | $0.3-0.5M | Taiwan | [Avesha](https://avesha.io/), [Canner](https://cannerdata.com/), [InfuseAI](https://www.infuseai.io/), [Instill AI](https://www.instill.tech/) |",
+      "stage": [
+        "pre-seed",
+        "series-a"
+      ],
+      "check_size_min": 300000,
+      "check_size_max": 500000
+    },
+    {
+      "name": "Unusual Ventures",
+      "website": "https://www.unusual.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Unusual Ventures](https://www.unusual.vc/) | Pre-Seed/Seed, Series A | | US | [Sourcegraph](https://sourcegraph.com/), [Styra](https://styra.com/), [HeartEx](https://heartex.com/), [Noq](https://www.noq.dev/) |",
+      "stage": [
+        "pre-seed",
+        "series-a"
+      ]
+    },
+    {
+      "name": "Amplify Partners",
+      "website": "https://amplifypartners.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Amplify Partners](https://amplifypartners.com/) | Seed, Series A | | US | [dbt](https://www.getdbt.com/), [Prisma](https://www.prisma.io/), [Sourcegraph](https://about.sourcegraph.com/)|",
+      "stage": [
+        "seed",
+        "series-a"
+      ]
+    },
+    {
+      "name": "Costanoa",
+      "website": "https://www.costanoavc.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Costanoa](https://www.costanoavc.com/) |\tSeed/Series A |\t$2-5M |\tUS |\t[Auterion](https://auterion.com/), [FOSSA](https://fossa.com/), [Jitsu](https://jitsu.com/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 2000000,
+      "check_size_max": 5000000
+    },
+    {
+      "name": "Decibel",
+      "website": "https://decibel.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Decibel](https://decibel.vc/) | Seed, Series A | | US | [Botpress](https://botpress.com/), [Cube](https://cube.dev/), [Pachyderm](https://www.pachyderm.com/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ]
+    },
+    {
+      "name": "Felicis Ventures",
+      "website": "https://www.felicis.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Felicis Ventures](https://www.felicis.com/) | Seed, Series A, B | | US | [Meilisearch](https://www.meilisearch.com/), [n8n.io](https://n8n.io/), [Supabase](https://supabase.com/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ]
+    },
+    {
+      "name": "FirstMark",
+      "website": "https://firstmark.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[FirstMark](https://firstmark.com/)* | Seed, Series A | $2-20M | US | [ClickHouse](https://clickhouse.com/), [Cockroach Labs](https://www.cockroachlabs.com/), [Astronomer](https://www.astronomer.io/), [SurrealDB](https://surrealdb.com/), [Lago](https://www.getlago.com/), [TensorZero](https://tensorzero.com/), [Quickwit](https://quickwit.io/), [Timber/Vector](https://timber.io/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 2000000,
+      "check_size_max": 20000000
+    },
+    {
+      "name": "Innovation Endeavors",
+      "website": "https://www.innovationendeavors.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Innovation Endeavors](https://www.innovationendeavors.com/) | Seed, Series A | $1-12M | US | [Earthly](https://earthly.dev/), [Kong](https://konghq.com/),  [ScyllaDB](https://www.scylladb.com/), [Cube](https://cube.dev/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 1000000,
+      "check_size_max": 12000000
+    },
+    {
+      "name": "MMC Ventures",
+      "website": "https://mmc.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[MMC Ventures](https://mmc.vc/)| Seed, Series A | | UK | [Snowplow](https://snowplow.io/), [Tyk.io](https://tyk.io/), [MindsDB](https://mindsdb.com/), [BoxyHQ](https://boxyhq.com/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ]
+    },
+    {
+      "name": "Nauta Capital",
+      "website": "https://nautacapital.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Nauta Capital](https://nautacapital.com/) | Seed, Series A | $1-5M | UK, Spain, Germany | [Kubermatic](https://www.kubermatic.com/), [Nhost](https://nhost.io/), [Boxy](https://boxyhq.com/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 1000000,
+      "check_size_max": 5000000
+    },
+    {
+      "name": "Nexus Venture Partners*",
+      "website": "https://nexusvp.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Nexus Venture Partners*](https://nexusvp.com/) |\tSeed/Series A |\t$0.5-10M |\tIndia, US |\t[Hasura](https://hasura.io/), [tileDB](https://tiledb.com/), [ZincSearch](https://www.zincsearch.com/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 10000000
+    },
+    {
+      "name": "Norwest Venture Partners",
+      "website": "https://www.nvp.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Norwest Venture Partners](https://www.nvp.com/) |\tSeed/Series A+B+C |\t$0.5-$50M |\tUS |\t[Dremio](https://www.dremio.com/), [InfluxDB](https://www.influxdata.com/), [Uptycs](https://www.uptycs.com/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 50000000
+    },
+    {
+      "name": "OpenOcean",
+      "website": "https://openocean.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[OpenOcean](https://openocean.vc/) | Series A | $2-5M | UK, Finland | [MariaDB](https://mariadb.com/), [MindsDB](https://mindsdb.com/), [MySQL](https://www.mysql.com/), |",
+      "stage": [
+        "series-a"
+      ],
+      "check_size_min": 2000000,
+      "check_size_max": 5000000
+    },
+    {
+      "name": "SignalFire",
+      "website": "https://signalfire.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[SignalFire](https://signalfire.com/) | Seed, Series A, B | $0.25-20M | US | [Plural](https://www.plural.sh/), [Anchore](https://anchore.com/), [Crave](https://crave.io/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 20000000
+    },
+    {
+      "name": "True Ventures",
+      "website": "https://trueventures.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[True Ventures](https://trueventures.com/) | Seed, Series A | $1-10M | US | [Hashicorp](https://www.hashicorp.com/), [Puppet](https://puppet.com/), [Npm](https://www.npmjs.com/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 1000000,
+      "check_size_max": 10000000
+    },
+    {
+      "name": "Vertex Ventures US",
+      "website": "https://vvus.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Vertex Ventures US](https://vvus.com/) | Seed, Series A | $0.5-10M | US | [Hasura](https://hasura.io/), [Gitpod](https://gitpod.io), [Orkes](https://orkes.io/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 10000000
+    },
+    {
+      "name": "468 Capital",
+      "website": "https://www.468cap.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[468 Capital](https://www.468cap.com/) | Seed, Series A | $1-15M | Germany | [QuestDB](https://questdb.io/), [Wasmer](https://wasmer.io/), [Iterative.ai](https://iterative.ai/), [Garden.io](https://garden.io/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 1000000,
+      "check_size_max": 15000000
+    },
+    {
+      "name": "Greylock Partners",
+      "website": "https://greylock.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Greylock Partners ](https://greylock.com/) |\tSeed/Series A+B |\t$2-20M |\tUS |\t[Chronosphere](https://chronosphere.io/), [Docker](https://www.docker.com/), [Red Hat](https://www.redhat.com/en) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 2000000,
+      "check_size_max": 20000000
+    },
+    {
+      "name": "Runa Capital",
+      "website": "https://runacap.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Runa Capital](https://runacap.com/) | Seed, Series A | $0.5-15M | Luxembourg | [NGINX](https://www.nginx.com/), [MariaDB](https://mariadb.com/), [n8n](https://n8n.io/), [OpenReplay](https://openreplay.com/) |",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 15000000
+    },
+    {
+      "name": "Accel",
+      "website": "https://www.accel.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Accel](https://www.accel.com/) |\tMulti Stage |\t|\tUK |\t[Rasa](https://rasa.com/), [Cloudera](https://www.cloudera.com/), [Snyk](https://snyk.io/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "a16z",
+      "website": "https://a16z.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[a16z](https://a16z.com/)* | Multi Stage | | US | [Sourcegraph](https://about.sourcegraph.com/), [Rasa](https://rasa.com/), [dbt](https://www.getdbt.com/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Bain Capital Ventures",
+      "website": "https://baincapitalventures.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Bain Capital Ventures](https://baincapitalventures.com/) | Multi Stage | | US | [Docker](https://www.docker.com/), [Tecton](https://www.tecton.ai/), [Redis](https://redis.com/), [Startree](https://www.startree.ai/), [Cube](https://cube.dev/), [Lightning AI](https://lightning.ai/), [Netdata](https://www.netdata.cloud/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Battery",
+      "website": "https://www.battery.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Battery](https://www.battery.com/)* |\tMulti Stage |\t|\tUS, UK, IL |\t[Databricks](https://databricks.com/), [Jfrog](https://jfrog.com/), [Confluent](https://www.confluent.io/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Balderton Capital",
+      "website": "https://www.balderton.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Balderton Capital](https://www.balderton.com/) |\tMulti Stage |$1m-$50m\t|\tEuropean founders |\t[MySQL](https://www.mysql.com/), [Talend](https://www.talend.com/uk/products/talend-open-studio/), [Ory](https://www.ory.sh/), [Traefik](https://traefik.io/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "check_size_min": 1000000,
+      "check_size_max": 50000000
+    },
+    {
+      "name": "Bessemer Venture Partners",
+      "website": "https://www.bvp.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Bessemer Venture Partners](https://www.bvp.com/) |\tMulti Stage |\t|\tUS |\t[npm](https://www.npmjs.com/), [Prefect](https://www.prefect.io/), [appwrite](https://appwrite.io/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Coatue",
+      "website": "http://www.coatue.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Coatue](http://www.coatue.com/) |\tMulti Stage |\t|\tUS |\t[Grafana Labs](https://grafana.com/), [Panther](https://panther.com/), [Starburst](https://www.starburst.io/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "CRV",
+      "website": "https://www.crv.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[CRV](https://www.crv.com/) |\tMulti Stage |\t|\tUS |\t[EDB](https://www.enterprisedb.com), [Chromatic](https://www.chromatic.com/), [RethinkDB](https://rethinkdb.com/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "GGV",
+      "website": "https://www.ggvc.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[GGV](https://www.ggvc.com/) |\tMulti Stage |\t|\tUS |\t[Hashicorp](https://www.hashicorp.com/), [Kong](https://konghq.com/), [Mindee](https://mindee.com/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Goldman Sachs",
+      "website": "https://www.growth.gs.com/homepage.html",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Goldman Sachs](https://www.growth.gs.com/homepage.html) |\tMulti Stage |\t|\tUS |\t[WSO2](https://wso2.com/), [mongodb](https://www.mongodb.com/), [Mirantis](https://www.mirantis.com/) |",
+      "stage": [
+        "growth"
+      ]
+    },
+    {
+      "name": "GV",
+      "website": "https://www.gv.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[GV](https://www.gv.com/) |\tMulti Stage |\t|\tUS, UK |\t[GitLab](https://gitlab.com/), [Redpanda](https://redpanda.com/), [Posthog](https://posthog.com/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Index Ventures",
+      "website": "https://indexventures.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Index Ventures](https://indexventures.com/) | Multi Stage | | US, UK | [Confluent](https://www.confluent.io/), [Starburst](https://www.starburst.io/), [Datadog](https://www.datadoghq.com/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Insight Partners",
+      "website": "https://www.insightpartners.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Insight Partners](https://www.insightpartners.com/)* | Multi Stage | | US | [JFrog](https://jfrog.com/), [Docker](https://www.docker.com/), [SonarSource](https://www.sonarsource.com/), [Metabase](https://www.metabase.com/), [Astronomer](https://www.astronomer.io/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Kleiner Perkins",
+      "website": "https://www.kleinerperkins.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Kleiner Perkins](https://www.kleinerperkins.com/) | Multi Stage | | US | [Prisma](https://www.prisma.io/), [Materialize](https://materialize.com/), [Oven](https://oven.sh/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Lightspeed Venture Partners",
+      "website": "https://lsvp.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Lightspeed Venture Partners](https://lsvp.com/) | Multi Stage | | US | [Grafana Labs](https://grafana.com/), [Hasura](https://hasura.io/), [ClickHouse](https://clickhouse.com/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "NEA Partners",
+      "website": "https://www.nea.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[NEA Partners](https://www.nea.com/) | Multi Stage | | US | [Metabase](https://www.metabase.com/), [Elastic](https://www.elastic.co/), [TimescaleDB](https://www.timescale.com/), [NGINX](https://www.nginx.com/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Redpoint Ventures",
+      "website": "https://www.redpoint.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Redpoint Ventures](https://www.redpoint.com/) |\tMulti Stage |\t|\tUS |\t[Hashicorp](https://www.hashicorp.com/), [Cockroach Labs](https://www.cockroachlabs.com/), [Mattermost](https://mattermost.com/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Sapphire Ventures",
+      "website": "https://sapphireventures.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Sapphire Ventures](https://sapphireventures.com/) | Multi Stage | | US | [InfluxData](https://www.influxdata.com/), [Mirantis](https://www.mirantis.com/), [yugabyteDB](https://www.yugabyte.com/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Sequoia Capital",
+      "website": "https://www.sequoiacap.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Sequoia Capital](https://www.sequoiacap.com/)* | Multi Stage | | US | [Grafana Labs](https://grafana.com/), [R2C](https://r2c.dev/), [Oso](https://www.osohq.com/), [Stemma](https://www.stemma.ai/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Swift Ventures",
+      "website": "https://www.swift.vc/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Swift Ventures](https://www.swift.vc/) | Multi Stage | | US | [Arize-Phoenix](https://phoenix.arize.com/), [Metal](https://getmetal.io/motorhead), [Heartex](https://heartex.com/home) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Tiger Global",
+      "website": "https://www.tigerglobal.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Tiger Global](https://www.tigerglobal.com/) |\tMulti Stage |\t|\tUS |\t[appwrite](https://appwrite.io/), [Kong](https://konghq.com/), [Redis](https://redis.com/) |",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Venrock",
+      "website": "https://www.venrock.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Venrock](https://www.venrock.com/) | Multi Stage | | US | [Astronomer](https://www.astronomer.io/), [Meltano](https://meltano.com), [dGraph](https://dgraph.io/)|",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ]
+    },
+    {
+      "name": "Altimeter",
+      "website": "https://www.altimeter.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 80,
+      "field_sources": {
+        "source_url": "https://github.com/jonathimer/awesome-oss-investors"
+      },
+      "raw_input": "[Altimeter](https://www.altimeter.com/) | Late Stage | | US | [Confluent](https://www.confluent.io/), [GitLab](https://about.gitlab.com/), [dbt](https://www.getdbt.com/) |",
+      "stage": [
+        "growth"
+      ]
+    },
+    {
+      "name": "OpenVC",
+      "website": "https://www.openvc.app/",
+      "description": "→ Founder-friendly investor directory with filters for stage, geography, and thesis, plus open submission format.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**OpenVC**](https://www.openvc.app/) → Founder-friendly investor directory with filters for stage, geography, and thesis, plus open submission format.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Signal (NFX)",
+      "website": "https://signal.nfx.com/",
+      "description": "→ Free tool for mapping warm intros and relationships to investors across your extended network.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Signal (NFX)**](https://signal.nfx.com/) → Free tool for mapping warm intros and relationships to investors across your extended network.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Crunchbase",
+      "website": "https://www.crunchbase.com/",
+      "description": "→ Database of companies, investors, and funding rounds for market and investor research.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Crunchbase**](https://www.crunchbase.com/) → Database of companies, investors, and funding rounds for market and investor research.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "PitchBook",
+      "website": "https://pitchbook.com/",
+      "description": "→ Private-markets data platform covering VC, PE, and M\\&A transactions.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**PitchBook**](https://pitchbook.com/) → Private-markets data platform covering VC, PE, and M\\&A transactions.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Evalyze.ai",
+      "website": "https://evalyze.ai/?utm_source=github&utm_medium=awesome_list&utm_campaign=startup_fundraising_resources",
+      "description": "→ Investor discovery and matching based on round, sector, geography, and thesis, tied to your deck score.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Evalyze.ai**](https://evalyze.ai/?utm_source=github&utm_medium=awesome_list&utm_campaign=startup_fundraising_resources) → Investor discovery and matching based on round, sector, geography, and thesis, tied to your deck score.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Dealroom",
+      "website": "https://dealroom.net/",
+      "description": "→ Startup and VC database, widely used for ecosystem mapping (especially strong in Europe).",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Dealroom**](https://dealroom.net/) → Startup and VC database, widely used for ecosystem mapping (especially strong in Europe).",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Affinity",
+      "website": "https://www.affinity.co/product/crm",
+      "description": "→ Relationship-intelligence CRM that auto-captures emails/meetings and helps track dealflow across the firm.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Affinity**](https://www.affinity.co/product/crm) → Relationship-intelligence CRM that auto-captures emails/meetings and helps track dealflow across the firm.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Attio",
+      "website": "https://attio.com/",
+      "description": "→ Flexible, AI-native CRM used by modern GTM and investing teams to model pipelines and workflows.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Attio**](https://attio.com/) → Flexible, AI-native CRM used by modern GTM and investing teams to model pipelines and workflows.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Streak",
+      "website": "https://www.streak.com/",
+      "description": "→ Gmail-native CRM; manage fundraising pipelines directly from your inbox.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Streak**](https://www.streak.com/) → Gmail-native CRM; manage fundraising pipelines directly from your inbox.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "HubSpot CRM",
+      "website": "https://www.hubspot.com/products/crm",
+      "description": "→ General-purpose CRM with contact, company, and pipeline tracking, popular with early-stage teams.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [
+        "seed"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**HubSpot CRM**](https://www.hubspot.com/products/crm) → General-purpose CRM with contact, company, and pipeline tracking, popular with early-stage teams.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Pipedrive",
+      "website": "https://www.pipedrive.com/",
+      "description": "→ Deal-centric CRM with visual pipelines that many founders reuse for investor outreach.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Pipedrive**](https://www.pipedrive.com/) → Deal-centric CRM with visual pipelines that many founders reuse for investor outreach.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Close",
+      "website": "https://www.close.com/",
+      "description": "→ Sales engagement CRM with built-in calling, email, and sequences some founders use for investor outbound.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Close**](https://www.close.com/) → Sales engagement CRM with built-in calling, email, and sequences some founders use for investor outbound.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "DocSend",
+      "website": "https://www.docsend.com/",
+      "description": "→ Virtual data room and deck-sharing tool with page-level analytics for fundraising and investor updates.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**DocSend**](https://www.docsend.com/) → Virtual data room and deck-sharing tool with page-level analytics for fundraising and investor updates.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Papermark",
+      "website": "https://www.papermark.com/",
+      "description": "→ Open-source virtual data room and secure document sharing with analytics and custom domains/branding.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Papermark**](https://www.papermark.com/) → Open-source virtual data room and secure document sharing with analytics and custom domains/branding.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Google Drive",
+      "website": "https://workspace.google.com/products/drive/",
+      "description": "→ General cloud storage and sharing; common “good enough” data room for early rounds.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Google Drive**](https://workspace.google.com/products/drive/) → General cloud storage and sharing; common “good enough” data room for early rounds.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Notion",
+      "website": "https://www.notion.com/",
+      "description": "→ All-in-one workspace for docs and databases; often used to host lightweight data rooms and FAQs.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Notion**](https://www.notion.com/) → All-in-one workspace for docs and databases; often used to host lightweight data rooms and FAQs.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Dropbox",
+      "website": "https://www.dropbox.com/",
+      "description": "→ A File sync and sharing platform frequently used for larger diligence folders.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Dropbox**](https://www.dropbox.com/) → A File sync and sharing platform frequently used for larger diligence folders.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Instantly",
+      "website": "https://instantly.ai/",
+      "description": "→ Cold email platform focused on deliverability, multiple inboxes, and campaign analytics.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Instantly**](https://instantly.ai/) → Cold email platform focused on deliverability, multiple inboxes, and campaign analytics.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Lemlist",
+      "website": "https://lemlist.com/",
+      "description": "→ Multichannel outreach (email \\+ LinkedIn \\+ phone) with strong personalisation features.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Lemlist**](https://lemlist.com/) → Multichannel outreach (email \\+ LinkedIn \\+ phone) with strong personalisation features.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Mailshake",
+      "website": "https://mailshake.com/",
+      "description": "→ Sales engagement and cold email tool combining email, phone, and social touches.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Mailshake**](https://mailshake.com/) → Sales engagement and cold email tool combining email, phone, and social touches.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Apollo",
+      "website": "https://www.apollo.io/",
+      "description": "→ Sales intelligence plus multichannel sequences; often used for highly targeted investor lists.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Apollo**](https://www.apollo.io/) → Sales intelligence plus multichannel sequences; often used for highly targeted investor lists.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "YC Startup Library",
+      "website": "https://www.ycombinator.com/library",
+      "description": "→ Essays, videos, and podcasts on starting up, including seed fundraising basics.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [
+        "seed"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**YC Startup Library**](https://www.ycombinator.com/library) → Essays, videos, and podcasts on starting up, including seed fundraising basics.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Startup School (YC)",
+      "website": "https://www.startupschool.org/",
+      "description": "→ Free online course on how to start a company and raise a first round.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Startup School (YC)**](https://www.startupschool.org/) → Free online course on how to start a company and raise a first round.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "First Round Review",
+      "website": "https://review.firstround.com/",
+      "description": "→ Tactical, long-form articles on product, hiring, leadership, and fundraising.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**First Round Review**](https://review.firstround.com/) → Tactical, long-form articles on product, hiring, leadership, and fundraising.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "a16z Articles & Podcasts",
+      "website": "https://a16z.com/podcasts/a16z-podcast/",
+      "description": "→ Venture and tech content from Andreessen Horowitz partners and operators.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**a16z Articles & Podcasts**](https://a16z.com/podcasts/a16z-podcast/) → Venture and tech content from Andreessen Horowitz partners and operators.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Techstars Blog & Education",
+      "website": "https://www.techstars.com/education",
+      "description": "→ Playbooks, talks, and courses from the Techstars accelerator network.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Techstars Blog & Education**](https://www.techstars.com/education) → Playbooks, talks, and courses from the Techstars accelerator network.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "AngelList",
+      "website": "https://www.angellist.com/",
+      "description": "→ Platform for startups, angel investors, and funds (syndicates, rolling funds, talent).",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**AngelList**](https://www.angellist.com/) → Platform for startups, angel investors, and funds (syndicates, rolling funds, talent).",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Seedrs",
+      "website": "https://thecrowdspace.com/platform/seedrs/",
+      "description": "→ Equity crowdfunding platform enabling individuals to invest in European startups.",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Seedrs**](https://thecrowdspace.com/platform/seedrs/) → Equity crowdfunding platform enabling individuals to invest in European startups.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Republic",
+      "website": "https://republic.com/",
+      "description": "→ Investment platform opening private-market deals (including startups) to a broader investor base.",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Republic**](https://republic.com/) → Investment platform opening private-market deals (including startups) to a broader investor base.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Crowdcube",
+      "website": "https://www.crowdcube.com/",
+      "description": "→ Equity crowdfunding platform where individuals invest in startups and growth companies.",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [
+        "growth"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Crowdcube**](https://www.crowdcube.com/) → Equity crowdfunding platform where individuals invest in startups and growth companies.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Gust",
+      "website": "https://gust.com/",
+      "description": "→ Platform with tools for startups and investor groups, from company setup to dealflow management.",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [**Gust**](https://gust.com/) → Platform with tools for startups and investor groups, from company setup to dealflow management.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Andreessen Horowitz (a16z)",
+      "website": "https://a16z.com/",
+      "description": "→ US-based multi-stage firm active in software, fintech, crypto, AI, and bio, with substantial capital for seed through late-stage rounds.​",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [
+        "seed",
+        "growth",
+        "series-a",
+        "series-b"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Andreessen Horowitz (a16z)](https://a16z.com/) → US-based multi-stage firm active in software, fintech, crypto, AI, and bio, with substantial capital for seed through late-stage rounds.​",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Tiger Global Management",
+      "website": "https://www.tigerglobal.com/",
+      "description": "→ Very active global technology investor, often leading large growth and late-stage rounds across software, fintech, and internet companies.​",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [
+        "growth"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Tiger Global Management](https://www.tigerglobal.com/) → Very active global technology investor, often leading large growth and late-stage rounds across software, fintech, and internet companies.​",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "New Enterprise Associates (NEA)",
+      "website": "https://www.nea.com/",
+      "description": "→ One of the largest global VC platforms, investing from seed to pre-IPO in healthcare, enterprise software, and consumer tech.​",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [
+        "seed"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [New Enterprise Associates (NEA)](https://www.nea.com/) → One of the largest global VC platforms, investing from seed to pre-IPO in healthcare, enterprise software, and consumer tech.​",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "GGV Capital",
+      "website": "https://www.ggvc.com/",
+      "description": "→ Multi-stage firm with strong US–Asia footprint, investing in consumer internet, enterprise, and frontier tech at seed through growth stages.​",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [
+        "seed",
+        "growth",
+        "series-a",
+        "series-b"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [GGV Capital](https://www.ggvc.com/) → Multi-stage firm with strong US–Asia footprint, investing in consumer internet, enterprise, and frontier tech at seed through growth stages.​",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Battery Ventures",
+      "website": "https://www.battery.com/",
+      "description": "→ Global multi-stage VC investing in B2B software, industrial tech, and fintech, with both early and late-stage funds.",
+      "opportunity_type": "vc",
+      "confidence_score": 70,
+      "stage": [
+        "growth",
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Battery Ventures](https://www.battery.com/) → Global multi-stage VC investing in B2B software, industrial tech, and fintech, with both early and late-stage funds.",
+      "check_size_min": 2000000000,
+      "check_size_max": 2000000000
+    },
+    {
+      "name": "Naval Ravikant",
+      "website": "https://www.evalyze.ai/investors/naval-ravikant",
+      "description": "→ Co‑founder of AngelList, prolific early-stage investor in over 100 startups, including major tech companies; strong focus on tech and internet businesses.​",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [
+        "seed"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Naval Ravikant](https://www.evalyze.ai/investors/naval-ravikant) → Co‑founder of AngelList, prolific early-stage investor in over 100 startups, including major tech companies; strong focus on tech and internet businesses.​",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Fabrice Grinda",
+      "website": "https://fabricegrinda.com/",
+      "description": "→ Marketplace-focused super-angel with 200+ investments worldwide, backing early-stage companies across the US, Europe, and LatAm.​",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [
+        "seed"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Fabrice Grinda](https://fabricegrinda.com/) → Marketplace-focused super-angel with 200+ investments worldwide, backing early-stage companies across the US, Europe, and LatAm.​",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Kunal Shah",
+      "website": "https://www.evalyze.ai/investors/kunal-lunawat",
+      "description": "→ Indian founder of CRED and ex-FreeCharge, highly active angel in Indian and global fintech, consumer, and SaaS startups.​",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Kunal Shah](https://www.evalyze.ai/investors/kunal-lunawat) → Indian founder of CRED and ex-FreeCharge, highly active angel in Indian and global fintech, consumer, and SaaS startups.​",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Elad Gil",
+      "website": "https://www.evalyze.ai/investors/elad-gil",
+      "description": "→ Silicon Valley operator-angel with a strong track record in breakout SaaS, infra, and AI startups, often participating in seed and early Series A.​",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Elad Gil](https://www.evalyze.ai/investors/elad-gil) → Silicon Valley operator-angel with a strong track record in breakout SaaS, infra, and AI startups, often participating in seed and early Series A.​",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Edward Lando",
+      "website": "https://www.evalyze.ai/investors/edward-lando",
+      "description": "→ Co-runs Pareto Holdings, has invested in 1,000+ startups, especially fintech, infrastructure, and B2B software, frequently at pre-seed/seed.​",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [
+        "pre-seed"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Edward Lando](https://www.evalyze.ai/investors/edward-lando) → Co-runs Pareto Holdings, has invested in 1,000+ startups, especially fintech, infrastructure, and B2B software, frequently at pre-seed/seed.​",
+      "check_size_min": 2000000000,
+      "check_size_max": 2000000000
+    },
+    {
+      "name": "Sahin Boydas",
+      "website": "https://www.linkedin.com/in/sahinboydas",
+      "description": "→ Among the most active angels in 2024–2025 with a notable AI and developer tools portfolio, including leading frontier-tech companies.​",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Sahin Boydas](https://www.linkedin.com/in/sahinboydas) → Among the most active angels in 2024–2025 with a notable AI and developer tools portfolio, including leading frontier-tech companies.​",
+      "check_size_min": 2024,
+      "check_size_max": 2025
+    },
+    {
+      "name": "Immad Akhund",
+      "website": "https://www.linkedin.com/in/iakhund/",
+      "description": "→ Founder/CEO of Mercury and prolific B2B-focused angel with 350+ investments in SaaS and fintech.​",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Immad Akhund](https://www.linkedin.com/in/iakhund/) → Founder/CEO of Mercury and prolific B2B-focused angel with 350+ investments in SaaS and fintech.​",
+      "check_size_min": 2000000000,
+      "check_size_max": 2000000000
+    },
+    {
+      "name": "Michael Stoppelman",
+      "website": "https://www.linkedin.com/in/michaelstoppelman/",
+      "description": "→ US-based angel backing infra, dev tools, digital health, and security, often at seed and early-stage B2B.​",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [
+        "seed"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Michael Stoppelman](https://www.linkedin.com/in/michaelstoppelman/) → US-based angel backing infra, dev tools, digital health, and security, often at seed and early-stage B2B.​",
+      "check_size_min": 2000000000,
+      "check_size_max": 2000000000
+    },
+    {
+      "name": "Sophia Bendz",
+      "website": "https://www.evalyze.ai/investors/sophia-bendz",
+      "description": "→ European angel with a strong focus on consumer and tech startups in Europe and North America, known for early-stage bets and operator support.",
+      "opportunity_type": "angel",
+      "confidence_score": 70,
+      "stage": [
+        "seed"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      },
+      "raw_input": "- [Sophia Bendz](https://www.evalyze.ai/investors/sophia-bendz) → European angel with a strong focus on consumer and tech startups in Europe and North America, known for early-stage bets and operator support.",
+      "check_size_min": null,
+      "check_size_max": null
+    },
+    {
+      "name": "Mark Cuban",
+      "description": "Entrepreneur and investor backing SaaS, consumer, and media/AI startups",
+      "opportunity_type": "angel",
+      "confidence_score": 75,
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "field_sources": {
+        "source_url": "https://github.com/evalyze-ai/awesome-startup-fundraising"
+      }
+    },
+    {
+      "name": "**Roofline AI**",
+      "website": "https://www.roofline.ai/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Roofline AI**](https://www.roofline.ai/) | | [✩](https://github.com/RooflineAI) |"
+    },
+    {
+      "name": "**Rime Finance**",
+      "website": "https://rime.finance/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Rime Finance**](https://rime.finance/) | [Léonie Rivière](https://www.linkedin.com/in/leonieriviere/), [Marcel Katenhusen](https://www.linkedin.com/in/marcel-katenhusen/) | |"
+    },
+    {
+      "name": "**Pyannote AI**",
+      "website": "https://pyannote.ai/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Pyannote AI**](https://pyannote.ai/) | [Vincent Molina](https://www.linkedin.com/in/vincent-molina-39041730/), [Hervé Bredin](https://www.linkedin.com/in/herv%C3%A9-bredin-50b36a248/) | [✩](https://github.com/pyannote/pyannote-audio) |"
+    },
+    {
+      "name": "**Edgee**",
+      "website": "https://www.edgee.cloud/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Edgee**](https://www.edgee.cloud/) | | [✩](https://github.com/edgee-cloud/edgee) |"
+    },
+    {
+      "name": "**PixelTable**",
+      "website": "https://pixeltable.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**PixelTable**](https://pixeltable.com/) | | [✩](https://github.com/pixeltable/pixeltable) |"
+    },
+    {
+      "name": "**switstack**",
+      "website": "https://www.switstack.io/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**switstack**](https://www.switstack.io/) | [Vincent Durieux](https://www.linkedin.com/in/vincentdurieux/), [Emmanuel Haydont](https://www.linkedin.com/in/ehaydont/), [Alexandre Munsch](https://www.linkedin.com/in/alexandremunsch/), [Olivier Chauvineau](https://www.linkedin.com/in/olivier-chauvineau-07b007195/) | [✩](https://github.com/switstack) |"
+    },
+    {
+      "name": "**Kotzilla**",
+      "website": "https://kotzilla.io/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Kotzilla**](https://kotzilla.io/)        | [Arnaud Giuliani](https://www.linkedin.com/in/arnaud-giuliani-0b2b73b/), [Michael Montoya](https://www.linkedin.com/in/montoyamichael/)   | [✩](https://github.com/InsertKoinIO/koin)    |"
+    },
+    {
+      "name": "**Opsmill**",
+      "website": "https://www.opsmill.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Opsmill**](https://www.opsmill.com/)        | [Damien Garros](https://www.linkedin.com/in/damiengarros/), [Raphaël Maunier](https://www.linkedin.com/in/rmaunier/)   | [✩](https://github.com/opsmill)    |"
+    },
+    {
+      "name": "**Quandela**",
+      "website": "https://www.quandela.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Quandela**](https://www.quandela.com/)        | [Niccolo Somaschi](https://www.linkedin.com/in/niccolo-somaschi-a3689598/), [Valérien Giesz](https://www.linkedin.com/in/valerian-giesz-119517105/), [Pascale Senellart](https://www.linkedin.com/in/pascale-senellart-4b784088/)     | [✩](https://github.com/Quandela)    |"
+    },
+    {
+      "name": "**Koyeb**",
+      "website": "https://www.koyeb.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Koyeb**](https://www.koyeb.com/)      | [Edouard Bonlieu](https://www.linkedin.com/in/ebonlieu/), [Bastien Chatelard](https://www.linkedin.com/in/bastienchatelard/), [Yann Léger](https://www.linkedin.com/in/yannleger/)    | [✩](https://github.com/koyeb)    |"
+    },
+    {
+      "name": "**Fipto**",
+      "website": "https://fr.fipto.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Fipto**](https://fr.fipto.com/)       | [Gregoire Andrieu-Guitrancourt](https://www.linkedin.com/in/gregoire-andrieu-guitrancourt/), [Bertrand Godin](https://www.linkedin.com/in/bertrandgodin/), [Patrick Mollard](https://www.linkedin.com/in/patrick-mollard-703a881/)    |     |"
+    },
+    {
+      "name": "**Odaseva**",
+      "website": "https://www.odaseva.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Odaseva**](https://www.odaseva.com/)       | [Sovan Bin](http://linkedin.com/in/sovanbin)     | [✩](https://github.com/odaseva)    |"
+    },
+    {
+      "name": "**Accenta**",
+      "website": "https://www.accenta.ai/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Accenta**](https://www.accenta.ai/)      | [Philippe Bruand](https://www.linkedin.com/in/philippebruand/), [Marine Doquet-Chassaing](https://www.linkedin.com/in/marine-doquet-chassaing/), [Pierre Trémolières](https://www.linkedin.com/in/pierretremolieres/)     |     |"
+    },
+    {
+      "name": "**Lifen**",
+      "website": "https://www.lifen.fr/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Lifen**](https://www.lifen.fr/)      | [Etienne Depaulis](http://linkedin.com/in/etiennedepaulis), [Alexandre Huckert](http://linkedin.com/in/alexhuckert), [Franck Le Ouay](http://linkedin.com/in/franckl)    | [✩](https://github.com/honestica)    |"
+    },
+    {
+      "name": "**CybelAngel**",
+      "website": "https://cybelangel.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**CybelAngel**](https://cybelangel.com/)      | [Erwan Keraudy](https://www.linkedin.com/in/erwankeraudy/), [Stevan Keraudy](https://www.linkedin.com/in/skeraudy/)    | [✩](https://github.com/CybelAngel)    |"
+    },
+    {
+      "name": "**Mindee**",
+      "website": "https://mindee.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Mindee**](https://mindee.com/)      | [Mohamed Biaz](http://linkedin.com/in/mohamed-biaz-8268597a), [Jonathan Grandperrin](http://linkedin.com/in/jonathan-grandperrin-47014563), [Olivier Rey](http://linkedin.com/in/olivier-rey-565756101)    | [✩](https://github.com/mindee)    |"
+    },
+    {
+      "name": "**Inato**",
+      "website": "https://inato.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Inato**](https://inato.com/)       | [Kourosh Davarpanah](http://linkedin.com/in/kourosh-davarpanah-1478422a), [William Pambrun](http://linkedin.com/in/williampambrun), Philippe Ravaudinato, [Jean-David Zeitoun](http://linkedin.com/in/jean-david-zeitoun-05679459)     | [✩](https://github.com/inato)    |"
+    },
+    {
+      "name": "**Implicity**",
+      "website": "https://www.implicity.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Implicity**](https://www.implicity.com/)      | [Arnaud Rosier](https://www.linkedin.com/in/arnaud-rosier-md-94b05410/)     | [✩](https://github.com/implicity-healthcare)    |"
+    },
+    {
+      "name": "**Acinq**",
+      "website": "https://acinq.co/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Acinq**](https://acinq.co/)      | [Fabrice Drouin](https://www.linkedin.com/in/fabrice-drouin-95ab8012/), [Pierre-Marie Padiou](https://www.linkedin.com/in/pmpadiou/)     | [✩](https://github.com/ACINQ)    |"
+    },
+    {
+      "name": "**Kili Technology**",
+      "website": "https://kili-technology.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Kili Technology**](https://kili-technology.com/)      | [Edouard d'Archimbaud](https://www.linkedin.com/in/edouard-d-archimbaud/), [François-Xavier Leduc](https://www.linkedin.com/in/fxleduc/)     | [✩](https://github.com/kili-technology)    |"
+    },
+    {
+      "name": "**Kardinal**",
+      "website": "https://kardinal.ai/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Kardinal**](https://kardinal.ai/)      | [Jonathan Bouaziz](http://linkedin.com/in/bouazizjonathan), [Hugo Farizon](http://linkedin.com/in/hugo-farizon-b5a380124), [Cédric Hervet](http://linkedin.com/in/c%C3%A9dric-hervet-97b72817)     | [✩](https://github.com/KardinalAI)    |"
+    },
+    {
+      "name": "**Heuritech**",
+      "website": "https://www.heuritech.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Heuritech**](https://www.heuritech.com/)      | [Charles Ollion](https://www.linkedin.com/in/charles-ollion/), [Tony Pinville](https://www.linkedin.com/in/pinville/)     | [✩](https://github.com/heuritech)    |"
+    },
+    {
+      "name": "**Sarus**",
+      "website": "https://www.sarus.tech/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Sarus**](https://www.sarus.tech/)      | [Maxime Agostini](http://linkedin.com/in/maximeago), [Nicolas Grislain](http://linkedin.com/in/nicolas-grislain), [Vincent Lepage](http://linkedin.com/in/vincent-lepage-064ab41)     | [✩](https://github.com/sarus-tech)    |"
+    },
+    {
+      "name": "**Norbert Health**",
+      "website": "https://www.norberthealth.com/",
+      "opportunity_type": "vc",
+      "confidence_score": 65,
+      "stage": [],
+      "field_sources": {
+        "source_url": "https://github.com/Krasavchik/serena-capital"
+      },
+      "raw_input": "| [**Norbert Health**](https://www.norberthealth.com/)      | [Patrick Collins](https://www.linkedin.com/in/patrickjcollinsiii/), [Alexandre Winter](https://www.linkedin.com/in/alexandrewinter/)     |     |"
+    },
+    {
+      "name": "Initialized Capital",
+      "website": "https://initialized.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 5000000,
+      "description": "Early-stage venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Lux Capital",
+      "website": "https://luxcapital.com",
+      "location": "New York, NY",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Deep tech and science-driven startups",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Founders Fund",
+      "website": "https://foundersfund.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "description": "Thiel-backed fund investing in transformative technology",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Union Square Ventures",
+      "website": "https://usv.com",
+      "location": "New York, NY",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Thesis-driven investing in large networks of engaged users",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "General Catalyst",
+      "website": "https://generalcatalyst.com",
+      "location": "Cambridge, MA",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "description": "Multi-stage venture capital firm",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Benchmark",
+      "website": "https://benchmark.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Early-stage venture capital",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "IVP (Institutional Venture Partners)",
+      "website": "https://ivp.com",
+      "location": "Menlo Park, CA",
+      "stage": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "description": "Late-stage technology investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Ribbit Capital",
+      "website": "https://ribbitcap.com",
+      "location": "Palo Alto, CA",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "description": "Fintech-focused venture capital",
+      "sectors": [
+        "Fintech"
+      ],
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Khosla Ventures",
+      "website": "https://khoslaventures.com",
+      "location": "Menlo Park, CA",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "description": "Technology ventures across sectors",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Spark Capital",
+      "website": "https://sparkcapital.com",
+      "location": "Boston, MA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Early and growth-stage venture capital",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Social Capital",
+      "website": "https://socialcapital.com",
+      "location": "Palo Alto, CA",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "description": "Technology-focused venture capital",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Menlo Ventures",
+      "website": "https://menlovc.com",
+      "location": "Menlo Park, CA",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "description": "Early to growth stage technology ventures",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Floodgate",
+      "website": "https://floodgate.com",
+      "location": "Palo Alto, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 3000000,
+      "description": "Seed-stage venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Forerunner Ventures",
+      "website": "https://forerunnerventures.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Commerce and consumer investing",
+      "sectors": [
+        "Consumer",
+        "E-commerce"
+      ],
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "First Round Capital",
+      "website": "https://firstround.com",
+      "location": "Philadelphia, PA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 3000000,
+      "description": "Seed-stage venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Lowercase Capital",
+      "website": "https://lowercasecapital.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "description": "Super-angel and seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "SV Angel",
+      "website": "https://svangel.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 500000,
+      "description": "Angel investing fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Precursor Ventures",
+      "website": "https://precursorvc.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 1000000,
+      "description": "Pre-seed focused fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Homebrew",
+      "website": "https://homebrew.co",
+      "location": "San Francisco, CA",
+      "stage": [
+        "seed"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 3000000,
+      "description": "Seed-stage venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Root Ventures",
+      "website": "https://root.vc",
+      "location": "San Francisco, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Hardware and frontier tech seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Lerer Hippeau",
+      "website": "https://lererhippeau.com",
+      "location": "New York, NY",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 2000000,
+      "description": "Early-stage venture capital in NYC",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Founder Collective",
+      "website": "https://foundercollective.com",
+      "location": "Boston, MA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 1000000,
+      "description": "Seed-stage fund run by founders",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Greycroft",
+      "website": "https://greycroft.com",
+      "location": "New York, NY",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Early-stage venture investing in internet and mobile",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Canaan Partners",
+      "website": "https://canaan.com",
+      "location": "Menlo Park, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Early-stage tech and healthcare investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Madrona Venture Group",
+      "website": "https://madrona.com",
+      "location": "Seattle, WA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 10000000,
+      "description": "Early-stage technology investors based in Pacific NW",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Revolution",
+      "website": "https://revolution.com",
+      "location": "Washington, DC",
+      "stage": [
+        "seed",
+        "series-a",
+        "growth"
+      ],
+      "description": "Steve Case fund investing in startups outside Silicon Valley",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Drive Capital",
+      "website": "https://drivecapital.com",
+      "location": "Columbus, OH",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "description": "Midwest-focused venture capital",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "M25",
+      "website": "https://m25vc.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 500000,
+      "description": "Midwest early-stage venture fund",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Hyde Park Venture Partners",
+      "website": "https://hydeparkvp.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 3000000,
+      "description": "Chicago-based early-stage B2B fund",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Chicago Ventures",
+      "website": "https://chicagoventures.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 1000000,
+      "description": "Chicago seed-stage venture fund",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Pritzker Group Venture Capital",
+      "website": "https://pritzkergroup.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "description": "Chicago-based venture capital",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "OCA Ventures",
+      "website": "https://ocaventures.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 5000000,
+      "description": "Technology-focused Chicago VC",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "MATH Venture Partners",
+      "website": "https://mathvp.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Chicago-based marketing and technology fund",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Lightbank",
+      "website": "https://lightbank.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 3000000,
+      "description": "Groupon founders VC fund in Chicago",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Origin Ventures",
+      "website": "https://originventures.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 5000000,
+      "description": "Chicago early-stage venture fund",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Left Lane Capital",
+      "website": "https://leftlanecap.com",
+      "location": "New York, NY",
+      "stage": [
+        "series-a",
+        "series-b"
+      ],
+      "description": "Growth-stage consumer internet investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Thrive Capital",
+      "website": "https://thrivecap.com",
+      "location": "New York, NY",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "description": "Internet and software investments",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Cowboy Ventures",
+      "website": "https://cowboy.vc",
+      "location": "Palo Alto, CA",
+      "stage": [
+        "seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 3000000,
+      "description": "Seed-stage fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Blumberg Capital",
+      "website": "https://blumbergcapital.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 5000000,
+      "description": "Early-stage tech investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "NextView Ventures",
+      "website": "https://nextviewventures.com",
+      "location": "Boston, MA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 2000000,
+      "description": "Seed-stage fund focused on redesigning everyday life",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Correlation Ventures",
+      "website": "https://correlationvc.com",
+      "location": "San Diego, CA",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "description": "Data-driven co-investment fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Plug and Play Tech Center",
+      "website": "https://plugandplaytechcenter.com",
+      "location": "Sunnyvale, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "description": "Accelerator and venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "TechNexus Venture Collaborative",
+      "website": "https://technexus.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Chicago venture collaborative",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Valor Ventures",
+      "website": "https://valorvc.com",
+      "location": "Atlanta, GA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 2000000,
+      "description": "Southeast US early-stage fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "Cultivation Capital",
+      "website": "https://cultivationcapital.com",
+      "location": "St. Louis, MO",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Midwest venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "openvc.app"
+      }
+    },
+    {
+      "name": "SoftBank Vision Fund",
+      "website": "https://visionfund.com",
+      "location": "Tokyo / San Francisco",
+      "stage": [
+        "series-b",
+        "growth"
+      ],
+      "description": "Largest technology-focused venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "General Atlantic",
+      "website": "https://generalatlantic.com",
+      "location": "New York, NY",
+      "stage": [
+        "growth"
+      ],
+      "description": "Global growth equity firm",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Warburg Pincus",
+      "website": "https://warburgpincus.com",
+      "location": "New York, NY",
+      "stage": [
+        "growth"
+      ],
+      "description": "Private equity and growth investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Draper Fisher Jurvetson (DFJ)",
+      "website": "https://dfj.com",
+      "location": "Menlo Park, CA",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "description": "Early-stage venture capital",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Foundry Group",
+      "website": "https://foundrygroup.com",
+      "location": "Boulder, CO",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Early-stage venture capital focused on tech",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Upfront Ventures",
+      "website": "https://upfront.com",
+      "location": "Los Angeles, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "LA-based early-stage venture capital",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "August Capital",
+      "website": "https://augustcap.com",
+      "location": "Menlo Park, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Early-stage consumer and enterprise",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Emergence Capital",
+      "website": "https://emcap.com",
+      "location": "San Mateo, CA",
+      "stage": [
+        "series-a",
+        "series-b"
+      ],
+      "description": "Enterprise cloud investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Scale Venture Partners",
+      "website": "https://scalevp.com",
+      "location": "Foster City, CA",
+      "stage": [
+        "series-a",
+        "series-b"
+      ],
+      "description": "Early growth stage B2B software",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Sutter Hill Ventures",
+      "website": "https://shv.com",
+      "location": "Palo Alto, CA",
+      "stage": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "description": "Early-stage technology investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Flybridge Capital Partners",
+      "website": "https://flybridge.com",
+      "location": "Boston, MA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Early-stage VC in the Northeast",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Shasta Ventures",
+      "website": "https://shastaventures.com",
+      "location": "Menlo Park, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Early-stage investing in transformative companies",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Javelin Venture Partners",
+      "website": "https://javelinvp.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 5000000,
+      "description": "Seed and early-stage venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "ff Venture Capital",
+      "website": "https://ffvc.com",
+      "location": "New York, NY",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "NYC-based seed and early-stage fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Cross Culture Ventures",
+      "website": "https://crossculturevc.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "description": "Diversity-focused seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Kapor Capital",
+      "website": "https://kaporcapital.com",
+      "location": "Oakland, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 2000000,
+      "description": "Social impact seed investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Backstage Capital",
+      "website": "https://backstagecapital.com",
+      "location": "Los Angeles, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 25000,
+      "check_size_max": 500000,
+      "description": "Investing in underrepresented founders",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Harlem Capital",
+      "website": "https://harlemcapital.com",
+      "location": "New York, NY",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 1000000,
+      "description": "Diverse founders early-stage fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "MaC Venture Capital",
+      "website": "https://macventurecapital.com",
+      "location": "Los Angeles, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 1000000,
+      "description": "Cross-cultural early-stage investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Base10 Partners",
+      "website": "https://base10.vc",
+      "location": "San Francisco, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Automation-focused venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Afore Capital",
+      "website": "https://afore.vc",
+      "location": "San Francisco, CA",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 1000000,
+      "description": "Pre-seed institutional fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Pear VC",
+      "website": "https://pear.vc",
+      "location": "Palo Alto, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 2000000,
+      "description": "Pre-seed and seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Techstars",
+      "website": "https://techstars.com",
+      "location": "Boulder, CO",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 120000,
+      "check_size_max": 120000,
+      "description": "Global accelerator and seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "1517 Fund",
+      "website": "https://1517fund.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 500000,
+      "description": "Investing in young and non-traditional founders",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Hustle Fund",
+      "website": "https://hustlefund.vc",
+      "location": "San Francisco, CA",
+      "stage": [
+        "pre-seed"
+      ],
+      "check_size_min": 25000,
+      "check_size_max": 200000,
+      "description": "Pre-seed fund for hustlers",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Unshackled Ventures",
+      "website": "https://unshackledvc.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 500000,
+      "description": "Investing in immigrant founders",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Act One Ventures",
+      "website": "https://actoneventures.com",
+      "location": "Los Angeles, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 1000000,
+      "description": "Diverse founding teams seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Laconia Capital Group",
+      "website": "https://laconiacapitalgroup.com",
+      "location": "New York, NY",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Women-led venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Elevate Capital",
+      "website": "https://elevate.vc",
+      "location": "Portland, OR",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 500000,
+      "description": "Underrepresented founders fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Dreamit Ventures",
+      "website": "https://dreamit.com",
+      "location": "Philadelphia, PA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "description": "Accelerator and seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "New Stack Ventures",
+      "website": "https://newstack.vc",
+      "location": "New York, NY",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Enterprise software seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Hyde Park Angels",
+      "website": "https://hydeparkangels.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 500000,
+      "description": "Chicago angel investor group",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "I2A Fund",
+      "website": "https://i2afund.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "seed"
+      ],
+      "description": "Chicago-area investment fund",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Cleveland Avenue",
+      "website": "https://clevelandavenue.com",
+      "location": "Chicago, IL",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Food, beverage, and tech investing",
+      "chicago_focused": true,
+      "sectors": [
+        "Food & Beverage",
+        "Technology"
+      ],
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Serra Ventures",
+      "website": "https://serraventures.com",
+      "location": "Champaign, IL",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 2000000,
+      "description": "Midwest early-stage venture fund",
+      "chicago_focused": true,
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Calm Ventures",
+      "website": "https://calmventures.com",
+      "location": "Los Angeles, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 500000,
+      "description": "Mission-driven seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Cherubic Ventures",
+      "website": "https://cherubicvc.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Cross-border venture investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Bowery Capital",
+      "website": "https://bowerycap.com",
+      "location": "New York, NY",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 500000,
+      "check_size_max": 3000000,
+      "description": "B2B software seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Work-Bench",
+      "website": "https://work-bench.com",
+      "location": "New York, NY",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Enterprise tech early-stage fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Notation Capital",
+      "website": "https://notation.vc",
+      "location": "Brooklyn, NY",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 100000,
+      "check_size_max": 500000,
+      "description": "NYC pre-seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Version One Ventures",
+      "website": "https://versionone.vc",
+      "location": "Vancouver, BC",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Software-focused seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Accomplice",
+      "website": "https://accomplice.co",
+      "location": "Boston, MA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Community-driven venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Crosslink Capital",
+      "website": "https://crosslinkcapital.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Multi-stage venture investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Refactor Capital",
+      "website": "https://refactor.com",
+      "location": "San Francisco, CA",
+      "stage": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 1500000,
+      "description": "Pre-seed and seed fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Invest Detroit Ventures",
+      "website": "https://investdetroit.com",
+      "location": "Detroit, MI",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Detroit-area venture investing",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "Lewis & Clark Ventures",
+      "website": "https://lewisandclarkventures.com",
+      "location": "St. Louis, MO",
+      "stage": [
+        "seed",
+        "series-a"
+      ],
+      "description": "Midwest technology venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    },
+    {
+      "name": "FJ Labs",
+      "website": "https://fjlabs.com",
+      "location": "New York, NY",
+      "stage": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "check_size_min": 250000,
+      "check_size_max": 2000000,
+      "description": "Marketplace-focused venture fund",
+      "opportunity_type": "vc",
+      "confidence_score": 75,
+      "field_sources": {
+        "source_url": "crunchbase_open_data"
+      }
+    }
+  ]
+}

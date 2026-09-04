@@ -37,3 +37,16 @@ supabase/.temp/
 # MCP config (contains tokens)
 .mcp.json
 .vercel
+
+# Raw harvest / SEC bulk data (hundreds of MB; regenerate with scripts/harvest-*.mjs)
+data/form-d/
+data/form-adv/
+data/harvests/
+data/harvested/
+data/harvest-*.json
+data/sec-*.json
+data/sec-*.csv
+data/gigasheet-*.csv
+data/*.png
+supabase/migrations/chunks/
+supabase/migrations/*.bak

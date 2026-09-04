@@ -76,7 +76,7 @@ export function InvestorStrip({
           Investor Type
         </span>
         <span className="text-[9px] uppercase tracking-[0.2em] text-chi-dim font-mono">
-          {counts.total || '2,000+'}
+          {counts.total || '60,000+'}
         </span>
       </div>
       

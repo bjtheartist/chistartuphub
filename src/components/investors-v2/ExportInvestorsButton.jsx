@@ -1,15 +1,35 @@
 import React, { useState } from 'react';
-import { Download, ChevronDown, FileSpreadsheet, FileText } from 'lucide-react';
+import { Download, ChevronDown, FileSpreadsheet, FileText, Lock } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useInvestorExport } from '@/hooks/useInvestorExport';
 import { useAuth } from '@/contexts/AuthContext';
+import { useSubscription } from '@/contexts/SubscriptionContext';
 
 export function ExportInvestorsButton({ investors = [], filename = 'investors' }) {
   const [open, setOpen] = useState(false);
   const { exportCSV, exportPDF, isExporting } = useInvestorExport();
-  const { profile } = useAuth();
+  const { profile, user, openSignup } = useAuth();
+  const { isPro, startCheckout } = useSubscription();
 
   if (!investors.length) return null;
+
+  // Gate export behind Pro
+  if (!isPro) {
+    return (
+      <button
+        onClick={() => user ? startCheckout() : openSignup()}
+        className={cn(
+          'flex items-center gap-2 px-3 py-2 border border-chi-ghost/50 text-chi-dim',
+          'hover:border-chi-signal/50 hover:text-chi-signal transition-colors font-mono text-[10px] uppercase tracking-[0.1em]'
+        )}
+        title="Upgrade to Pro to export"
+      >
+        <Lock className="w-3 h-3" />
+        Export
+        <span className="text-[8px] text-chi-signal">PRO</span>
+      </button>
+    );
+  }
 
   return (
     <div className="relative">

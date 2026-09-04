@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate, Link, useLocation } f
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { AuthProvider } from '@/contexts/AuthContext';
+import { SubscriptionProvider } from '@/contexts/SubscriptionContext';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import PageSkeleton from '@/components/PageSkeleton';
 import ProtectedRoute from '@/components/ProtectedRoute';
@@ -51,6 +52,7 @@ function App() {
     <ErrorBoundary>
       <QueryClientProvider client={queryClientInstance}>
         <AuthProvider>
+          <SubscriptionProvider>
           <Router>
             <PageviewTracker />
             <LayoutWrapper currentPageName={mainPageKey}>
@@ -145,6 +147,7 @@ function App() {
               </Suspense>
             </LayoutWrapper>
           </Router>
+          </SubscriptionProvider>
           <Toaster />
           <Analytics />
           <SpeedInsights />

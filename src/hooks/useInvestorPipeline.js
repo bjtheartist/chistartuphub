@@ -72,12 +72,44 @@ export const useInvestorPipeline = () => {
       if (error) throw error;
       return data;
     },
+    onMutate: async ({ investorId, stage = 'research', tag = null }) => {
+      await queryClient.cancelQueries({ queryKey: ['investor-pipeline', user?.id] });
+      const previous = queryClient.getQueryData(['investor-pipeline', user?.id]);
+      queryClient.setQueryData(['investor-pipeline', user?.id], (old = []) => [
+        ...old,
+        { investor_id: String(investorId), stage, tag, user_id: user?.id, created_at: new Date().toISOString() },
+      ]);
+      return { previous };
+    },
     onSuccess: (data) => {
-      queryClient.invalidateQueries({ queryKey: ['investor-pipeline'] });
       posthog.capture('investor_added_to_pipeline', { stage: data.stage });
       toast.success('Added to pipeline', { description: `Stage: ${data.stage.replace('_', ' ')}` });
     },
-    onError: () => toast.error('Failed to add to pipeline'),
+    onError: (_err, _vars, context) => {
+      if (context?.previous) queryClient.setQueryData(['investor-pipeline', user?.id], context.previous);
+      toast.error('Failed to add to pipeline');
+    },
+    onSettled: () => queryClient.invalidateQueries({ queryKey: ['investor-pipeline', user?.id] }),
+  });
+
+  // Helper: optimistic update for a single field on a pipeline item
+  const optimisticFieldUpdate = (field) => ({
+    onMutate: async (vars) => {
+      const investorId = typeof vars === 'string' ? vars : vars.investorId;
+      const value = typeof vars === 'string' ? undefined : vars[field];
+      await queryClient.cancelQueries({ queryKey: ['investor-pipeline', user?.id] });
+      const previous = queryClient.getQueryData(['investor-pipeline', user?.id]);
+      queryClient.setQueryData(['investor-pipeline', user?.id], (old = []) =>
+        field
+          ? old.map(p => String(p.investor_id) === String(investorId) ? { ...p, [field]: value } : p)
+          : old.filter(p => String(p.investor_id) !== String(investorId))
+      );
+      return { previous };
+    },
+    onError: (_err, _vars, context) => {
+      if (context?.previous) queryClient.setQueryData(['investor-pipeline', user?.id], context.previous);
+    },
+    onSettled: () => queryClient.invalidateQueries({ queryKey: ['investor-pipeline', user?.id] }),
   });
 
   const updateStage = useMutation({
@@ -93,11 +125,14 @@ export const useInvestorPipeline = () => {
       if (error) throw error;
       return data;
     },
+    ...optimisticFieldUpdate('stage'),
     onSuccess: (data) => {
-      queryClient.invalidateQueries({ queryKey: ['investor-pipeline'] });
       posthog.capture('investor_stage_changed', { stage: data.stage });
     },
-    onError: () => toast.error('Failed to update stage'),
+    onError: (_err, _vars, context) => {
+      if (context?.previous) queryClient.setQueryData(['investor-pipeline', user?.id], context.previous);
+      toast.error('Failed to update stage');
+    },
   });
 
   const updateTag = useMutation({
@@ -113,10 +148,11 @@ export const useInvestorPipeline = () => {
       if (error) throw error;
       return data;
     },
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['investor-pipeline'] });
+    ...optimisticFieldUpdate('tag'),
+    onError: (_err, _vars, context) => {
+      if (context?.previous) queryClient.setQueryData(['investor-pipeline', user?.id], context.previous);
+      toast.error('Failed to update tag');
     },
-    onError: () => toast.error('Failed to update tag'),
   });
 
   const updateNotes = useMutation({
@@ -132,10 +168,11 @@ export const useInvestorPipeline = () => {
       if (error) throw error;
       return data;
     },
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['investor-pipeline'] });
+    ...optimisticFieldUpdate('notes'),
+    onError: (_err, _vars, context) => {
+      if (context?.previous) queryClient.setQueryData(['investor-pipeline', user?.id], context.previous);
+      toast.error('Failed to save notes');
     },
-    onError: () => toast.error('Failed to save notes'),
   });
 
   const removeFromPipeline = useMutation({
@@ -148,11 +185,12 @@ export const useInvestorPipeline = () => {
         .eq('investor_id', String(investorId));
       if (error) throw error;
     },
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['investor-pipeline'] });
-      toast.success('Removed from pipeline');
+    ...optimisticFieldUpdate(null), // null = remove mode
+    onSuccess: () => toast.success('Removed from pipeline'),
+    onError: (_err, _vars, context) => {
+      if (context?.previous) queryClient.setQueryData(['investor-pipeline', user?.id], context.previous);
+      toast.error('Failed to remove from pipeline');
     },
-    onError: () => toast.error('Failed to remove from pipeline'),
   });
 
   const isInPipeline = (investorId) =>
