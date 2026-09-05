@@ -1,0 +1,53 @@
+HOW TO GET THE OPENVC INVESTOR DATABASE (16,000-20,000 verified profiles)
+=========================================================================
+
+The OpenVC investor database at openvc.app cannot be bulk-downloaded
+programmatically -- the site blocks automated requests (403) and requires
+a logged-in account for CSV export. Here is how to get it manually:
+
+OPTION 1: OpenVC CRM Export (RECOMMENDED - most complete data)
+---------------------------------------------------------------
+1. Go to https://www.openvc.app and create a free account
+2. Go to https://www.openvc.app/search
+3. Use filters to select investors (sector, stage, geography, check size)
+4. Add investors to your CRM shortlist
+5. Go to CRM -> click "More" -> Export as CSV or XLS
+NOTE: Export excludes investor emails and LinkedIn for privacy reasons.
+NOTE: You may need to do this in batches by filtering different categories.
+
+OPTION 2: OpenVC Curated Lists (free CSV downloads by category)
+---------------------------------------------------------------
+1. Go to https://www.openvc.app/investor-lists/
+2. Browse lists organized by industry, stage, and geography, e.g.:
+   - https://www.openvc.app/investor-lists/entertainment-investors
+   - https://www.openvc.app/investor-lists/community-investors
+   - https://www.openvc.app/investor-lists/collaboration-tools-investors
+3. Each list page should have a CSV download option
+4. Download individual lists and merge them
+
+OPTION 3: findfunding.vc (open source alternative, US/Canada focus)
+-------------------------------------------------------------------
+1. Go to https://www.findfunding.vc/list-details
+2. Data is backed by Airtable (base ID: appOwFUZ6NgFbP0jJ)
+3. Pre-Seed to Series A VC firms in US and Canada
+4. No direct bulk export -- browse on the website
+
+WHAT WE ALREADY HAVE (this directory)
+--------------------------------------
+File: openvc-investors.csv
+- 30,893 unique investors (17,652 firms + 13,080 individuals + 161 supplementary)
+- Source: CrunchBase 2015 open data export + DoltHub openbook + connor11528 GitHub
+- Columns: investor_name, investor_permalink, country_code, state_code,
+           region, city, investment_count, funding_round_types, num_portfolio_companies
+- Sorted by investment_count (most active investors first)
+- Covers 80+ countries, top: USA (8,401), GBR (1,032), CAN (466), DEU (421)
+- Investment stages: venture, seed, angel, private_equity, debt_financing, etc.
+
+CAVEAT: This data is from the 2015 CrunchBase open export. For current,
+verified data with sectors/check sizes, use OpenVC directly (Option 1 or 2).
+
+DATA SOURCES USED
+-----------------
+- https://github.com/notpeter/crunchbase-data (2015 CrunchBase data export, CC-BY-NC)
+- https://www.dolthub.com/repositories/iloveitaly/venture_capital_firms (openbook project)
+- https://github.com/connor11528/tech-companies-and-startups/blob/master/venture-capital.csv

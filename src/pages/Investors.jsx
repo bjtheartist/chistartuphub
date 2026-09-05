@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import { listBrowseInvestors } from "@/api/supabaseClient";
-import { useQuery } from "@tanstack/react-query";
 import { InvestorPageContent } from "@/components/investors-v2";
+import { useInvestorCounts } from "@/hooks/useFilteredInvestors";
 import SEO from "@/components/SEO";
 import { BureauAtmosphere, BureauFooter } from "@/components/bureau";
 
@@ -13,50 +12,14 @@ export default function Investors() {
     return () => clearTimeout(timer);
   }, []);
 
-  const { data: investors = [], isLoading, error } = useQuery({
-    queryKey: ["investors", "browse"],
-    queryFn: listBrowseInvestors,
-    staleTime: 1000 * 60 * 5,
-  });
-
-  if (isLoading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center relative">
-        <BureauAtmosphere />
-        <div className="relative z-10 text-center">
-          <div className="font-mono text-4xl text-white mb-4 animate-pulse">
-            <span className="inline-block">LOADING</span>
-          </div>
-          <div className="w-48 h-[2px] bg-white/20 mx-auto">
-            <div className="h-full bg-white/60 animate-[loading_1.5s_ease-in-out_infinite]" style={{ width: "60%" }} />
-          </div>
-          <p className="font-mono text-xs text-white/40 mt-4 uppercase tracking-[0.2em]">
-            Fetching investor data...
-          </p>
-        </div>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="min-h-screen flex items-center justify-center relative">
-        <BureauAtmosphere />
-        <div className="relative z-10 text-center border border-white/10 p-12">
-          <span className="font-mono text-xs text-white/40 uppercase tracking-[0.15em] block mb-4">
-            [ERROR: CONNECTION_FAILED]
-          </span>
-          <p className="text-white/60">Unable to load investor data. Please try again later.</p>
-        </div>
-      </div>
-    );
-  }
+  const { data: counts } = useInvestorCounts();
+  const totalCount = counts?.total || 0;
 
   return (
     <div className="min-h-screen relative" data-page="investors">
       <SEO
         title="Investor Directory | ChiStartup Hub"
-        description="Browse 2,000+ venture capital firms and angel investors. Filter by stage, sector, and location to find the right fit for your startup."
+        description="Browse 55,000+ verified venture capital firms and angel investors. Filter by stage, sector, and location to find the right fit for your startup."
         keywords="startup investors, venture capital, angel investors, Chicago VCs, seed funding, Series A investors"
       />
 
@@ -84,18 +47,40 @@ export default function Investors() {
             </h1>
 
             <p
-              className={`font-editorial italic text-white/50 text-lg max-w-xl mb-8 ${isLoaded ? "animate-fade-in-up" : "opacity-0"}`}
+              className={`font-editorial italic text-white/50 text-lg max-w-xl mb-6 ${isLoaded ? "animate-fade-in-up" : "opacity-0"}`}
               style={{ animationDelay: "300ms" }}
             >
               "Capital for the bold ones building in the shadows of the Midwest."
             </p>
+
+            {/* Stat */}
+            <div
+              className={`inline-flex items-center gap-3 border border-white/10 px-5 py-3 ${isLoaded ? "animate-fade-in-up" : "opacity-0"}`}
+              style={{ animationDelay: "400ms" }}
+            >
+              <span className="font-mono text-2xl text-white tracking-tight">
+                {totalCount > 1000 ? `${Math.floor(totalCount / 1000).toLocaleString()}K+` : totalCount.toLocaleString()}
+              </span>
+              <span className="font-mono text-[10px] text-white/40 uppercase tracking-[0.15em]">
+                Investor Profiles in Database
+              </span>
+            </div>
           </div>
         </section>
 
-        {/* Investors Content - New Noir Zine Design */}
+        {/* Investors Content — server-side filtered */}
         <section className="px-6 pb-24">
           <div className="max-w-6xl mx-auto">
-            <InvestorPageContent investors={investors} />
+            <InvestorPageContent />
+          </div>
+        </section>
+
+        {/* Data Disclaimer */}
+        <section className="px-6 pb-16">
+          <div className="max-w-6xl mx-auto border-t border-white/10 pt-8">
+            <p className="font-mono text-[11px] text-white/30 leading-relaxed max-w-3xl">
+              We aggregate publicly available SEC data (Form D, Form ADV, EDGAR) to help founders discover and research potential investors. Data is sourced from government filings and may contain errors, duplicates, or outdated information. Always verify independently before making decisions. These represent a significant but incomplete subset of the investor market — many smaller rounds and international investors don't appear in public filings.
+            </p>
           </div>
         </section>
 

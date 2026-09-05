@@ -2,6 +2,7 @@ import { useMemo, useState, useEffect } from "react";
 import { entities, listBrowseInvestors } from "@/api/supabaseClient";
 import { useQuery } from "@tanstack/react-query";
 import { FundingPageContent } from "@/components/funding-v2";
+import { STALE_TIMES } from "@/lib/query-client";
 import SEO from "@/components/SEO";
 import { BureauAtmosphere, BureauFooter } from "@/components/bureau";
 
@@ -16,20 +17,20 @@ export default function Funding() {
   const { data: opportunities = [], isLoading: opportunitiesLoading, error: opportunitiesError } = useQuery({
     queryKey: ['funding-opportunities'],
     queryFn: () => entities.FundingOpportunity.list('-created_date'),
-    staleTime: 1000 * 60 * 5,
+    staleTime: STALE_TIMES.fundingOpportunities,
   });
 
   const { data: upcomingOpportunities = [], isLoading: upcomingLoading, error: upcomingError } = useQuery({
     queryKey: ['upcoming-opportunities'],
     queryFn: () => entities.UpcomingOpportunity.list('-deadline'),
-    staleTime: 1000 * 60 * 5,
+    staleTime: STALE_TIMES.upcomingOpportunities,
   });
 
   // Fetch investors for comprehensive funding view
   const { data: investors = [] } = useQuery({
     queryKey: ['investors', 'browse'],
     queryFn: listBrowseInvestors,
-    staleTime: 1000 * 60 * 5,
+    staleTime: STALE_TIMES.investors,
   });
 
   // Filter out closed opportunities for accurate counts

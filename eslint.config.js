@@ -5,7 +5,7 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 
 export default [
-  { ignores: ['dist', 'scripts', '*.config.js', 'tailwind.config.js', 'vite.config.js'] },
+  { ignores: ['dist', 'scripts', 'tools', 'netlify', 'video', 'out', '*.config.js', 'tailwind.config.js', 'vite.config.js'] },
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {

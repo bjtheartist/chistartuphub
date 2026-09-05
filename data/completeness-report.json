@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-03-11T07:24:08.532Z",
+  "total_records": 68586,
+  "average_score": 45,
+  "tiers": {
+    "gold": 398,
+    "gold_pct": 1,
+    "silver": 10099,
+    "silver_pct": 15,
+    "bronze": 58089,
+    "bronze_pct": 85
+  },
+  "field_coverage": {
+    "name": {
+      "count": 68586,
+      "pct": 100
+    },
+    "organization": {
+      "count": 68481,
+      "pct": 100
+    },
+    "description": {
+      "count": 43917,
+      "pct": 64
+    },
+    "website": {
+      "count": 11736,
+      "pct": 17
+    },
+    "check_size": {
+      "count": 358,
+      "pct": 1
+    },
+    "location": {
+      "count": 10609,
+      "pct": 15
+    },
+    "sectors": {
+      "count": 3501,
+      "pct": 5
+    },
+    "stage": {
+      "count": 19803,
+      "pct": 29
+    },
+    "embedding": {
+      "count": 446,
+      "pct": 1
+    }
+  },
+  "regions": {
+    "Unknown": 65208,
+    "Chicago": 2238,
+    "Midwest": 558,
+    "West Coast": 180,
+    "East Coast": 177,
+    "South": 73,
+    "europe": 51,
+    "asia": 33,
+    "north-america": 26,
+    "Mountain West": 22,
+    "latam": 10,
+    "oceania": 9,
+    "africa": 1
+  },
+  "top_countries": {
+    "Unknown": 58003,
+    "United States": 2087,
+    "united states": 1914,
+    "New York, NY": 366,
+    "London, GBR": 255,
+    "united kingdom": 203,
+    "San Francisco, CA": 164,
+    "canada": 94,
+    "france": 89,
+    "Paris, FRA": 85,
+    "Tokyo, JPN": 85,
+    "Boston, MA": 82,
+    "spain": 79,
+    "Toronto, ON, CAN": 73,
+    "germany": 71,
+    "Los Angeles, CA": 66,
+    "china": 60,
+    "israel": 59,
+    "india": 58,
+    "Palo Alto, CA": 58,
+    "Singapore, SGP": 58,
+    "Menlo Park, CA": 51,
+    "Washington, DC": 48,
+    "australia": 46,
+    "Moscow, RUS": 45,
+    "Beijing, CHN": 44,
+    "Usa, JPN": 44,
+    "Tel Aviv, ISR": 44,
+    "Shanghai, CHN": 42,
+    "Seoul, KOR": 41
+  }
+}

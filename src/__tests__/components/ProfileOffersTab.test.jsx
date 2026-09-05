@@ -24,7 +24,7 @@ describe('ProfileOffersTab', () => {
     renderWithRouter(<ProfileOffersTab loading={false} offers={[]} />);
 
     expect(screen.getByText('No offers sent yet')).toBeInTheDocument();
-    expect(screen.getByText('Browse Opportunities')).toBeInTheDocument();
+    expect(screen.getByText('Browse Events')).toBeInTheDocument();
   });
 
   it('renders offers list', () => {
