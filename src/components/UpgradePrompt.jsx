@@ -2,6 +2,7 @@ import { Lock, ArrowRight } from 'lucide-react';
 import { useAuth } from '@/contexts/AuthContext';
 import { useSubscription } from '@/contexts/SubscriptionContext';
 import { cn } from '@/lib/utils';
+import { PRICING_ENABLED } from '@/lib/featureFlags';
 
 /**
  * Reusable upgrade prompt for Pro-gated features.
@@ -10,6 +11,9 @@ import { cn } from '@/lib/utils';
 export function UpgradePrompt({ variant = 'inline', feature = 'this feature' }) {
   const { user, openSignup } = useAuth();
   const { startCheckout } = useSubscription();
+
+  // Pricing is not public yet: show nothing rather than a dead upgrade path.
+  if (!PRICING_ENABLED) return null;
 
   const handleClick = () => {
     if (!user) {

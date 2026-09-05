@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Download, ChevronDown, FileSpreadsheet, FileText, Lock } from 'lucide-react';
+import { PRICING_ENABLED } from '@/lib/featureFlags';
 import { cn } from '@/lib/utils';
 import { useInvestorExport } from '@/hooks/useInvestorExport';
 import { useAuth } from '@/contexts/AuthContext';
@@ -13,8 +14,10 @@ export function ExportInvestorsButton({ investors = [], filename = 'investors' }
 
   if (!investors.length) return null;
 
-  // Gate export behind Pro
+  // Gate export behind Pro. While pricing is not public, hide the locked
+  // button instead of advertising an upgrade that cannot be bought.
   if (!isPro) {
+    if (!PRICING_ENABLED) return null;
     return (
       <button
         onClick={() => user ? startCheckout() : openSignup()}

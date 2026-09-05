@@ -13,6 +13,7 @@ import {
   Bell
 } from "lucide-react";
 import { ADMIN_EMAILS } from '@/constants/adminEmails';
+import { PRICING_ENABLED } from '@/lib/featureFlags';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -91,7 +92,7 @@ export default function Header({
         { name: "Investors", path: createPageUrl("Investors") },
         { name: "Co-Working", path: createPageUrl("Workspaces") },
         { name: "Startup Toolkit", path: createPageUrl("Resources") },
-        { name: "Pricing", path: createPageUrl("Pricing") }
+        ...(PRICING_ENABLED ? [{ name: "Pricing", path: createPageUrl("Pricing") }] : [])
       ]
     },
     {

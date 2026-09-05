@@ -12,6 +12,7 @@ import { SubscriptionProvider } from '@/contexts/SubscriptionContext';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import PageSkeleton from '@/components/PageSkeleton';
 import ProtectedRoute from '@/components/ProtectedRoute';
+import { PRICING_ENABLED } from '@/lib/featureFlags';
 import { BureauAtmosphere, BureauFooter } from '@/components/bureau';
 import posthog from 'posthog-js';
 
@@ -60,6 +61,8 @@ function App() {
                 <Routes>
                   <Route path="/" element={<MainPage />} />
                   {Object.entries(Pages).map(([path, Page]) => {
+                    // Pricing is not public until the flag is on
+                    if (path === 'Pricing' && !PRICING_ENABLED) return null;
                     // Wrap protected routes with auth guard
                     if (ADMIN_ROUTES.includes(path)) {
                       return (
@@ -94,6 +97,8 @@ function App() {
                   <Route path="/opportunities" element={<Navigate to="/events" replace />} />
                   <Route path="/Opportunities" element={<Navigate to="/events" replace />} />
                   <Route path="/ecosystem/founder-asks" element={<Navigate to="/events" replace />} />
+                  {!PRICING_ENABLED && <Route path="/Pricing" element={<Navigate to="/Investors" replace />} />}
+                  {!PRICING_ENABLED && <Route path="/pricing" element={<Navigate to="/Investors" replace />} />}
                   <Route path="*" element={
                     <div className="min-h-screen relative" data-page="not-found">
                       <BureauAtmosphere />
