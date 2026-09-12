@@ -1,6 +1,6 @@
 # Research Notes — 2026-W37
-*Generated: 2026-09-10T21:21:44.070Z*
-*Window: 2026-09-03 to 2026-09-10 (deals) | 2026-08-06 to 2026-09-10 (funds)*
+*Generated: 2026-09-12T21:08:54.585Z*
+*Window: 2026-09-05 to 2026-09-12 (deals) | 2026-08-08 to 2026-09-12 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -10,9 +10,17 @@
 
 *No Form D filings in window.*
 
-## Fund News (0)
+## Fund News (1)
 
-*No fund closes found.*
+### The Sharon at SouthPark Series 2026 Bonds — $166.425M ✅
+- **Manager:** Ziegler
+- **Strategy:** Healthcare and senior living financing
+- **Close date:** 2026-08-24
+- **Description:** Ziegler successfully closed financing for The Sharon at SouthPark, raising $166,425,000 through Series 2026 Bonds to support senior living initiatives.
+- **Sources (3):**
+  - [ZIEGLER CLOSES FINANCING FOR THE SHARON AT SOUTHPARK](https://www.prnewswire.com/news-releases/ziegler-closes-financing-for-the-sharon-at-southpark-302857880.html)
+  - [Savvy Wealth bags $100m in oversubscribed Series C funding round - FinTech Futures](https://www.fintechfutures.com/venture-capital-funding/savvy-wealth-bags-100m-in-series-c-funding-round) [BROKEN LINK]
+  - [J.P. Morgan Asset Management Closes Inaugural U.S. Net Lease Fund with $1.1 Billion in Commitments - TradingView](https://www.tradingview.com/news/prnewswire:1dd83b1622415:0-j-p-morgan-asset-management-closes-inaugural-u-s-net-lease-fund-with-1-1-billion-in-commitments/)
 
 ## Upcoming Deadlines (5)
 

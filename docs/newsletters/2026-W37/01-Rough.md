@@ -1,11 +1,12 @@
 # Capital Access Newsletter
-**Volume 36 | September 10, 2026**
+**Volume 36 | September 12, 2026**
 
 ---
 
 ## Opening
 
 [PLACEHOLDER: Billy writes opening — 0 deals totaling ~$0M
++ $166M in new fund capital.
 Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ---
@@ -18,7 +19,14 @@ Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ## Fund News
 
-[PLACEHOLDER: Billy adds fund news from research notes or network intel]
+### The Sharon at SouthPark Series 2026 Bonds | $166.425M
+
+**Sector:** Healthcare and senior living financing
+
+Ziegler successfully closed financing for The Sharon at SouthPark, raising $166,425,000 through Series 2026 Bonds to support senior living initiatives.
+
+**Close Date:** 2026-08-24
+**Source:** [ZIEGLER CLOSES FINANCING FOR THE SHARON AT SOUTHPARK](https://www.prnewswire.com/news-releases/ziegler-closes-financing-for-the-sharon-at-southpark-302857880.html) | [J.P. Morgan Asset Management Closes Inaugural U.S. Net Lease Fund with $1.1 Billion in Commitments - TradingView](https://www.tradingview.com/news/prnewswire:1dd83b1622415:0-j-p-morgan-asset-management-closes-inaugural-u-s-net-lease-fund-with-1-1-billion-in-commitments/)
 
 ---
 
@@ -60,7 +68,12 @@ Know a founder who should see this? Forward it.
 
 ## Sources
 
+**Fund Closes:**
+- [ZIEGLER CLOSES FINANCING FOR THE SHARON AT SOUTHPARK](https://www.prnewswire.com/news-releases/ziegler-closes-financing-for-the-sharon-at-southpark-302857880.html)
+- [Savvy Wealth bags $100m in oversubscribed Series C funding round - FinTech Futures](https://www.fintechfutures.com/venture-capital-funding/savvy-wealth-bags-100m-in-series-c-funding-round) [BROKEN]
+- [J.P. Morgan Asset Management Closes Inaugural U.S. Net Lease Fund with $1.1 Billion in Commitments - TradingView](https://www.tradingview.com/news/prnewswire:1dd83b1622415:0-j-p-morgan-asset-management-closes-inaugural-u-s-net-lease-fund-with-1-1-billion-in-commitments/)
+
 ---
 
-*Vol. 36 | Research edition*
+*Vol. 36 | Research edition | $166M+ in new fund capital*
 *Author: Billy Ndizeye*

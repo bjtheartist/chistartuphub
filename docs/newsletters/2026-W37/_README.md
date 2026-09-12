@@ -13,7 +13,7 @@
 | Verified deals | 0 |
 | Single-source deals (needs review) | 0 |
 | SEC EDGAR filings | 0 |
-| Fund news items | 0 |
+| Fund news items | 1 |
 | Upcoming deadlines | 5 |
 | Chicago rolling programs | 213 |
 | Pipeline errors | 6 |
@@ -36,5 +36,5 @@
 8. Final polish → publish to Substack
 
 ---
-*Generated: 2026-09-10T21:21:44.069Z*
+*Generated: 2026-09-12T21:08:54.584Z*
 *Agent version: 1.0.0*
