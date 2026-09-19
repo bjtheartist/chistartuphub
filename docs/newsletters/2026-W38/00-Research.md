@@ -1,6 +1,6 @@
 # Research Notes — 2026-W38
-*Generated: 2026-09-17T21:53:43.353Z*
-*Window: 2026-09-10 to 2026-09-17 (deals) | 2026-08-13 to 2026-09-17 (funds)*
+*Generated: 2026-09-19T21:13:54.964Z*
+*Window: 2026-09-12 to 2026-09-19 (deals) | 2026-08-15 to 2026-09-19 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -10,17 +10,25 @@
 
 *No Form D filings in window.*
 
-## Fund News (1)
+## Fund News (2)
 
-### Fairway Private Equity & Venture Capital Opportunities Fund — Not specified ✅
-- **Manager:** Fairway Capital Management
-- **Strategy:** Venture capital, private equity, and private credit investments
-- **Close date:** 2026-09-10
-- **Description:** Fairway Private Equity & Venture Capital Opportunities Fund aims to provide individuals access to funds and managers typically only available to large institutional investors. The fund has seen an increase in net asset value and is considering additional investments in various funds.
+### The Sharon at SouthPark Series 2026 Bonds — $166.425M ⚠️ SINGLE
+- **Manager:** Ziegler
+- **Strategy:** Healthcare and senior living financing
+- **Close date:** 2026-08-24
+- **Description:** Ziegler successfully closed financing for The Sharon at SouthPark's Series 2026 Bonds, totaling $166,425,000, aimed at supporting healthcare and senior living projects.
+- **Sources (1):**
+  - [ZIEGLER CLOSES FINANCING FOR THE SHARON AT SOUTHPARK](https://www.prnewswire.com/news-releases/ziegler-closes-financing-for-the-sharon-at-southpark-302857880.html)
+
+### First Trust Advisors L.P. — $368 billion ✅
+- **Manager:** First Trust Advisors L.P.
+- **Strategy:** Investment advisory services including unit investment trusts, ETFs, closed-end funds, and mutual funds.
+- **Close date:** 2026-08-15
+- **Description:** First Trust Advisors L.P. is a federally registered investment advisor based in Wheaton, Illinois, managing a diverse range of investment products.
 - **Sources (3):**
-  - [Fairway Private Equity & Venture Capital Opportunities Fund Announces Second Quarter Results](https://www.businesswire.com/news/home/20260910956949/en/Fairway-Private-Equity-Venture-Capital-Opportunities-Fund-Announces-Second-Quarter-Results) [BROKEN LINK]
-  - [Why large evergreen funds might be the losers in VC](https://finance.yahoo.com/markets/stocks/articles/why-large-evergreen-funds-might-200316358.html)
-  - [Why large evergreen funds might be the losers in VC - PitchBook](https://pitchbook.com/news/articles/why-large-evergreen-funds-might-be-the-losers-in-vc) [BROKEN LINK]
+  - [First Trust Advisors L.P. Announces Distribution for First Trust Enhanced Short Maturity ETF®](https://www.businesswire.com/news/home/20260828928863/en/First-Trust-Advisors-L.P.-Announces-Distribution-for-First-Trust-Enhanced-Short-Maturity-ETF) [BROKEN LINK]
+  - [First Trust Advisors L.P. Announces Distribution for FT Vest U.S. Equity Buffer & Premium Income ETF - September](https://www.businesswire.com/news/home/20260917464428/en/First-Trust-Advisors-L.P.-Announces-Distribution-for-FT-Vest-U.S.-Equity-Buffer-Premium-Income-ETF---September) [BROKEN LINK]
+  - [First Trust Announces Approval of Liquidation of the ... - Business Wire](https://www.businesswire.com/news/home/20260914522503/en/First-Trust-Announces-Approval-of-Liquidation-of-the-First-Trust-Horizon-Managed-Volatility-Developed-International-ETF) [BROKEN LINK]
 
 ## Upcoming Deadlines (4)
 
