@@ -1,11 +1,12 @@
 # Capital Access Newsletter
-**Volume 38 | September 24, 2026**
+**Volume 38 | September 26, 2026**
 
 ---
 
 ## Opening
 
 [PLACEHOLDER: Billy writes opening — 0 deals totaling ~$0M
++ $415M in new fund capital.
 Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ---
@@ -18,14 +19,25 @@ Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ## Fund News
 
-### Calamos Investments Closed-End Funds | Varies by fund
+### Calamos Closed-End Funds | $248.25M
 
-**Sector:** Diversified global investment strategies including alternatives, multi-asset, convertible, fixed income, equity, and sustainable equity.
+**Sector:** Closed-end funds with various investment strategies including alternatives and fixed income.
 
-Calamos Investments announced monthly distributions for its closed-end funds, which include various investment strategies. The firm is headquartered in the Chicago metropolitan area.
+Calamos Investments announced the issuance of additional series of mandatory redeemable preferred shares totaling $248.25 million to provide additional financial leverage for its closed-end funds.
 
-**Close Date:** 2026-09-01
-**Source:** [Calamos Investments Closed-End Funds Announce Monthly Distributions](https://www.prnewswire.com/news-releases/calamos-investments-closed-end-funds-nasdaq-chi-chy-csq-cgo-chw-ccd-and-cpz-announce-monthly-distributions-and-required-notifications-of-sources-of-distribution-302866783.html) | [Calamos Investments Closed-End Funds (NASDAQ: CHI, CHY, CSQ, CGO, CHW, CCD and CPZ) Announce Monthly Distributions and Required Notifications of Sources of Distribution](https://finance.yahoo.com/markets/stocks/articles/calamos-investments-closed-end-funds-200500033.html) | [Calamos Strategic Total Return Fund stock holds steady as income focus remains in view](https://www.ad-hoc-news.de/boerse/news/nebenwerte/calamos-strategic-total-return-fund-stock-holds-steady-as-income-focus/70147014)
+**Close Date:** 2026-08-26
+**Source:** [Calamos Closed-End Funds Announce Private Placements](https://www.prnewswire.com/news-releases/calamos-closed-end-funds-nasdaq-chi-chy-csq-chw-cgo-and-ccd-announce-private-placements-totaling-248-25-million-of-mandatory-redeemable-preferred-shares-302860198.html) | [J.P. Morgan Asset Management Closes Inaugural U.S. Net Lease Fund with $1.1 Billion in Commitments - TradingView](https://www.tradingview.com/news/prnewswire:1dd83b1622415:0-j-p-morgan-asset-management-closes-inaugural-u-s-net-lease-fund-with-1-1-billion-in-commitments/) | [Luma locks down 15-year, $410M fund for life science investments - Fierce Biotech](https://www.fiercebiotech.com/biotech/luma-closes-410m-fund-life-sciences-biotechs-over-15-years)
+
+---
+
+### Ziegler Series 2026 Bonds | $166.425M
+
+**Sector:** Financing for healthcare and senior living sectors.
+
+Ziegler successfully closed financing for The Sharon at SouthPark's Series 2026 Bonds totaling $166,425,000.
+
+**Close Date:** 2026-08-24
+**Source:** [ZIEGLER CLOSES FINANCING FOR THE SHARON AT SOUTHPARK](https://www.prnewswire.com/news-releases/ziegler-closes-financing-for-the-sharon-at-southpark-302857880.html) | [Millennium Nears $100 Billion in New Era for Giant Hedge Funds - Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/millennium-nears-100-billion-era-210034426.html)
 
 ---
 
@@ -61,11 +73,14 @@ Know a founder who should see this? Forward it.
 ## Sources
 
 **Fund Closes:**
-- [Calamos Investments Closed-End Funds Announce Monthly Distributions](https://www.prnewswire.com/news-releases/calamos-investments-closed-end-funds-nasdaq-chi-chy-csq-cgo-chw-ccd-and-cpz-announce-monthly-distributions-and-required-notifications-of-sources-of-distribution-302866783.html)
-- [Calamos Investments Closed-End Funds (NASDAQ: CHI, CHY, CSQ, CGO, CHW, CCD and CPZ) Announce Monthly Distributions and Required Notifications of Sources of Distribution](https://finance.yahoo.com/markets/stocks/articles/calamos-investments-closed-end-funds-200500033.html)
-- [Calamos Strategic Total Return Fund stock holds steady as income focus remains in view](https://www.ad-hoc-news.de/boerse/news/nebenwerte/calamos-strategic-total-return-fund-stock-holds-steady-as-income-focus/70147014)
+- [Calamos Closed-End Funds Announce Private Placements](https://www.prnewswire.com/news-releases/calamos-closed-end-funds-nasdaq-chi-chy-csq-chw-cgo-and-ccd-announce-private-placements-totaling-248-25-million-of-mandatory-redeemable-preferred-shares-302860198.html)
+- [J.P. Morgan Asset Management Closes Inaugural U.S. Net Lease Fund with $1.1 Billion in Commitments - TradingView](https://www.tradingview.com/news/prnewswire:1dd83b1622415:0-j-p-morgan-asset-management-closes-inaugural-u-s-net-lease-fund-with-1-1-billion-in-commitments/)
+- [Luma locks down 15-year, $410M fund for life science investments - Fierce Biotech](https://www.fiercebiotech.com/biotech/luma-closes-410m-fund-life-sciences-biotechs-over-15-years)
+- [ZIEGLER CLOSES FINANCING FOR THE SHARON AT SOUTHPARK](https://www.prnewswire.com/news-releases/ziegler-closes-financing-for-the-sharon-at-southpark-302857880.html)
+- [Siguler Guff closes record $3B fund as LPs chase the lower middle market - PitchBook](https://pitchbook.com/news/articles/siguler-guff-closes-record-3b-fund-as-lps-chase-the-lower-middle-market) [BROKEN]
+- [Millennium Nears $100 Billion in New Era for Giant Hedge Funds - Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/millennium-nears-100-billion-era-210034426.html)
 
 ---
 
-*Vol. 38 | Research edition*
+*Vol. 38 | Research edition | $415M+ in new fund capital*
 *Author: Billy Ndizeye*
