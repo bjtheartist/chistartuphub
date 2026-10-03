@@ -1,5 +1,5 @@
 # Capital Access Newsletter
-**Volume 39 | October 1, 2026**
+**Volume 39 | October 3, 2026**
 
 ---
 
@@ -19,31 +19,14 @@ Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ## Fund News
 
-### Twin Bridge Amplify Fund | $600,000,000
+### Twin Bridge Amplify Fund | $600M
 
-**Sector:** Private equity secondaries
+**Sector:** Private equity secondaries fund
 
-Twin Bridge Capital Partners is raising its first dedicated private equity secondaries fund, targeting up to $600 million to back single-asset continuation funds.
+Twin Bridge Capital Partners is raising its first dedicated private equity secondaries fund, targeting single-asset continuation funds alongside existing managers in its portfolio. The fund aims to write checks of around $20 million to $40 million for companies with an average enterprise value of $1 billion or less.
 
 **Close Date:** 2027-06-30
-**Source:** [Private Equity Liquidity Crunch Creates $600M Opportunity - Benzinga](https://www.benzinga.com/markets/private-markets/26/09/61981378/privaye-equity-crunch-600-million-opportunity) | [2026-2031-proposed-capital-improvement-program.pdf](https://www.columbus.gov/files/sharedassets/city/v/2/finance/document-library/capital-improvements/2026-2031-proposed-capital-improvement-program.pdf)
-
----
-
-### Chicago Pacific Founders Pet Fund – Off Leash Capital, L.P. | Not specified
-
-**Sector:** Private equity — animal health and wellness
-
-Chicago Pacific Founders Pet Fund focuses on investing in growth companies that enhance the health and happiness of pets. The fund leverages deep sector experience and an operator-led model to accelerate growth.
-
-**Close Date:** 2026-09-16
-**Source:** [Chicago Pacific Founders Pet Fund Announces Exit of CoVetAI Following Acquisition by IDEXX Laboratories](https://www.prnewswire.com/news-releases/chicago-pacific-founders-pet-fund-announces-exit-of-covetai-following-acquisition-by-idexx-laboratories-302893910.html) | [IDEXX Acquires CoVetAI; CPF Exits Investment | IDXX Stock News](https://www.stocktitan.net/news/IDXX/chicago-pacific-founders-pet-fund-announces-exit-of-co-vet-ai-yzj41pwbs2lj.html) | [Chicago Pacific Founders Pet Fund Announces Exit of CoVetAI Following Acquisition by IDEXX Laboratories](https://finance.yahoo.com/healthcare/articles/chicago-pacific-founders-pet-fund-130000353.html)
-
----
-
-### ⚠️ Fund News — Single Source
-
-- **Ziegler Series 2026 Bonds** — $32,453,000 — https://www.prnewswire.com/news-releases/ziegler-closes-32-453-000-financing-for-lourdes-senior-community-302896420.html
+**Source:** [Twin Bridge Capital Seeks $600M for Private Equity Secondaries Fund | PE NEWSWIRE posted on the topic | LinkedIn](https://www.linkedin.com/posts/penewswire_privateequity-secondaries-continuationfunds-activity-7508932800167698432-6Dhw) | [Private Equity Liquidity Crunch Creates $600M Opportunity - Benzinga](https://www.benzinga.com/markets/private-markets/26/09/61981378/privaye-equity-crunch-600-million-opportunity)
 
 ---
 
@@ -73,13 +56,9 @@ Know a founder who should see this? Forward it.
 ## Sources
 
 **Fund Closes:**
-- [ZIEGLER CLOSES $32,453,000 FINANCING FOR LOURDES SENIOR COMMUNITY](https://www.prnewswire.com/news-releases/ziegler-closes-32-453-000-financing-for-lourdes-senior-community-302896420.html)
 - [Twin Bridge targets up to $600M for debut secondaries fund](https://pitchbook.com/news/articles/twin-bridge-targets-up-to-600m-for-debut-secondaries-fund) [BROKEN]
+- [Twin Bridge Capital Seeks $600M for Private Equity Secondaries Fund | PE NEWSWIRE posted on the topic | LinkedIn](https://www.linkedin.com/posts/penewswire_privateequity-secondaries-continuationfunds-activity-7508932800167698432-6Dhw)
 - [Private Equity Liquidity Crunch Creates $600M Opportunity - Benzinga](https://www.benzinga.com/markets/private-markets/26/09/61981378/privaye-equity-crunch-600-million-opportunity)
-- [2026-2031-proposed-capital-improvement-program.pdf](https://www.columbus.gov/files/sharedassets/city/v/2/finance/document-library/capital-improvements/2026-2031-proposed-capital-improvement-program.pdf)
-- [Chicago Pacific Founders Pet Fund Announces Exit of CoVetAI Following Acquisition by IDEXX Laboratories](https://www.prnewswire.com/news-releases/chicago-pacific-founders-pet-fund-announces-exit-of-covetai-following-acquisition-by-idexx-laboratories-302893910.html)
-- [IDEXX Acquires CoVetAI; CPF Exits Investment | IDXX Stock News](https://www.stocktitan.net/news/IDXX/chicago-pacific-founders-pet-fund-announces-exit-of-co-vet-ai-yzj41pwbs2lj.html)
-- [Chicago Pacific Founders Pet Fund Announces Exit of CoVetAI Following Acquisition by IDEXX Laboratories](https://finance.yahoo.com/healthcare/articles/chicago-pacific-founders-pet-fund-130000353.html)
 
 ---
 
