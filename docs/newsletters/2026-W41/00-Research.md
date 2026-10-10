@@ -1,6 +1,6 @@
 # Research Notes — 2026-W41
-*Generated: 2026-10-08T23:38:19.690Z*
-*Window: 2026-10-01 to 2026-10-08 (deals) | 2026-09-03 to 2026-10-08 (funds)*
+*Generated: 2026-10-10T22:09:57.779Z*
+*Window: 2026-10-03 to 2026-10-10 (deals) | 2026-09-05 to 2026-10-10 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -12,25 +12,25 @@
 
 ## Fund News (2)
 
+### Twin Bridge — Secondaries Fund — $600M ✅
+- **Manager:** Twin Bridge Capital Partners
+- **Strategy:** Private equity — secondaries
+- **Close date:** 2026-09-23
+- **Description:** Twin Bridge is targeting up to $600 million for its debut secondaries fund, focusing on acquiring stakes in existing private equity funds.
+- **Sources (3):**
+  - [Global Private Equity News and Trends - PitchBook](https://pitchbook.com/news/private-equity?p=618) [BROKEN LINK]
+  - [Twin Bridge targets up to $600M for debut secondaries fund](https://finance.yahoo.com/small-business/articles/twin-bridge-targets-600m-debut-171733055.html)
+  - [Omni Bridgeway Closes US$1 Billion Legal Finance Fundraise](https://finance.yahoo.com/small-business/articles/omni-bridgeway-closes-us-1-110000648.html)
+
 ### Twin Bridge Amplify Fund — $600M ✅
 - **Manager:** Twin Bridge Capital Partners
 - **Strategy:** Private equity secondaries fund
 - **Close date:** 2027-06-30
-- **Description:** Twin Bridge Capital Partners is raising its first dedicated private equity secondaries fund, targeting single-asset continuation funds alongside existing managers. The fund aims to reach a final close in the first half of 2027.
+- **Description:** Twin Bridge Capital Partners is raising its first dedicated private equity secondaries fund, targeting up to $600 million. The fund will primarily focus on single-asset continuation fund deals alongside existing sponsor relationships.
 - **Sources (3):**
   - [Twin Bridge targets up to $600M for debut secondaries fund](https://pitchbook.com/news/articles/twin-bridge-targets-up-to-600m-for-debut-secondaries-fund) [BROKEN LINK]
   - [Twin Bridge targets up to $600M for debut secondaries fund](https://finance.yahoo.com/small-business/articles/twin-bridge-targets-600m-debut-171733055.html)
-  - [Exclusive | AI Startup Angle Health Lands $600 Million for $2.7 Billion Valuation - WSJ](https://www.wsj.com/pro/private-equity/ai-startup-angle-health-lands-600-million-for-2-7-billion-valuation-df77de76) [BROKEN LINK]
-
-### OFS SBIC I, LP — Not specified ✅
-- **Manager:** OFS Capital Management, LLC
-- **Strategy:** Business development company
-- **Close date:** 2026-10-05
-- **Description:** OFS Capital Corporation announced the closing of a transaction through OFS SBIC I, LP, admitting a third-party investor as a limited partner, acquiring approximately 57% of the limited partnership interests.
-- **Sources (3):**
-  - [OFS Capital Corporation Announces Partial Monetization of Equity Interest for $52.3 Million of Gross Proceeds](https://www.businesswire.com/news/home/20261006740619/en/OFS-Capital-Corporation-Announces-Partial-Monetization-of-Equity-Interest-for-%2452.3-Million-of-Gross-Proceeds) [BROKEN LINK]
-  - [OFS Credit Company Announces Financial Results for the Third Fiscal Quarter 2026](https://finance.yahoo.com/markets/stocks/articles/ofs-credit-company-announces-financial-203000113.html)
-  - [OFS Credit Company Announces Financial Results for the Third Fiscal Quarter 2026](https://www.businesswire.com/news/home/20260917723559/en/OFS-Credit-Company-Announces-Financial-Results-for-the-Third-Fiscal-Quarter-2026) [BROKEN LINK]
+  - [Inland Closes $44 Million in Non-Recourse Bridge Loans in Q2 2026 | Inlandgroup](https://inlandgroup.com/press-room/news-release/inland-closes-44-million-non-recourse-bridge-loans-q2-2026)
 
 ## Upcoming Deadlines (0)
 

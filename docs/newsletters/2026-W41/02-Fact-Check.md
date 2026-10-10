@@ -1,5 +1,5 @@
 # Fact-Check Log
-*Generated: 2026-10-08T23:38:19.691Z*
+*Generated: 2026-10-10T22:09:57.780Z*
 
 ## Summary
 - Deals: 0 verified (2+ sources), 0 single-source
@@ -10,12 +10,10 @@
 
 | Fund | Size | Sources | Status |
 |------|------|---------|--------|
+| Twin Bridge — Secondaries Fund | $600M | 3 | ✅ |
 | Twin Bridge Amplify Fund | $600M | 3 | ✅ |
-| OFS SBIC I, LP | Not specified | 3 | ✅ |
 
 ## ❌ Broken Links
 
+- https://pitchbook.com/news/private-equity?p=618 — "Global Private Equity News and Trends - PitchBook"
 - https://pitchbook.com/news/articles/twin-bridge-targets-up-to-600m-for-debut-secondaries-fund — "Twin Bridge targets up to $600M for debut secondaries fund"
-- https://www.wsj.com/pro/private-equity/ai-startup-angle-health-lands-600-million-for-2-7-billion-valuation-df77de76 — "Exclusive | AI Startup Angle Health Lands $600 Million for $2.7 Billion Valuation - WSJ"
-- https://www.businesswire.com/news/home/20261006740619/en/OFS-Capital-Corporation-Announces-Partial-Monetization-of-Equity-Interest-for-%2452.3-Million-of-Gross-Proceeds — "OFS Capital Corporation Announces Partial Monetization of Equity Interest for $52.3 Million of Gross Proceeds"
-- https://www.businesswire.com/news/home/20260917723559/en/OFS-Credit-Company-Announces-Financial-Results-for-the-Third-Fiscal-Quarter-2026 — "OFS Credit Company Announces Financial Results for the Third Fiscal Quarter 2026"
