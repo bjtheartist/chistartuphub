@@ -1,6 +1,6 @@
 # Research Notes — 2026-W42
-*Generated: 2026-10-15T21:55:23.213Z*
-*Window: 2026-10-08 to 2026-10-15 (deals) | 2026-09-10 to 2026-10-15 (funds)*
+*Generated: 2026-10-17T21:11:35.374Z*
+*Window: 2026-10-10 to 2026-10-17 (deals) | 2026-09-12 to 2026-10-17 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -10,21 +10,11 @@
 
 *No Form D filings in window.*
 
-## Fund News (3)
-
-### Twin Bridge Amplify Fund — $600M ✅
-- **Manager:** Twin Bridge Capital Partners
-- **Strategy:** Private equity secondaries fund
-- **Close date:** 2026-10-15
-- **Description:** Twin Bridge Capital Partners is raising its first dedicated private equity secondaries fund, targeting up to $600 million to back single-asset continuation funds alongside existing managers in its portfolio.
-- **Sources (3):**
-  - [Twin Bridge targets up to $600M for debut secondaries fund](https://pitchbook.com/news/articles/twin-bridge-targets-up-to-600m-for-debut-secondaries-fund) [BROKEN LINK]
-  - [Twin Bridge targets up to $600M for debut secondaries fund](https://finance.yahoo.com/small-business/articles/twin-bridge-targets-600m-debut-171733055.html)
-  - [Graham Capital Investments seeks $250M for debut independent sponsor fund](https://finance.yahoo.com/small-business/articles/graham-capital-investments-seeks-250m-181908317.html)
+## Fund News (2)
 
 ### Adams Street Venture & Growth Fund — $363.5M ✅
 - **Manager:** Adams Street Partners, LLC
-- **Strategy:** Venture capital — early and growth stages
+- **Strategy:** Venture capital and growth investments
 - **Close date:** 2026-12-01
 - **Description:** Adams Street Partners has launched a closed-end, perpetual-term tender offer fund designed to provide qualified clients with evergreen access to venture capital opportunities, starting with $363.5 million in net assets.
 - **Sources (3):**
@@ -36,15 +26,15 @@ Want to know which allocators are actively deploying into private credit, real e
 
 https://lnkd.in/evKnYGrV… | Forry Smith](https://www.linkedin.com/posts/forrysmith_the-dakota-daily-101426-want-to-activity-7516103763032694784-AxXs)
 
-### Pritzker Private Capital — Not disclosed ✅
-- **Manager:** Pritzker Private Capital
-- **Strategy:** Private equity
-- **Close date:** 2026-10-15
-- **Description:** Pritzker Private Capital, a Chicago-based private equity firm, is exploring the sale of propane distributor EDP, which has expanded its footprint through a series of acquisitions in the fragmented propane distribution market.
+### Twin Bridge debut secondaries fund — $600M ✅
+- **Manager:** Twin Bridge Capital Partners
+- **Strategy:** Fund-of-funds targeting secondary investments
+- **Close date:** 2026-10-17
+- **Description:** Twin Bridge is targeting up to $600M for its debut secondaries fund, focusing on backing single-asset secondary transactions.
 - **Sources (3):**
-  - [Pritzker Private Capital explores $1bn-plus sale of propane distributor EDP](https://www.privateequitywire.co.uk/pritzker-private-capital-explores-1bn-plus-sale-of-propane-distributor-edp/) [BROKEN LINK]
-  - [TPG raises $10bn for second climate private equity fund - Private Equity Wire](https://www.privateequitywire.co.uk/tpg-raises-10bn-for-second-climate-private-equity-fund/) [BROKEN LINK]
-  - [Dan Ives prepares to debut fund offering access to private companies fueling AI boom - CNBC](https://www.cnbc.com/2026/09/30/dan-ives-ai-private-companies-ivai.html)
+  - [Europe can’t replicate the full AI stack, say investors and founders](https://pitchbook.com/news/articles/europe-cant-replicate-the-full-ai-stack-say-investors-and-founders) [BROKEN LINK]
+  - [Twin Bridge targets up to $600M for debut secondaries fund](https://finance.yahoo.com/small-business/articles/twin-bridge-targets-600m-debut-171733055.html)
+  - [AGM Alts & Wealth Weekly News Roundup | 9.25.26](https://altgoesmainstream.substack.com/p/agm-alts-and-wealth-weekly-news-roundup-a80) [BROKEN LINK]
 
 ## Upcoming Deadlines (0)
 
