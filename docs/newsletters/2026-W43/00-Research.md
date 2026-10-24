@@ -1,6 +1,6 @@
 # Research Notes — 2026-W43
-*Generated: 2026-10-22T22:03:43.342Z*
-*Window: 2026-10-15 to 2026-10-22 (deals) | 2026-09-17 to 2026-10-22 (funds)*
+*Generated: 2026-10-24T21:23:36.944Z*
+*Window: 2026-10-17 to 2026-10-24 (deals) | 2026-09-19 to 2026-10-24 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -16,20 +16,20 @@
 - **Manager:** Adams Street Partners, LLC
 - **Strategy:** Venture capital and growth investments
 - **Close date:** 2026-10-13
-- **Description:** Adams Street Partners launched the Adams Street Venture & Growth Fund, a closed-end, perpetual-term tender offer fund designed to provide qualified clients with evergreen access to venture capital opportunities.
+- **Description:** Adams Street Partners has launched a closed-end, perpetual-term tender offer fund designed to provide qualified clients with evergreen access to venture capital opportunities, starting with $363.5 million in net assets.
 - **Sources (3):**
   - [Adams Street Launches AVNGR, a Venture and Growth Evergreen Fund](https://www.businesswire.com/news/home/20261013403813/en/Adams-Street-Launches-AVNGR-a-Venture-and-Growth-Evergreen-Fund) [BROKEN LINK]
   - [Adams Street expands evergreen lineup with $363.5m venture and growth fund - Alternatives Watch](https://www.alternativeswatch.com/2026/10/13/adams-street-launches-venture-growth-evergreen-fund)
-  - [Kansas pension to examine AI investments, data centers - Alternatives Watch](https://www.alternativeswatch.com/2026/10/13/kansas-pension-kpers-ai-investments-data-centers)
+  - [LPs face challenges in 2026 venture capital market](https://www.linkedin.com/posts/the-emerging-vc_venturecapital-fundmanagers-emergingvc-activity-7510601669731061761-DFQe)
 
 ### OFS SBIC I, LP — Not specified ✅
 - **Manager:** OFS Capital Management, LLC
-- **Strategy:** Business development company investments
+- **Strategy:** Business development company
 - **Close date:** 2026-10-05
-- **Description:** OFS Capital Corporation announced the closing of a transaction through OFS SBIC I, LP, which admitted a third-party investor as a limited partner, acquiring approximately 57% of the limited partnership interests.
+- **Description:** OFS Capital Corporation announced the closing of a transaction through OFS SBIC I, LP, admitting a third-party investor as a limited partner, acquiring approximately 57% of the limited partnership interests.
 - **Sources (3):**
   - [OFS Capital Corporation Announces Partial Monetization of Equity Interest for $52.3 Million of Gross Proceeds](https://www.businesswire.com/news/home/20261006740619/en/OFS-Capital-Corporation-Announces-Partial-Monetization-of-Equity-Interest-for-%2452.3-Million-of-Gross-Proceeds) [BROKEN LINK]
-  - [OFS Capital Sets Oct. 29 Q3 2026 Earnings Date | OFS Stock News](https://www.stocktitan.net/news/OFS/ofs-capital-corporation-announces-date-for-its-third-quarter-2026-f2i26v3pqbif.html)
+  - [OFS Capital (OFS) Set to Release Quarterly Earnings on Thursday](https://www.marketbeat.com/instant-alerts/upcoming-ofs-capital-ofs-set-to-release-quarterly-earnings-on-thursday-2026-10-22)
   - [OFS Capital Corporation Announces Partial Monetization of Equity Interest for $52.3 Million of Gross Proceeds](https://finance.yahoo.com/markets/stocks/articles/ofs-capital-corporation-announces-partial-120000384.html)
 
 ## Upcoming Deadlines (0)
