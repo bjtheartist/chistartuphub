@@ -1,11 +1,12 @@
 # Capital Access Newsletter
-**Volume 43 | October 29, 2026**
+**Volume 43 | October 31, 2026**
 
 ---
 
 ## Opening
 
 [PLACEHOLDER: Billy writes opening — 0 deals totaling ~$0M
++ $764M in new fund capital.
 Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ---
@@ -18,25 +19,36 @@ Theme ideas: ___, current events tie-in, ecosystem observation.]
 
 ## Fund News
 
-### OFS SBIC I, LP | N/A
+### Shore Capital Partners — Industrials Fund II | $400M+
 
-**Sector:** Business development company
+**Sector:** Private equity — fragmented industrial services
 
-OFS Capital Corporation announced the closing of a transaction through OFS SBIC I, LP, which admitted a third-party investor as a limited partner, acquiring approximately 57% of the limited partnership interests.
+Shore Capital Partners, a private equity firm headquartered in Chicago, focuses on investing in fragmented industrial services. The firm has a strong track record in the healthcare and technology sectors.
 
-**Close Date:** 2026-10-05
-**Source:** [OFS Capital Corporation Announces Third Quarter 2026 Financial Results](https://finance.yahoo.com/markets/stocks/articles/ofs-capital-corporation-announces-third-203000777.html) | [OFS Capital Corporation Announces Partial Monetization of Equity Interest for $52.3 Million of Gross Proceeds](https://finance.yahoo.com/markets/stocks/articles/ofs-capital-corporation-announces-partial-120000384.html)
+**Close Date:** 2026-02-04
+**Source:** [Private Equity Firm Directory | Greymont Advisors](https://greymontadvisors.com/pe-firms) | [Reel by JoseLoans305 (@joseloans305) · October 9, 2026](https://www.instagram.com/reel/DeSpA_pOcmn)
 
 ---
 
-### First Trust Intermediate Duration Preferred & Income Fund | N/A
+### Adams Street Venture & Growth Fund (AVNGR) | $363.5M
 
-**Sector:** Investment fund
+**Sector:** Venture capital and growth investments
 
-First Trust Advisors L.P. declared the Fund’s regularly scheduled monthly common share distribution, showcasing its ongoing investment management activities.
+Adams Street Partners has launched the AVNGR fund, designed to provide qualified clients with evergreen access to venture capital opportunities, starting with $363.5 million in net assets.
 
-**Close Date:** 2026-10-29
-**Source:** 
+**Close Date:** 2026-10-13
+**Source:** [Adams Street Launches AVNGR, a Venture and Growth Evergreen Fund](https://finance.yahoo.com/markets/stocks/articles/adams-street-launches-avngr-venture-130000366.html) | [Adams Street Venture & Growth Fund (AVNGR) Stages,…](https://venturecapitaltracker.com/fund/adams-street-avngr)
+
+---
+
+### OFS SBIC I, LP | Not specified
+
+**Sector:** Business development company
+
+OFS Capital Corporation announced the closing of a transaction through OFS SBIC I, LP, admitting a third-party investor as a limited partner, acquiring approximately 57% of the limited partnership interests.
+
+**Close Date:** 2026-10-05
+**Source:** [OFS Capital Corporation Announces Third Quarter 2026 Financial Results](https://finviz.com/news/412219/ofs-capital-corporation-announces-third-quarter-2026-financial-results) | [OFS Capital Corporation Announces Partial Monetization of Equity Interest for $52.3 Million of Gross Proceeds](https://finance.yahoo.com/markets/stocks/articles/ofs-capital-corporation-announces-partial-120000384.html)
 
 ---
 
@@ -66,14 +78,17 @@ Know a founder who should see this? Forward it.
 ## Sources
 
 **Fund Closes:**
-- [OFS Capital Corporation Announces Partial Monetization ...](https://www.businesswire.com/news/home/20261006740619/en/OFS-Capital-Corporation-Announces-Partial-Monetization-of-Equity-Interest-for-%2452.3-Million-of-Gross-Proceeds) [BROKEN]
-- [OFS Capital Corporation Announces Third Quarter 2026 Financial Results](https://finance.yahoo.com/markets/stocks/articles/ofs-capital-corporation-announces-third-203000777.html)
+- [Shore Capital Partners investment portfolio | PitchBook](https://pitchbook.com/profiles/investor/41691-43) [BROKEN]
+- [Private Equity Firm Directory | Greymont Advisors](https://greymontadvisors.com/pe-firms)
+- [Reel by JoseLoans305 (@joseloans305) · October 9, 2026](https://www.instagram.com/reel/DeSpA_pOcmn)
+- [Adams Street Launches AVNGR, a Venture and Growth Evergreen Fund](https://www.businesswire.com/news/home/20261013403813/en/Adams-Street-Launches-AVNGR-a-Venture-and-Growth-Evergreen-Fund) [BROKEN]
+- [Adams Street Launches AVNGR, a Venture and Growth Evergreen Fund](https://finance.yahoo.com/markets/stocks/articles/adams-street-launches-avngr-venture-130000366.html)
+- [Adams Street Venture & Growth Fund (AVNGR) Stages,…](https://venturecapitaltracker.com/fund/adams-street-avngr)
+- [OFS Capital Corporation Announces Partial Monetization of Equity Interest for $52.3 Million of Gross Proceeds](https://www.businesswire.com/news/home/20261006740619/en/OFS-Capital-Corporation-Announces-Partial-Monetization-of-Equity-Interest-for-%2452.3-Million-of-Gross-Proceeds) [BROKEN]
+- [OFS Capital Corporation Announces Third Quarter 2026 Financial Results](https://finviz.com/news/412219/ofs-capital-corporation-announces-third-quarter-2026-financial-results)
 - [OFS Capital Corporation Announces Partial Monetization of Equity Interest for $52.3 Million of Gross Proceeds](https://finance.yahoo.com/markets/stocks/articles/ofs-capital-corporation-announces-partial-120000384.html)
-- [First Trust Advisors L.P. Announces Distribution for ...](https://www.businesswire.com/news/home/20261029459988/en/First-Trust-Advisors-L.P.-Announces-Distribution-for-First-Trust-Enhanced-Short-Maturity-ETF) [BROKEN]
-- [Envestnet Custom Model Solutions Gives RIAs a White-Labeled Path to Outsourced Model Management | Envestnet](https://www.envestnet.com/newsroom/press-releases/envestnet-custom-model-solutions-gives-rias-white-labeled-path-outsourced) [BROKEN]
-- [First Trust Advisors L.P. Announces Distributions for Exchange-Traded Funds](https://www.businesswire.com/news/home/20260930437060/en/First-Trust-Advisors-L.P.-Announces-Distributions-for-Exchange-Traded-Funds) [BROKEN]
 
 ---
 
-*Vol. 43 | Research edition*
+*Vol. 43 | Research edition | $764M+ in new fund capital*
 *Author: Billy Ndizeye*

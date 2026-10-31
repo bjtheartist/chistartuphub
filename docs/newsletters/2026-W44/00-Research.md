@@ -1,6 +1,6 @@
 # Research Notes — 2026-W44
-*Generated: 2026-10-29T23:05:12.282Z*
-*Window: 2026-10-22 to 2026-10-29 (deals) | 2026-09-24 to 2026-10-29 (funds)*
+*Generated: 2026-10-31T22:08:06.570Z*
+*Window: 2026-10-24 to 2026-10-31 (deals) | 2026-09-26 to 2026-10-31 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -10,27 +10,37 @@
 
 *No Form D filings in window.*
 
-## Fund News (2)
+## Fund News (3)
 
-### OFS SBIC I, LP — N/A ✅
-- **Manager:** OFS Capital Management, LLC
+### Shore Capital Partners — Industrials Fund II — $400M+ ✅
+- **Manager:** Shore Capital Partners
+- **Strategy:** Private equity — fragmented industrial services
+- **Close date:** 2026-02-04
+- **Description:** Shore Capital Partners, a private equity firm headquartered in Chicago, focuses on investing in fragmented industrial services. The firm has a strong track record in the healthcare and technology sectors.
+- **Sources (3):**
+  - [Shore Capital Partners investment portfolio | PitchBook](https://pitchbook.com/profiles/investor/41691-43) [BROKEN LINK]
+  - [Private Equity Firm Directory | Greymont Advisors](https://greymontadvisors.com/pe-firms)
+  - [Reel by JoseLoans305 (@joseloans305) · October 9, 2026](https://www.instagram.com/reel/DeSpA_pOcmn)
+
+### Adams Street Venture & Growth Fund (AVNGR) — $363.5M ✅
+- **Manager:** Adams Street Partners, LLC
+- **Strategy:** Venture capital and growth investments
+- **Close date:** 2026-10-13
+- **Description:** Adams Street Partners has launched the AVNGR fund, designed to provide qualified clients with evergreen access to venture capital opportunities, starting with $363.5 million in net assets.
+- **Sources (3):**
+  - [Adams Street Launches AVNGR, a Venture and Growth Evergreen Fund](https://www.businesswire.com/news/home/20261013403813/en/Adams-Street-Launches-AVNGR-a-Venture-and-Growth-Evergreen-Fund) [BROKEN LINK]
+  - [Adams Street Launches AVNGR, a Venture and Growth Evergreen Fund](https://finance.yahoo.com/markets/stocks/articles/adams-street-launches-avngr-venture-130000366.html)
+  - [Adams Street Venture & Growth Fund (AVNGR) Stages,…](https://venturecapitaltracker.com/fund/adams-street-avngr)
+
+### OFS SBIC I, LP — Not specified ✅
+- **Manager:** OFS Capital Corporation
 - **Strategy:** Business development company
 - **Close date:** 2026-10-05
-- **Description:** OFS Capital Corporation announced the closing of a transaction through OFS SBIC I, LP, which admitted a third-party investor as a limited partner, acquiring approximately 57% of the limited partnership interests.
+- **Description:** OFS Capital Corporation announced the closing of a transaction through OFS SBIC I, LP, admitting a third-party investor as a limited partner, acquiring approximately 57% of the limited partnership interests.
 - **Sources (3):**
-  - [OFS Capital Corporation Announces Partial Monetization ...](https://www.businesswire.com/news/home/20261006740619/en/OFS-Capital-Corporation-Announces-Partial-Monetization-of-Equity-Interest-for-%2452.3-Million-of-Gross-Proceeds) [BROKEN LINK]
-  - [OFS Capital Corporation Announces Third Quarter 2026 Financial Results](https://finance.yahoo.com/markets/stocks/articles/ofs-capital-corporation-announces-third-203000777.html)
+  - [OFS Capital Corporation Announces Partial Monetization of Equity Interest for $52.3 Million of Gross Proceeds](https://www.businesswire.com/news/home/20261006740619/en/OFS-Capital-Corporation-Announces-Partial-Monetization-of-Equity-Interest-for-%2452.3-Million-of-Gross-Proceeds) [BROKEN LINK]
+  - [OFS Capital Corporation Announces Third Quarter 2026 Financial Results](https://finviz.com/news/412219/ofs-capital-corporation-announces-third-quarter-2026-financial-results)
   - [OFS Capital Corporation Announces Partial Monetization of Equity Interest for $52.3 Million of Gross Proceeds](https://finance.yahoo.com/markets/stocks/articles/ofs-capital-corporation-announces-partial-120000384.html)
-
-### First Trust Intermediate Duration Preferred & Income Fund — N/A ✅
-- **Manager:** First Trust Advisors L.P.
-- **Strategy:** Investment fund
-- **Close date:** 2026-10-29
-- **Description:** First Trust Advisors L.P. declared the Fund’s regularly scheduled monthly common share distribution, showcasing its ongoing investment management activities.
-- **Sources (3):**
-  - [First Trust Advisors L.P. Announces Distribution for ...](https://www.businesswire.com/news/home/20261029459988/en/First-Trust-Advisors-L.P.-Announces-Distribution-for-First-Trust-Enhanced-Short-Maturity-ETF) [BROKEN LINK]
-  - [Envestnet Custom Model Solutions Gives RIAs a White-Labeled Path to Outsourced Model Management | Envestnet](https://www.envestnet.com/newsroom/press-releases/envestnet-custom-model-solutions-gives-rias-white-labeled-path-outsourced) [BROKEN LINK]
-  - [First Trust Advisors L.P. Announces Distributions for Exchange-Traded Funds](https://www.businesswire.com/news/home/20260930437060/en/First-Trust-Advisors-L.P.-Announces-Distributions-for-Exchange-Traded-Funds) [BROKEN LINK]
 
 ## Upcoming Deadlines (0)
 
