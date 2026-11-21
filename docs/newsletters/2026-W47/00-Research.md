@@ -1,6 +1,6 @@
 # Research Notes — 2026-W47
-*Generated: 2026-11-20T01:00:22.100Z*
-*Window: 2026-11-13 to 2026-11-20 (deals) | 2026-10-16 to 2026-11-20 (funds)*
+*Generated: 2026-11-21T23:41:29.801Z*
+*Window: 2026-11-14 to 2026-11-21 (deals) | 2026-10-17 to 2026-11-21 (funds)*
 
 ## Web-Discovered Deals (0)
 
@@ -10,17 +10,27 @@
 
 *No Form D filings in window.*
 
-## Fund News (1)
+## Fund News (2)
 
-### The 81 Collection — Second Fund — $82M ✅
-- **Manager:** The 81 Collection
-- **Strategy:** Venture capital — biotechnology and life sciences
-- **Close date:** 2026-11-11
-- **Description:** The 81 Collection, a Chicago-based venture capital firm, has successfully raised $82 million for its second fund, focusing on investments in biotechnology and life sciences, including backing companies like Colossal Biosciences.
+### Monroe Capital — Not specified ✅
+- **Manager:** Monroe Capital LLC
+- **Strategy:** Private credit markets across various strategies
+- **Close date:** 2026-10-29
+- **Description:** Monroe Capital has been named to Inc.’s 2026 Founder-Friendly Investors List, recognizing its commitment to supporting founder-led companies. The firm specializes in private credit markets and has invested over $7.7 billion in founder-led businesses since its inception.
 - **Sources (3):**
-  - [Chicago VC backer of Colossal Biosciences raises $82 million fund](https://www.chicagobusiness.com/banking-finance/ccb-81-collection-raises-second-fund-20261111) [BROKEN LINK]
-  - [The 81 Collection Announces $82 Million Fund II // Cooley // Global Law Firm](https://www.cooley.com/news/coverage/2026/2026-11-11-the-81-collection-announces-$82-million-fund-ii)
-  - [The 81 Collection raises $82M to fund businesses VC overlooks | Dealroom News](https://dealroom.co/news/171714-the-81-collection-raises-82m-to-fund-businesses-vc-overlooks)
+  - [Monroe Capital Named to Inc.’s 2026 Founder-Friendly Investors List](https://www.businesswire.com/news/home/20261029645696/en/Monroe-Capital-Named-to-Inc.s-2026-Founder-Friendly-Investors-List) [BROKEN LINK]
+  - [Presale: Monroe Capital MML CLO XIV LLC (Refinanc | S&P Global Ratings](https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101717546) [BROKEN LINK]
+  - [Form 424B3 Monroe Capital Enhanced](https://www.streetinsider.com/SEC+Filings/Form+424B3+Monroe+Capital+Enhanced/27375918.html) [BROKEN LINK]
+
+### GTCR Fund XV — $15bn ✅
+- **Manager:** GTCR
+- **Strategy:** Private equity
+- **Close date:** 2026-11-03
+- **Description:** GTCR is nearing a final close on its Fund XV, which focuses on transformative growth in various sectors including Business & Consumer Services, Financial Services & Technology, and Healthcare.
+- **Sources (3):**
+  - [GTCR closes in on $15bn hard-cap for Fund XV](https://www.buyoutsinsider.com/gtcr-closes-in-on-15bn-hard-cap-for-fund-xv)
+  - [GTCR closes in on $15bn hard-cap for Fund XV](https://www.privateequityinternational.com/gtcr-closes-in-on-15bn-hard-cap-for-fund-xv)
+  - [GTCR closes in on $15bn hard-cap for Fund XV | PEI Private Equity](https://www.linkedin.com/posts/pei-private-equity_gtcr-closes-in-on-15bn-hard-cap-for-fund-activity-7520937395022774274-etg-)
 
 ## Upcoming Deadlines (0)
 
